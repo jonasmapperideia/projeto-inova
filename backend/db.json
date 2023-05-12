@@ -1,19 +1,24 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Camisa preta",
-            "price": 5.89
-        },
-        {
-            "id": 2,
-            "name": "Calça azul",
-            "price": 20.32
-        },
-        {
-            "id": 3,
-            "name": "Geladeira branca",
-            "price": 1500.00
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Calça azul",
+      "price": 20.32
+    },
+    {
+      "name": "Geladeira cinza clara",
+      "price": "1650.00",
+      "id": 3
+    },
+    {
+      "name": "Celular Xiaomi A2 Lite",
+      "price": "750.00",
+      "id": 4
+    }
+  ]
 }
