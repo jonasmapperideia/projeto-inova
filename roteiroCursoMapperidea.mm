@@ -404,7 +404,9 @@
 <node CREATED="1683928508366" ID="ID_1323366100" MODIFIED="1683928513601" TEXT="frontend/src/app/components/template/footer/footer.component.css">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_1672517002" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1683928525499" ID="ID_1964620459" MODIFIED="1683928528967" TEXT=".footer {&#xa;    position: fixed;&#xa;    bottom: 0;&#xa;    display: flex;&#xa;    justify-content: flex-end;&#xa;}&#xa;&#xa;.footer &gt; span {&#xa;    font-size: 1rem;&#xa;    font-weight: 300;&#xa;}"/>
+<node CREATED="1683928525499" ID="ID_1964620459" MODIFIED="1683928530711" TEXT=".footer {&#xa;    position: fixed;&#xa;    bottom: 0;&#xa;    display: flex;&#xa;    justify-content: flex-end;&#xa;}&#xa;&#xa;.footer &gt; span {&#xa;    font-size: 1rem;&#xa;    font-weight: 300;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 </node>
 </node>
