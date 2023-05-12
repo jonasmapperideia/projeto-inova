@@ -259,7 +259,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683917020418" ID="ID_671833175" MODIFIED="1683917039257" TEXT="Inicar parte frontend">
+<node CREATED="1683917020418" ID="ID_671833175" MODIFIED="1683927430568" TEXT="Iniciar parte frontend">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896662145" ID="ID_1152436455" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
@@ -290,11 +290,19 @@
 </node>
 <node CREATED="1683919251160" ID="ID_1827413991" MODIFIED="1683919270874" TEXT="Alterar projeto frontend">
 <icon BUILTIN="full-3"/>
+<node CREATED="1683925648531" ID="ID_1769865497" MODIFIED="1683925663020" TEXT="Ajustar componente principal">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683919963321" ID="ID_1980202199" MODIFIED="1683925536563" TEXT="Criar o arquivo:">
+<icon BUILTIN="bookmark"/>
+<node CREATED="1683920068691" ID="ID_1888658721" MODIFIED="1683920072605" TEXT="frontend/src/app/app.component.html">
+<icon BUILTIN="list"/>
+</node>
+</node>
 <node CREATED="1683918427809" ID="ID_1048459641" MODIFIED="1683919312595" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
 <node CREATED="1683919532178" ID="ID_1812839824" MODIFIED="1683919866124" TEXT="frontend/src/app/app.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683919545707" ID="ID_458216527" MODIFIED="1683919570075" TEXT="na parte de &quot;@Component({&quot;">
+<node CREATED="1683919545707" FOLDED="true" ID="ID_458216527" MODIFIED="1683919570075" TEXT="na parte de &quot;@Component({&quot;">
 <node CREATED="1683896144324" ID="ID_931834645" MODIFIED="1683896174766" TEXT="apagar o conteudo:">
 <node CREATED="1683896175160" ID="ID_336059355" MODIFIED="1683919591902" TEXT="  template: `&#xa;    &lt;!--The content below is only a placeholder and can be replaced.--&gt;&#xa;    &lt;div style=&quot;text-align:center&quot; class=&quot;content&quot;&gt;&#xa;      &lt;h1&gt;&#xa;        Bem vindo ao {{title}}!&#xa;      &lt;/h1&gt;&#xa;      &lt;span style=&quot;display: block&quot;&gt;{{ title }} app is running!&lt;/span&gt;&#xa;      &lt;img width=&quot;300&quot; alt=&quot;Angular Logo&quot; src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==&quot;&gt;&#xa;    &lt;/div&gt;&#xa;    &lt;h2&gt;Here are some links to help you start: &lt;/h2&gt;&#xa;    &lt;ul&gt;&#xa;      &lt;li&gt;&#xa;        &lt;h2&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://angular.io/tutorial&quot;&gt;Tour of Heroes&lt;/a&gt;&lt;/h2&gt;&#xa;      &lt;/li&gt;&#xa;      &lt;li&gt;&#xa;        &lt;h2&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://angular.io/cli&quot;&gt;CLI Documentation&lt;/a&gt;&lt;/h2&gt;&#xa;      &lt;/li&gt;&#xa;      &lt;li&gt;&#xa;        &lt;h2&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://blog.angular.io/&quot;&gt;Angular blog&lt;/a&gt;&lt;/h2&gt;&#xa;      &lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;    &lt;router-outlet&gt;&lt;/router-outlet&gt;&#xa;  `,">
 <icon BUILTIN="tag_green"/>
@@ -311,10 +319,94 @@
 </node>
 </node>
 </node>
-<node CREATED="1683919963321" ID="ID_1980202199" MODIFIED="1683920027399" TEXT="Criar o arquivo:">
-<icon BUILTIN="bookmark"/>
-<node CREATED="1683920068691" ID="ID_1888658721" MODIFIED="1683920072605" TEXT="frontend/src/app/app.component.html">
+</node>
+<node CREATED="1683925730295" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896662145" ID="ID_1987520238" MODIFIED="1683896820304" TEXT="Executa o comando:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1683921865084" ID="ID_284951693" MODIFIED="1683921942664" TEXT="ng g c components/template/header"/>
+</node>
+<node CREATED="1683918427809" ID="ID_1301356630" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1683922490975" ID="ID_424951288" MODIFIED="1683922494004" TEXT="frontend/src/app/app.component.html">
 <icon BUILTIN="list"/>
+<node CREATED="1683896434586" ID="ID_371344091" MODIFIED="1683922509599" TEXT="deixar o conteudo:">
+<node CREATED="1683922642129" ID="ID_1520856633" MODIFIED="1683922652168" TEXT="&lt;app-header&gt;&lt;/app-header&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683923230281" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683923250089" ID="ID_1218895807" MODIFIED="1683923272856" TEXT="Nos imports">
+<node CREATED="1683923273196" ID="ID_1920632887" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
+<node CREATED="1683923287045" ID="ID_446594462" MODIFIED="1683923289214" TEXT="import { MatToolbarModule } from &apos;@angular/material/toolbar&apos;;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683923299557" ID="ID_1200067294" MODIFIED="1683923353037" TEXT="na parte de &quot;  imports: [&quot;">
+<node CREATED="1683923327388" ID="ID_1527741742" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1683923334073" ID="ID_1406658815" MODIFIED="1683923335679" TEXT="    MatToolbarModule">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683925065960" ID="ID_663177633" MODIFIED="1683925069479" TEXT="frontend/src/app/components/template/header/header.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1808434468" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896175160" ID="ID_829772268" MODIFIED="1683925117347" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                home&#xa;            &lt;/i&gt;&#xa;            Aplica&#xe7;&#xe3;o CRUD&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683925220837" FOLDED="true" ID="ID_1184101474" MODIFIED="1683925224518" TEXT="frontend/src/app/components/template/header/header.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_1768369675" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683925242017" ID="ID_93813515" MODIFIED="1683926016587" TEXT=".header {&#xa;    display: flex;&#xa;    align-items: center;&#xa;}&#xa;&#xa;.header a {&#xa;    display: flex;&#xa;    align-items: none;&#xa;    text-decoration: none;&#xa;}&#xa;&#xa;.header .logo {&#xa;    max-height: 80px;&#xa;}&#xa;&#xa;.header .title-group {&#xa;    padding-left: 15px;&#xa;}&#xa;&#xa;.header .title-group i {&#xa;    padding-right: 10px;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683919963321" ID="ID_53213836" MODIFIED="1683926182672" TEXT="Criar pasta e incluir o arquivo:">
+<icon BUILTIN="bookmark"/>
+<node CREATED="1683920068691" ID="ID_1848944578" MODIFIED="1683926172209" TEXT="frontend/src/assets/img/logo.png">
+<icon BUILTIN="list"/>
+</node>
+</node>
+</node>
+<node CREATED="1683927027548" ID="ID_190804919" MODIFIED="1683927053542" TEXT="Criar componente footer">
+<icon BUILTIN="full-3"/>
+<node CREATED="1683896662145" ID="ID_1317384438" MODIFIED="1683896820304" TEXT="Executa o comando:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1683927519223" ID="ID_1024910471" MODIFIED="1683927548063" TEXT="ng g c components/template/footer"/>
+</node>
+<node CREATED="1683918427809" ID="ID_1857920209" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1683927712712" ID="ID_1960341186" MODIFIED="1683927720176" TEXT="frontend/src/app/app.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683927726371" ID="ID_931633998" MODIFIED="1683927733767" TEXT="incluir no final o conteudo:">
+<node CREATED="1683927757996" ID="ID_181369286" MODIFIED="1683927759398" TEXT="&lt;app-footer&gt;&lt;/app-footer&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683928441827" ID="ID_1600210998" MODIFIED="1683928445862" TEXT="frontend/src/app/components/template/footer/footer.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_354057224" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896175160" ID="ID_503911338" MODIFIED="1683928462139" TEXT="&lt;mat-toolbar class=&quot;footer&quot;&gt;&#xa;    &lt;span&gt;&#xa;        Desenvolvido com Mapperidea.&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683928508366" ID="ID_1323366100" MODIFIED="1683928513601" TEXT="frontend/src/app/components/template/footer/footer.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_1672517002" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683928525499" ID="ID_1964620459" MODIFIED="1683928528967" TEXT=".footer {&#xa;    position: fixed;&#xa;    bottom: 0;&#xa;    display: flex;&#xa;    justify-content: flex-end;&#xa;}&#xa;&#xa;.footer &gt; span {&#xa;    font-size: 1rem;&#xa;    font-weight: 300;&#xa;}"/>
+</node>
+</node>
 </node>
 </node>
 </node>
