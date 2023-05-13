@@ -355,7 +355,7 @@
 </node>
 <node CREATED="1683925065960" ID="ID_663177633" MODIFIED="1683925069479" TEXT="frontend/src/app/components/template/header/header.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1808434468" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" ID="ID_1808434468" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1683896175160" ID="ID_829772268" MODIFIED="1683925117347" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                home&#xa;            &lt;/i&gt;&#xa;            Aplica&#xe7;&#xe3;o CRUD&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -377,13 +377,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1683927027548" ID="ID_190804919" MODIFIED="1683927053542" TEXT="Criar componente footer">
+<node CREATED="1683927027548" FOLDED="true" ID="ID_190804919" MODIFIED="1683927053542" TEXT="Criar componente footer">
 <icon BUILTIN="full-3"/>
 <node CREATED="1683896662145" ID="ID_1317384438" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1683927519223" ID="ID_1024910471" MODIFIED="1683927548063" TEXT="ng g c components/template/footer"/>
 </node>
-<node CREATED="1683918427809" ID="ID_1857920209" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1857920209" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1683927712712" ID="ID_1960341186" MODIFIED="1683927720176" TEXT="frontend/src/app/app.component.html">
 <icon BUILTIN="list"/>
@@ -411,7 +411,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683990072487" ID="ID_103835920" MODIFIED="1683990144941" TEXT="Criar componente nav">
+<node CREATED="1683990072487" FOLDED="true" ID="ID_103835920" MODIFIED="1683990144941" TEXT="Criar componente nav">
 <icon BUILTIN="full-4"/>
 <node CREATED="1683896662145" ID="ID_1272195149" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
@@ -438,8 +438,24 @@
 </node>
 <node CREATED="1683991068027" ID="ID_674614280" MODIFIED="1683991072910" TEXT="frontend/src/app/app.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_349192719" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_349192719" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1683923287045" ID="ID_462068121" MODIFIED="1683991101990" TEXT="&lt;app-header&gt;&lt;/app-header&gt;&#xa;&lt;app-nav&gt;&lt;/app-nav&gt;&#xa;&lt;app-footer&gt;&lt;/app-footer&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683995344033" ID="ID_1098540752" MODIFIED="1683995347479" TEXT="frontend/src/app/components/template/nav/nav.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1676633686" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896175160" ID="ID_1084769267" MODIFIED="1683995396963" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;&#xa;    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;&#xa;        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;&#xa;            &lt;a mat-list-item&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    home&#xa;                &lt;/i&gt;&#xa;                In&#xed;cio&#xa;            &lt;/a&gt;&#xa;            &lt;a mat-list-item&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    storefront&#xa;                &lt;/i&gt;&#xa;                Produtos&#xa;            &lt;/a&gt;&#xa;        &lt;/mat-nav-list&gt;&#xa;    &lt;/mat-sidenav&gt;&#xa;&lt;/mat-sidenav-container&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683995357949" ID="ID_960862967" MODIFIED="1683995361917" TEXT="frontend/src/app/components/template/nav/nav.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1564239302" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683995415373" ID="ID_1540882504" MODIFIED="1683995422464" TEXT=".sidenav {&#xa;    background-color: #676a7d;&#xa;    width: 200px;&#xa;}&#xa;&#xa;.sidenav a {&#xa;    color: #FFF;&#xa;}&#xa;&#xa;.sidenav i {&#xa;    padding-right: 10px;&#xa;}&#xa;&#xa;.content {&#xa;    padding: 16px;&#xa;    background-color: #FFF;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
