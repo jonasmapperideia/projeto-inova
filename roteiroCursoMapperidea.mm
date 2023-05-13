@@ -271,7 +271,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_133617613" MODIFIED="1683919312595" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683918493649" ID="ID_1946773219" MODIFIED="1683919354391" TEXT="frontend/angular.json">
+<node CREATED="1683918493649" FOLDED="true" ID="ID_1946773219" MODIFIED="1683919354391" TEXT="frontend/angular.json">
 <icon BUILTIN="list"/>
 <node CREATED="1683918533469" ID="ID_293602563" MODIFIED="1683918541878" TEXT="Na parte de &quot;@schematics/angular:component&quot;">
 <node CREATED="1683896144324" ID="ID_155830693" MODIFIED="1683896174766" TEXT="apagar o conteudo:">
@@ -290,7 +290,7 @@
 </node>
 <node CREATED="1683919251160" ID="ID_1827413991" MODIFIED="1683919270874" TEXT="Alterar projeto frontend">
 <icon BUILTIN="full-3"/>
-<node CREATED="1683925648531" ID="ID_1769865497" MODIFIED="1683925663020" TEXT="Ajustar componente principal">
+<node CREATED="1683925648531" FOLDED="true" ID="ID_1769865497" MODIFIED="1683925663020" TEXT="Ajustar componente principal">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683919963321" ID="ID_1980202199" MODIFIED="1683925536563" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -456,6 +456,49 @@
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" FOLDED="true" ID="ID_1564239302" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1683995415373" ID="ID_1540882504" MODIFIED="1683995422464" TEXT=".sidenav {&#xa;    background-color: #676a7d;&#xa;    width: 200px;&#xa;}&#xa;&#xa;.sidenav a {&#xa;    color: #FFF;&#xa;}&#xa;&#xa;.sidenav i {&#xa;    padding-right: 10px;&#xa;}&#xa;&#xa;.content {&#xa;    padding: 16px;&#xa;    background-color: #FFF;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684005309186" ID="ID_1883033147" MODIFIED="1684005322112" TEXT="Criar componente home">
+<icon BUILTIN="full-5"/>
+<node CREATED="1683896662145" ID="ID_276235005" MODIFIED="1683896820304" TEXT="Executa o comando:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1684005411425" ID="ID_379768119" MODIFIED="1684005434383" TEXT="ng g c views/home"/>
+</node>
+<node CREATED="1683918427809" ID="ID_1727999641" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1683923230281" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683923250089" ID="ID_543434793" MODIFIED="1683923272856" TEXT="Nos imports">
+<node CREATED="1683923273196" ID="ID_1647443009" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
+<node CREATED="1683923287045" ID="ID_128760259" MODIFIED="1684006050651" TEXT="import { MatCardModule } from &apos;@angular/material/card&apos;;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683923299557" ID="ID_254525530" MODIFIED="1683923353037" TEXT="na parte de &quot;  imports: [&quot;">
+<node CREATED="1683923327388" ID="ID_216633618" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1683923334073" ID="ID_83473021" MODIFIED="1684006062963" TEXT="    MatCardModule">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684006993820" ID="ID_1450749889" MODIFIED="1684007012020" TEXT="frontend/src/app/views/home/home.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_264387121" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684007039662" ID="ID_1260561932" MODIFIED="1684007045192" TEXT="&lt;mat-card class=&quot;home mat-elevation-z3&quot;&gt;&#xa;    &lt;mat-card-title class=&quot;title&quot;&gt;P&#xe1;gina inicial&lt;/mat-card-title&gt;&#xa;    &lt;mat-card-subtitle class=&quot;subtitle&quot;&gt;&#xa;        Sistema de exemplo para utiliza&#xe7;&#xe3;o da ferramenta Mapperidea.&#xa;    &lt;/mat-card-subtitle&gt;&#xa;&lt;/mat-card&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684007006528" ID="ID_604769339" MODIFIED="1684007012020" TEXT="frontend/src/app/views/home/home.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_1967732978" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684007048490" ID="ID_1127986447" MODIFIED="1684007069759" TEXT=".home .title {&#xa;    font-size: 2.5rem;&#xa;    font-weight: 300;&#xa;    line-height: 1.2;&#xa;}&#xa;&#xa;.home .subtitle {&#xa;    font-size: 1.1rem;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
