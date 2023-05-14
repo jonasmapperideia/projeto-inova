@@ -524,7 +524,7 @@
 <icon BUILTIN="full-6"/>
 <node CREATED="1683919963321" ID="ID_1096845305" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
-<node CREATED="1684014610706" ID="ID_1290983528" MODIFIED="1684014701565" TEXT="frontend/src/app/components/product/product.model.ts">
+<node CREATED="1684014610706" FOLDED="true" ID="ID_1290983528" MODIFIED="1684014701565" TEXT="frontend/src/app/components/product/product.model.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_332684295" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684014033971" ID="ID_907553583" MODIFIED="1684014737076" TEXT="export interface Product {&#xa;    id?: number;&#xa;    name: string;&#xa;    price: number;&#xa;}">
@@ -541,8 +541,8 @@
 <icon BUILTIN="edit"/>
 <node CREATED="1684024206483" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1684023910340" FOLDED="true" ID="ID_516257056" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
-<node CREATED="1684024236779" ID="ID_918607524" MODIFIED="1684090315810" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Product } from &apos;./product.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProductService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;  create(product: Product): Observable&lt;Product&gt; {&#xa;    return this.http.post&lt;Product&gt;(this.baseUrl, product);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl);&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Product&gt;(url);&#xa;  }&#xa;&#xa;  update(product: Product): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + product.id;&#xa;    return this.http.put&lt;Product&gt;(url, product);&#xa;  }&#xa;}">
+<node CREATED="1684023910340" ID="ID_516257056" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684024236779" ID="ID_918607524" MODIFIED="1684097293011" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Product } from &apos;./product.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProductService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;  create(product: Product): Observable&lt;Product&gt; {&#xa;    return this.http.post&lt;Product&gt;(this.baseUrl, product);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl);&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Product&gt;(url);&#xa;  }&#xa;&#xa;  update(product: Product): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + product.id;&#xa;    return this.http.put&lt;Product&gt;(url, product);&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Product&gt;{&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Product&gt;(url);&#xa;  }&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -583,9 +583,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684023891324" ID="ID_1382931787" MODIFIED="1684023897469" TEXT="frontend/src/app/app-routing.module.ts">
+<node CREATED="1684023891324" FOLDED="true" ID="ID_1382931787" MODIFIED="1684023897469" TEXT="frontend/src/app/app-routing.module.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1684023910340" ID="ID_400254828" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684023910340" FOLDED="true" ID="ID_400254828" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
 <node CREATED="1684023916324" ID="ID_1255651896" MODIFIED="1684095096637" TEXT="import { NgModule } from &apos;@angular/core&apos;;&#xa;import { Routes, RouterModule } from &apos;@angular/router&apos;;&#xa;&#xa;import { HomeComponent } from &apos;./views/home/home.component&apos;;&#xa;import { ProductCrudComponent } from &apos;./views/product-crud/product-crud.component&apos;;&#xa;import { ProductCreateComponent } from &apos;./components/product/product-create/product-create.component&apos;;&#xa;import { ProductUpdateComponent } from &apos;./components/product/product-update/product-update.component&apos;;&#xa;import { ProductDeleteComponent } from &apos;./components/product/product-delete/product-delete.component&apos;;&#xa;&#xa;const routes: Routes = [&#xa;  {&#xa;    path: &quot;&quot;,&#xa;    component: HomeComponent&#xa;  }, {&#xa;    path: &quot;products&quot;,&#xa;    component: ProductCrudComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/create&quot;,&#xa;    component: ProductCreateComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/update/:id&quot;,&#xa;    component: ProductUpdateComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/delete/:id&quot;,&#xa;    component: ProductDeleteComponent&#xa;  }&#xa;];&#xa;&#xa;@NgModule({&#xa;  imports: [RouterModule.forRoot(routes)],&#xa;  exports: [RouterModule]&#xa;})&#xa;export class AppRoutingModule { }&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -792,6 +792,28 @@
 <node CREATED="1684087724816" ID="ID_1720534075" MODIFIED="1684088289204" POSITION="right" TEXT="No mapperidea, implementar mapa de arquitetura para gerar o Frontend">
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1684088217059" ID="ID_792790526" MODIFIED="1684088334210" TEXT="//MRN _ ainda tem que escrever o roteiro aqui para implementar a parte de arquitetura da parte frontend"/>
+</node>
+<node CREATED="1684096951974" ID="ID_435384710" MODIFIED="1684097011343" POSITION="right" TEXT="Atualizar Frontend, incluir tratamento de erros">
+<icon BUILTIN="Descriptor.window.iframe"/>
+<node CREATED="1683918427809" ID="ID_1388103280" MODIFIED="1684097112588" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684097114130" ID="ID_36869989" MODIFIED="1684097118643" TEXT="frontend/src/styles.css">
+<icon BUILTIN="list"/>
+<node CREATED="1684023910340" FOLDED="true" ID="ID_1473386718" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684097137428" ID="ID_541001392" MODIFIED="1684097142464" TEXT="/* You can add global styles to this file, and also import other style files */&#xa;&#xa;html, body { height: 100%; }&#xa;body { margin: 0; font-family: Roboto, &quot;Helvetica Neue&quot;, sans-serif; }&#xa;&#xa;.msg-success {&#xa;    background-color: #28a745;&#xa;    color: #fff;&#xa;}&#xa;&#xa;.msg-error {&#xa;    background-color: #e35e6b;&#xa;    color: #fff;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684024206483" ID="ID_465146969" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1684023910340" FOLDED="true" ID="ID_1285777797" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684024236779" ID="ID_281492147" MODIFIED="1684097079020" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Product } from &apos;./product.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;import { map, catchError } from &apos;rxjs/operators&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProductService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  showMessage(msg: string, isError: boolean = false): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;,&#xa;      panelClass: isError ? [&apos;msg-error&apos;] : [&apos;msg-success&apos;]&#xa;    })&#xa;  }&#xa;&#xa;  create(product: Product): Observable&lt;Product&gt; {&#xa;    return this.http.post&lt;Product&gt;(this.baseUrl, product).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );&#xa;  }&#xa;&#xa;  read(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );;&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Product&gt;(url).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );;&#xa;  }&#xa;&#xa;  update(product: Product): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + product.id;&#xa;    return this.http.put&lt;Product&gt;(url, product).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );;&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Product&gt;{&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Product&gt;(url).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );;&#xa;  }&#xa;&#xa;  errorHandler(e: any): Observable&lt;any&gt; {&#xa;    this.showMessage(&apos;Ocorreu um erro!&apos;, true);&#xa;    console.log(e);&#xa;    return EMPTY;&#xa;  }&#xa;}&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
