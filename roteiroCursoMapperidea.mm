@@ -4,29 +4,40 @@
 <icon BUILTIN="Mapping.oneToMany"/>
 <node CREATED="1683892171019" MODIFIED="1683894443038" POSITION="right" TEXT="Indrodu&#xe7;&#xe3;o">
 <icon BUILTIN="male1"/>
-<node CREATED="1683892304056" MODIFIED="1683892309299" TEXT="Introdu&#xe7;&#xe3;o do curso">
+<node CREATED="1683892304056" ID="ID_919392330" MODIFIED="1683892309299" TEXT="Introdu&#xe7;&#xe3;o do curso">
 <node CREATED="1683892313968" MODIFIED="1683892322601" TEXT="Me apresentar"/>
 <node CREATED="1683892323808" MODIFIED="1683892348236" TEXT="Apresenta&#xe7;&#xe3;o rapida do Mapperidea"/>
-<node CREATED="1683892349316" MODIFIED="1683892429601" TEXT="Falar oque ser&#xe1; feito no curso"/>
-<node CREATED="1683892435160" MODIFIED="1683892443527" TEXT="Apresentar o sistema que ser&#xe1; gerado"/>
+<node CREATED="1683892349316" ID="ID_1336653218" MODIFIED="1683892429601" TEXT="Falar oque ser&#xe1; feito no curso"/>
+<node CREATED="1683892435160" ID="ID_537280371" MODIFIED="1683892443527" TEXT="Apresentar o sistema que ser&#xe1; gerado"/>
+<node CREATED="1684088359777" ID="ID_1736012256" MODIFIED="1684088374656" TEXT="Pedir para os alunos se apresentarem">
+<node CREATED="1684088375229" ID="ID_302496434" MODIFIED="1684088382486" TEXT="*opcional"/>
+</node>
 <node CREATED="1683892445388" MODIFIED="1683892465787" TEXT="requisitos de sistemas para proseguir o curso"/>
 </node>
 </node>
-<node CREATED="1683892251953" FOLDED="true" ID="ID_1447798704" MODIFIED="1683894482049" POSITION="right" TEXT="Backend com json server">
-<icon BUILTIN="folder"/>
-<node CREATED="1683892510940" ID="ID_1702018494" MODIFIED="1683892900007" TEXT="Criar pasta:">
+<node CREATED="1684087724816" ID="ID_1283583920" MODIFIED="1684087753730" POSITION="right" TEXT="Inicar projeto mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1683892510940" ID="ID_1702018494" MODIFIED="1684087778120" TEXT="Criar pasta:">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683892856023" MODIFIED="1683892892996" TEXT="crud"/>
 </node>
-<node CREATED="1683892927193" MODIFIED="1683892943729" TEXT="Abrir o VScode na pasta crud">
+<node CREATED="1684087949048" ID="ID_406104001" MODIFIED="1684087983172" TEXT="Dentro da pasta crud, criar a pasta:">
 <icon BUILTIN="full-2"/>
+<node CREATED="1684087973639" ID="ID_1573811867" MODIFIED="1684087974640" TEXT="mi"/>
 </node>
-<node CREATED="1683893149162" ID="ID_261592723" MODIFIED="1683893165303" TEXT="Dentro da pasta crud, criar as pastas:">
-<icon BUILTIN="full-3"/>
+<node CREATED="1684087986248" ID="ID_1402848254" MODIFIED="1684088014942" TEXT="//MRN _ tem que escrever o roteiro aqui, para criar o mapa mental de regra de negocio"/>
+</node>
+<node CREATED="1683892251953" ID="ID_1447798704" MODIFIED="1683894482049" POSITION="right" TEXT="Backend com json server">
+<icon BUILTIN="folder"/>
+<node CREATED="1683892927193" ID="ID_480448754" MODIFIED="1684087798052" TEXT="Abrir o VScode na pasta crud">
+<icon BUILTIN="full-1"/>
+</node>
+<node CREATED="1683893149162" ID="ID_261592723" MODIFIED="1684087803511" TEXT="Dentro da pasta crud, criar as pastas:">
+<icon BUILTIN="full-2"/>
 <node CREATED="1683893162176" MODIFIED="1683893162176" TEXT="backend"/>
 </node>
-<node CREATED="1683893224937" ID="ID_693155182" MODIFIED="1683896789012" TEXT="Entra da pasta backend">
-<icon BUILTIN="full-4"/>
+<node CREATED="1683893224937" ID="ID_693155182" MODIFIED="1684087807639" TEXT="Entra da pasta backend">
+<icon BUILTIN="full-3"/>
 <node CREATED="1683896789625" ID="ID_94401802" MODIFIED="1683896802627" TEXT="executa os comandos:">
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1683893246601" MODIFIED="1683896796906" TEXT="npm init -y"/>
@@ -34,7 +45,7 @@
 </node>
 <node CREATED="1683896093864" ID="ID_1259740344" MODIFIED="1683896809713" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
-<node CREATED="1683895692021" ID="ID_865440129" MODIFIED="1683896094872" TEXT="db.json">
+<node CREATED="1683895692021" FOLDED="true" ID="ID_865440129" MODIFIED="1683896094872" TEXT="db.json">
 <icon BUILTIN="list"/>
 <node CREATED="1683896054093" ID="ID_848099261" MODIFIED="1683896059868" TEXT="conteudo:">
 <node CREATED="1683896059868" ID="ID_742268473" MODIFIED="1683898663422" TEXT="{&#xa;  &quot;products&quot;: [&#xa;    {&#xa;      &quot;id&quot;: 1,&#xa;      &quot;name&quot;: &quot;Camisa preta&quot;,&#xa;      &quot;price&quot;: 5.89&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 2,&#xa;      &quot;name&quot;: &quot;Cal&#xe7;a azul&quot;,&#xa;      &quot;price&quot;: 20.32&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 3,&#xa;      &quot;name&quot;: &quot;Geladeira branca&quot;,&#xa;      &quot;price&quot;: 1500&#xa;    }&#xa;  ]&#xa;}">
@@ -66,8 +77,8 @@
 <node CREATED="1683897073891" ID="ID_774129317" MODIFIED="1683897079238" TEXT="npm start"/>
 </node>
 </node>
-<node CREATED="1683897497393" ID="ID_321503316" MODIFIED="1683897514388" TEXT="Abrir o postman">
-<icon BUILTIN="full-5"/>
+<node CREATED="1683897497393" ID="ID_321503316" MODIFIED="1684087812751" TEXT="Abrir o postman">
+<icon BUILTIN="full-4"/>
 <node CREATED="1683899449671" FOLDED="true" ID="ID_157335987" MODIFIED="1683899594745" TEXT="Cria requisi&#xe7;&#xf5;es">
 <node CREATED="1683899455487" ID="ID_316336714" MODIFIED="1683899464612" TEXT="Listar products">
 <node CREATED="1683897595934" ID="ID_569960746" MODIFIED="1683899471199" TEXT="Tipo:">
@@ -196,6 +207,10 @@
 </node>
 </node>
 </node>
+<node CREATED="1684087724816" ID="ID_1116095978" MODIFIED="1684088052694" POSITION="right" TEXT="No mapperidea, implementar mapa de arquitetura para gerar o backend">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684088217059" ID="ID_623300607" MODIFIED="1684088251521" TEXT="//MRN _ ainda tem que escrever o roteiro aqui para implementar a parte de arquitetura da parte backend"/>
+</node>
 <node CREATED="1683914773304" ID="ID_1610956331" MODIFIED="1683914788636" POSITION="right" TEXT="Instalar Angular CLI">
 <icon BUILTIN="down"/>
 <node CREATED="1683896662145" ID="ID_722147802" MODIFIED="1683896820304" TEXT="Executa o comando:">
@@ -320,7 +335,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683925730295" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
+<node CREATED="1683925730295" FOLDED="true" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896662145" ID="ID_1987520238" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
@@ -462,7 +477,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684005309186" ID="ID_1883033147" MODIFIED="1684005322112" TEXT="Criar componente home">
+<node CREATED="1684005309186" FOLDED="true" ID="ID_1883033147" MODIFIED="1684005322112" TEXT="Criar componente home">
 <icon BUILTIN="full-5"/>
 <node CREATED="1683896662145" ID="ID_276235005" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
@@ -505,7 +520,210 @@
 </node>
 </node>
 </node>
+<node CREATED="1684007612785" ID="ID_652570967" MODIFIED="1684013946072" TEXT="Criar componente product">
+<icon BUILTIN="full-6"/>
+<node CREATED="1683919963321" ID="ID_1096845305" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
+<icon BUILTIN="bookmark"/>
+<node CREATED="1684014610706" ID="ID_1290983528" MODIFIED="1684014701565" TEXT="frontend/src/app/components/product/product.model.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_332684295" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684014033971" ID="ID_907553583" MODIFIED="1684014737076" TEXT="export interface Product {&#xa;    id?: number;&#xa;    name: string;&#xa;    price: number;&#xa;}">
+<icon BUILTIN="tag_green"/>
 </node>
+</node>
+</node>
+</node>
+<node CREATED="1683896662145" ID="ID_1922703815" MODIFIED="1684087540188" TEXT="Executa os comandos:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1684014942280" ID="ID_593494464" MODIFIED="1684021562642" TEXT="ng g s components/product/product"/>
+</node>
+<node CREATED="1683918427809" ID="ID_987781319" MODIFIED="1684087531081" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684024206483" FOLDED="true" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1684023910340" ID="ID_516257056" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684024236779" ID="ID_918607524" MODIFIED="1684087040202" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Product } from &apos;./product.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProductService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;  create(product: Product): Observable&lt;Product&gt; {&#xa;    return this.http.post&lt;Product&gt;(this.baseUrl, product);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl);&#xa;  }&#xa;}&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684013035361" FOLDED="true" ID="ID_872402877" MODIFIED="1684013039553" TEXT="frontend/src/app/app.module.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683923250089" ID="ID_262417912" MODIFIED="1683923272856" TEXT="Nos imports">
+<node CREATED="1684086736113" ID="ID_1113198998" MODIFIED="1684086749212" TEXT="alterar">
+<node CREATED="1684086751995" ID="ID_227057274" MODIFIED="1684086755637" TEXT="de:">
+<node CREATED="1684086761981" ID="ID_1405143459" MODIFIED="1684086774219" TEXT="import { NgModule } from &apos;@angular/core&apos;;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684086756049" ID="ID_1433005153" MODIFIED="1684086757592" TEXT="para:">
+<node CREATED="1684086758061" ID="ID_1105720885" MODIFIED="1684086759521" TEXT="import { NgModule, LOCALE_ID } from &apos;@angular/core&apos;;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683923273196" ID="ID_868287245" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
+<node CREATED="1683923287045" ID="ID_842405405" MODIFIED="1684086815147" TEXT="import { MatButtonModule } from &apos;@angular/material/button&apos;;&#xa;import { MatSnackBarModule } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClientModule } from &apos;@angular/common/http&apos;;&#xa;import { FormsModule } from &apos;@angular/forms&apos;;&#xa;import { MatFormFieldModule } from &apos;@angular/material/form-field&apos;;&#xa;import { MatInputModule } from &apos;@angular/material/input&apos;;&#xa;import { MatTableModule } from &apos;@angular/material/table&apos;;&#xa;import { MatPaginatorModule } from &apos;@angular/material/paginator&apos;;&#xa;import { MatSortModule } from &apos;@angular/material/sort&apos;;&#xa;&#xa;import localePt from &apos;@angular/common/locales/pt&apos;;&#xa;import { registerLocaleData } from &apos;@angular/common&apos;;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1683923299557" ID="ID_1571538495" MODIFIED="1683923353037" TEXT="na parte de &quot;  imports: [&quot;">
+<node CREATED="1683923327388" ID="ID_1167857953" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1683923334073" ID="ID_176620949" MODIFIED="1684086847334" TEXT="    MatButtonModule,&#xa;    MatSnackBarModule,&#xa;    HttpClientModule,&#xa;    FormsModule,&#xa;    MatFormFieldModule,&#xa;    MatInputModule,&#xa;    MatTableModule,&#xa;    MatPaginatorModule,&#xa;    MatSortModule">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684086863413" ID="ID_1162465279" MODIFIED="1684086870432" TEXT="na parte de &quot;providers: [&quot;">
+<node CREATED="1683923327388" ID="ID_98410877" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1683923334073" ID="ID_1345877401" MODIFIED="1684086943709" TEXT="{&#xa;    provide: LOCALE_ID,&#xa;    useValue: &apos;pt-BR&apos;&#xa;  }">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684023891324" FOLDED="true" ID="ID_1382931787" MODIFIED="1684023897469" TEXT="frontend/src/app/app-routing.module.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1684023910340" ID="ID_400254828" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684023916324" ID="ID_1255651896" MODIFIED="1684023923769" TEXT="import { NgModule } from &apos;@angular/core&apos;;&#xa;import { Routes, RouterModule } from &apos;@angular/router&apos;;&#xa;&#xa;import { HomeComponent } from &apos;./views/home/home.component&apos;;&#xa;import { ProductCrudComponent } from &apos;./views/product-crud/product-crud.component&apos;;&#xa;import { ProductCreateComponent } from &apos;./components/product/product-create/product-create.component&apos;;&#xa;&#xa;const routes: Routes = [&#xa;  {&#xa;    path: &quot;&quot;,&#xa;    component: HomeComponent&#xa;  }, {&#xa;    path: &quot;products&quot;,&#xa;    component: ProductCrudComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/create&quot;,&#xa;    component: ProductCreateComponent&#xa;  }&#xa;];&#xa;&#xa;@NgModule({&#xa;  imports: [RouterModule.forRoot(routes)],&#xa;  exports: [RouterModule]&#xa;})&#xa;export class AppRoutingModule { }&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684023433646" ID="ID_775000757" MODIFIED="1684023508321" TEXT="create">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1683896662145" ID="ID_170007494" MODIFIED="1684011800325" TEXT="Executa os comandos:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1684005411425" ID="ID_613301479" MODIFIED="1684011864289" TEXT="ng g c components/product/product-create"/>
+</node>
+<node CREATED="1683918427809" ID="ID_761567557" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684021859648" FOLDED="true" ID="ID_1181893920" MODIFIED="1684023276118" TEXT="frontend/src/app/components/product/product-create/product-create.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_1360849545" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684022033284" ID="ID_1056117934" MODIFIED="1684022041033" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Novo Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;product.name&quot; name=&quot;name&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;product.price&quot; name=&quot;price&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;createProduct()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;    &#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684023288286" FOLDED="true" ID="ID_1029756891" MODIFIED="1684023297758" TEXT="frontend/src/app/components/product/product-create/product-create.component.ts">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_785797314" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684023320978" ID="ID_494163734" MODIFIED="1684023330133" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { ProductService } from &apos;../product.service&apos;;&#xa;import { Router } from &apos;@angular/router&apos;;&#xa;import { Product } from &apos;../product.model&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-create&apos;,&#xa;  templateUrl: &apos;./product-create.component.html&apos;,&#xa;  styleUrls: [&apos;./product-create.component.css&apos;]&#xa;})&#xa;export class ProductCreateComponent implements OnInit {&#xa;&#xa;  product: Product = {&#xa;    name: &apos;&apos;,&#xa;    price: null&#xa;  };&#xa;&#xa;  constructor(private productService: ProductService, private router: Router) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    &#xa;  }&#xa;&#xa;  createProduct(): void {&#xa;    this.productService.create(this.product).subscribe(() =&gt; {&#xa;      this.productService.showMessage(&apos;Produto criado!&apos;);&#xa;      this.router.navigate([&apos;/products&apos;]);&#xa;    })&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/products&apos;]);&#xa;  }&#xa;&#xa;}&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684021794247" FOLDED="true" ID="ID_1028867748" MODIFIED="1684021797985" TEXT="frontend/src/app/components/product/product-create/product-create.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_20161489" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684014033971" ID="ID_1883127499" MODIFIED="1684021833985" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684023496799" ID="ID_1160192944" MODIFIED="1684023510914" TEXT="read">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1683896662145" ID="ID_861770808" MODIFIED="1684011800325" TEXT="Executa os comandos:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1684021572802" ID="ID_798340413" MODIFIED="1684021594702" TEXT="ng g c components/product/product-read"/>
+</node>
+<node CREATED="1683918427809" ID="ID_1658556529" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684086544994" FOLDED="true" ID="ID_1118404694" MODIFIED="1684086562378" TEXT="frontend/src/app/components/product/product-read/product-read.component.html">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1464051156" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684086577626" ID="ID_1503101143" MODIFIED="1684086589106" TEXT="&lt;div class=&quot;mat-elevation-z4&quot;&gt;&#xa;    &lt;table mat-table [dataSource]=&quot;products&quot;&gt;&#xa;        &lt;!-- Id Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;id&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Id&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.id}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Name Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;name&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Nome&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.name}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Price Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;price&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.price | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Action Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;action&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;&#xa;                &lt;a routerLink=&quot;/products/update/{{ row.id }}&quot; class=&quot;edit&quot;&gt;&#xa;                    &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;&#xa;                &lt;/a&gt;&#xa;                &lt;a routerLink=&quot;/products/delete/{{ row.id }}&quot; class=&quot;delete&quot;&gt;&#xa;                    &lt;i class=&quot;material-icons&quot;&gt;delete&lt;/i&gt;&#xa;                &lt;/a&gt;&#xa;            &lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;        &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumns&quot;&gt;&lt;/tr&gt;&#xa;        &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumns;&quot;&gt;&lt;/tr&gt;&#xa;    &lt;/table&gt;&#xa;&#xa;&lt;/div&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684086607594" FOLDED="true" ID="ID_75666915" MODIFIED="1684086612235" TEXT="frontend/src/app/components/product/product-read/product-read.component.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_326495924" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684086640375" ID="ID_741953651" MODIFIED="1684086645203" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Product } from &apos;../product.model&apos;;&#xa;import { ProductService } from &apos;../product.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-read&apos;,&#xa;  templateUrl: &apos;./product-read.component.html&apos;,&#xa;  styleUrls: [&apos;./product-read.component.css&apos;]&#xa;})&#xa;export class ProductReadComponent implements OnInit {&#xa;&#xa;  products: Product[];&#xa;  displayedColumns = [&apos;id&apos;, &apos;name&apos;, &apos;price&apos;, &apos;action&apos;];&#xa;  &#xa;  constructor(private productService: ProductService) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    this.productService.read().subscribe(products =&gt; {&#xa;      this.products = products;&#xa;      console.log(products);&#xa;    });&#xa;  }&#xa;&#xa;}&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684086664900" FOLDED="true" ID="ID_1925099379" MODIFIED="1684086669777" TEXT="frontend/src/app/components/product/product-read/product-read.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1684086678235" ID="ID_869130625" MODIFIED="1684086679989" TEXT="deixar o conteudo:">
+<node CREATED="1684086689522" ID="ID_1567996789" MODIFIED="1684086698632" TEXT="table {&#xa;    width: 100%;&#xa;}&#xa;&#xa;.edit {&#xa;    margin-right: 10px;&#xa;}&#xa;&#xa;.edit &gt; i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete &gt; i {&#xa;    color: #e35e6b;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684024474236" ID="ID_962827198" MODIFIED="1684024477051" TEXT="crud">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1683896662145" ID="ID_1112423552" MODIFIED="1684011800325" TEXT="Executa os comandos:">
+<icon BUILTIN="desktop_new"/>
+<node CREATED="1684005411425" ID="ID_1432053688" MODIFIED="1684007792658" TEXT="ng g c views/product-crud"/>
+</node>
+<node CREATED="1684087456060" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684013950555" FOLDED="true" ID="ID_763762738" MODIFIED="1684013956971" TEXT="frontend/src/app/views/product-crud/product-crud.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_202039276" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684007048490" ID="ID_1092901400" MODIFIED="1684087100968" TEXT="&lt;button mat-raised-button (click)=&quot;navigateToProductCreate()&quot; color=&quot;primary&quot;&gt;&#xa;    Novo Produto&#xa;&lt;/button&gt;&#xa;&#xa;&lt;app-product-read&gt;&lt;/app-product-read&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684014011591" FOLDED="true" ID="ID_1041665547" MODIFIED="1684014017884" TEXT="frontend/src/app/views/product-crud/product-crud.component.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_806362980" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684014033971" ID="ID_1702305828" MODIFIED="1684014140688" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Router } from &apos;@angular/router&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-crud&apos;,&#xa;  templateUrl: &apos;./product-crud.component.html&apos;,&#xa;  styleUrls: [&apos;./product-crud.component.css&apos;]&#xa;})&#xa;export class ProductCrudComponent implements OnInit {&#xa;&#xa;  constructor(private router: Router) { }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;  navigateToProductCreate(): void {&#xa;    this.router.navigate([&apos;/products/create&apos;]);&#xa;  }&#xa;}&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684087161537" FOLDED="true" ID="ID_1883848758" MODIFIED="1684087168992" TEXT="frontend/src/app/views/product-crud/product-crud.component.css">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_422986267" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684087183699" ID="ID_934626648" MODIFIED="1684087195231" TEXT="table {&#xa;    width: 100%;&#xa;}&#xa;&#xa;.edit {&#xa;    margin-right: 10px;&#xa;}&#xa;&#xa;.edit &gt; i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete &gt; i {&#xa;    color: #e35e6b;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684009114428" ID="ID_5350360" MODIFIED="1684011774231" TEXT="Implementar rotas do sistema">
+<icon BUILTIN="full-7"/>
+<node CREATED="1683918427809" ID="ID_1733437750" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684009170799" FOLDED="true" ID="ID_1274564808" MODIFIED="1684009177500" TEXT="frontend/src/app/components/template/nav/nav.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1684009211487" ID="ID_40942453" MODIFIED="1684009216239" TEXT="deixar o conteudo:">
+<node CREATED="1684009216239" ID="ID_1946266793" MODIFIED="1684009225424" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;&#xa;    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;&#xa;        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    home&#xa;                &lt;/i&gt;&#xa;                In&#xed;cio&#xa;            &lt;/a&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/products&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    storefront&#xa;                &lt;/i&gt;&#xa;                Produtos&#xa;            &lt;/a&gt;&#xa;        &lt;/mat-nav-list&gt;&#xa;    &lt;/mat-sidenav&gt;&#xa;    &lt;mat-sidenav-content class=&quot;content&quot;&gt;&#xa;        &lt;router-outlet&gt;&lt;/router-outlet&gt;&#xa;    &lt;/mat-sidenav-content&gt;&#xa;&lt;/mat-sidenav-container&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684009694453" FOLDED="true" ID="ID_787280128" MODIFIED="1684009698872" TEXT="frontend/src/app/components/template/header/header.component.html">
+<icon BUILTIN="list"/>
+<node CREATED="1684009211487" ID="ID_1348075068" MODIFIED="1684009216239" TEXT="deixar o conteudo:">
+<node CREATED="1684009712337" ID="ID_468014562" MODIFIED="1684009717943" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a routerLink=&quot;/&quot;&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                home&#xa;            &lt;/i&gt;&#xa;            In&#xed;cio&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684087724816" ID="ID_1720534075" MODIFIED="1684088289204" POSITION="right" TEXT="No mapperidea, implementar mapa de arquitetura para gerar o Frontend">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684088217059" ID="ID_792790526" MODIFIED="1684088334210" TEXT="//MRN _ ainda tem que escrever o roteiro aqui para implementar a parte de arquitetura da parte frontend"/>
 </node>
 </node>
 </map>
