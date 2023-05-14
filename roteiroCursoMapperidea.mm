@@ -36,7 +36,7 @@
 <icon BUILTIN="full-2"/>
 <node CREATED="1683893162176" ID="ID_1231505949" MODIFIED="1683893162176" TEXT="backend"/>
 </node>
-<node CREATED="1683893224937" ID="ID_693155182" MODIFIED="1684087807639" TEXT="Entra da pasta backend">
+<node CREATED="1683893224937" FOLDED="true" ID="ID_693155182" MODIFIED="1684087807639" TEXT="Entra da pasta backend">
 <icon BUILTIN="full-3"/>
 <node CREATED="1683896789625" ID="ID_94401802" MODIFIED="1683896802627" TEXT="executa os comandos:">
 <icon BUILTIN="desktop_new"/>
@@ -221,7 +221,7 @@
 </node>
 <node CREATED="1683892256832" ID="ID_637378880" MODIFIED="1683894490368" POSITION="right" TEXT="Frontend">
 <icon BUILTIN="Descriptor.window.iframe"/>
-<node CREATED="1683915658067" ID="ID_1573966263" MODIFIED="1683915670851" TEXT="Criar o projeto angular">
+<node CREATED="1683915658067" FOLDED="true" ID="ID_1573966263" MODIFIED="1683915670851" TEXT="Criar o projeto angular">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683896662145" ID="ID_1227375264" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
@@ -274,7 +274,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683917020418" ID="ID_671833175" MODIFIED="1683927430568" TEXT="Iniciar parte frontend">
+<node CREATED="1683917020418" FOLDED="true" ID="ID_671833175" MODIFIED="1683927430568" TEXT="Iniciar parte frontend">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896662145" ID="ID_1152436455" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
@@ -818,6 +818,12 @@
 <node CREATED="1684087724816" ID="ID_299594205" MODIFIED="1684097456043" POSITION="right" TEXT="No mapperidea, do gerador service do Frontend">
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1684097491332" ID="ID_1708818755" MODIFIED="1684097498623" TEXT="//MRN _ ainda tem que escrever"/>
+</node>
+<node CREATED="1684097570772" ID="ID_989391715" MODIFIED="1684097583206" POSITION="right" TEXT="Conclus&#xe3;o do curso">
+<icon BUILTIN="button_ok"/>
+<node CREATED="1684097594560" ID="ID_679361909" MODIFIED="1684097686934" TEXT="Duvidas"/>
+<node CREATED="1684097600112" ID="ID_632028363" MODIFIED="1684097698423" TEXT="Coletar sugest&#xf5;es de melhoria na apresenta&#xe7;&#xe3;o do curso"/>
+<node CREATED="1684097586140" ID="ID_1302904600" MODIFIED="1684097687999" TEXT="Comprimentos"/>
 </node>
 </node>
 </map>
