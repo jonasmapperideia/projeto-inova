@@ -539,9 +539,9 @@
 </node>
 <node CREATED="1683918427809" ID="ID_987781319" MODIFIED="1684087531081" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684024206483" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
+<node CREATED="1684024206483" FOLDED="true" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1684023910340" ID="ID_516257056" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684023910340" FOLDED="true" ID="ID_516257056" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
 <node CREATED="1684024236779" ID="ID_918607524" MODIFIED="1684097293011" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Product } from &apos;./product.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProductService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;  create(product: Product): Observable&lt;Product&gt; {&#xa;    return this.http.post&lt;Product&gt;(this.baseUrl, product);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl);&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Product&gt;(url);&#xa;  }&#xa;&#xa;  update(product: Product): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + product.id;&#xa;    return this.http.put&lt;Product&gt;(url, product);&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Product&gt;{&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Product&gt;(url);&#xa;  }&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -814,6 +814,10 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1684087724816" ID="ID_299594205" MODIFIED="1684097456043" POSITION="right" TEXT="No mapperidea, do gerador service do Frontend">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684097491332" ID="ID_1708818755" MODIFIED="1684097498623" TEXT="//MRN _ ainda tem que escrever"/>
 </node>
 </node>
 </map>
