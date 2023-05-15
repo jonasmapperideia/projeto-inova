@@ -335,11 +335,26 @@
 </node>
 </node>
 </node>
-<node CREATED="1683925730295" FOLDED="true" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
+<node CREATED="1683925730295" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896662145" ID="ID_1987520238" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1683921865084" ID="ID_284951693" MODIFIED="1683921942664" TEXT="ng g c components/template/header"/>
+<node CREATED="1684014942280" ID="ID_1324720211" MODIFIED="1684099485139" TEXT="ng g s components/template/header/header"/>
+</node>
+<node CREATED="1683919963321" ID="ID_53213836" MODIFIED="1684100353803" TEXT="Criar pasta e incluir o arquivo:">
+<icon BUILTIN="bookmark"/>
+<node CREATED="1683920068691" ID="ID_1848944578" MODIFIED="1683926172209" TEXT="frontend/src/assets/img/logo.png">
+<icon BUILTIN="list"/>
+</node>
+<node CREATED="1684099585162" FOLDED="true" ID="ID_1506834968" MODIFIED="1684099589883" TEXT="frontend/src/app/components/template/header/header-data.model.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_1241008967" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684014033971" ID="ID_226815082" MODIFIED="1684099622702" TEXT="export interface HeaderData {&#xa;    title: string;&#xa;    icon: string;&#xa;    routeUrl: string;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1683918427809" ID="ID_1301356630" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -368,27 +383,37 @@
 </node>
 </node>
 </node>
-<node CREATED="1683925065960" ID="ID_663177633" MODIFIED="1683925069479" TEXT="frontend/src/app/components/template/header/header.component.html">
+<node CREATED="1683925065960" FOLDED="true" ID="ID_663177633" MODIFIED="1683925069479" TEXT="frontend/src/app/components/template/header/header.component.html">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_1808434468" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1683896175160" ID="ID_829772268" MODIFIED="1683925117347" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                home&#xa;            &lt;/i&gt;&#xa;            Aplica&#xe7;&#xe3;o CRUD&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
+<node CREATED="1683896175160" ID="ID_829772268" MODIFIED="1684100379632" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a routerLink=&quot;/&quot;&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a routerLink=&quot;{{ routeUrl }}&quot;&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                {{ icon }}&#xa;            &lt;/i&gt;&#xa;            {{ title }}&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684100287729" FOLDED="true" ID="ID_851846939" MODIFIED="1684100399299" TEXT="frontend/src/app/components/template/header/header.component.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1684100300943" ID="ID_810329550" MODIFIED="1684100305628" TEXT="deixar o conteudo:">
+<node CREATED="1684100306275" ID="ID_394109888" MODIFIED="1684100310575" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { HeaderService } from &apos;./header.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-header&apos;,&#xa;  templateUrl: &apos;./header.component.html&apos;,&#xa;  styleUrls: [&apos;./header.component.css&apos;]&#xa;})&#xa;export class HeaderComponent implements OnInit {&#xa;&#xa;  constructor(private headerService: HeaderService) { }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;  get title(): string {&#xa;    return this.headerService.headerData.title;&#xa;  }&#xa;&#xa;  get icon(): string {&#xa;    return this.headerService.headerData.icon;&#xa;  }&#xa;&#xa;  get routeUrl(): string {&#xa;    return this.headerService.headerData.routeUrl;&#xa;  }&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
 <node CREATED="1683925220837" FOLDED="true" ID="ID_1184101474" MODIFIED="1683925224518" TEXT="frontend/src/app/components/template/header/header.component.css">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_1768369675" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1683925242017" ID="ID_93813515" MODIFIED="1683926016587" TEXT=".header {&#xa;    display: flex;&#xa;    align-items: center;&#xa;}&#xa;&#xa;.header a {&#xa;    display: flex;&#xa;    align-items: none;&#xa;    text-decoration: none;&#xa;}&#xa;&#xa;.header .logo {&#xa;    max-height: 80px;&#xa;}&#xa;&#xa;.header .title-group {&#xa;    padding-left: 15px;&#xa;}&#xa;&#xa;.header .title-group i {&#xa;    padding-right: 10px;&#xa;}">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1768369675" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683925242017" ID="ID_93813515" MODIFIED="1684100594707" TEXT=".header {&#xa;    display: flex;&#xa;    align-items: center;&#xa;}&#xa;&#xa;.header a {&#xa;    display: flex;&#xa;    align-items: center;&#xa;    text-decoration: none;&#xa;    color: #333;&#xa;}&#xa;&#xa;.header .logo {&#xa;    max-height: 80px;&#xa;}&#xa;&#xa;.header .title-group {&#xa;    padding-left: 25px;&#xa;}&#xa;&#xa;.header .title-group i {&#xa;    padding-right: 5px;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1683919963321" ID="ID_53213836" MODIFIED="1683926182672" TEXT="Criar pasta e incluir o arquivo:">
-<icon BUILTIN="bookmark"/>
-<node CREATED="1683920068691" ID="ID_1848944578" MODIFIED="1683926172209" TEXT="frontend/src/assets/img/logo.png">
+<node CREATED="1684099657498" FOLDED="true" ID="ID_533833532" MODIFIED="1684099663298" TEXT="frontend/src/app/components/template/header/header.service.ts">
 <icon BUILTIN="list"/>
+<node CREATED="1684023910340" ID="ID_505084004" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
+<node CREATED="1684024236779" ID="ID_1013430391" MODIFIED="1684099676692" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { HeaderData } from &apos;./header-data.model&apos;;&#xa;import { BehaviorSubject } from &apos;rxjs&apos;;&#xa;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class HeaderService {&#xa;&#xa;  private _headerData = new BehaviorSubject&lt;HeaderData&gt;({&#xa;    title: &apos;In&#xed;cio&apos;,&#xa;    icon: &apos;home&apos;,&#xa;    routeUrl: &apos;&apos;&#xa;  });&#xa;&#xa;  constructor() { }&#xa;&#xa;  get headerData(): HeaderData {&#xa;    return this._headerData.value;&#xa;  }&#xa;&#xa;  set headerData(headerData: HeaderData) {&#xa;    this._headerData.next(headerData);&#xa;  }&#xa;}&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -477,13 +502,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1684005309186" FOLDED="true" ID="ID_1883033147" MODIFIED="1684005322112" TEXT="Criar componente home">
+<node CREATED="1684005309186" ID="ID_1883033147" MODIFIED="1684005322112" TEXT="Criar componente home">
 <icon BUILTIN="full-5"/>
 <node CREATED="1683896662145" ID="ID_276235005" MODIFIED="1683896820304" TEXT="Executa o comando:">
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1684005411425" ID="ID_379768119" MODIFIED="1684005434383" TEXT="ng g c views/home"/>
 </node>
-<node CREATED="1683918427809" ID="ID_1727999641" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1727999641" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1683923230281" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
@@ -506,6 +531,14 @@
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_264387121" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684007039662" ID="ID_1260561932" MODIFIED="1684007045192" TEXT="&lt;mat-card class=&quot;home mat-elevation-z3&quot;&gt;&#xa;    &lt;mat-card-title class=&quot;title&quot;&gt;P&#xe1;gina inicial&lt;/mat-card-title&gt;&#xa;    &lt;mat-card-subtitle class=&quot;subtitle&quot;&gt;&#xa;        Sistema de exemplo para utiliza&#xe7;&#xe3;o da ferramenta Mapperidea.&#xa;    &lt;/mat-card-subtitle&gt;&#xa;&lt;/mat-card&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684100782622" ID="ID_454473738" MODIFIED="1684100793053" TEXT="frontend/src/app/views/home/home.component.ts">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_723894556" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684100800912" ID="ID_1110274746" MODIFIED="1684100806073" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { HeaderService } from &apos;src/app/components/template/header/header.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-home&apos;,&#xa;  templateUrl: &apos;./home.component.html&apos;,&#xa;  styleUrls: [&apos;./home.component.css&apos;]&#xa;})&#xa;export class HomeComponent implements OnInit {&#xa;&#xa;  constructor(private headerService: HeaderService) {&#xa;    headerService.headerData = {&#xa;      title: &apos;In&#xed;cio&apos;,&#xa;      icon: &apos;home&apos;,&#xa;      routeUrl: &apos;&apos;&#xa;    }&#xa;  }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -736,7 +769,7 @@
 <icon BUILTIN="desktop_new"/>
 <node CREATED="1684005411425" ID="ID_1432053688" MODIFIED="1684007792658" TEXT="ng g c views/product-crud"/>
 </node>
-<node CREATED="1684087456060" FOLDED="true" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
+<node CREATED="1684087456060" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684013950555" FOLDED="true" ID="ID_763762738" MODIFIED="1684013956971" TEXT="frontend/src/app/views/product-crud/product-crud.component.html">
 <icon BUILTIN="list"/>
@@ -746,10 +779,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1684014011591" FOLDED="true" ID="ID_1041665547" MODIFIED="1684014017884" TEXT="frontend/src/app/views/product-crud/product-crud.component.ts">
+<node CREATED="1684014011591" ID="ID_1041665547" MODIFIED="1684014017884" TEXT="frontend/src/app/views/product-crud/product-crud.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_806362980" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1684014033971" ID="ID_1702305828" MODIFIED="1684014140688" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Router } from &apos;@angular/router&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-crud&apos;,&#xa;  templateUrl: &apos;./product-crud.component.html&apos;,&#xa;  styleUrls: [&apos;./product-crud.component.css&apos;]&#xa;})&#xa;export class ProductCrudComponent implements OnInit {&#xa;&#xa;  constructor(private router: Router) { }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;  navigateToProductCreate(): void {&#xa;    this.router.navigate([&apos;/products/create&apos;]);&#xa;  }&#xa;}&#xa;">
+<node CREATED="1683896144324" ID="ID_806362980" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1684014033971" ID="ID_1702305828" MODIFIED="1684100875593" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Router } from &apos;@angular/router&apos;;&#xa;import { HeaderService } from &apos;src/app/components/template/header/header.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-crud&apos;,&#xa;  templateUrl: &apos;./product-crud.component.html&apos;,&#xa;  styleUrls: [&apos;./product-crud.component.css&apos;]&#xa;})&#xa;export class ProductCrudComponent implements OnInit {&#xa;&#xa;  constructor(private router: Router, private headerService: HeaderService) { &#xa;    headerService.headerData = {&#xa;      title: &apos;Cadastro de Produtos&apos;,&#xa;      icon: &apos;storefront&apos;,&#xa;      routeUrl: &apos;/products&apos;&#xa;    }&#xa;  }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;  navigateToProductCreate(): void {&#xa;    this.router.navigate([&apos;/products/create&apos;]);&#xa;&#xa;  }&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -765,7 +798,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684009114428" ID="ID_5350360" MODIFIED="1684011774231" TEXT="Implementar rotas do sistema">
+<node CREATED="1684009114428" ID="ID_5350360" MODIFIED="1684100335806" TEXT="Implementar rotas do sistema">
 <icon BUILTIN="full-7"/>
 <node CREATED="1683918427809" ID="ID_1733437750" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
