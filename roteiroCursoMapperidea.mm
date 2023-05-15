@@ -19,33 +19,921 @@
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1683892510940" ID="ID_1702018494" MODIFIED="1684087778120" TEXT="Criar pasta:">
 <icon BUILTIN="full-1"/>
-<node CREATED="1683892856023" ID="ID_253534655" MODIFIED="1683892892996" TEXT="crud"/>
+<node CREATED="1683892856023" ID="ID_253534655" MODIFIED="1684171970357" TEXT="crud">
+<icon BUILTIN="folder"/>
+</node>
 </node>
 <node CREATED="1684087949048" ID="ID_406104001" MODIFIED="1684087983172" TEXT="Dentro da pasta crud, criar a pasta:">
 <icon BUILTIN="full-2"/>
-<node CREATED="1684087973639" ID="ID_1573811867" MODIFIED="1684087974640" TEXT="mi"/>
+<node CREATED="1684087973639" ID="ID_1573811867" MODIFIED="1684171958761" TEXT="mi">
+<icon BUILTIN="folder"/>
 </node>
-<node CREATED="1684087986248" ID="ID_1402848254" MODIFIED="1684088014942" TEXT="//MRN _ tem que escrever o roteiro aqui, para criar o mapa mental de regra de negocio"/>
 </node>
-<node CREATED="1683892251953" ID="ID_1447798704" MODIFIED="1683894482049" POSITION="right" TEXT="Backend com json server">
+<node CREATED="1684117511739" ID="ID_1750394199" MODIFIED="1684173294166" TEXT="Dentro da pasta mi criar e startar o arquivo principal do projeto mapperideia">
+<icon BUILTIN="full-3"/>
+<node CREATED="1683919963321" ID="ID_1045629323" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
+<icon BUILTIN="bookmark"/>
+<node CREATED="1684117634082" ID="ID_1507947747" MODIFIED="1684117639857" TEXT="mi/br.com.neoinix.angular.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683896144324" ID="ID_1999517381" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1666224367113" ID="ID_561273856" MODIFIED="1684115985106" TEXT="br.com.neoinix.angular">
+<icon BUILTIN="Package"/>
+<node CREATED="1669292728643" ID="ID_242312085" MODIFIED="1684115948923" TEXT="config">
+<node CREATED="1669292728643" ID="ID_577335541" MODIFIED="1669292728643" TEXT="structVersion">
+<node CREATED="1669292728643" ID="ID_72409510" MODIFIED="1669292728643" TEXT="2"/>
+</node>
+<node CREATED="1669292728643" ID="ID_347784075" LINK="mapperidea.mm" MODIFIED="1669292728643" TEXT="mapperidea">
+<icon BUILTIN="element"/>
+</node>
+</node>
+<node CREATED="1678129247032" ID="ID_1837987976" MODIFIED="1684116077160" TEXT="domain">
+<icon BUILTIN="Package"/>
+<node CREATED="1684116029198" ID="ID_1190496321" MODIFIED="1684116152688" TEXT="Product">
+<icon BUILTIN="Descriptor.bean"/>
+<node CREATED="1684116029198" ID="ID_916914945" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" ID="ID_209553517" MODIFIED="1684116029198" TEXT="table">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_120966909" MODIFIED="1684117883772" TEXT="product">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_4239394" MODIFIED="1684116029198" TEXT="id">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="id">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="type">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1836688934" MODIFIED="1684116029198" TEXT="Inteiro()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_287975270" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1918956631" MODIFIED="1684117950726" TEXT="Produto">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_1129731062" MODIFIED="1684116029198" TEXT="atributos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684116029198" ID="ID_655469642" MODIFIED="1684116192843" TEXT="name: Texto()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" ID="ID_1699415316" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1721688559" MODIFIED="1684116202750" TEXT="name">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_174624585" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1981699408" MODIFIED="1684117915378" TEXT="Nome">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_1953465136" MODIFIED="1684116477082" TEXT="price: Decimal()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1591222490" MODIFIED="1684116483226" TEXT="price">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_770475233" MODIFIED="1684117917532" TEXT="Pre&#xe7;o">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684120561184" ID="ID_245677806" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683896144324" ID="ID_54961183" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1666225138001" ID="ID_544301046" LINK="br.com.neoinix.api.mm" MODIFIED="1666915601313" TEXT="mapperidea">
+<icon BUILTIN="element"/>
+<node CREATED="1666226145490" ID="ID_923490149" MODIFIED="1666226148951" TEXT="generators">
+<icon BUILTIN="element"/>
+<node CREATED="1682025258298" ID="ID_1978642623" MODIFIED="1684118087696" TEXT="struct">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" ID="ID_1237118101" MODIFIED="1670333943822" TEXT="yaml">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" ID="ID_908198521" MODIFIED="1684118095881" TEXT="parameters">
+<font NAME="Dialog" SIZE="14"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" ID="ID_1279278356" MODIFIED="1657885583727" TEXT="className">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" ID="ID_992136736" MODIFIED="1657885583727" TEXT="packageName">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" ID="ID_697511754" MODIFIED="1684118095881" TEXT="vars">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="identChar">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="&apos; &apos;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="identSize">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="2">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" ID="ID_1369939316" MODIFIED="1684118095881" TEXT="start">
+<font NAME="Dialog" SIZE="14"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="match">
+<font BOLD="true" NAME="Dialog" SIZE="14"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="/">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="body">
+<font BOLD="true" NAME="Dialog" SIZE="14"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="$packageName = &apos;NOT_DEFINED&apos;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="/classes/class[@name=$className]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="all">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="$packageName != &apos;NOT_DEFINED&apos;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="/classes/class[@name=$className and @package = $packageName]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="all">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" ID="ID_1425820877" MODIFIED="1684118095881" TEXT="patterns">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="element">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }} {{ name(.) }}:">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="attributeOfElement">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }} @{{ name(.)  }}: {{ . }}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="valueText">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }} {{ . }}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" ID="ID_315725130" MODIFIED="1684118095881" TEXT="templates">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="all">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" MODIFIED="1657885583727" TEXT="*">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583727" FOLDED="true" MODIFIED="1657885583727" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="element">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="attribute(*)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="$level + 1">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="$level + 1">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="attribute(*)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="attributeOfElement">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="value/text()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="expr/text()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="text()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="ancestor::*:unit">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" FOLDED="true" MODIFIED="1657885583728" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1657885583728" MODIFIED="1657885583728" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684159213839" FOLDED="true" ID="ID_1181153665" MODIFIED="1684159216104" TEXT="xml">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426363" FOLDED="true" ID="ID_967795128" MODIFIED="1684159432551" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426364" ID="ID_756967077" MODIFIED="1684159436046" TEXT="className">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426365" ID="ID_1649923854" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684159426366" ID="ID_477263359" MODIFIED="1684159436045" TEXT="packageName">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426367" ID="ID_204887997" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160694378" FOLDED="true" ID="ID_597019445" MODIFIED="1684160698044" TEXT="vars">
+<icon BUILTIN="element"/>
+<node CREATED="1684160694379" FOLDED="true" ID="ID_1775199639" MODIFIED="1684160701178" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684160694381" ID="ID_810669296" MODIFIED="1684160711972" TEXT="identChar">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684160694382" FOLDED="true" ID="ID_1622490924" MODIFIED="1684160716729" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684160694383" ID="ID_992503933" MODIFIED="1684160721994" TEXT="&apos; &apos;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160694384" FOLDED="true" ID="ID_462270414" MODIFIED="1684160701177" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684160694384" ID="ID_995954117" MODIFIED="1684160711971" TEXT="identSize">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684160694385" FOLDED="true" ID="ID_1202998368" MODIFIED="1684160716728" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684160694386" ID="ID_1266374808" MODIFIED="1684160721993" TEXT="2">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161691515" FOLDED="true" ID="ID_1520751880" MODIFIED="1684164808229" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1560172637582" ID="ID_588643781" MODIFIED="1656359694055" TEXT="start-open-element">
+<icon BUILTIN="element"/>
+<node CREATED="1560172651030" MODIFIED="1663274036824" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }} &lt;{{ name(.) }}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+<node CREATED="1560172637582" ID="ID_5476740" MODIFIED="1656359750519" TEXT="start-close-element">
+<icon BUILTIN="element"/>
+<node CREATED="1560172651030" MODIFIED="1656359737467" TEXT="&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1560172637582" ID="ID_1417279837" MODIFIED="1656359571003" TEXT="end-element">
+<icon BUILTIN="element"/>
+<node CREATED="1560172651030" MODIFIED="1663273861082" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }} &lt;/{{ name(.) }}&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1560174060506" ID="ID_108419068" MODIFIED="1560174091063" TEXT="attributeOfElement">
+<icon BUILTIN="element"/>
+<node CREATED="1560174110538" MODIFIED="1664281231893" TEXT=" {{ name(.)  }}=&quot;{{ . }}&quot;">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+<node CREATED="1560175189938" ID="ID_731542986" MODIFIED="1560175193749" TEXT="valueText">
+<icon BUILTIN="element"/>
+<node CREATED="1560172651030" MODIFIED="1664283548552" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }} {{ replace(.,  &apos;&amp;&apos;, &apos;&amp;amp;&apos;) }}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" ID="ID_1515496701" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" ID="ID_1635055085" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_272813483" MODIFIED="1684160985115" TEXT="/">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" FOLDED="true" ID="ID_1494031242" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926438" ID="ID_701517232" MODIFIED="1684160988357" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926439" ID="ID_1865812854" MODIFIED="1684161043069" TEXT="$packageName = &apos;NOT_DEFINED&apos;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684160926440" ID="ID_427126512" MODIFIED="1684161048364" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926441" ID="ID_1817285098" MODIFIED="1684161065257" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926442" ID="ID_270066161" MODIFIED="1684161075329" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1684161082942" ID="ID_1572426892" MODIFIED="1684161086695" TEXT="/classes/class[@name=$className]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926445" ID="ID_1824284060" MODIFIED="1684170726543" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926446" ID="ID_1220811760" MODIFIED="1684161093262" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926447" ID="ID_962181906" MODIFIED="1684161095341" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926444" ID="ID_144777845" MODIFIED="1684161075329" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926444" ID="ID_364912969" MODIFIED="1684161091111" TEXT="all">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684160926447" ID="ID_1602018929" MODIFIED="1684160988356" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926448" ID="ID_1020474856" MODIFIED="1684161043067" TEXT="$packageName != &apos;NOT_DEFINED&apos;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684160926449" ID="ID_1580140247" MODIFIED="1684161048362" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926449" ID="ID_405605516" MODIFIED="1684161062784" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926450" ID="ID_1736006227" MODIFIED="1684161078348" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1684161100022" ID="ID_1698843985" MODIFIED="1684161103594" TEXT="/classes/class[@name=$className and @package = $packageName]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926455" ID="ID_49148915" MODIFIED="1684170728983" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926456" ID="ID_514437216" MODIFIED="1684161144393" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926457" ID="ID_1913082859" MODIFIED="1684161145812" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926452" ID="ID_451066827" MODIFIED="1684161078348" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926454" ID="ID_114757663" MODIFIED="1684161142613" TEXT="all">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945109" ID="ID_250573003" MODIFIED="1684161980151" TEXT="templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945110" FOLDED="true" ID="ID_1596952614" MODIFIED="1684161982581" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945111" ID="ID_1589434753" MODIFIED="1684161990372" TEXT="all">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684161945112" ID="ID_523474813" MODIFIED="1684162080080" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945113" ID="ID_1288207540" MODIFIED="1684162091243" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945115" ID="ID_1735784082" MODIFIED="1684164705241" TEXT="*">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945116" ID="ID_412682762" MODIFIED="1684162091243" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945116" ID="ID_955552052" MODIFIED="1684162110041" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945117" ID="ID_861205334" MODIFIED="1684162116163" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684161945118" ID="ID_1480100910" MODIFIED="1684162091242" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945119" ID="ID_1590910892" MODIFIED="1684163724607" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945120" ID="ID_334151360" MODIFIED="1684163728364" TEXT="start-open-element">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945121" ID="ID_1653828319" MODIFIED="1684163724606" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945121" ID="ID_61313279" MODIFIED="1684163738651" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945122" ID="ID_1548751951" MODIFIED="1684163740487" TEXT="attribute(*)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945123" ID="ID_594569448" MODIFIED="1684163738650" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945124" ID="ID_258532804" MODIFIED="1684163745583" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945126" ID="ID_361049321" MODIFIED="1684163747012" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945127" ID="ID_153962380" MODIFIED="1684163748994" TEXT="$level + 1">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945129" ID="ID_416605500" MODIFIED="1684163724606" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945129" ID="ID_1909996841" MODIFIED="1684163751521" TEXT="start-close-element">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945130" ID="ID_6187522" MODIFIED="1684163724606" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945131" ID="ID_436679146" MODIFIED="1684163753011" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945131" ID="ID_1763539799" MODIFIED="1684163754961" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945132" ID="ID_820037192" MODIFIED="1684163756402" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945133" ID="ID_1296967713" MODIFIED="1684163758034" TEXT="$level + 1">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945134" ID="ID_1668925011" MODIFIED="1684163724605" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945134" ID="ID_534917363" MODIFIED="1684163760866" TEXT="end-element">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945135" ID="ID_265393291" MODIFIED="1684162080080" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945136" ID="ID_411722305" MODIFIED="1684162091242" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945137" ID="ID_557518504" MODIFIED="1684163674230" TEXT="attribute(*)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945137" ID="ID_1136967884" MODIFIED="1684162091241" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945138" ID="ID_1091775612" MODIFIED="1684163676261" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945139" ID="ID_1219108183" MODIFIED="1684163859609" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684161945139" ID="ID_606279886" MODIFIED="1684162091241" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945140" ID="ID_355480322" MODIFIED="1684163677670" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945141" ID="ID_31602919" MODIFIED="1684163778404" TEXT="attributeOfElement">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945142" ID="ID_1672976600" MODIFIED="1684162080080" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945143" ID="ID_629731653" MODIFIED="1684162091241" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945143" ID="ID_245867144" MODIFIED="1684163679418" TEXT="value/text()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945144" ID="ID_1406653152" MODIFIED="1684162091241" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945145" ID="ID_696681135" MODIFIED="1684163681179" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945145" ID="ID_746951477" MODIFIED="1684163863370" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684161945146" ID="ID_25670400" MODIFIED="1684162091240" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945147" ID="ID_1378949954" MODIFIED="1684163869904" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945147" ID="ID_1522617362" MODIFIED="1684163866905" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945148" ID="ID_1371880450" MODIFIED="1684162080079" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945149" ID="ID_1142633393" MODIFIED="1684162091240" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945150" ID="ID_145916446" MODIFIED="1684163684281" TEXT="expr/text()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945151" ID="ID_1960549865" MODIFIED="1684162091240" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945151" ID="ID_1317448266" MODIFIED="1684163686832" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945152" ID="ID_1825090310" MODIFIED="1684163874250" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684161945153" ID="ID_659245685" MODIFIED="1684162091239" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945153" ID="ID_546939156" MODIFIED="1684163691561" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945154" ID="ID_1370238734" MODIFIED="1684163874249" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945155" ID="ID_342974208" MODIFIED="1684162080078" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945155" ID="ID_828387427" MODIFIED="1684162091239" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945156" ID="ID_295172450" MODIFIED="1684163693400" TEXT="text()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945157" ID="ID_1561656021" MODIFIED="1684162091239" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945159" ID="ID_365809458" MODIFIED="1684163694736" TEXT="level">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945160" ID="ID_1494391843" MODIFIED="1684163877930" TEXT="0">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684161945160" ID="ID_1583140658" MODIFIED="1684162091238" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945161" ID="ID_989550604" MODIFIED="1684161945161" TEXT="//">
+<node CREATED="1684161945162" ID="ID_933815463" MODIFIED="1684163698057" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945162" ID="ID_1076434581" MODIFIED="1684163700313" TEXT="ancestor::*:unit">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684161945163" ID="ID_1957646638" MODIFIED="1684163701785" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945164" ID="ID_29518329" MODIFIED="1684163703265" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945165" ID="ID_1146283830" MODIFIED="1684163704889" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945166" ID="ID_1703117835" MODIFIED="1684163707643" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945166" ID="ID_1559695479" MODIFIED="1684163709164" TEXT="valueText">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684173831148" ID="ID_536052634" MODIFIED="1684174057255" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684118599071" ID="ID_1520803793" MODIFIED="1684174037420" TEXT="Para ter a lista de comando do mapperidea">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684118680012" ID="ID_793499165" MODIFIED="1684174617822" TEXT="mapperidea --help">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684118655159" ID="ID_1200917912" MODIFIED="1684174617821" TEXT="mi -h">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684118599071" ID="ID_1140208284" MODIFIED="1684174037420" TEXT="Para iniciar um projeto mapperidea">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684118941844" ID="ID_856731416" MODIFIED="1684174617821" TEXT="mapperidea init angularCRUD br.com.neoinix.angular.mm">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684118882178" ID="ID_905132226" MODIFIED="1684174617820" TEXT="mi i angularCRUD br.com.neoinix.angular.mm">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684172479961" ID="ID_1765932271" MODIFIED="1684172494517" TEXT="Observa&#xe7;&#xe3;o:">
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1684172496605" ID="ID_1270797367" MODIFIED="1684172591328" TEXT="Dentro da pasta mi (pasta do projeto Mapperidea), n&#xe3;o deixar arquivo que n&#xe3;o sejam extens&#xe3;o .mm, .xml ou arquivos que seram processados pelo servidor."/>
+<node CREATED="1684172592633" ID="ID_187801031" MODIFIED="1684172609188" TEXT="N&#xe3;o deixar arquivos .pdf, .mp3, .mp4"/>
+<node CREATED="1684172615337" ID="ID_1312646444" MODIFIED="1684172633045" TEXT="N&#xe3;o deixar arquivos de c&#xf3;digo fonte gerado."/>
+</node>
+</node>
+<node CREATED="1684172417825" ID="ID_847977490" MODIFIED="1684172425066" TEXT="Dentro da pasta crud, criar a pasta: ">
+<icon BUILTIN="full-4"/>
+<node CREATED="1684172430344" ID="ID_901835411" MODIFIED="1684172436522" TEXT="temp">
+<icon BUILTIN="folder"/>
+</node>
+</node>
+<node CREATED="1684118574943" ID="ID_1408011608" MODIFIED="1684173312687" TEXT="Dentro da pasta temp">
+<icon BUILTIN="full-4"/>
+<node CREATED="1683896789625" ID="ID_1425580369" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119165180" ID="ID_1436783612" MODIFIED="1684174008664" TEXT="Para enviar os arquivos do Mapperidea para o servidor">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684119201427" ID="ID_1205696988" MODIFIED="1684174581854" TEXT="mapperidea push angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684119594131" ID="ID_357120357" MODIFIED="1684174581853" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684119635253" ID="ID_467192599" MODIFIED="1684174008663" TEXT="Para executar o gerador de struct no prompt de comando">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684171507321" ID="ID_1159314819" MODIFIED="1684174584183" TEXT="mapperidea generate angularCRUD struct xml className=Product">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684119693996" ID="ID_793630578" MODIFIED="1684174584182" TEXT="mi g angularCRUD struct xml className=Product">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684119635253" ID="ID_894716298" MODIFIED="1684175187101" TEXT="Para gerar um arquivo xml do struct do produto">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684171507321" ID="ID_787300162" MODIFIED="1684175214712" TEXT="mapperidea generate angularCRUD struct xml className=Product &gt; Product.xml">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684119693996" ID="ID_1016848223" MODIFIED="1684175227017" TEXT="mi g angularCRUD struct xml className=Product &gt; Product.xml">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683892251953" FOLDED="true" ID="ID_1447798704" MODIFIED="1683894482049" POSITION="right" TEXT="Backend com json server">
 <icon BUILTIN="folder"/>
 <node CREATED="1683892927193" ID="ID_480448754" MODIFIED="1684087798052" TEXT="Abrir o VScode na pasta crud">
 <icon BUILTIN="full-1"/>
 </node>
 <node CREATED="1683893149162" ID="ID_261592723" MODIFIED="1684087803511" TEXT="Dentro da pasta crud, criar as pastas:">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683893162176" ID="ID_1231505949" MODIFIED="1683893162176" TEXT="backend"/>
+<node CREATED="1683893162176" ID="ID_1231505949" MODIFIED="1684171831642" TEXT="backend">
+<icon BUILTIN="folder"/>
 </node>
-<node CREATED="1683893224937" FOLDED="true" ID="ID_693155182" MODIFIED="1684087807639" TEXT="Entra da pasta backend">
+</node>
+<node CREATED="1683893224937" ID="ID_693155182" MODIFIED="1684171993409" TEXT="Entra na pasta backend">
 <icon BUILTIN="full-3"/>
-<node CREATED="1683896789625" ID="ID_94401802" MODIFIED="1683896802627" TEXT="executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683893246601" ID="ID_410966985" MODIFIED="1683896796906" TEXT="npm init -y"/>
-<node CREATED="1683893927141" ID="ID_607863186" MODIFIED="1683896796906" TEXT="npm i json-server"/>
+<node CREATED="1683896789625" ID="ID_94401802" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683893246601" ID="ID_410966985" MODIFIED="1684174647394" TEXT="npm init -y">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1683893927141" ID="ID_607863186" MODIFIED="1684174647393" TEXT="npm i json-server">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683896093864" ID="ID_1259740344" MODIFIED="1683896809713" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
-<node CREATED="1683895692021" ID="ID_865440129" MODIFIED="1683896094872" TEXT="db.json">
+<node CREATED="1683895692021" FOLDED="true" ID="ID_865440129" MODIFIED="1683896094872" TEXT="db.json">
 <icon BUILTIN="list"/>
 <node CREATED="1683896054093" ID="ID_848099261" MODIFIED="1683896059868" TEXT="conteudo:">
 <node CREATED="1683896059868" ID="ID_742268473" MODIFIED="1683898663422" TEXT="{&#xa;  &quot;products&quot;: [&#xa;    {&#xa;      &quot;id&quot;: 1,&#xa;      &quot;name&quot;: &quot;Camisa preta&quot;,&#xa;      &quot;price&quot;: 5.89&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 2,&#xa;      &quot;name&quot;: &quot;Cal&#xe7;a azul&quot;,&#xa;      &quot;price&quot;: 20.32&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 3,&#xa;      &quot;name&quot;: &quot;Geladeira branca&quot;,&#xa;      &quot;price&quot;: 1500&#xa;    }&#xa;  ]&#xa;}">
@@ -72,12 +960,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896662145" ID="ID_733260442" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683897073891" ID="ID_774129317" MODIFIED="1683897079238" TEXT="npm start"/>
+<node CREATED="1683896789625" ID="ID_93672983" MODIFIED="1684174104019" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683897073891" ID="ID_774129317" MODIFIED="1684174649487" TEXT="npm start">
+<icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683897497393" ID="ID_321503316" MODIFIED="1684087812751" TEXT="Abrir o postman">
+</node>
+<node CREATED="1683897497393" ID="ID_321503316" MODIFIED="1684172004484" TEXT="Abrir o programa postman">
 <icon BUILTIN="full-4"/>
 <node CREATED="1683899449671" FOLDED="true" ID="ID_157335987" MODIFIED="1683899594745" TEXT="Cria requisi&#xe7;&#xf5;es">
 <node CREATED="1683899455487" ID="ID_316336714" MODIFIED="1683899464612" TEXT="Listar products">
@@ -213,19 +1103,25 @@
 </node>
 <node CREATED="1683914773304" ID="ID_1610956331" MODIFIED="1683914788636" POSITION="right" TEXT="Instalar Angular CLI">
 <icon BUILTIN="down"/>
-<node CREATED="1683896662145" ID="ID_722147802" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683914812104" ID="ID_1901725310" MODIFIED="1683915009875" TEXT="npm i @angular/cli@9.1.15"/>
-<node CREATED="1683915745816" ID="ID_527707911" MODIFIED="1683915749932" TEXT="ng version"/>
+<node CREATED="1683896789625" ID="ID_201129813" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683914812104" ID="ID_1901725310" MODIFIED="1684174589464" TEXT="npm i @angular/cli@9.1.15">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1683915745816" ID="ID_527707911" MODIFIED="1684174589464" TEXT="ng version">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 </node>
 <node CREATED="1683892256832" ID="ID_637378880" MODIFIED="1683894490368" POSITION="right" TEXT="Frontend">
 <icon BUILTIN="Descriptor.window.iframe"/>
-<node CREATED="1683915658067" FOLDED="true" ID="ID_1573966263" MODIFIED="1683915670851" TEXT="Criar o projeto angular">
+<node CREATED="1683915658067" ID="ID_1573966263" MODIFIED="1683915670851" TEXT="Criar o projeto angular">
 <icon BUILTIN="full-1"/>
-<node CREATED="1683896662145" ID="ID_1227375264" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683915673788" ID="ID_1080140764" MODIFIED="1683915800754" TEXT="ng new frontend --minimal"/>
+<node CREATED="1683896789625" ID="ID_1957370732" MODIFIED="1684174119624" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683915673788" ID="ID_1080140764" MODIFIED="1684174653845" TEXT="ng new frontend --minimal">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683915833137" ID="ID_1372755729" MODIFIED="1683915868172" TEXT="Responder as perguntas:">
 <icon BUILTIN="edit"/>
@@ -244,10 +1140,14 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896662145" ID="ID_1438407560" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683920454531" ID="ID_1535692355" MODIFIED="1683920476179" TEXT="cd frontend"/>
-<node CREATED="1683920477167" ID="ID_694203503" MODIFIED="1683920575622" TEXT="ng add @angular/material@9.2.0"/>
+<node CREATED="1683896789625" ID="ID_868487964" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683920454531" ID="ID_1535692355" MODIFIED="1684174658229" TEXT="cd frontend">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1683920477167" ID="ID_694203503" MODIFIED="1684174658228" TEXT="ng add @angular/material@9.2.0">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683915833137" ID="ID_1319274844" MODIFIED="1683915868172" TEXT="Responder as perguntas:">
 <icon BUILTIN="edit"/>
@@ -276,9 +1176,11 @@
 </node>
 <node CREATED="1683917020418" FOLDED="true" ID="ID_671833175" MODIFIED="1683927430568" TEXT="Iniciar parte frontend">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896662145" ID="ID_1152436455" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683897073891" ID="ID_1958011860" MODIFIED="1683897079238" TEXT="npm start"/>
+<node CREATED="1683896789625" ID="ID_1819069848" MODIFIED="1684174140087" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683897073891" ID="ID_1958011860" MODIFIED="1684174668894" TEXT="npm start">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683917299005" ID="ID_1805885170" MODIFIED="1683917335899" TEXT="Abrir navegador no endere&#xe7;o:">
 <icon BUILTIN="Descriptor.window.step"/>
@@ -305,7 +1207,7 @@
 </node>
 <node CREATED="1683919251160" ID="ID_1827413991" MODIFIED="1683919270874" TEXT="Alterar projeto frontend">
 <icon BUILTIN="full-3"/>
-<node CREATED="1683925648531" FOLDED="true" ID="ID_1769865497" MODIFIED="1683925663020" TEXT="Ajustar componente principal">
+<node CREATED="1683925648531" ID="ID_1769865497" MODIFIED="1683925663020" TEXT="Ajustar componente principal">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683919963321" ID="ID_1980202199" MODIFIED="1683925536563" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -335,12 +1237,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1683925730295" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
+<node CREATED="1683925730295" FOLDED="true" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896662145" ID="ID_1987520238" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683921865084" ID="ID_284951693" MODIFIED="1683921942664" TEXT="ng g c components/template/header"/>
-<node CREATED="1684014942280" ID="ID_1324720211" MODIFIED="1684099485139" TEXT="ng g s components/template/header/header"/>
+<node CREATED="1683896789625" ID="ID_1794949033" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683921865084" ID="ID_284951693" MODIFIED="1684174681940" TEXT="ng g c components/template/header">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684014942280" ID="ID_1324720211" MODIFIED="1684174681937" TEXT="ng g s components/template/header/header">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683919963321" ID="ID_53213836" MODIFIED="1684100353803" TEXT="Criar pasta e incluir o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -358,7 +1264,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_1301356630" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683922490975" ID="ID_424951288" MODIFIED="1683922494004" TEXT="frontend/src/app/app.component.html">
+<node CREATED="1683922490975" FOLDED="true" ID="ID_424951288" MODIFIED="1683922494004" TEXT="frontend/src/app/app.component.html">
 <icon BUILTIN="list"/>
 <node CREATED="1683896434586" ID="ID_371344091" MODIFIED="1683922509599" TEXT="deixar o conteudo:">
 <node CREATED="1683922642129" ID="ID_1520856633" MODIFIED="1683922652168" TEXT="&lt;app-header&gt;&lt;/app-header&gt;">
@@ -366,7 +1272,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683923230281" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683923230281" FOLDED="true" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" ID="ID_1218895807" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" ID="ID_1920632887" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -401,7 +1307,7 @@
 </node>
 <node CREATED="1683925220837" FOLDED="true" ID="ID_1184101474" MODIFIED="1683925224518" TEXT="frontend/src/app/components/template/header/header.component.css">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1768369675" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" ID="ID_1768369675" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1683925242017" ID="ID_93813515" MODIFIED="1684100594707" TEXT=".header {&#xa;    display: flex;&#xa;    align-items: center;&#xa;}&#xa;&#xa;.header a {&#xa;    display: flex;&#xa;    align-items: center;&#xa;    text-decoration: none;&#xa;    color: #333;&#xa;}&#xa;&#xa;.header .logo {&#xa;    max-height: 80px;&#xa;}&#xa;&#xa;.header .title-group {&#xa;    padding-left: 25px;&#xa;}&#xa;&#xa;.header .title-group i {&#xa;    padding-right: 5px;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -419,9 +1325,11 @@
 </node>
 <node CREATED="1683927027548" FOLDED="true" ID="ID_190804919" MODIFIED="1683927053542" TEXT="Criar componente footer">
 <icon BUILTIN="full-3"/>
-<node CREATED="1683896662145" ID="ID_1317384438" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683927519223" ID="ID_1024910471" MODIFIED="1683927548063" TEXT="ng g c components/template/footer"/>
+<node CREATED="1683896789625" ID="ID_85988069" MODIFIED="1684174262572" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683927519223" ID="ID_1024910471" MODIFIED="1684174684859" TEXT="ng g c components/template/footer">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1857920209" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -453,9 +1361,11 @@
 </node>
 <node CREATED="1683990072487" FOLDED="true" ID="ID_103835920" MODIFIED="1683990144941" TEXT="Criar componente nav">
 <icon BUILTIN="full-4"/>
-<node CREATED="1683896662145" ID="ID_1272195149" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1683927519223" ID="ID_1497433895" MODIFIED="1683990141581" TEXT="ng g c components/template/nav"/>
+<node CREATED="1683896789625" ID="ID_1369978410" MODIFIED="1684174275139" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1683927519223" ID="ID_1497433895" MODIFIED="1684174687312" TEXT="ng g c components/template/nav">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" ID="ID_1882161837" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -504,48 +1414,50 @@
 </node>
 <node CREATED="1684005309186" ID="ID_1883033147" MODIFIED="1684005322112" TEXT="Criar componente home">
 <icon BUILTIN="full-5"/>
-<node CREATED="1683896662145" ID="ID_276235005" MODIFIED="1683896820304" TEXT="Executa o comando:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684005411425" ID="ID_379768119" MODIFIED="1684005434383" TEXT="ng g c views/home"/>
+<node CREATED="1683896789625" ID="ID_242690421" MODIFIED="1684174286600" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684005411425" ID="ID_379768119" MODIFIED="1684174690217" TEXT="ng g c views/home">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1727999641" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683923230281" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683923230281" FOLDED="true" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683923250089" ID="ID_543434793" MODIFIED="1683923272856" TEXT="Nos imports">
-<node CREATED="1683923273196" ID="ID_1647443009" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
+<node CREATED="1683923250089" FOLDED="true" ID="ID_543434793" MODIFIED="1683923272856" TEXT="Nos imports">
+<node CREATED="1683923273196" FOLDED="true" ID="ID_1647443009" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
 <node CREATED="1683923287045" ID="ID_128760259" MODIFIED="1684006050651" TEXT="import { MatCardModule } from &apos;@angular/material/card&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1683923299557" ID="ID_254525530" MODIFIED="1683923353037" TEXT="na parte de &quot;  imports: [&quot;">
-<node CREATED="1683923327388" ID="ID_216633618" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1683923299557" FOLDED="true" ID="ID_254525530" MODIFIED="1683923353037" TEXT="na parte de &quot;  imports: [&quot;">
+<node CREATED="1683923327388" FOLDED="true" ID="ID_216633618" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
 <node CREATED="1683923334073" ID="ID_83473021" MODIFIED="1684006062963" TEXT="    MatCardModule">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1684006993820" ID="ID_1450749889" MODIFIED="1684007012020" TEXT="frontend/src/app/views/home/home.component.html">
+<node CREATED="1684006993820" FOLDED="true" ID="ID_1450749889" MODIFIED="1684007012020" TEXT="frontend/src/app/views/home/home.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_264387121" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_264387121" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684007039662" ID="ID_1260561932" MODIFIED="1684007045192" TEXT="&lt;mat-card class=&quot;home mat-elevation-z3&quot;&gt;&#xa;    &lt;mat-card-title class=&quot;title&quot;&gt;P&#xe1;gina inicial&lt;/mat-card-title&gt;&#xa;    &lt;mat-card-subtitle class=&quot;subtitle&quot;&gt;&#xa;        Sistema de exemplo para utiliza&#xe7;&#xe3;o da ferramenta Mapperidea.&#xa;    &lt;/mat-card-subtitle&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684100782622" ID="ID_454473738" MODIFIED="1684100793053" TEXT="frontend/src/app/views/home/home.component.ts">
+<node CREATED="1684100782622" FOLDED="true" ID="ID_454473738" MODIFIED="1684100793053" TEXT="frontend/src/app/views/home/home.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_723894556" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_723894556" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684100800912" ID="ID_1110274746" MODIFIED="1684100806073" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { HeaderService } from &apos;src/app/components/template/header/header.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-home&apos;,&#xa;  templateUrl: &apos;./home.component.html&apos;,&#xa;  styleUrls: [&apos;./home.component.css&apos;]&#xa;})&#xa;export class HomeComponent implements OnInit {&#xa;&#xa;  constructor(private headerService: HeaderService) {&#xa;    headerService.headerData = {&#xa;      title: &apos;In&#xed;cio&apos;,&#xa;      icon: &apos;home&apos;,&#xa;      routeUrl: &apos;&apos;&#xa;    }&#xa;  }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684007006528" ID="ID_604769339" MODIFIED="1684007012020" TEXT="frontend/src/app/views/home/home.component.css">
+<node CREATED="1684007006528" FOLDED="true" ID="ID_604769339" MODIFIED="1684007012020" TEXT="frontend/src/app/views/home/home.component.css">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_1967732978" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1967732978" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684007048490" ID="ID_1127986447" MODIFIED="1684007069759" TEXT=".home .title {&#xa;    font-size: 2.5rem;&#xa;    font-weight: 300;&#xa;    line-height: 1.2;&#xa;}&#xa;&#xa;.home .subtitle {&#xa;    font-size: 1.1rem;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -557,7 +1469,7 @@
 <icon BUILTIN="full-6"/>
 <node CREATED="1683919963321" ID="ID_1096845305" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
-<node CREATED="1684014610706" FOLDED="true" ID="ID_1290983528" MODIFIED="1684014701565" TEXT="frontend/src/app/components/product/product.model.ts">
+<node CREATED="1684014610706" ID="ID_1290983528" MODIFIED="1684014701565" TEXT="frontend/src/app/components/product/product.model.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_332684295" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684014033971" ID="ID_907553583" MODIFIED="1684014737076" TEXT="export interface Product {&#xa;    id?: number;&#xa;    name: string;&#xa;    price: number;&#xa;}">
@@ -566,9 +1478,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896662145" ID="ID_1922703815" MODIFIED="1684087540188" TEXT="Executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684014942280" ID="ID_593494464" MODIFIED="1684021562642" TEXT="ng g s components/product/product"/>
+<node CREATED="1683896789625" ID="ID_1700151978" MODIFIED="1684174343709" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684014942280" ID="ID_593494464" MODIFIED="1684174693277" TEXT="ng g s components/product/product">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" ID="ID_987781319" MODIFIED="1684087531081" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -627,9 +1541,11 @@
 </node>
 <node CREATED="1684023433646" ID="ID_775000757" MODIFIED="1684023508321" TEXT="create">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896662145" ID="ID_170007494" MODIFIED="1684011800325" TEXT="Executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684005411425" ID="ID_613301479" MODIFIED="1684011864289" TEXT="ng g c components/product/product-create"/>
+<node CREATED="1683896789625" ID="ID_39149739" MODIFIED="1684174355133" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684005411425" ID="ID_613301479" MODIFIED="1684174696147" TEXT="ng g c components/product/product-create">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_761567557" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -662,13 +1578,15 @@
 </node>
 <node CREATED="1684090358248" ID="ID_1181598908" MODIFIED="1684090517809" TEXT="update">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896662145" ID="ID_777197828" MODIFIED="1684011800325" TEXT="Executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684021572802" ID="ID_24681430" MODIFIED="1684090376144" TEXT="ng g c components/product/product-update"/>
+<node CREATED="1683896789625" ID="ID_526755885" MODIFIED="1684174466922" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684021572802" ID="ID_24681430" MODIFIED="1684174700447" TEXT="ng g c components/product/product-update">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_225527278" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684092232294" ID="ID_1727485463" MODIFIED="1684092241716" TEXT="frontend/src/app/components/product/product-update/product-update.component.html">
+<node CREATED="1684092232294" FOLDED="true" ID="ID_1727485463" MODIFIED="1684092241716" TEXT="frontend/src/app/components/product/product-update/product-update.component.html">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" FOLDED="true" ID="ID_903093249" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684092261634" ID="ID_984247538" MODIFIED="1684092270672" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Editar Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;product.name&quot; name=&quot;name&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;product.price&quot; name=&quot;price&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;updateProduct()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;    &#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
@@ -678,7 +1596,7 @@
 </node>
 <node CREATED="1684092285823" FOLDED="true" ID="ID_357766707" MODIFIED="1684092289617" TEXT="frontend/src/app/components/product/product-update/product-update.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_842459170" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_842459170" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684092328899" ID="ID_644121876" MODIFIED="1684092340394" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { ProductService } from &apos;../product.service&apos;;&#xa;import { ActivatedRoute, Router } from &apos;@angular/router&apos;;&#xa;import { Product } from &apos;../product.model&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-update&apos;,&#xa;  templateUrl: &apos;./product-update.component.html&apos;,&#xa;  styleUrls: [&apos;./product-update.component.css&apos;]&#xa;})&#xa;export class ProductUpdateComponent implements OnInit {&#xa;&#xa;  product: Product = {&#xa;    name: &apos;&apos;,&#xa;    price: null&#xa;  };&#xa;&#xa;  constructor(private productService: ProductService, private router: Router, private route: ActivatedRoute) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    const id = this.route.snapshot.paramMap.get(&apos;id&apos;);&#xa;    this.productService.readById(id).subscribe(product =&gt; {&#xa;      this.product = product;&#xa;    });&#xa;  }&#xa;&#xa;  updateProduct(): void {&#xa;    this.productService.update(this.product).subscribe(() =&gt; {&#xa;      this.productService.showMessage(&apos;Produto editado com sucesso.&apos;);&#xa;      this.router.navigate([&apos;/products&apos;]);&#xa;    });&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/products&apos;]);&#xa;  }&#xa;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -686,7 +1604,7 @@
 </node>
 <node CREATED="1684092354431" FOLDED="true" ID="ID_1373058947" MODIFIED="1684092357993" TEXT="frontend/src/app/components/product/product-update/product-update.component.css">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" ID="ID_112847249" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_112847249" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684092328899" ID="ID_1858597325" MODIFIED="1684092393927" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -696,9 +1614,11 @@
 </node>
 <node CREATED="1684093038448" ID="ID_294401226" MODIFIED="1684093048187" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896662145" ID="ID_1364434543" MODIFIED="1684011800325" TEXT="Executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684021572802" ID="ID_636458237" MODIFIED="1684093060317" TEXT="ng g c components/product/product-delete"/>
+<node CREATED="1683896789625" ID="ID_1294988890" MODIFIED="1684174471921" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684021572802" ID="ID_636458237" MODIFIED="1684174711024" TEXT="ng g c components/product/product-delete">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_971528377" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -730,9 +1650,11 @@
 </node>
 <node CREATED="1684023496799" ID="ID_1160192944" MODIFIED="1684023510914" TEXT="read">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896662145" ID="ID_861770808" MODIFIED="1684011800325" TEXT="Executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684021572802" ID="ID_798340413" MODIFIED="1684021594702" TEXT="ng g c components/product/product-read"/>
+<node CREATED="1683896789625" ID="ID_421939516" MODIFIED="1684174481460" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684021572802" ID="ID_798340413" MODIFIED="1684174713893" TEXT="ng g c components/product/product-read">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1658556529" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -765,11 +1687,13 @@
 </node>
 <node CREATED="1684024474236" ID="ID_962827198" MODIFIED="1684024477051" TEXT="crud">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896662145" ID="ID_1112423552" MODIFIED="1684011800325" TEXT="Executa os comandos:">
-<icon BUILTIN="desktop_new"/>
-<node CREATED="1684005411425" ID="ID_1432053688" MODIFIED="1684007792658" TEXT="ng g c views/product-crud"/>
+<node CREATED="1683896789625" ID="ID_4345492" MODIFIED="1684174489336" TEXT="No prompt de comando, executa o comando:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684005411425" ID="ID_1432053688" MODIFIED="1684174716068" TEXT="ng g c views/product-crud">
+<icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684087456060" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
+</node>
+<node CREATED="1684087456060" FOLDED="true" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684013950555" FOLDED="true" ID="ID_763762738" MODIFIED="1684013956971" TEXT="frontend/src/app/views/product-crud/product-crud.component.html">
 <icon BUILTIN="list"/>
@@ -779,7 +1703,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684014011591" ID="ID_1041665547" MODIFIED="1684014017884" TEXT="frontend/src/app/views/product-crud/product-crud.component.ts">
+<node CREATED="1684014011591" FOLDED="true" ID="ID_1041665547" MODIFIED="1684014017884" TEXT="frontend/src/app/views/product-crud/product-crud.component.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_806362980" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684014033971" ID="ID_1702305828" MODIFIED="1684100875593" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Router } from &apos;@angular/router&apos;;&#xa;import { HeaderService } from &apos;src/app/components/template/header/header.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-product-crud&apos;,&#xa;  templateUrl: &apos;./product-crud.component.html&apos;,&#xa;  styleUrls: [&apos;./product-crud.component.css&apos;]&#xa;})&#xa;export class ProductCrudComponent implements OnInit {&#xa;&#xa;  constructor(private router: Router, private headerService: HeaderService) { &#xa;    headerService.headerData = {&#xa;      title: &apos;Cadastro de Produtos&apos;,&#xa;      icon: &apos;storefront&apos;,&#xa;      routeUrl: &apos;/products&apos;&#xa;    }&#xa;  }&#xa;&#xa;  ngOnInit(): void {&#xa;  }&#xa;&#xa;  navigateToProductCreate(): void {&#xa;    this.router.navigate([&apos;/products/create&apos;]);&#xa;&#xa;  }&#xa;}&#xa;">
@@ -798,7 +1722,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684009114428" ID="ID_5350360" MODIFIED="1684100335806" TEXT="Implementar rotas do sistema">
+<node CREATED="1684009114428" FOLDED="true" ID="ID_5350360" MODIFIED="1684100335806" TEXT="Implementar rotas do sistema">
 <icon BUILTIN="full-7"/>
 <node CREATED="1683918427809" ID="ID_1733437750" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
