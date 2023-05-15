@@ -1,0 +1,86 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node CREATED="1666224367113" ID="ID_561273856" MODIFIED="1684115985106" TEXT="br.com.neoinix.angular">
+<icon BUILTIN="Package"/>
+<node CREATED="1669292728643" ID="ID_242312085" MODIFIED="1684115948923" POSITION="right" TEXT="config">
+<node CREATED="1669292728643" ID="ID_577335541" MODIFIED="1669292728643" TEXT="structVersion">
+<node CREATED="1669292728643" ID="ID_72409510" MODIFIED="1669292728643" TEXT="2"/>
+</node>
+<node CREATED="1669292728643" ID="ID_347784075" LINK="mapperidea.mm" MODIFIED="1669292728643" TEXT="mapperidea">
+<icon BUILTIN="element"/>
+</node>
+</node>
+<node CREATED="1678129247032" ID="ID_1837987976" MODIFIED="1684116077160" POSITION="right" TEXT="domain">
+<icon BUILTIN="Package"/>
+<node CREATED="1684116029198" ID="ID_52025309" MODIFIED="1684116152688" TEXT="Product">
+<icon BUILTIN="Descriptor.bean"/>
+<node CREATED="1684116029198" ID="ID_957259669" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" ID="ID_209553517" MODIFIED="1684116029198" TEXT="table">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_120966909" MODIFIED="1684117883772" TEXT="product">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_4239394" MODIFIED="1684116029198" TEXT="id">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="id">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="type">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1281756861" MODIFIED="1684116029198" TEXT="Inteiro()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_1033322438" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_159460950" MODIFIED="1684117950726" TEXT="Produto">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_256025603" MODIFIED="1684116029198" TEXT="atributos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684116029198" ID="ID_146504677" MODIFIED="1684116192843" TEXT="name: Texto()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" ID="ID_663882496" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1262486488" MODIFIED="1684116202750" TEXT="name">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_498636829" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_373859116" MODIFIED="1684117915378" TEXT="Nome">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684116029198" ID="ID_295434355" MODIFIED="1684116477082" TEXT="price: Decimal()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1971465466" MODIFIED="1684116483226" TEXT="price">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1065812892" MODIFIED="1684117917532" TEXT="Pre&#xe7;o">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</map>
