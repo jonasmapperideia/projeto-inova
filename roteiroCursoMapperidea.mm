@@ -59,13 +59,13 @@
 </node>
 <node CREATED="1684116029198" ID="ID_4239394" MODIFIED="1684116029198" TEXT="id">
 <icon BUILTIN="element"/>
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" ID="ID_1270050362" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="id">
+<node CREATED="1684116029198" ID="ID_46310513" MODIFIED="1684116029198" TEXT="id">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="type">
+<node CREATED="1684116029198" ID="ID_971837415" MODIFIED="1684116029198" TEXT="type">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1836688934" MODIFIED="1684116029198" TEXT="Inteiro()">
 <icon BUILTIN="tag_green"/>
@@ -84,7 +84,7 @@
 <node CREATED="1684116029198" ID="ID_655469642" MODIFIED="1684116192843" TEXT="name: Texto()">
 <icon BUILTIN="Mapping.directToField"/>
 <node CREATED="1684116029198" ID="ID_1699415316" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" ID="ID_1278591211" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1721688559" MODIFIED="1684116202750" TEXT="name">
 <icon BUILTIN="tag_green"/>
@@ -100,14 +100,14 @@
 </node>
 <node CREATED="1684116029198" ID="ID_1953465136" MODIFIED="1684116477082" TEXT="price: Decimal()">
 <icon BUILTIN="Mapping.directToField"/>
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" ID="ID_1986112453" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" ID="ID_769038384" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1591222490" MODIFIED="1684116483226" TEXT="price">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" ID="ID_1958403042" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_770475233" MODIFIED="1684117917532" TEXT="Pre&#xe7;o">
 <icon BUILTIN="tag_green"/>
@@ -2063,7 +2063,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683925730295" FOLDED="true" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
+<node CREATED="1683925730295" ID="ID_1474198864" MODIFIED="1683925748210" TEXT="Criar componente header">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896789625" ID="ID_1794949033" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -2079,7 +2079,7 @@
 <node CREATED="1683920068691" ID="ID_1848944578" MODIFIED="1683926172209" TEXT="frontend/src/assets/img/logo.png">
 <icon BUILTIN="list"/>
 </node>
-<node CREATED="1684099585162" FOLDED="true" ID="ID_1506834968" MODIFIED="1684099589883" TEXT="frontend/src/app/components/template/header/header-data.model.ts">
+<node CREATED="1684099585162" ID="ID_1506834968" MODIFIED="1684099589883" TEXT="frontend/src/app/components/template/header/header-data.model.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_1241008967" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684014033971" ID="ID_226815082" MODIFIED="1684099622702" TEXT="export interface HeaderData {&#xa;    title: string;&#xa;    icon: string;&#xa;    routeUrl: string;&#xa;}">
@@ -2098,7 +2098,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683923230281" FOLDED="true" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683923230281" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" ID="ID_1218895807" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" ID="ID_1920632887" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2115,7 +2115,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683925065960" FOLDED="true" ID="ID_663177633" MODIFIED="1683925069479" TEXT="frontend/src/app/components/template/header/header.component.html">
+<node CREATED="1683925065960" ID="ID_663177633" MODIFIED="1683925069479" TEXT="frontend/src/app/components/template/header/header.component.html">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_1808434468" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1683896175160" ID="ID_829772268" MODIFIED="1684100379632" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a routerLink=&quot;/&quot;&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a routerLink=&quot;{{ routeUrl }}&quot;&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                {{ icon }}&#xa;            &lt;/i&gt;&#xa;            {{ title }}&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
@@ -2185,7 +2185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684005309186" ID="ID_1883033147" MODIFIED="1684259317567" TEXT="Criar componente home">
+<node CREATED="1684005309186" FOLDED="true" ID="ID_1883033147" MODIFIED="1684259317567" TEXT="Criar componente home">
 <icon BUILTIN="full-4"/>
 <node CREATED="1683896789625" ID="ID_242690421" MODIFIED="1684174286600" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -2195,7 +2195,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_1727999641" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683923230281" FOLDED="true" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683923230281" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" ID="ID_543434793" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" ID="ID_1647443009" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2248,7 +2248,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_1882161837" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683990628573" FOLDED="true" ID="ID_1814867296" MODIFIED="1683990632895" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683990628573" ID="ID_1814867296" MODIFIED="1683990632895" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" ID="ID_274523226" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" ID="ID_1219044889" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2275,8 +2275,8 @@
 </node>
 <node CREATED="1683995344033" ID="ID_1098540752" MODIFIED="1683995347479" TEXT="frontend/src/app/components/template/nav/nav.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1676633686" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1683896175160" ID="ID_1084769267" MODIFIED="1683995396963" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;&#xa;    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;&#xa;        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;&#xa;            &lt;a mat-list-item&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    home&#xa;                &lt;/i&gt;&#xa;                In&#xed;cio&#xa;            &lt;/a&gt;&#xa;            &lt;a mat-list-item&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    storefront&#xa;                &lt;/i&gt;&#xa;                Produtos&#xa;            &lt;/a&gt;&#xa;        &lt;/mat-nav-list&gt;&#xa;    &lt;/mat-sidenav&gt;&#xa;&lt;/mat-sidenav-container&gt;">
+<node CREATED="1683896144324" ID="ID_1676633686" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896175160" ID="ID_1084769267" MODIFIED="1684260514899" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;&#xa;    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;&#xa;        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    home&#xa;                &lt;/i&gt;&#xa;                In&#xed;cio&#xa;            &lt;/a&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/products&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    storefront&#xa;                &lt;/i&gt;&#xa;                Cadastro de Produtos&#xa;            &lt;/a&gt;&#xa;        &lt;/mat-nav-list&gt;&#xa;    &lt;/mat-sidenav&gt;&#xa;    &lt;mat-sidenav-content class=&quot;content&quot;&gt;&#xa;        &lt;router-outlet&gt;&lt;/router-outlet&gt;&#xa;    &lt;/mat-sidenav-content&gt;&#xa;&lt;/mat-sidenav-container&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2598,7 +2598,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684007612785" FOLDED="true" ID="ID_652570967" MODIFIED="1684013946072" TEXT="Criar componente product">
+<node CREATED="1684007612785" ID="ID_652570967" MODIFIED="1684013946072" TEXT="Criar componente product">
 <icon BUILTIN="full-6"/>
 <node CREATED="1683919963321" ID="ID_1096845305" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -2611,6 +2611,8 @@
 </node>
 </node>
 </node>
+<node CREATED="1684260728676" ID="ID_1552824147" MODIFIED="1684260734746" TEXT="arquivos de controle">
+<icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683896789625" ID="ID_1700151978" MODIFIED="1684174343709" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684014942280" ID="ID_593494464" MODIFIED="1684174693277" TEXT="ng g s components/product/product">
@@ -2619,7 +2621,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_987781319" MODIFIED="1684087531081" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684024206483" FOLDED="true" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
+<node CREATED="1684024206483" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1684023910340" FOLDED="true" ID="ID_516257056" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
 <node CREATED="1684024236779" ID="ID_918607524" MODIFIED="1684097293011" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Product } from &apos;./product.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProductService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;  create(product: Product): Observable&lt;Product&gt; {&#xa;    return this.http.post&lt;Product&gt;(this.baseUrl, product);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl);&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Product&gt;(url);&#xa;  }&#xa;&#xa;  update(product: Product): Observable&lt;Product&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + product.id;&#xa;    return this.http.put&lt;Product&gt;(url, product);&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Product&gt;{&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Product&gt;(url);&#xa;  }&#xa;}&#xa;">
@@ -2627,7 +2629,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684013035361" ID="ID_872402877" MODIFIED="1684013039553" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1684013035361" FOLDED="true" ID="ID_872402877" MODIFIED="1684013039553" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" ID="ID_262417912" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1684086736113" ID="ID_1113198998" MODIFIED="1684086749212" TEXT="alterar">
@@ -2663,11 +2665,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1684023891324" FOLDED="true" ID="ID_1382931787" MODIFIED="1684023897469" TEXT="frontend/src/app/app-routing.module.ts">
+<node CREATED="1684023891324" ID="ID_1382931787" MODIFIED="1684023897469" TEXT="frontend/src/app/app-routing.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1684023910340" FOLDED="true" ID="ID_400254828" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
 <node CREATED="1684023916324" ID="ID_1255651896" MODIFIED="1684095096637" TEXT="import { NgModule } from &apos;@angular/core&apos;;&#xa;import { Routes, RouterModule } from &apos;@angular/router&apos;;&#xa;&#xa;import { HomeComponent } from &apos;./views/home/home.component&apos;;&#xa;import { ProductCrudComponent } from &apos;./views/product-crud/product-crud.component&apos;;&#xa;import { ProductCreateComponent } from &apos;./components/product/product-create/product-create.component&apos;;&#xa;import { ProductUpdateComponent } from &apos;./components/product/product-update/product-update.component&apos;;&#xa;import { ProductDeleteComponent } from &apos;./components/product/product-delete/product-delete.component&apos;;&#xa;&#xa;const routes: Routes = [&#xa;  {&#xa;    path: &quot;&quot;,&#xa;    component: HomeComponent&#xa;  }, {&#xa;    path: &quot;products&quot;,&#xa;    component: ProductCrudComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/create&quot;,&#xa;    component: ProductCreateComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/update/:id&quot;,&#xa;    component: ProductUpdateComponent&#xa;  },&#xa;  {&#xa;    path: &quot;products/delete/:id&quot;,&#xa;    component: ProductDeleteComponent&#xa;  }&#xa;];&#xa;&#xa;@NgModule({&#xa;  imports: [RouterModule.forRoot(routes)],&#xa;  exports: [RouterModule]&#xa;})&#xa;export class AppRoutingModule { }&#xa;">
 <icon BUILTIN="tag_green"/>
+</node>
 </node>
 </node>
 </node>
@@ -2855,33 +2858,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1684009114428" FOLDED="true" ID="ID_5350360" MODIFIED="1684100335806" TEXT="Implementar rotas do sistema">
-<icon BUILTIN="full-7"/>
-<node CREATED="1683918427809" ID="ID_1733437750" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
-<icon BUILTIN="edit"/>
-<node CREATED="1684009170799" FOLDED="true" ID="ID_1274564808" MODIFIED="1684009177500" TEXT="frontend/src/app/components/template/nav/nav.component.html">
-<icon BUILTIN="list"/>
-<node CREATED="1684009211487" ID="ID_40942453" MODIFIED="1684009216239" TEXT="deixar o conteudo:">
-<node CREATED="1684009216239" ID="ID_1946266793" MODIFIED="1684009225424" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;&#xa;    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;&#xa;        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    home&#xa;                &lt;/i&gt;&#xa;                In&#xed;cio&#xa;            &lt;/a&gt;&#xa;            &lt;a mat-list-item routerLink=&quot;/products&quot;&gt;&#xa;                &lt;i class=&quot;material-icons&quot;&gt;&#xa;                    storefront&#xa;                &lt;/i&gt;&#xa;                Produtos&#xa;            &lt;/a&gt;&#xa;        &lt;/mat-nav-list&gt;&#xa;    &lt;/mat-sidenav&gt;&#xa;    &lt;mat-sidenav-content class=&quot;content&quot;&gt;&#xa;        &lt;router-outlet&gt;&lt;/router-outlet&gt;&#xa;    &lt;/mat-sidenav-content&gt;&#xa;&lt;/mat-sidenav-container&gt;">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-<node CREATED="1684009694453" FOLDED="true" ID="ID_787280128" MODIFIED="1684009698872" TEXT="frontend/src/app/components/template/header/header.component.html">
-<icon BUILTIN="list"/>
-<node CREATED="1684009211487" ID="ID_1348075068" MODIFIED="1684009216239" TEXT="deixar o conteudo:">
-<node CREATED="1684009712337" ID="ID_468014562" MODIFIED="1684009717943" TEXT="&lt;mat-toolbar class=&quot;header mat-elevation-z4&quot;&gt;&#xa;    &lt;span&gt;&#xa;        &lt;a routerLink=&quot;/&quot;&gt;&#xa;            &lt;img class=&quot;logo&quot; src=&quot;assets/img/logo.png&quot; alt=&quot;Logo&quot;&gt;&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;    &lt;span class=&quot;title-group&quot;&gt;&#xa;        &lt;a&gt;&#xa;            &lt;i class=&quot;material-icons&quot;&gt;&#xa;                home&#xa;            &lt;/i&gt;&#xa;            In&#xed;cio&#xa;        &lt;/a&gt;&#xa;    &lt;/span&gt;&#xa;&lt;/mat-toolbar&gt;">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-</node>
-</node>
 </node>
 </node>
 <node CREATED="1684096951974" ID="ID_435384710" MODIFIED="1684097011343" POSITION="right" TEXT="Atualizar Frontend, incluir tratamento de erros">
 <icon BUILTIN="Descriptor.window.iframe"/>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_1388103280" MODIFIED="1684097112588" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" ID="ID_1388103280" MODIFIED="1684097112588" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684097114130" ID="ID_36869989" MODIFIED="1684097118643" TEXT="frontend/src/styles.css">
 <icon BUILTIN="list"/>
