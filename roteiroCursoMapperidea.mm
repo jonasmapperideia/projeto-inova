@@ -1105,10 +1105,10 @@
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1684087724816" ID="ID_1116095978" MODIFIED="1684088052694" POSITION="right" TEXT="No mapperidea, implementar mapa de arquitetura para gerar o backend">
+<node CREATED="1684255488545" ID="ID_1033185810" MODIFIED="1684255493060" TEXT="implementar mapa de arquitetura para gerar o backend">
+<icon BUILTIN="full-6"/>
+<node CREATED="1684087724816" ID="ID_1116095978" MODIFIED="1684255502445" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684088217059" ID="ID_623300607" MODIFIED="1684088251521" TEXT="//MRN _ ainda tem que escrever o roteiro aqui para implementar a parte de arquitetura da parte backend"/>
 <node CREATED="1684180489064" ID="ID_70568137" MODIFIED="1684183740311" TEXT="Implementar gerador dbJson">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_623781058" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
@@ -1923,6 +1923,8 @@
 </node>
 </node>
 </node>
+</node>
+</node>
 <node CREATED="1683914773304" ID="ID_1610956331" MODIFIED="1683914788636" POSITION="right" TEXT="Instalar Angular CLI">
 <icon BUILTIN="down"/>
 <node CREATED="1683896789625" ID="ID_201129813" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
@@ -2041,9 +2043,9 @@
 </node>
 <node CREATED="1683918427809" ID="ID_1048459641" MODIFIED="1683919312595" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683919532178" ID="ID_1812839824" MODIFIED="1683919866124" TEXT="frontend/src/app/app.component.ts">
+<node CREATED="1683919532178" FOLDED="true" ID="ID_1812839824" MODIFIED="1683919866124" TEXT="frontend/src/app/app.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683919545707" FOLDED="true" ID="ID_458216527" MODIFIED="1683919570075" TEXT="na parte de &quot;@Component({&quot;">
+<node CREATED="1683919545707" ID="ID_458216527" MODIFIED="1683919570075" TEXT="na parte de &quot;@Component({&quot;">
 <node CREATED="1683896144324" ID="ID_931834645" MODIFIED="1683896174766" TEXT="apagar o conteudo:">
 <node CREATED="1683896175160" ID="ID_336059355" MODIFIED="1683919591902" TEXT="  template: `&#xa;    &lt;!--The content below is only a placeholder and can be replaced.--&gt;&#xa;    &lt;div style=&quot;text-align:center&quot; class=&quot;content&quot;&gt;&#xa;      &lt;h1&gt;&#xa;        Bem vindo ao {{title}}!&#xa;      &lt;/h1&gt;&#xa;      &lt;span style=&quot;display: block&quot;&gt;{{ title }} app is running!&lt;/span&gt;&#xa;      &lt;img width=&quot;300&quot; alt=&quot;Angular Logo&quot; src=&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==&quot;&gt;&#xa;    &lt;/div&gt;&#xa;    &lt;h2&gt;Here are some links to help you start: &lt;/h2&gt;&#xa;    &lt;ul&gt;&#xa;      &lt;li&gt;&#xa;        &lt;h2&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://angular.io/tutorial&quot;&gt;Tour of Heroes&lt;/a&gt;&lt;/h2&gt;&#xa;      &lt;/li&gt;&#xa;      &lt;li&gt;&#xa;        &lt;h2&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://angular.io/cli&quot;&gt;CLI Documentation&lt;/a&gt;&lt;/h2&gt;&#xa;      &lt;/li&gt;&#xa;      &lt;li&gt;&#xa;        &lt;h2&gt;&lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://blog.angular.io/&quot;&gt;Angular blog&lt;/a&gt;&lt;/h2&gt;&#xa;      &lt;/li&gt;&#xa;    &lt;/ul&gt;&#xa;    &lt;router-outlet&gt;&lt;/router-outlet&gt;&#xa;  `,">
 <icon BUILTIN="tag_green"/>
@@ -2183,7 +2185,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683990072487" FOLDED="true" ID="ID_103835920" MODIFIED="1683990144941" TEXT="Criar componente nav">
+<node CREATED="1683990072487" ID="ID_103835920" MODIFIED="1683990144941" TEXT="Criar componente nav">
 <icon BUILTIN="full-4"/>
 <node CREATED="1683896789625" ID="ID_1369978410" MODIFIED="1684174275139" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -2193,7 +2195,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_1882161837" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683990628573" ID="ID_1814867296" MODIFIED="1683990632895" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683990628573" FOLDED="true" ID="ID_1814867296" MODIFIED="1683990632895" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" ID="ID_274523226" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" ID="ID_1219044889" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2230,6 +2232,313 @@
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" FOLDED="true" ID="ID_1564239302" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1683995415373" ID="ID_1540882504" MODIFIED="1683995422464" TEXT=".sidenav {&#xa;    background-color: #676a7d;&#xa;    width: 200px;&#xa;}&#xa;&#xa;.sidenav a {&#xa;    color: #FFF;&#xa;}&#xa;&#xa;.sidenav i {&#xa;    padding-right: 10px;&#xa;}&#xa;&#xa;.content {&#xa;    padding: 16px;&#xa;    background-color: #FFF;&#xa;}">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684087724816" ID="ID_1913252189" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684243066282" ID="ID_1970273564" MODIFIED="1684243084100" TEXT="Incluir mapa de tela">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1481643037" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684117634082" ID="ID_804549177" MODIFIED="1684117639857" TEXT="mi/br.com.neoinix.angular.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_642399987" MODIFIED="1684243213920" TEXT="filho do elemento raiz">
+<node CREATED="1683896434586" FOLDED="true" ID="ID_240222647" MODIFIED="1683896440597" TEXT="Incluir o conteudo:">
+<node CREATED="1652190187331" ID="ID_1083546357" MODIFIED="1652190271855" TEXT="window">
+<icon BUILTIN="Package"/>
+<node CREATED="1663789017807" ID="ID_349985287" MODIFIED="1684241845768" TEXT="ProductForm">
+<icon BUILTIN="Descriptor.window.editor"/>
+<node CREATED="1663850656991" ID="ID_1305299686" MODIFIED="1663850658748" TEXT="@">
+<node CREATED="1671151394793" ID="ID_71811838" MODIFIED="1671151394793" TEXT="title">
+<icon BUILTIN="element"/>
+<node CREATED="1675732431485" ID="ID_1314112753" MODIFIED="1684241527504" TEXT="Cadastro de Produtos">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684244142858" ID="ID_1585645320" MODIFIED="1684244152122" TEXT="icon">
+<icon BUILTIN="element"/>
+<node CREATED="1684244170382" ID="ID_946477909" MODIFIED="1684244172176" TEXT="storefront">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684245390597" ID="ID_1134541105" MODIFIED="1684245410119" TEXT="router">
+<icon BUILTIN="element"/>
+<node CREATED="1684245413913" ID="ID_168973329" MODIFIED="1684245418373" TEXT="products">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1663789073407" ID="ID_376153203" MODIFIED="1663789080681" TEXT="atributos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1663851233971" ID="ID_1818800990" MODIFIED="1684241856658" TEXT="objeto: Product()">
+<icon BUILTIN="Mapping.oneToOne"/>
+</node>
+</node>
+<node CREATED="1684241549468" ID="ID_438147381" MODIFIED="1684241920046" TEXT="viewList">
+<icon BUILTIN="element"/>
+<node CREATED="1665407937766" ID="ID_1824776156" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1684241634610" ID="ID_430794304" MODIFIED="1684241637638" TEXT=".id">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1665407937766" ID="ID_1992252706" MODIFIED="1676482180099" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1684241592932" ID="ID_985254120" MODIFIED="1684241596285" TEXT=".name">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1665407937766" ID="ID_1298704335" MODIFIED="1676482183426" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1684241602540" ID="ID_1599956560" MODIFIED="1684241604311" TEXT=".price">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1663851547113" ID="ID_701855685" MODIFIED="1663851549982" TEXT="layout">
+<icon BUILTIN="element"/>
+<node CREATED="1676481413566" ID="ID_1576783917" MODIFIED="1676481416346" TEXT="rows">
+<icon BUILTIN="element"/>
+<node CREATED="1665407937766" ID="ID_1550906537" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1676480527440" ID="ID_263561232" MODIFIED="1684241733439" TEXT=".name">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1676481413566" ID="ID_1353675389" MODIFIED="1676481416346" TEXT="rows">
+<icon BUILTIN="element"/>
+<node CREATED="1665407937766" ID="ID_608120601" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1676480527440" ID="ID_1361894910" MODIFIED="1684241742199" TEXT=".price">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_847257183" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119635253" ID="ID_907772604" MODIFIED="1684243515191" TEXT="Para gerar um arquivo xml do struct do mapa de tela &apos;ProductForm&apos;">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684119594131" ID="ID_330186586" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684119693996" ID="ID_299469996" MODIFIED="1684255956512" TEXT="mi g angularCRUD struct xml className=ProductForm &gt; ../temp/ProductForm.xml">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684243069266" ID="ID_77825692" MODIFIED="1684243094313" TEXT="Implementar mapa de arquitetura">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683918427809" ID="ID_256703550" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_867167748" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_178787308" MODIFIED="1684180943323" TEXT="na parte do element &quot;generators&quot;">
+<node CREATED="1683923327388" ID="ID_942145763" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1675734538703" ID="ID_461306377" MODIFIED="1684255635455" TEXT="angular9">
+<icon BUILTIN="element"/>
+<node CREATED="1684244412771" ID="ID_179721328" MODIFIED="1684256874429" TEXT="navComponentHtml">
+<icon BUILTIN="element"/>
+<node CREATED="1684161691515" FOLDED="true" ID="ID_102243558" MODIFIED="1684244518101" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684244978463" ID="ID_904145209" MODIFIED="1684244984018" TEXT="struct">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684244539091" ID="ID_1991326383" MODIFIED="1684244578839" TEXT="navComponentHtml-init">
+<icon BUILTIN="element"/>
+<node CREATED="1684244604771" ID="ID_1065382477" MODIFIED="1684244606214" TEXT="&lt;mat-sidenav-container class=&quot;container&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244617150" ID="ID_166862180" MODIFIED="1684244619100" TEXT="    &lt;mat-sidenav class=&quot;sidenav&quot; mode=&quot;side&quot; opened fixedInViewport=&quot;true&quot; fixedTopGap=&quot;64&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244627638" ID="ID_1041234460" MODIFIED="1684244629319" TEXT="        &lt;mat-nav-list class=&quot;nav-list&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244647306" ID="ID_1622463308" MODIFIED="1684244648918" TEXT="            &lt;a mat-list-item routerLink=&quot;/&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244656767" ID="ID_1023691963" MODIFIED="1684244658420" TEXT="                &lt;i class=&quot;material-icons&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244665816" ID="ID_897870956" MODIFIED="1684244685414" TEXT="                    home">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244676490" ID="ID_607930786" MODIFIED="1684244678018" TEXT="                &lt;/i&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684256809226" ID="ID_348782944" MODIFIED="1684256810787" TEXT="                In&#xed;cio">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684246122423" ID="ID_1554248476" MODIFIED="1684246124046" TEXT="            &lt;/a&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684244539091" ID="ID_727484399" MODIFIED="1684244578839" TEXT="navComponentHtml-end">
+<icon BUILTIN="element"/>
+<node CREATED="1684244740180" ID="ID_1837944796" MODIFIED="1684244743254" TEXT="        &lt;/mat-nav-list&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244749116" ID="ID_1318751552" MODIFIED="1684244750575" TEXT="    &lt;/mat-sidenav&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244760732" ID="ID_251974504" MODIFIED="1684244762824" TEXT="    &lt;mat-sidenav-content class=&quot;content&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244771167" ID="ID_1617066776" MODIFIED="1684244772669" TEXT="        &lt;router-outlet&gt;&lt;/router-outlet&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244780928" ID="ID_589581389" MODIFIED="1684244783003" TEXT="    &lt;/mat-sidenav-content&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684244789642" ID="ID_1223158716" MODIFIED="1684256827614" TEXT="&lt;/mat-sidenav-container&gt;">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684245605685" ID="ID_532989053" MODIFIED="1684245613318" TEXT="itemNav">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684245619471" ID="ID_410721863" MODIFIED="1684245626980" TEXT="itemNav">
+<icon BUILTIN="element"/>
+<node CREATED="1684245983781" ID="ID_1450666051" MODIFIED="1684245986547" TEXT="            &lt;a mat-list-item routerLink=&quot;/">
+<icon BUILTIN="tag_yellow"/>
+</node>
+<node CREATED="1684245994270" ID="ID_1244878358" MODIFIED="1684246945562" TEXT="{{mi:if-else(exists(properties/router/value), properties/router/value, @name)}}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+<node CREATED="1684245634976" ID="ID_1050628287" MODIFIED="1684245993792" TEXT="&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684246803764" ID="ID_1441610092" MODIFIED="1684246805252" TEXT="                &lt;i class=&quot;material-icons&quot;&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684246812350" ID="ID_1307483901" MODIFIED="1684247148911" TEXT="                    {{mi:if-else(exists(properties/icon/value), properties/icon/value, &apos;album&apos;)}}">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684246823942" ID="ID_1853262220" MODIFIED="1684246825876" TEXT="                &lt;/i&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684246832158" ID="ID_1633966720" MODIFIED="1684246887578" TEXT="                {{ properties/title/value }}">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684246841006" ID="ID_924153977" MODIFIED="1684246842369" TEXT="            &lt;/a&gt;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" FOLDED="true" ID="ID_677207519" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" ID="ID_1637851465" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_1762115448" MODIFIED="1684183059974" TEXT="/classes">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" ID="ID_1128809485" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1672751866695" ID="ID_1128553021" MODIFIED="1684183259292" TEXT="init">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" ID="ID_271313914" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684244539091" ID="ID_769500273" MODIFIED="1684244549618" TEXT="navComponentHtml-init">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1672751872710" ID="ID_1593468624" MODIFIED="1684183284416" TEXT="body">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684160926441" ID="ID_1041944211" MODIFIED="1684183288218" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926442" ID="ID_369340880" MODIFIED="1684161075329" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1684161082942" ID="ID_775875468" MODIFIED="1684245153728" TEXT="class[starts-with(@mode, &quot;window&quot;)]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926444" ID="ID_450498435" MODIFIED="1684161075329" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926444" ID="ID_1937394758" MODIFIED="1684245194532" TEXT="itemNav">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1672751929332" ID="ID_1660993241" MODIFIED="1684183273792" TEXT="end">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" ID="ID_827976747" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684244539091" ID="ID_1223677919" MODIFIED="1684244559914" TEXT="navComponentHtml-end">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684161945109" FOLDED="true" ID="ID_1399229027" MODIFIED="1684161980151" TEXT="templates">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945110" ID="ID_1925529433" MODIFIED="1684161982581" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1684245231260" ID="ID_863937977" MODIFIED="1684245233210" TEXT="itemNav">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684161945112" ID="ID_1964903578" MODIFIED="1684162080080" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1684161945113" ID="ID_1250376595" MODIFIED="1684162091243" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684245268968" ID="ID_440338871" MODIFIED="1684245271874" TEXT="class">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684161945118" ID="ID_1298407435" MODIFIED="1684162091242" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" ID="ID_1390028667" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684245597877" ID="ID_563882392" MODIFIED="1684245599311" TEXT="itemNav">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1760966789" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1154608206" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684256009548" ID="ID_662959321" MODIFIED="1684256011926" TEXT="mi g angularCRUD angular9 navComponentHtml">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684256009548" ID="ID_1679827686" MODIFIED="1684256409026" TEXT="mi g angularCRUD angular9 navComponentHtml &gt; ../temp/nav.component.html">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684256422299" ID="ID_462255217" MODIFIED="1684256454320" TEXT="Gerar arquivo htm nav no projeto angular">
+<icon BUILTIN="full-3"/>
+<node CREATED="1683896789625" ID="ID_207681647" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_148111556" MODIFIED="1684256473576" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684256468688" ID="ID_1583951903" MODIFIED="1684256724629" TEXT="mi g angularCRUD angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2289,7 +2598,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684007612785" ID="ID_652570967" MODIFIED="1684013946072" TEXT="Criar componente product">
+<node CREATED="1684007612785" FOLDED="true" ID="ID_652570967" MODIFIED="1684013946072" TEXT="Criar componente product">
 <icon BUILTIN="full-6"/>
 <node CREATED="1683919963321" ID="ID_1096845305" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -2570,10 +2879,6 @@
 </node>
 </node>
 </node>
-<node CREATED="1684087724816" ID="ID_1720534075" MODIFIED="1684088289204" POSITION="right" TEXT="No mapperidea, implementar mapa de arquitetura para gerar o Frontend">
-<icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684088217059" ID="ID_792790526" MODIFIED="1684088334210" TEXT="//MRN _ ainda tem que escrever o roteiro aqui para implementar a parte de arquitetura da parte frontend"/>
-</node>
 <node CREATED="1684096951974" ID="ID_435384710" MODIFIED="1684097011343" POSITION="right" TEXT="Atualizar Frontend, incluir tratamento de erros">
 <icon BUILTIN="Descriptor.window.iframe"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1388103280" MODIFIED="1684097112588" TEXT="Alterar os arquivos:">
@@ -2595,10 +2900,10 @@
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1684087724816" ID="ID_299594205" MODIFIED="1684097456043" POSITION="right" TEXT="No mapperidea, do gerador service do Frontend">
+<node CREATED="1684087724816" ID="ID_299594205" MODIFIED="1684097456043" TEXT="No mapperidea, do gerador service do Frontend">
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1684097491332" ID="ID_1708818755" MODIFIED="1684097498623" TEXT="//MRN _ ainda tem que escrever"/>
+</node>
 </node>
 <node CREATED="1684097570772" ID="ID_989391715" MODIFIED="1684097583206" POSITION="right" TEXT="Conclus&#xe3;o do curso">
 <icon BUILTIN="button_ok"/>
