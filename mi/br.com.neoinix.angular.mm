@@ -454,6 +454,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1684244142858" ID="ID_1585645320" MODIFIED="1684244152122" TEXT="icon">
+<icon BUILTIN="element"/>
+<node CREATED="1684244170382" ID="ID_946477909" MODIFIED="1684244172176" TEXT="storefront">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
 </node>
 <node CREATED="1663789073407" ID="ID_376153203" MODIFIED="1663789080681" TEXT="atributos">
 <icon BUILTIN="Descriptor.grouping"/>
