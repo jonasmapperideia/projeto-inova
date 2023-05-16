@@ -2674,6 +2674,81 @@
 </node>
 </node>
 </node>
+<node CREATED="1684087724816" ID="ID_1325440487" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684261060240" ID="ID_822686638" MODIFIED="1684261069777" TEXT="serviceTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" ID="ID_368332664" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1257924157" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1158855141" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_451174625" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1026760458" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684244412771" ID="ID_387449934" MODIFIED="1684261351331" TEXT="serviceTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1735764725" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_391599433" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_915438763" MODIFIED="1684261857713" TEXT="mi g angularCRUD angular9 serviceTs className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1215759592" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_1557895158" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_103951537" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1337500084" MODIFIED="1684262203110" TEXT="mi g angularCRUD angular9 serviceTs className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product.service.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684261111911" ID="ID_1665025786" MODIFIED="1684261120859" TEXT="appModuleTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1683918427809" ID="ID_250791221" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_494297528" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1747150561" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_52905979" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684244412771" ID="ID_1636509304" MODIFIED="1684261280105" TEXT="appModuleTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684261159091" ID="ID_920605508" MODIFIED="1684261314891" TEXT="appRoutingModuleTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1683918427809" ID="ID_976030463" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_584456196" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_862556226" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1820447963" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684244412771" ID="ID_253030537" MODIFIED="1684261317397" TEXT="appRoutingModuleTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1684023433646" ID="ID_775000757" MODIFIED="1684023508321" TEXT="create">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -2711,6 +2786,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1684087724816" ID="ID_98307610" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+</node>
 </node>
 <node CREATED="1684090358248" ID="ID_1181598908" MODIFIED="1684090517809" TEXT="update">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -2747,6 +2825,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1684087724816" ID="ID_600829665" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+</node>
 </node>
 <node CREATED="1684093038448" ID="ID_294401226" MODIFIED="1684093048187" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -2782,6 +2863,9 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1684087724816" ID="ID_406483246" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
 </node>
 </node>
 <node CREATED="1684023496799" ID="ID_1160192944" MODIFIED="1684023510914" TEXT="read">
@@ -2820,6 +2904,9 @@
 </node>
 </node>
 </node>
+<node CREATED="1684087724816" ID="ID_962160457" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+</node>
 </node>
 <node CREATED="1684024474236" ID="ID_962827198" MODIFIED="1684024477051" TEXT="crud">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -2855,6 +2942,9 @@
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1684087724816" ID="ID_1401196502" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
 </node>
 </node>
 </node>
