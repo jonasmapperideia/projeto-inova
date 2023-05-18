@@ -1242,7 +1242,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684160926442" ID="ID_172679719" MODIFIED="1684161075329" TEXT="select">
 <icon BUILTIN="element"/>
-<node CREATED="1684161082942" ID="ID_1103732990" MODIFIED="1684183076793" TEXT="class">
+<node CREATED="1684161082942" ID="ID_1103732990" MODIFIED="1684432584302" TEXT="class[@mode=&quot;bean&quot;]">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2107,7 +2107,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683923230281" FOLDED="true" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683923230281" ID="ID_692339138" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" FOLDED="true" ID="ID_1218895807" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" FOLDED="true" ID="ID_1920632887" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2204,7 +2204,7 @@
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1727999641" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683923230281" FOLDED="true" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683923230281" ID="ID_1885855376" MODIFIED="1683927671218" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" FOLDED="true" ID="ID_543434793" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" FOLDED="true" ID="ID_1647443009" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2257,7 +2257,7 @@
 </node>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1882161837" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1683990628573" FOLDED="true" ID="ID_1814867296" MODIFIED="1683990632895" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1683990628573" ID="ID_1814867296" MODIFIED="1683990632895" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1683923250089" FOLDED="true" ID="ID_274523226" MODIFIED="1683923272856" TEXT="Nos imports">
 <node CREATED="1683923273196" FOLDED="true" ID="ID_1219044889" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
@@ -2628,7 +2628,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" ID="ID_987781319" MODIFIED="1684087531081" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_987781319" MODIFIED="1684087531081" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684024206483" ID="ID_858638812" MODIFIED="1684087549597" TEXT="frontend/src/app/components/product/product.service.ts">
 <icon BUILTIN="list"/>
@@ -2638,22 +2638,22 @@
 </node>
 </node>
 </node>
-<node CREATED="1684013035361" FOLDED="true" ID="ID_872402877" MODIFIED="1684013039553" TEXT="frontend/src/app/app.module.ts">
+<node CREATED="1684013035361" ID="ID_872402877" MODIFIED="1684013039553" TEXT="frontend/src/app/app.module.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683923250089" FOLDED="true" ID="ID_262417912" MODIFIED="1683923272856" TEXT="Nos imports">
-<node CREATED="1684086736113" FOLDED="true" ID="ID_1113198998" MODIFIED="1684086749212" TEXT="alterar">
-<node CREATED="1684086751995" FOLDED="true" ID="ID_227057274" MODIFIED="1684086755637" TEXT="de:">
+<node CREATED="1683923250089" ID="ID_262417912" MODIFIED="1683923272856" TEXT="Nos imports">
+<node CREATED="1684086736113" ID="ID_1113198998" MODIFIED="1684086749212" TEXT="alterar">
+<node CREATED="1684086751995" ID="ID_227057274" MODIFIED="1684086755637" TEXT="de:">
 <node CREATED="1684086761981" ID="ID_1405143459" MODIFIED="1684086774219" TEXT="import { NgModule } from &apos;@angular/core&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684086756049" FOLDED="true" ID="ID_1433005153" MODIFIED="1684086757592" TEXT="para:">
+<node CREATED="1684086756049" ID="ID_1433005153" MODIFIED="1684086757592" TEXT="para:">
 <node CREATED="1684086758061" ID="ID_1105720885" MODIFIED="1684086759521" TEXT="import { NgModule, LOCALE_ID } from &apos;@angular/core&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1683923273196" FOLDED="true" ID="ID_868287245" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
+<node CREATED="1683923273196" ID="ID_868287245" MODIFIED="1683923341693" TEXT="Incluir o conteudo:">
 <node CREATED="1683923287045" ID="ID_842405405" MODIFIED="1684086815147" TEXT="import { MatButtonModule } from &apos;@angular/material/button&apos;;&#xa;import { MatSnackBarModule } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClientModule } from &apos;@angular/common/http&apos;;&#xa;import { FormsModule } from &apos;@angular/forms&apos;;&#xa;import { MatFormFieldModule } from &apos;@angular/material/form-field&apos;;&#xa;import { MatInputModule } from &apos;@angular/material/input&apos;;&#xa;import { MatTableModule } from &apos;@angular/material/table&apos;;&#xa;import { MatPaginatorModule } from &apos;@angular/material/paginator&apos;;&#xa;import { MatSortModule } from &apos;@angular/material/sort&apos;;&#xa;&#xa;import localePt from &apos;@angular/common/locales/pt&apos;;&#xa;import { registerLocaleData } from &apos;@angular/common&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -2725,7 +2725,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684261060240" ID="ID_822686638" MODIFIED="1684261069777" TEXT="serviceTs">
+<node CREATED="1684261060240" FOLDED="true" ID="ID_822686638" MODIFIED="1684261069777" TEXT="serviceTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_368332664" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
