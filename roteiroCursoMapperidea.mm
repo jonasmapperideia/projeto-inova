@@ -3849,13 +3849,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1684261111911" FOLDED="true" ID="ID_1665025786" MODIFIED="1684261120859" TEXT="appModuleTs">
+<node CREATED="1684261111911" ID="ID_1665025786" MODIFIED="1684261120859" TEXT="appModuleTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1600571279" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_250791221" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684120561184" FOLDED="true" ID="ID_494297528" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<node CREATED="1684120561184" ID="ID_494297528" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" ID="ID_1747150561" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
 <node CREATED="1683923327388" ID="ID_52905979" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
@@ -4676,7 +4676,7 @@
 <node CREATED="1684120561184" ID="ID_584456196" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" ID="ID_862556226" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
-<node CREATED="1683923327388" ID="ID_1820447963" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1683923327388" FOLDED="true" ID="ID_1820447963" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
 <node CREATED="1684244412771" ID="ID_783248519" MODIFIED="1684516745396" TEXT="appRoutingModuleTs">
 <icon BUILTIN="element"/>
 <node CREATED="1684161691515" FOLDED="true" ID="ID_1890069071" MODIFIED="1684430367571" TEXT="patterns">
@@ -5353,19 +5353,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1684023433646" FOLDED="true" ID="ID_775000757" MODIFIED="1684023508321" TEXT="create">
+<node CREATED="1684023433646" ID="ID_775000757" MODIFIED="1684023508321" TEXT="create">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_39149739" MODIFIED="1684174355133" TEXT="No prompt de comando, executa o comando:">
+<node CREATED="1683896789625" ID="ID_39149739" MODIFIED="1684174355133" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684005411425" ID="ID_613301479" MODIFIED="1684174696147" TEXT="ng g c components/product/product-create">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_761567557" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" ID="ID_761567557" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684021859648" FOLDED="true" ID="ID_1181893920" MODIFIED="1684023276118" TEXT="frontend/src/app/components/product/product-create/product-create.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1360849545" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" ID="ID_1360849545" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
 <node CREATED="1684022033284" ID="ID_1056117934" MODIFIED="1684022041033" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Novo Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;product.name&quot; name=&quot;name&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;product.price&quot; name=&quot;price&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;createProduct()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;    &#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -5391,9 +5391,130 @@
 </node>
 <node CREATED="1684087724816" ID="ID_98307610" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684021859648" FOLDED="true" ID="ID_809033674" MODIFIED="1684526591872" TEXT="createComponentHtml">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1571229426" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_539849773" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1840179351" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1065863038" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1589290582" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1641089342" MODIFIED="1684527040718" TEXT="createComponentHtml">
+<icon BUILTIN="element"/>
 </node>
 </node>
-<node CREATED="1684090358248" FOLDED="true" ID="ID_1181598908" MODIFIED="1684090517809" TEXT="update">
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_128351830" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1278978204" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_49330665" MODIFIED="1684527037662" TEXT="mi g angularCRUD angular9 createComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1188898281" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_755521575" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1100572509" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_645972160" MODIFIED="1684528163592" TEXT="mi g angularCRUD angular9 createComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-create/product-create.component.html">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684023288286" FOLDED="true" ID="ID_253867172" MODIFIED="1684526591872" TEXT="createComponentTs">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1176943342" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1683788328" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_571224417" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_489145611" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_605787065" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_931079724" MODIFIED="1684527120130" TEXT="createComponentTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_938116601" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1869221945" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1193811637" MODIFIED="1684527103365" TEXT="mi g angularCRUD angular9 createComponentTs className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1404664073" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_37911327" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_442783382" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1738622103" MODIFIED="1684528185083" TEXT="mi g angularCRUD angular9 createComponentTs className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-create/product-create.component.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684021794247" FOLDED="true" ID="ID_1466055020" MODIFIED="1684526591872" TEXT="createComponentCss">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_645421342" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1754651071" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1414122309" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_21187637" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_89396099" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_912788832" MODIFIED="1684527131402" TEXT="createComponentCss">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1397437773" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_798764477" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_783870627" MODIFIED="1684527136034" TEXT="mi g angularCRUD angular9 createComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1996717056" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_1011790141" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_434830891" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_349469358" MODIFIED="1684528204008" TEXT="mi g angularCRUD angular9 createComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-create/product-create.component.css">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684090358248" ID="ID_1181598908" MODIFIED="1684090517809" TEXT="update">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683896789625" FOLDED="true" ID="ID_526755885" MODIFIED="1684174466922" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -5401,7 +5522,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_225527278" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" ID="ID_225527278" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684092232294" FOLDED="true" ID="ID_1727485463" MODIFIED="1684092241716" TEXT="frontend/src/app/components/product/product-update/product-update.component.html">
 <icon BUILTIN="list"/>
@@ -5430,9 +5551,129 @@
 </node>
 <node CREATED="1684087724816" ID="ID_600829665" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684092232294" FOLDED="true" ID="ID_199283707" MODIFIED="1684526612834" TEXT="updateComponentHtml">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1095967061" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1694039933" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1086042808" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1712956661" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_356943438" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1120347630" MODIFIED="1684527162598" TEXT="updateComponentHtml">
+<icon BUILTIN="element"/>
 </node>
 </node>
-<node CREATED="1684093038448" FOLDED="true" ID="ID_294401226" MODIFIED="1684093048187" TEXT="delete">
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1527144249" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1300982525" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1692528039" MODIFIED="1684527167142" TEXT="mi g angularCRUD angular9 updateComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1957323718" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_1143652197" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_950196772" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_173596799" MODIFIED="1684528261347" TEXT="mi g angularCRUD angular9 updateComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-update/product-update.component.html">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684092285823" FOLDED="true" ID="ID_824440160" MODIFIED="1684526612834" TEXT="updateComponentTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_157998976" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1134704456" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_277211943" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1124536813" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_626735575" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1567073935" MODIFIED="1684527200818" TEXT="updateComponentTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_512457548" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_512179839" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1193700615" MODIFIED="1684527185930" TEXT="mi g angularCRUD angular9 updateComponentTs className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1205637413" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_637253700" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_8949317" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_498501117" MODIFIED="1684528279164" TEXT="mi g angularCRUD angular9 updateComponentTs className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-update/product-update.component.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684092354431" FOLDED="true" ID="ID_180016677" MODIFIED="1684526612834" TEXT="updateComponentCss">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_448671848" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_513646895" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1158006920" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1616504927" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1792201801" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_725491738" MODIFIED="1684527215398" TEXT="updateComponentCss">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_49148762" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1251838772" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_792369606" MODIFIED="1684527222582" TEXT="mi g angularCRUD angular9 updateComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" FOLDED="true" ID="ID_908330246" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_788642644" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_320605894" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1746409015" MODIFIED="1684528292864" TEXT="mi g angularCRUD angular9 updateComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-update/product-update.component.css">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684093038448" ID="ID_294401226" MODIFIED="1684093048187" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683896789625" FOLDED="true" ID="ID_1294988890" MODIFIED="1684174471921" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -5440,7 +5681,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_971528377" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" ID="ID_971528377" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684094462548" FOLDED="true" ID="ID_504203516" MODIFIED="1684094490618" TEXT="frontend/src/app/components/product/product-delete/product-delete.component.html">
 <icon BUILTIN="list"/>
@@ -5469,9 +5710,129 @@
 </node>
 <node CREATED="1684087724816" ID="ID_406483246" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684094462548" ID="ID_104811655" MODIFIED="1684526630127" TEXT="deleteComponentHtml">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_154972824" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1258712036" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1450142784" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1533342490" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_875681213" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_664918844" MODIFIED="1684527308525" TEXT="deleteComponentHtml">
+<icon BUILTIN="element"/>
 </node>
 </node>
-<node CREATED="1684023496799" FOLDED="true" ID="ID_1160192944" MODIFIED="1684023510914" TEXT="read">
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1883435831" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1886988935" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1867229511" MODIFIED="1684527304461" TEXT="mi g angularCRUD angular9 deleteComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1263392800" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_1448409897" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1086930627" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_719370935" MODIFIED="1684528314117" TEXT="mi g angularCRUD angular9 deleteComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-delete/product-delete.component.html">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684094474151" ID="ID_1209427367" MODIFIED="1684526630127" TEXT="deleteComponentTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_707369470" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_536555213" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_607937317" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1673650278" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_620807774" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_854036653" MODIFIED="1684527332265" TEXT="deleteComponentTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_234280363" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1459594585" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1935057237" MODIFIED="1684527336945" TEXT="mi g angularCRUD angular9 deleteComponentTs className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" FOLDED="true" ID="ID_368954766" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_905439343" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1122243102" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_104985072" MODIFIED="1684528325204" TEXT="mi g angularCRUD angular9 deleteComponentTs className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-delete/product-delete.component.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684094485119" ID="ID_1371795102" MODIFIED="1684526630127" TEXT="deleteComponentCss">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1228611943" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1949754677" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_778712479" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_925815658" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_316223307" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1515414087" MODIFIED="1684527364877" TEXT="deleteComponentCss">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_104526284" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1820372157" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_772865186" MODIFIED="1684527369885" TEXT="mi g angularCRUD angular9 deleteComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1959677416" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_251511081" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1353740805" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1705508727" MODIFIED="1684529358216" TEXT="mi g angularCRUD angular9 deleteComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-delete/product-delete.component.css">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684023496799" ID="ID_1160192944" MODIFIED="1684023510914" TEXT="read">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683896789625" FOLDED="true" ID="ID_421939516" MODIFIED="1684174481460" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -5479,7 +5840,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_1658556529" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" ID="ID_1658556529" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684086544994" FOLDED="true" ID="ID_1118404694" MODIFIED="1684086562378" TEXT="frontend/src/app/components/product/product-read/product-read.component.html">
 <font NAME="SansSerif" SIZE="12"/>
@@ -5509,9 +5870,130 @@
 </node>
 <node CREATED="1684087724816" ID="ID_962160457" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684086544994" FOLDED="true" ID="ID_464290860" MODIFIED="1684526667419" TEXT="readComponentHtml">
+<font NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1253272766" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1968550546" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_661725946" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1264717103" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1644075575" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1867447438" MODIFIED="1684527410858" TEXT="readComponentHtml">
+<icon BUILTIN="element"/>
 </node>
 </node>
-<node CREATED="1684024474236" FOLDED="true" ID="ID_962827198" MODIFIED="1684024477051" TEXT="crud">
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_595642107" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_810157192" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_506833519" MODIFIED="1684527416097" TEXT="mi g angularCRUD angular9 readComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1137098490" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_452378212" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1760937337" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_17326307" MODIFIED="1684529381860" TEXT="mi g angularCRUD angular9 readComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-read/product-read.component.html">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684086607594" FOLDED="true" ID="ID_959083794" MODIFIED="1684526667419" TEXT="readComponentTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_758654040" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1880641738" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1430693707" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_485936931" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1188806228" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_621629028" MODIFIED="1684527439477" TEXT="readComponentTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_557689892" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_438313360" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_686274543" MODIFIED="1684527443812" TEXT="mi g angularCRUD angular9 readComponentTs className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1397701061" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_464452942" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1449161154" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1706165448" MODIFIED="1684529396468" TEXT="mi g angularCRUD angular9 readComponentTs className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-read/product-read.component.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684086664900" FOLDED="true" ID="ID_1350245143" MODIFIED="1684526667418" TEXT="readComponentCss">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1230743313" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_370505749" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1462170758" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1674096969" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_412633869" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_774703061" MODIFIED="1684527463174" TEXT="readComponentCss">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_502760153" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_866121068" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_799765248" MODIFIED="1684527468081" TEXT="mi g angularCRUD angular9 readComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1780443104" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_1576037035" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_452074562" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1553057903" MODIFIED="1684529410920" TEXT="mi g angularCRUD angular9 readComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/product/product-read/product-read.component.css">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684024474236" ID="ID_962827198" MODIFIED="1684024477051" TEXT="crud">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683896789625" FOLDED="true" ID="ID_4345492" MODIFIED="1684174489336" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -5519,7 +6001,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684087456060" FOLDED="true" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
+<node CREATED="1684087456060" ID="ID_1025339643" MODIFIED="1684087466536" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684013950555" FOLDED="true" ID="ID_763762738" MODIFIED="1684013956971" TEXT="frontend/src/app/views/product-crud/product-crud.component.html">
 <icon BUILTIN="list"/>
@@ -5548,6 +6030,126 @@
 </node>
 <node CREATED="1684087724816" ID="ID_1401196502" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1684013950555" ID="ID_738816867" MODIFIED="1684526705312" TEXT="crudComponentHtml">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1985723319" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_543946899" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1336427295" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_648547901" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_426614603" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_437157513" MODIFIED="1684527493274" TEXT="crudComponentHtml">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_981241347" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_483410626" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_33311599" MODIFIED="1684527497741" TEXT="mi g angularCRUD angular9 crudComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1180533560" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_507844823" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1316240549" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1026293064" MODIFIED="1684529512840" TEXT="mi g angularCRUD angular9 crudComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/views/product-crud/product-crud.component.html">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684014011591" ID="ID_1999735953" MODIFIED="1684526705312" TEXT="crudComponentTs">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_984914415" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1645267128" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1531614046" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1943388639" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1906734863" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1585583237" MODIFIED="1684527519749" TEXT="crudComponentTs">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_272944957" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1871513373" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_688797156" MODIFIED="1684527528692" TEXT="mi g angularCRUD angular9 crudComponentTs className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1838512319" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_797828795" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_577421215" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_685040735" MODIFIED="1684529523727" TEXT="mi g angularCRUD angular9 crudComponentTs className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/views/product-crud/product-crud.component.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684087161537" ID="ID_1945671968" MODIFIED="1684526705311" TEXT="crudComponentCss">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1811841701" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_1420161679" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1170160871" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1683923299557" ID="ID_1202560690" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_1779496779" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684526772172" ID="ID_1216731436" MODIFIED="1684527554101" TEXT="crudComponentCss">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1409396043" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1431430387" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_342170241" MODIFIED="1684527558693" TEXT="mi g angularCRUD angular9 crudComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1946586062" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_574603993" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1879212298" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1427682928" MODIFIED="1684529540483" TEXT="mi g angularCRUD angular9 crudComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/views/product-crud/product-crud.component.css">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
