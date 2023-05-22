@@ -7354,7 +7354,7 @@
 </node>
 <node CREATED="1684087724816" ID="ID_406483246" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684094462548" ID="ID_104811655" MODIFIED="1684526630127" TEXT="deleteComponentHtml">
+<node CREATED="1684094462548" FOLDED="true" ID="ID_104811655" MODIFIED="1684526630127" TEXT="deleteComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_154972824" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -8192,7 +8192,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684094474151" ID="ID_1209427367" MODIFIED="1684526630127" TEXT="deleteComponentTs">
+<node CREATED="1684094474151" FOLDED="true" ID="ID_1209427367" MODIFIED="1684526630127" TEXT="deleteComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" FOLDED="true" ID="ID_707369470" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -8232,7 +8232,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684094485119" ID="ID_1371795102" MODIFIED="1684526630127" TEXT="deleteComponentCss">
+<node CREATED="1684094485119" FOLDED="true" ID="ID_1371795102" MODIFIED="1684526630127" TEXT="deleteComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" FOLDED="true" ID="ID_1228611943" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -9447,9 +9447,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684014011591" ID="ID_1999735953" MODIFIED="1684526705312" TEXT="crudComponentTs">
+<node CREATED="1684014011591" FOLDED="true" ID="ID_1999735953" MODIFIED="1684775900939" TEXT="crudComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_984914415" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" ID="ID_984914415" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_1645267128" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -9487,7 +9487,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684087161537" ID="ID_1945671968" MODIFIED="1684526705311" TEXT="crudComponentCss">
+<node CREATED="1684087161537" FOLDED="true" ID="ID_1945671968" MODIFIED="1684526705311" TEXT="crudComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" FOLDED="true" ID="ID_1811841701" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
