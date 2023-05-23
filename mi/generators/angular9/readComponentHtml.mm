@@ -3,7 +3,7 @@
 <node CREATED="1684086544994" ID="ID_1026313447" LINK="../../mapperidea.mm" MODIFIED="1684764580194" TEXT="readComponentHtml">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="element"/>
-<node CREATED="1684159426363" FOLDED="true" MODIFIED="1684430367572" POSITION="right" TEXT="parameters">
+<node CREATED="1684159426363" ID="ID_1796323433" MODIFIED="1684430367572" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426364" FOLDED="true" MODIFIED="1684159436046" TEXT="className">
 <icon BUILTIN="element"/>
@@ -18,7 +18,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1533601526261" FOLDED="true" MODIFIED="1684633686320" POSITION="right" TEXT="vars">
+<node CREATED="1533601526261" FOLDED="true" ID="ID_1848969861" MODIFIED="1684633686320" POSITION="right" TEXT="vars">
 <icon BUILTIN="element"/>
 <node CREATED="1666405824457" FOLDED="true" MODIFIED="1684435583313" TEXT="angularTypes">
 <icon BUILTIN="element"/>
@@ -30,11 +30,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" FOLDED="true" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_661706049" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1684532424397" FOLDED="true" MODIFIED="1684633778873" TEXT="class">
+<node CREATED="1684532424397" ID="ID_1650592967" MODIFIED="1684633778873" TEXT="class">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684632278001" FOLDED="true" MODIFIED="1684636592591" TEXT="readComponentHtml-init">
+<node CREATED="1684632278001" FOLDED="true" ID="ID_1566455317" MODIFIED="1684636592591" TEXT="readComponentHtml-init">
 <icon BUILTIN="element"/>
 <node CREATED="1684632819871" MODIFIED="1684632822930" TEXT="&lt;div class=&quot;mat-elevation-z4&quot;&gt;">
 <icon BUILTIN="tag_green"/>
@@ -43,7 +43,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684632278001" FOLDED="true" MODIFIED="1684636608939" TEXT="readComponentHtml-end">
+<node CREATED="1684632278001" ID="ID_13919088" MODIFIED="1684636608939" TEXT="readComponentHtml-end">
 <icon BUILTIN="element"/>
 <node CREATED="1684637145843" MODIFIED="1684637147256" TEXT="        &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumns&quot;&gt;&lt;/tr&gt;">
 <icon BUILTIN="tag_green"/>
@@ -61,25 +61,25 @@
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
-<node CREATED="1684636959549" FOLDED="true" MODIFIED="1684636962241" TEXT="body">
+<node CREATED="1684636959549" ID="ID_6300241" MODIFIED="1684636962241" TEXT="body">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684723227951" FOLDED="true" MODIFIED="1684723230750" TEXT="idColumn">
+<node CREATED="1684723227951" FOLDED="true" ID="ID_1321965578" MODIFIED="1684723230750" TEXT="idColumn">
 <icon BUILTIN="element"/>
 <node CREATED="1684723256809" MODIFIED="1684723261705" TEXT="        &lt;!-- Id Column --&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684637163707" FOLDED="true" MODIFIED="1684637168886" TEXT="ng-container">
+<node CREATED="1684637163707" FOLDED="true" ID="ID_1300964296" MODIFIED="1684637168886" TEXT="ng-container">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684723273205" MODIFIED="1684723275383" TEXT="        &lt;ng-container matColumnDef=&quot;id&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684723310918" FOLDED="true" MODIFIED="1684723313504" TEXT="th">
+<node CREATED="1684723310918" FOLDED="true" ID="ID_1961763060" MODIFIED="1684723313504" TEXT="th">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684723324038" MODIFIED="1684723521459" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;{{ mi:first-upper(column/value) }}&lt;/th&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684723691721" FOLDED="true" MODIFIED="1684723694839" TEXT="td">
+<node CREATED="1684723691721" FOLDED="true" ID="ID_1474934865" MODIFIED="1684723694839" TEXT="td">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684723701177" MODIFIED="1684723722073" TEXT="            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{">
 <icon BUILTIN="tag_yellow"/>
@@ -101,59 +101,59 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684636963342" FOLDED="true" MODIFIED="1684723686742" TEXT="actionColumn">
+<node CREATED="1684636963342" ID="ID_1491044975" MODIFIED="1684723686742" TEXT="actionColumn">
 <icon BUILTIN="element"/>
-<node CREATED="1684636970166" MODIFIED="1684636971366" TEXT="        &lt;!-- Action Column --&gt;">
+<node CREATED="1684636970166" ID="ID_957318278" MODIFIED="1684636971366" TEXT="        &lt;!-- Action Column --&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684637163707" FOLDED="true" MODIFIED="1684637168886" TEXT="ng-container">
+<node CREATED="1684637163707" ID="ID_1029854625" MODIFIED="1684637168886" TEXT="ng-container">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684636977522" MODIFIED="1684636978871" TEXT="        &lt;ng-container matColumnDef=&quot;action&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684637175392" FOLDED="true" MODIFIED="1684637213423" TEXT="th">
+<node CREATED="1684637175392" ID="ID_961019508" MODIFIED="1684637213423" TEXT="th">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684636983881" MODIFIED="1684636984996" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684637216387" FOLDED="true" MODIFIED="1684637218246" TEXT="td">
+<node CREATED="1684637216387" ID="ID_1196655859" MODIFIED="1684637218246" TEXT="td">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684636990833" MODIFIED="1684636992290" TEXT="            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684637228807" FOLDED="true" MODIFIED="1684637230112" TEXT="a">
+<node CREATED="1684637228807" ID="ID_50283340" MODIFIED="1684637230112" TEXT="a">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684637280371" MODIFIED="1684637370492" TEXT="                &lt;a routerLink=&quot;/">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684637564784" MODIFIED="1684637572289" TEXT="{{mi:if-else(exists(properties/router/value), properties/router/value, @name)}}">
+<node CREATED="1684637564784" ID="ID_1168930315" MODIFIED="1684865043926" TEXT="{{ mi:first-lower(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684637402303" MODIFIED="1684637416319" TEXT="/update/{{ ">
+<node CREATED="1684637402303" ID="ID_1119955256" MODIFIED="1684637416319" TEXT="/update/{{ ">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>
-<node CREATED="1684637417124" MODIFIED="1684637677265" TEXT="row.{{ $objetoClass/properties/id/column/value }}">
+<node CREATED="1684637417124" ID="ID_1538571558" MODIFIED="1684637677265" TEXT="row.{{ $objetoClass/properties/id/column/value }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684637427571" MODIFIED="1684637434107" TEXT=" }}&quot; class=&quot;edit&quot;&gt;">
+<node CREATED="1684637427571" ID="ID_285866302" MODIFIED="1684637434107" TEXT=" }}&quot; class=&quot;edit&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 <icon BUILTIN="textNode"/>
 </node>
-<node CREATED="1684637292494" MODIFIED="1684637297939" TEXT="                    &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;">
+<node CREATED="1684637292494" ID="ID_643357475" MODIFIED="1684637297939" TEXT="                    &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684637303913" MODIFIED="1684637306767" TEXT="                &lt;/a&gt;">
+<node CREATED="1684637303913" ID="ID_1897637711" MODIFIED="1684637306767" TEXT="                &lt;/a&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684637230631" FOLDED="true" MODIFIED="1684637232173" TEXT="a">
+<node CREATED="1684637230631" ID="ID_1576921149" MODIFIED="1684637232173" TEXT="a">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684637313176" MODIFIED="1684637737907" TEXT="                &lt;a routerLink=&quot;/">
+<node CREATED="1684637313176" ID="ID_1593645355" MODIFIED="1684637737907" TEXT="                &lt;a routerLink=&quot;/">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684637738354" MODIFIED="1684637786554" TEXT="{{mi:if-else(exists(properties/router/value), properties/router/value, @name)}}">
+<node CREATED="1684637738354" ID="ID_1252901727" MODIFIED="1684865058190" TEXT="{{ mi:first-lower(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
 <node CREATED="1684637748090" MODIFIED="1684637841661" TEXT="/delete/{{ ">
@@ -183,23 +183,23 @@
 </node>
 </node>
 </node>
-<node CREATED="1684435316045" FOLDED="true" MODIFIED="1684725158645" TEXT="attribute-string">
+<node CREATED="1684435316045" FOLDED="true" ID="ID_349647516" MODIFIED="1684725158645" TEXT="attribute-string">
 <icon BUILTIN="element"/>
 <node CREATED="1684725189121" MODIFIED="1684762567352" TEXT="        &lt;!-- {{ mi:first-upper(@name) }} Column --&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684762645644" FOLDED="true" MODIFIED="1684762681347" TEXT="ng-container">
+<node CREATED="1684762645644" FOLDED="true" ID="ID_959591347" MODIFIED="1684762681347" TEXT="ng-container">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684725205365" MODIFIED="1684762762554" TEXT="        &lt;ng-container matColumnDef=&quot;{{ mi:first-lower(@name) }}&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684762693104" FOLDED="true" MODIFIED="1684762695662" TEXT="th">
+<node CREATED="1684762693104" FOLDED="true" ID="ID_661830927" MODIFIED="1684762695662" TEXT="th">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684725215045" MODIFIED="1684762820535" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;{{ properties/description/value/text() }}&lt;/th&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684762697164" FOLDED="true" MODIFIED="1684762699830" TEXT="td">
+<node CREATED="1684762697164" FOLDED="true" ID="ID_882496669" MODIFIED="1684762699830" TEXT="td">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684725224590" MODIFIED="1684762944329" TEXT="            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{">
 <icon BUILTIN="tag_yellow"/>
@@ -221,23 +221,23 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684435316045" FOLDED="true" MODIFIED="1684725158644" TEXT="attribute-number">
+<node CREATED="1684435316045" FOLDED="true" ID="ID_1865511587" MODIFIED="1684725158644" TEXT="attribute-number">
 <icon BUILTIN="element"/>
 <node CREATED="1684725247706" MODIFIED="1684762578592" TEXT="        &lt;!-- {{ mi:first-upper(@name) }} Column --&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684762645644" FOLDED="true" MODIFIED="1684762647463" TEXT="ng-container">
+<node CREATED="1684762645644" FOLDED="true" ID="ID_266709390" MODIFIED="1684762647463" TEXT="ng-container">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684762604016" MODIFIED="1684762873062" TEXT="        &lt;ng-container matColumnDef=&quot;{{ mi:first-lower(@name) }}&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684762653764" FOLDED="true" MODIFIED="1684762657662" TEXT="th">
+<node CREATED="1684762653764" FOLDED="true" ID="ID_379790339" MODIFIED="1684762657662" TEXT="th">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684762615456" MODIFIED="1684762858554" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;{{ properties/description/value/text() }}&lt;/th&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684762660516" FOLDED="true" MODIFIED="1684762663184" TEXT="td">
+<node CREATED="1684762660516" FOLDED="true" ID="ID_1261936679" MODIFIED="1684762663184" TEXT="td">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684762625068" MODIFIED="1684762968838" TEXT="            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{">
 <icon BUILTIN="tag_yellow"/>
@@ -261,18 +261,18 @@
 </node>
 </node>
 </node>
-<node CREATED="1684633760879" FOLDED="true" MODIFIED="1684633764829" TEXT="generic">
+<node CREATED="1684633760879" FOLDED="true" ID="ID_339259168" MODIFIED="1684633764829" TEXT="generic">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1663089474926" FOLDED="true" MODIFIED="1663089476832" TEXT="declara-identacao">
+<node CREATED="1663089474926" FOLDED="true" ID="ID_1717324240" MODIFIED="1663089476832" TEXT="declara-identacao">
 <icon BUILTIN="element"/>
 <node CREATED="1663089477975" MODIFIED="1663162420581" TEXT="{{ mi:replicate($identChar,xs:integer($level * $identSize)) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
 </node>
-<node CREATED="1657632240374" FOLDED="true" MODIFIED="1657632247196" TEXT="@TODO">
+<node CREATED="1657632240374" FOLDED="true" ID="ID_665571266" MODIFIED="1657632247196" TEXT="@TODO">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1657632296313" FOLDED="true" MODIFIED="1663012887513" TEXT="declaraTODO">
+<node CREATED="1657632296313" FOLDED="true" ID="ID_1478871747" MODIFIED="1663012887513" TEXT="declaraTODO">
 <icon BUILTIN="element"/>
 <node CREATED="1649957423768" MODIFIED="1663012807361" TEXT="//@TODO _ tem que implementar: {{ $nomeTODO }}">
 <icon BUILTIN="tag_green"/>
