@@ -47,13 +47,13 @@
 <node CREATED="1684764404958" ID="ID_1857781338" LINK="generators/angular9/navComponentHtml.mm" MODIFIED="1684764502612" TEXT="navComponentHtml">
 <icon BUILTIN="element"/>
 </node>
+<node CREATED="1684764460522" ID="ID_1671524767" LINK="generators/angular9/modelTs.mm" MODIFIED="1684861803759" TEXT="modelTs">
+<icon BUILTIN="element"/>
+</node>
 <node CREATED="1684764427857" ID="ID_1670208195" LINK="generators/angular9/serviceTs.mm" MODIFIED="1684764502612" TEXT="serviceTs">
 <icon BUILTIN="element"/>
 </node>
 <node CREATED="1684764449977" ID="ID_477718028" LINK="generators/angular9/appModuleTs.mm" MODIFIED="1684764502612" TEXT="appModuleTs">
-<icon BUILTIN="element"/>
-</node>
-<node CREATED="1684764460522" ID="ID_1671524767" LINK="generators/angular9/modelTs.mm" MODIFIED="1684764502611" TEXT="modelTs">
 <icon BUILTIN="element"/>
 </node>
 <node CREATED="1684764478124" ID="ID_1966831893" LINK="generators/angular9/appRoutingModuleTs.mm" MODIFIED="1684764502611" TEXT="appRoutingModuleTs">
