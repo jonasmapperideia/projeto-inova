@@ -4,11 +4,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Product } from '../product.model';
 
 @Component({
-  selector: 'app-product-update',
-  templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.css']
+  selector: 'app-product-form-update',
+  templateUrl: './product-form-update.component.html',
+  styleUrls: ['./product-form-update.component.css']
 })
-export class ProductUpdateComponent implements OnInit {
+export class ProductFormUpdateComponent implements OnInit {
 
   product: Product = {
     name: '',
@@ -27,12 +27,12 @@ export class ProductUpdateComponent implements OnInit {
   updateProduct(): void {
     this.productService.update(this.product).subscribe(() => {
       this.productService.showMessage('Produto editado com sucesso.');
-      this.router.navigate(['/products']);
+      this.router.navigate(['/productForm']);
     });
   }
 
   cancel(): void {
-    this.router.navigate(['/products']);
+    this.router.navigate(['/productForm']);
   }
 
 }

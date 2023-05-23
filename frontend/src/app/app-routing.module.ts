@@ -3,30 +3,30 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
 
-import { ProductCrudComponent } from './views/product-crud/product-crud.component';
-import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ProductFormCrudComponent } from './views/product-form-crud/product-form-crud.component';
+import { ProductFormCreateComponent } from './components/productForm/product-form-create/product-form-create.component';
+import { ProductFormUpdateComponent } from './components/productForm/product-form-update/product-form-update.component';
+import { ProductFormDeleteComponent } from './components/productForm/product-form-delete/product-form-delete.component';
 
 const routes: Routes = [
   {
     path: "",
     component: HomeComponent
   }, {
-    path: "products",
-    component: ProductCrudComponent
+    path: "productForm",
+    component: ProductFormCrudComponent
   },
   {
-    path: "products/create",
-    component: ProductCreateComponent
+    path: "productForm/create",
+    component: ProductFormCreateComponent
   },
   {
-    path: "products/update/:id",
-    component: ProductUpdateComponent
+    path: "productForm/update/:id",
+    component: ProductFormUpdateComponent
   },
   {
-    path: "products/delete/:id",
-    component: ProductDeleteComponent
+    path: "productForm/delete/:id",
+    component: ProductFormDeleteComponent
   }
 ];
 

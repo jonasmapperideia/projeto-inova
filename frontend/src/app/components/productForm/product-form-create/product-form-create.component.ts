@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 import { ProductService } from '../product.service';
+import { Router } from '@angular/router';
 import { Product } from '../product.model';
 
 @Component({
-  selector: 'app-product-create',
-  templateUrl: './product-create.component.html',
-  styleUrls: ['./product-create.component.css']
+  selector: 'app-product-form-create',
+  templateUrl: './product-form-create.component.html',
+  styleUrls: ['./product-form-create.component.css']
 })
-export class ProductCreateComponent implements OnInit {
+export class ProductFormCreateComponent implements OnInit {
 
   product: Product = {
     name: '',
@@ -24,12 +24,12 @@ export class ProductCreateComponent implements OnInit {
   createProduct(): void {
     this.productService.create(this.product).subscribe(() => {
       this.productService.showMessage('Produto criado!');
-      this.router.navigate(['/products']);
+      this.router.navigate(['/productForm']);
     })
   }
 
   cancel(): void {
-    this.router.navigate(['/products']);
+    this.router.navigate(['/productForm']);
   }
 
 }

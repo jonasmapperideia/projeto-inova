@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import { HeaderService } from 'src/app/components/template/header/header.service';
 
 @Component({
-  selector: 'app-product-crud',
-  templateUrl: './product-crud.component.html',
-  styleUrls: ['./product-crud.component.css']
+  selector: 'app-product-form-crud',
+  templateUrl: './product-form-crud.component.html',
+  styleUrls: ['./product-form-crud.component.css']
 })
-export class ProductCrudComponent implements OnInit {
+export class ProductFormCrudComponent implements OnInit {
 
   constructor(private router: Router, private headerService: HeaderService) { 
     headerService.headerData = {
@@ -20,8 +20,8 @@ export class ProductCrudComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToProductCreate(): void {
-    this.router.navigate(['/products/create']);
+  navigateToProductFormCreate(): void {
+    this.router.navigate(['/productForm/create']);
 
   }
 }

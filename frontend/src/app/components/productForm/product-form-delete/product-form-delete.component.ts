@@ -4,11 +4,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Product } from '../product.model';
 
 @Component({
-  selector: 'app-product-delete',
-  templateUrl: './product-delete.component.html',
-  styleUrls: ['./product-delete.component.css']
+  selector: 'app-product-form-delete',
+  templateUrl: './product-form-delete.component.html',
+  styleUrls: ['./product-form-delete.component.css']
 })
-export class ProductDeleteComponent implements OnInit {
+export class ProductFormDeleteComponent implements OnInit {
 
   product: Product = {
     name: '',
@@ -28,12 +28,12 @@ export class ProductDeleteComponent implements OnInit {
     this.productService.delete(this.product.id.toString()).subscribe(
       () => {
         this.productService.showMessage('Produto excluido com sucesso!');
-        this.router.navigate(['/products']);
+        this.router.navigate(['/productForm']);
       }
     );
   }
 
   cancel(): void {
-    this.router.navigate(['/products']);
+    this.router.navigate(['/productForm']);
   }
 }
