@@ -21,7 +21,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684767039203" MODIFIED="1684767041879" TEXT="button">
 <icon BUILTIN="element"/>
-<node CREATED="1684767062196" MODIFIED="1684767331556" TEXT="&lt;button mat-raised-button (click)=&quot;navigateTo{{ mi:first-upper($objetoClass/@name) }}Create()&quot; color=&quot;primary&quot;&gt;">
+<node CREATED="1684767062196" ID="ID_1220680815" MODIFIED="1684863237008" TEXT="&lt;button mat-raised-button (click)=&quot;navigateTo{{ mi:first-upper(@name) }}Create()&quot; color=&quot;primary&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684767070643" MODIFIED="1684767226524" TEXT="    Novo {{ $objetoClass/properties/description/value/text() }}">
@@ -36,7 +36,7 @@
 </node>
 <node CREATED="1684767467612" MODIFIED="1684767470084" TEXT="appRead">
 <icon BUILTIN="element"/>
-<node CREATED="1684767476080" MODIFIED="1684767733686" TEXT="&lt;app-{{ mi:first-lower($objetoClass/@name) }}-read&gt;&lt;/app-{{ mi:first-lower($objetoClass/@name) }}-read&gt;">
+<node CREATED="1684767476080" ID="ID_806230484" MODIFIED="1684863339271" TEXT="&lt;app-{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read&gt;&lt;/app-{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read&gt;">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
