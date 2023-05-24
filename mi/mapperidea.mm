@@ -288,43 +288,10 @@
 <node CREATED="1684764566506" ID="ID_1692874490" LINK="generators/angular9/deleteComponentHtml.mm" MODIFIED="1684764601503" TEXT="deleteComponentHtml">
 <icon BUILTIN="element"/>
 </node>
+<node CREATED="1684958910355" ID="ID_829962280" LINK="generators/angular9/deleteComponentTs.mm" MODIFIED="1684958931869" TEXT="deleteComponentTs">
+<icon BUILTIN="element"/>
+</node>
 <node CREATED="1684525212560" ID="ID_716169078" MODIFIED="1684525213076" TEXT="//">
-<node CREATED="1684094474151" FOLDED="true" ID="ID_1217728736" MODIFIED="1684525513460" TEXT="deleteComponentTs">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_1008508267" MODIFIED="1684430367572" TEXT="parameters">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426364" FOLDED="true" ID="ID_592220792" MODIFIED="1684159436046" TEXT="className">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426365" ID="ID_430633130" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684159426366" FOLDED="true" ID="ID_93772072" MODIFIED="1684159436045" TEXT="packageName">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426367" ID="ID_54432943" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-<node CREATED="1684161691515" ID="ID_968688703" MODIFIED="1684430367571" TEXT="patterns">
-<icon BUILTIN="element"/>
-</node>
-<node CREATED="1684160926435" FOLDED="true" ID="ID_1931409741" MODIFIED="1684160965104" TEXT="start">
-<icon BUILTIN="element"/>
-<node CREATED="1684160926436" FOLDED="true" ID="ID_1006152620" MODIFIED="1684160972183" TEXT="match">
-<icon BUILTIN="element"/>
-<node CREATED="1684160926437" ID="ID_681550081" MODIFIED="1684261640840" TEXT="/classes/class[@name = $className and @package = $packageName]">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684160926438" ID="ID_1833795184" MODIFIED="1684160972182" TEXT="body">
-<icon BUILTIN="element"/>
-</node>
-</node>
-<node CREATED="1684161945109" ID="ID_864928539" MODIFIED="1684161980151" TEXT="templates">
-<icon BUILTIN="element"/>
-</node>
-</node>
 <node CREATED="1684094485119" FOLDED="true" ID="ID_1807508777" MODIFIED="1684525520499" TEXT="deleteComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" ID="ID_513628837" MODIFIED="1684430367572" TEXT="parameters">
