@@ -67,43 +67,10 @@
 <node CREATED="1684767813623" ID="ID_1705767668" LINK="generators/angular9/crudComponentHtml.mm" MODIFIED="1684767827308" TEXT="crudComponentHtml">
 <icon BUILTIN="element"/>
 </node>
+<node CREATED="1684955367590" ID="ID_1150074469" LINK="generators/angular9/crudComponentTs.mm" MODIFIED="1684955377157" TEXT="crudComponentTs">
+<icon BUILTIN="element"/>
+</node>
 <node CREATED="1684525212560" ID="ID_556628884" MODIFIED="1684525213076" TEXT="//">
-<node CREATED="1684014011591" FOLDED="true" ID="ID_1041665547" MODIFIED="1684525735420" TEXT="crudComponentTs">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_17048529" MODIFIED="1684430367572" TEXT="parameters">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426364" FOLDED="true" ID="ID_1319607502" MODIFIED="1684159436046" TEXT="className">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426365" ID="ID_110055614" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684159426366" FOLDED="true" ID="ID_1797415208" MODIFIED="1684159436045" TEXT="packageName">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426367" ID="ID_613026637" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-<node CREATED="1684161691515" ID="ID_232559510" MODIFIED="1684430367571" TEXT="patterns">
-<icon BUILTIN="element"/>
-</node>
-<node CREATED="1684160926435" FOLDED="true" ID="ID_432928710" MODIFIED="1684160965104" TEXT="start">
-<icon BUILTIN="element"/>
-<node CREATED="1684160926436" FOLDED="true" ID="ID_1244508537" MODIFIED="1684160972183" TEXT="match">
-<icon BUILTIN="element"/>
-<node CREATED="1684160926437" ID="ID_1141726112" MODIFIED="1684261640840" TEXT="/classes/class[@name = $className and @package = $packageName]">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684160926438" ID="ID_1654083053" MODIFIED="1684160972182" TEXT="body">
-<icon BUILTIN="element"/>
-</node>
-</node>
-<node CREATED="1684161945109" ID="ID_1274014038" MODIFIED="1684161980151" TEXT="templates">
-<icon BUILTIN="element"/>
-</node>
-</node>
 <node CREATED="1684087161537" FOLDED="true" ID="ID_1883848758" MODIFIED="1684525739740" TEXT="crudComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" ID="ID_603411019" MODIFIED="1684430367572" TEXT="parameters">
@@ -274,43 +241,10 @@
 <node CREATED="1684764542256" ID="ID_1317456880" LINK="generators/angular9/updateComponentHtml.mm" MODIFIED="1684764601503" TEXT="updateComponentHtml">
 <icon BUILTIN="element"/>
 </node>
+<node CREATED="1684951434216" ID="ID_303297503" LINK="generators/angular9/updateComponentTs.mm" MODIFIED="1684951442499" TEXT="updateComponentTs">
+<icon BUILTIN="element"/>
+</node>
 <node CREATED="1684525212560" ID="ID_1549987258" MODIFIED="1684525213076" TEXT="//">
-<node CREATED="1684092285823" FOLDED="true" ID="ID_228005913" MODIFIED="1684525417282" TEXT="updateComponentTs">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_1632156680" MODIFIED="1684430367572" TEXT="parameters">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426364" FOLDED="true" ID="ID_795875654" MODIFIED="1684159436046" TEXT="className">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426365" ID="ID_1155452888" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684159426366" FOLDED="true" ID="ID_592799602" MODIFIED="1684159436045" TEXT="packageName">
-<icon BUILTIN="element"/>
-<node CREATED="1684159426367" ID="ID_178753583" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-<node CREATED="1684161691515" ID="ID_1680392967" MODIFIED="1684430367571" TEXT="patterns">
-<icon BUILTIN="element"/>
-</node>
-<node CREATED="1684160926435" FOLDED="true" ID="ID_1510225454" MODIFIED="1684160965104" TEXT="start">
-<icon BUILTIN="element"/>
-<node CREATED="1684160926436" FOLDED="true" ID="ID_1495436995" MODIFIED="1684160972183" TEXT="match">
-<icon BUILTIN="element"/>
-<node CREATED="1684160926437" ID="ID_1330678903" MODIFIED="1684261640840" TEXT="/classes/class[@name = $className and @package = $packageName]">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684160926438" ID="ID_967381442" MODIFIED="1684160972182" TEXT="body">
-<icon BUILTIN="element"/>
-</node>
-</node>
-<node CREATED="1684161945109" ID="ID_1718377784" MODIFIED="1684161980151" TEXT="templates">
-<icon BUILTIN="element"/>
-</node>
-</node>
 <node CREATED="1684092354431" FOLDED="true" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" ID="ID_1393307705" MODIFIED="1684430367572" TEXT="parameters">
