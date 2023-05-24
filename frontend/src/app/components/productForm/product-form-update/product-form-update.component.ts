@@ -26,7 +26,7 @@ export class ProductFormUpdateComponent implements OnInit {
 
   updateProduct(): void {
     this.productService.update(this.product).subscribe(() => {
-      this.productService.showMessage('Produto editado com sucesso.');
+      this.productService.showMessage('Produto editado!');
       this.router.navigate(['/productForm']);
     });
   }
