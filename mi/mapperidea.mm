@@ -193,7 +193,7 @@
 <node CREATED="1684951434216" ID="ID_303297503" LINK="generators/angular9/updateComponentTs.mm" MODIFIED="1684951442499" TEXT="updateComponentTs">
 <icon BUILTIN="element"/>
 </node>
-<node CREATED="1684092354431" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
+<node CREATED="1684092354431" FOLDED="true" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684161691515" ID="ID_750304345" MODIFIED="1684430367571" TEXT="patterns">
 <icon BUILTIN="element"/>
@@ -232,7 +232,7 @@
 <node CREATED="1684958910355" ID="ID_829962280" LINK="generators/angular9/deleteComponentTs.mm" MODIFIED="1684958931869" TEXT="deleteComponentTs">
 <icon BUILTIN="element"/>
 </node>
-<node CREATED="1684094485119" ID="ID_1807508777" MODIFIED="1684525520499" TEXT="deleteComponentCss">
+<node CREATED="1684094485119" FOLDED="true" ID="ID_1807508777" MODIFIED="1684525520499" TEXT="deleteComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684161691515" ID="ID_699619091" MODIFIED="1684430367571" TEXT="patterns">
 <icon BUILTIN="element"/>
@@ -263,6 +263,11 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+<node CREATED="1685039607824" ID="ID_1872682580" MODIFIED="1685039608732" TEXT="//">
+<node CREATED="1685036966200" ID="ID_1394396031" MODIFIED="1685036970197" TEXT="bash">
+<icon BUILTIN="element"/>
 </node>
 </node>
 </node>
