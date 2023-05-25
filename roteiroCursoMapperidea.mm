@@ -5365,9 +5365,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684087161537" FOLDED="true" ID="ID_1945671968" MODIFIED="1684526705311" TEXT="crudComponentCss">
+<node CREATED="1684087161537" ID="ID_1945671968" MODIFIED="1684526705311" TEXT="crudComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1811841701" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" ID="ID_1811841701" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_1420161679" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -5375,8 +5375,41 @@
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" ID="ID_1202560690" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
 <node CREATED="1683923327388" ID="ID_1779496779" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
-<node CREATED="1684526772172" ID="ID_1216731436" MODIFIED="1684527554101" TEXT="crudComponentCss">
+<node CREATED="1684087161537" FOLDED="true" ID="ID_999365338" MODIFIED="1684525739740" TEXT="crudComponentCss">
 <icon BUILTIN="element"/>
+<node CREATED="1684161691515" ID="ID_24877688" MODIFIED="1684430367571" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684977823834" ID="ID_1599038610" MODIFIED="1684977828074" TEXT="crudComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684977833846" ID="ID_1011091281" MODIFIED="1684977835674" TEXT="button {">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684977844429" ID="ID_1649704040" MODIFIED="1684977845889" TEXT="    margin-bottom: 30px;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684977851717" ID="ID_340391623" MODIFIED="1684978054918" TEXT="}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" ID="ID_1412544527" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" ID="ID_1547792761" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_1825690434" MODIFIED="1684977887609" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" ID="ID_1993599119" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" ID="ID_918182264" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684632278001" ID="ID_286051739" MODIFIED="1684977819905" TEXT="crudComponentCss">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -5387,19 +5420,19 @@
 <node CREATED="1684119594131" ID="ID_1431430387" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_342170241" MODIFIED="1684527558693" TEXT="mi g angularCRUD angular9 crudComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<node CREATED="1684261777637" ID="ID_342170241" MODIFIED="1684978004790" TEXT="mi g angularCRUD angular9 crudComponentCss">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_1946586062" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" ID="ID_1946586062" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896789625" ID="ID_574603993" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1879212298" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_1427682928" MODIFIED="1684863620271" TEXT="mi g angularCRUD angular9 crudComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/views/product-form-crud/product-form-crud.component.css">
+<node CREATED="1684261777637" ID="ID_1427682928" MODIFIED="1684978023527" TEXT="mi g angularCRUD angular9 crudComponentCss &gt; src/app/views/product-form-crud/product-form-crud.component.css">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -6280,7 +6313,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684086607594" ID="ID_959083794" MODIFIED="1684526667419" TEXT="readComponentTs">
+<node CREATED="1684086607594" FOLDED="true" ID="ID_959083794" MODIFIED="1684526667419" TEXT="readComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_758654040" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -7011,41 +7044,68 @@
 </node>
 </node>
 </node>
-<node CREATED="1684086664900" FOLDED="true" ID="ID_1350245143" MODIFIED="1684526667418" TEXT="readComponentCss">
+<node CREATED="1684086664900" ID="ID_1350245143" MODIFIED="1684526667418" TEXT="readComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1230743313" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" ID="ID_1230743313" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_370505749" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
+<node CREATED="1683918427809" ID="ID_370505749" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684120561184" FOLDED="true" ID="ID_1462170758" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<node CREATED="1684120561184" ID="ID_1462170758" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
-<node CREATED="1683923299557" FOLDED="true" ID="ID_1674096969" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
-<node CREATED="1683923327388" FOLDED="true" ID="ID_412633869" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
-<node CREATED="1684526772172" ID="ID_774703061" MODIFIED="1684527463174" TEXT="readComponentCss">
+<node CREATED="1683923299557" ID="ID_1674096969" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923327388" ID="ID_412633869" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684086664900" FOLDED="true" ID="ID_1723023234" MODIFIED="1684525727760" TEXT="readComponentCss">
 <icon BUILTIN="element"/>
+<node CREATED="1684161691515" ID="ID_1233826989" MODIFIED="1684430367571" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684978344781" ID="ID_775971926" MODIFIED="1684978347075" TEXT="readComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684978366221" ID="ID_110754508" MODIFIED="1684978544183" TEXT="table {&#xa;    width: 100%;&#xa;}&#xa;&#xa;.edit {&#xa;    margin-right: 10px;&#xa;}&#xa;&#xa;.edit &gt; i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete &gt; i {&#xa;    color: #e35e6b;&#xa;}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" ID="ID_782448226" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" ID="ID_77153966" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_676894690" MODIFIED="1684978330765" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" ID="ID_1423793021" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" ID="ID_648580845" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684632278001" ID="ID_595467928" MODIFIED="1684978343017" TEXT="readComponentCss">
+<icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_502760153" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_502760153" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_866121068" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_799765248" MODIFIED="1684527468081" TEXT="mi g angularCRUD angular9 readComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<node CREATED="1684261777637" ID="ID_799765248" MODIFIED="1684978502692" TEXT="mi g angularCRUD angular9 readComponentCss">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
 <node CREATED="1684262074371" ID="ID_1780443104" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1576037035" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" ID="ID_1576037035" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_452074562" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_1553057903" MODIFIED="1684863707428" TEXT="mi g angularCRUD angular9 readComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/productForm/product-form-read/product-form-read.component.css">
+<node CREATED="1684261777637" ID="ID_1553057903" MODIFIED="1684978521644" TEXT="mi g angularCRUD angular9 readComponentCss &gt; src/app/components/productForm/product-form-read/product-form-read.component.css">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -8809,8 +8869,35 @@
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" FOLDED="true" ID="ID_21187637" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
 <node CREATED="1683923327388" FOLDED="true" ID="ID_89396099" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
-<node CREATED="1684526772172" ID="ID_912788832" MODIFIED="1684527131402" TEXT="createComponentCss">
+<node CREATED="1684021794247" FOLDED="true" ID="ID_751632942" MODIFIED="1684525333802" TEXT="createComponentCss">
 <icon BUILTIN="element"/>
+<node CREATED="1684161691515" FOLDED="true" ID="ID_163261148" MODIFIED="1684430367571" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684978647558" FOLDED="true" ID="ID_133418876" MODIFIED="1684978650258" TEXT="createComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684978366221" ID="ID_528632151" MODIFIED="1684978682183" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" FOLDED="true" ID="ID_1317784280" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" FOLDED="true" ID="ID_1012960329" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_777190549" MODIFIED="1684978590943" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" FOLDED="true" ID="ID_113814364" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" FOLDED="true" ID="ID_33999137" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684632278001" ID="ID_1231332598" MODIFIED="1684978618614" TEXT="createComponentCss">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -8821,7 +8908,7 @@
 <node CREATED="1684119594131" ID="ID_798764477" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_783870627" MODIFIED="1684527136034" TEXT="mi g angularCRUD angular9 createComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<node CREATED="1684261777637" ID="ID_783870627" MODIFIED="1684978747821" TEXT="mi g angularCRUD angular9 createComponentCss">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -8833,7 +8920,7 @@
 <node CREATED="1684119594131" ID="ID_434830891" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_349469358" MODIFIED="1684863783107" TEXT="mi g angularCRUD angular9 createComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/productForm/product-form-create/product-form-create.component.css">
+<node CREATED="1684261777637" ID="ID_349469358" MODIFIED="1684978783287" TEXT="mi g angularCRUD angular9 createComponentCss &gt; src/app/components/productForm/product-form-create/product-form-create.component.css">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -10596,9 +10683,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684092354431" ID="ID_180016677" MODIFIED="1684526612834" TEXT="updateComponentCss">
+<node CREATED="1684092354431" FOLDED="true" ID="ID_180016677" MODIFIED="1684526612834" TEXT="updateComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_448671848" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" ID="ID_448671848" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_513646895" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -10606,8 +10693,35 @@
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" ID="ID_1616504927" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
 <node CREATED="1683923327388" ID="ID_1792201801" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
-<node CREATED="1684526772172" ID="ID_725491738" MODIFIED="1684527215398" TEXT="updateComponentCss">
+<node CREATED="1684092354431" FOLDED="true" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
 <icon BUILTIN="element"/>
+<node CREATED="1684161691515" ID="ID_750304345" MODIFIED="1684430367571" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684978885427" ID="ID_334226644" MODIFIED="1684978887382" TEXT="updateComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684978366221" ID="ID_1322149831" MODIFIED="1684978682183" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" ID="ID_1404151261" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" ID="ID_1547324899" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_1568939053" MODIFIED="1684978865827" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" ID="ID_1394504550" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" ID="ID_789943329" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684978874504" ID="ID_101167526" MODIFIED="1684978875961" TEXT="updateComponentCss">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -10618,7 +10732,7 @@
 <node CREATED="1684119594131" ID="ID_1251838772" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_792369606" MODIFIED="1684527222582" TEXT="mi g angularCRUD angular9 updateComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<node CREATED="1684261777637" ID="ID_792369606" MODIFIED="1684979019351" TEXT="mi g angularCRUD angular9 updateComponentCss">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -10630,7 +10744,7 @@
 <node CREATED="1684119594131" ID="ID_320605894" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_1746409015" MODIFIED="1684864036202" TEXT="mi g angularCRUD angular9 updateComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/productForm/product-form-update/product-form-update.component.css">
+<node CREATED="1684261777637" ID="ID_1746409015" MODIFIED="1684979065207" TEXT="mi g angularCRUD angular9 updateComponentCss &gt; src/app/components/productForm/product-form-update/product-form-update.component.css">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -10675,7 +10789,7 @@
 </node>
 <node CREATED="1684087724816" ID="ID_406483246" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684094462548" ID="ID_104811655" MODIFIED="1684526630127" TEXT="deleteComponentHtml">
+<node CREATED="1684094462548" FOLDED="true" ID="ID_104811655" MODIFIED="1684526630127" TEXT="deleteComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" FOLDED="true" ID="ID_154972824" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -11513,7 +11627,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684094474151" ID="ID_1209427367" MODIFIED="1684526630127" TEXT="deleteComponentTs">
+<node CREATED="1684094474151" FOLDED="true" ID="ID_1209427367" MODIFIED="1684526630127" TEXT="deleteComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_707369470" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -12369,7 +12483,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684094485119" FOLDED="true" ID="ID_1371795102" MODIFIED="1684526630127" TEXT="deleteComponentCss">
+<node CREATED="1684094485119" ID="ID_1371795102" MODIFIED="1684526630127" TEXT="deleteComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1228611943" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -12379,8 +12493,35 @@
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" ID="ID_925815658" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
 <node CREATED="1683923327388" ID="ID_316223307" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
-<node CREATED="1684526772172" ID="ID_1515414087" MODIFIED="1684527364877" TEXT="deleteComponentCss">
+<node CREATED="1684094485119" FOLDED="true" ID="ID_332250994" MODIFIED="1684525520499" TEXT="deleteComponentCss">
 <icon BUILTIN="element"/>
+<node CREATED="1684161691515" FOLDED="true" ID="ID_699619091" MODIFIED="1684430367571" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684979303715" FOLDED="true" ID="ID_1685025587" MODIFIED="1684979304910" TEXT="deleteComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684978366221" ID="ID_1512315913" MODIFIED="1684979328778" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-top: 20px;&#xa;    margin-right: 15px;&#xa;}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" FOLDED="true" ID="ID_1823831339" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" FOLDED="true" ID="ID_1997360194" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_173203663" MODIFIED="1684979281782" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" FOLDED="true" ID="ID_1629927079" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" FOLDED="true" ID="ID_1111754505" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684979297202" ID="ID_157034546" MODIFIED="1684979298591" TEXT="deleteComponentCss">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -12391,7 +12532,7 @@
 <node CREATED="1684119594131" ID="ID_1820372157" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_772865186" MODIFIED="1684527369885" TEXT="mi g angularCRUD angular9 deleteComponentCss className=ProductForm packageName=br.com.neoinix.angular.window">
+<node CREATED="1684261777637" ID="ID_772865186" MODIFIED="1684979373782" TEXT="mi g angularCRUD angular9 deleteComponentCss">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -12403,7 +12544,7 @@
 <node CREATED="1684119594131" ID="ID_1353740805" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684261777637" ID="ID_1705508727" MODIFIED="1684864191205" TEXT="mi g angularCRUD angular9 deleteComponentCss className=ProductForm packageName=br.com.neoinix.angular.window &gt; src/app/components/productForm/product-form-delete/product-form-delete.component.css">
+<node CREATED="1684261777637" ID="ID_1705508727" MODIFIED="1684979398066" TEXT="mi g angularCRUD angular9 deleteComponentCss &gt; src/app/components/productForm/product-form-delete/product-form-delete.component.css">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
