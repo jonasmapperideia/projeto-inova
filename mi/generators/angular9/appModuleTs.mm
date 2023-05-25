@@ -101,11 +101,11 @@
 <node CREATED="1684417053868" ID="ID_1990794417" MODIFIED="1684861281201" TEXT="{{ mi:first-upper(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684418721864" ID="ID_1939672763" MODIFIED="1684418726267" TEXT="CrudComponent } from &apos;./views/">
+<node CREATED="1684418721864" ID="ID_1939672763" MODIFIED="1685023538896" TEXT="CrudComponent } from &apos;./windows/">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>
-<node CREATED="1684347481012" ID="ID_1249261916" MODIFIED="1684860776509" TEXT="{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-crud/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-crud.component&apos;;">
+<node CREATED="1684347481012" ID="ID_1249261916" MODIFIED="1685023501079" TEXT="{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-crud/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-crud.component&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -118,7 +118,7 @@
 <node CREATED="1684417053868" ID="ID_1338342605" MODIFIED="1684861287945" TEXT="{{ mi:first-upper(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684418599714" ID="ID_1715316998" MODIFIED="1684418610189" TEXT="CreateComponent } from &apos;./components/">
+<node CREATED="1684418599714" ID="ID_1715316998" MODIFIED="1685023531963" TEXT="CreateComponent } from &apos;./windows/">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>
@@ -135,7 +135,7 @@
 <node CREATED="1684417053868" ID="ID_155191689" MODIFIED="1684861294097" TEXT="{{ mi:first-upper(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684418620151" ID="ID_945514457" MODIFIED="1684418623762" TEXT="ReadComponent } from &apos;./components/">
+<node CREATED="1684418620151" ID="ID_945514457" MODIFIED="1685023546950" TEXT="ReadComponent } from &apos;./windows/">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>
@@ -152,7 +152,7 @@
 <node CREATED="1684417053868" ID="ID_1126999753" MODIFIED="1684861300153" TEXT="{{ mi:first-upper(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684418632055" ID="ID_524944376" MODIFIED="1684418636385" TEXT="UpdateComponent } from &apos;./components/">
+<node CREATED="1684418632055" ID="ID_524944376" MODIFIED="1685023552096" TEXT="UpdateComponent } from &apos;./windows/">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>
@@ -169,7 +169,7 @@
 <node CREATED="1684417053868" ID="ID_373751639" MODIFIED="1684861310333" TEXT="{{ mi:first-upper(@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684418645519" ID="ID_190460203" MODIFIED="1684418948679" TEXT="DeleteComponent } from &apos;./components/">
+<node CREATED="1684418645519" ID="ID_190460203" MODIFIED="1685023555912" TEXT="DeleteComponent } from &apos;./windows/">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>

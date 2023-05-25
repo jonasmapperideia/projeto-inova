@@ -25,11 +25,11 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 registerLocaleData(localePt);
 
-import { ProductFormCrudComponent } from './views/product-form-crud/product-form-crud.component';
-import { ProductFormCreateComponent } from './components/productForm/product-form-create/product-form-create.component';
-import { ProductFormReadComponent } from './components/productForm/product-form-read/product-form-read.component';
-import { ProductFormUpdateComponent } from './components/productForm/product-form-update/product-form-update.component';
-import { ProductFormDeleteComponent } from './components/productForm/product-form-delete/product-form-delete.component';
+import { ProductFormCrudComponent } from './windows/productForm/product-form-crud/product-form-crud.component';
+import { ProductFormCreateComponent } from './windows/productForm/product-form-create/product-form-create.component';
+import { ProductFormReadComponent } from './windows/productForm/product-form-read/product-form-read.component';
+import { ProductFormUpdateComponent } from './windows/productForm/product-form-update/product-form-update.component';
+import { ProductFormDeleteComponent } from './windows/productForm/product-form-delete/product-form-delete.component';
 
 
 @NgModule({

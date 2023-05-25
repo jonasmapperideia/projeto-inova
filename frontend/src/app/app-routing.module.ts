@@ -3,10 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './views/home/home.component';
 
-import { ProductFormCrudComponent } from './views/product-form-crud/product-form-crud.component';
-import { ProductFormCreateComponent } from './components/productForm/product-form-create/product-form-create.component';
-import { ProductFormUpdateComponent } from './components/productForm/product-form-update/product-form-update.component';
-import { ProductFormDeleteComponent } from './components/productForm/product-form-delete/product-form-delete.component';
+import { ProductFormCrudComponent } from './windows/productForm/product-form-crud/product-form-crud.component';
+import { ProductFormCreateComponent } from './windows/productForm/product-form-create/product-form-create.component';
+import { ProductFormUpdateComponent } from './windows/productForm/product-form-update/product-form-update.component';
+import { ProductFormDeleteComponent } from './windows/productForm/product-form-delete/product-form-delete.component';
 
 const routes: Routes = [
   {
