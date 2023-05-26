@@ -265,9 +265,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1685039607824" ID="ID_1872682580" MODIFIED="1685039608732" TEXT="//">
 <node CREATED="1685036966200" ID="ID_1394396031" MODIFIED="1685036970197" TEXT="bash">
 <icon BUILTIN="element"/>
+<node CREATED="1685106945031" ID="ID_392747442" MODIFIED="1685106950463" TEXT="frontEnd">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1685123241281" ID="ID_401941850" LINK="generators/bash/windowEditor.mm" MODIFIED="1685123247348" TEXT="windowEditor">
+<icon BUILTIN="element"/>
+</node>
 </node>
 </node>
 </node>
