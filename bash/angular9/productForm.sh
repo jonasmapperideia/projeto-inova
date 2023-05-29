@@ -26,3 +26,6 @@ mkdir -p ../../frontend/src/app/windows/productForm/product-form-delete
 mapperidea generate angularCRUD angular9 deleteComponentHtml className=ProductForm packageName=br.com.neoinix.angular.window > ../../frontend/src/app/windows/productForm/product-form-delete/product-form-delete.component.html
 mapperidea generate angularCRUD angular9 deleteComponentTs className=ProductForm packageName=br.com.neoinix.angular.window > ../../frontend/src/app/windows/productForm/product-form-delete/product-form-delete.component.ts
 mapperidea generate angularCRUD angular9 deleteComponentCss > ../../frontend/src/app/windows/productForm/product-form-delete/product-form-delete.component.css
+
+mapperidea generate angularCRUD angular9 modelTs className=ProductForm packageName=br.com.neoinix.angular.window > ../../frontend/src/app/windows/productForm/product.model.ts
+mapperidea generate angularCRUD angular9 serviceTs className=ProductForm packageName=br.com.neoinix.angular.window > ../../frontend/src/app/windows/productForm/product.service.ts
