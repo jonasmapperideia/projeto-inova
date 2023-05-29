@@ -28,7 +28,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" MODIFIED="1685108855186" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_1458430421" MODIFIED="1685108855186" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
 <node CREATED="1685109369407" MODIFIED="1685109501597" TEXT="init">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -54,7 +54,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1685109381023" FOLDED="true" MODIFIED="1685109414224" TEXT="commands">
+<node CREATED="1685109381023" ID="ID_188798375" MODIFIED="1685109414224" TEXT="commands">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685109451153" MODIFIED="1685109531745" TEXT="commands-crud">
 <icon BUILTIN="element"/>
@@ -128,7 +128,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1685109451153" MODIFIED="1685109531741" TEXT="commands-delete">
+<node CREATED="1685109451153" ID="ID_1943904383" MODIFIED="1685109531741" TEXT="commands-delete">
 <icon BUILTIN="element"/>
 <node CREATED="1685111521182" MODIFIED="1685120637661" TEXT="mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete">
 <icon BUILTIN="tag_green"/>
@@ -136,10 +136,25 @@
 <node CREATED="1685111536349" MODIFIED="1685119909823" TEXT="mapperidea generate {{ $projectName }} angular9 deleteComponentHtml className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete.component.html">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1685111542886" MODIFIED="1685119921423" TEXT="mapperidea generate {{ $projectName }} angular9 deleteComponentTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete.component.ts">
+<node CREATED="1685111542886" ID="ID_1958227393" MODIFIED="1685119921423" TEXT="mapperidea generate {{ $projectName }} angular9 deleteComponentTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1685111550246" MODIFIED="1685119932139" TEXT="mapperidea generate {{ $projectName }} angular9 deleteComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete.component.css">
+<node CREATED="1685111550246" ID="ID_1200836617" MODIFIED="1685119932139" TEXT="mapperidea generate {{ $projectName }} angular9 deleteComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-delete.component.css">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685371513813" ID="ID_1624692184" MODIFIED="1685371514848" TEXT="">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1685371461472" ID="ID_1781797877" MODIFIED="1685371467533" TEXT="command-model">
+<icon BUILTIN="element"/>
+<node CREATED="1685371557264" ID="ID_926594664" MODIFIED="1685372688221" TEXT="mapperidea generate {{ $projectName }} angular9 modelTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:first-lower($nameClassAtribute) }}.model.ts">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1685371468160" ID="ID_233446532" MODIFIED="1685371473843" TEXT="command-service">
+<icon BUILTIN="element"/>
+<node CREATED="1685371583485" ID="ID_1478547143" MODIFIED="1685372715917" TEXT="mapperidea generate {{ $projectName }} angular9 serviceTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:first-lower($nameClassAtribute) }}.service.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -153,8 +168,71 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684160926438" MODIFIED="1685107011061" TEXT="body">
+<node CREATED="1684160926438" ID="ID_1907181703" MODIFIED="1685107011061" TEXT="body">
 <icon BUILTIN="element"/>
+<node CREATED="1684262665910" ID="ID_48088688" MODIFIED="1685372342006" TEXT="vars">
+<icon BUILTIN="element"/>
+<node CREATED="1684262668493" MODIFIED="1684262670217" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684262712188" MODIFIED="1684262729178" TEXT="attributeObjeto">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684262708421" MODIFIED="1684262710005" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684262682958" MODIFIED="1684262698278" TEXT="attributes/attribute[@name=&quot;objeto&quot;][1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262783530" MODIFIED="1684262785717" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684262786762" ID="ID_1769681746" MODIFIED="1684262794841" TEXT="nameClassAtribute">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684262795318" MODIFIED="1684262796459" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684262801038" MODIFIED="1684262813647" TEXT="$attributeObjeto/@type">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262874899" MODIFIED="1684262877281" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684262885330" MODIFIED="1684262970835" TEXT="prefixPackageDomain">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684262971526" MODIFIED="1684262972728" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684263013806" MODIFIED="1684263123243" TEXT="substring-before(@package, &apos;window&apos;)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262874899" MODIFIED="1684262877281" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684262885330" MODIFIED="1684262970835" TEXT="prefixPackageDomain">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684262971526" MODIFIED="1684262972728" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684263013806" MODIFIED="1684263124898" TEXT="concat($prefixPackageDomain, &apos;domain&apos;)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262732468" ID="ID_1469980497" MODIFIED="1684262733608" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1684262734772" ID="ID_332734618" MODIFIED="1684595550161" TEXT="objetoClass">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684262751306" MODIFIED="1684262754132" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1684262758919" MODIFIED="1684263120922" TEXT="/classes/class[@name=$nameClassAtribute and starts-with(@package, $prefixPackageDomain)]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 <node CREATED="1685109369407" MODIFIED="1685109372472" TEXT="init">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1671891592531" MODIFIED="1685109084086" TEXT="write-pattern">
@@ -173,7 +251,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1685109381023" MODIFIED="1685109414224" TEXT="commands">
+<node CREATED="1685109381023" ID="ID_803788844" MODIFIED="1685109414224" TEXT="commands">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684024474236" MODIFIED="1684865906271" TEXT="crud">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -211,20 +289,41 @@
 </node>
 </node>
 </node>
-<node CREATED="1684093038448" MODIFIED="1684093048187" TEXT="delete">
+<node CREATED="1684093038448" ID="ID_496716912" MODIFIED="1684093048187" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1671891592531" MODIFIED="1685109084086" TEXT="write-pattern">
+<node CREATED="1671891592531" ID="ID_823532630" MODIFIED="1685109084086" TEXT="write-pattern">
 <icon BUILTIN="element"/>
 <node CREATED="1685109451153" MODIFIED="1685109488683" TEXT="commands-delete">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-</node>
-<node CREATED="1671891592531" MODIFIED="1671891598571" TEXT="write-pattern">
+<node CREATED="1685372503124" ID="ID_1147406556" MODIFIED="1685372506848" TEXT="if">
 <icon BUILTIN="element"/>
-<node CREATED="1684979297202" MODIFIED="1685108875592" TEXT="comandosMapperidea">
+<node CREATED="1685372514828" ID="ID_407527987" MODIFIED="1685372522358" TEXT="exists($objetoClass)">
 <icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685372523197" ID="ID_798355435" MODIFIED="1685372524423" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1685371485268" ID="ID_1144801620" MODIFIED="1685371488791" TEXT="model">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" ID="ID_1400160434" MODIFIED="1685109084086" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1685371508659" ID="ID_1335802384" MODIFIED="1685371530162" TEXT="command-model">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685371489620" ID="ID_1259193455" MODIFIED="1685371491992" TEXT="service">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" ID="ID_253495664" MODIFIED="1685109084086" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1685371508659" ID="ID_28376241" MODIFIED="1685371530160" TEXT="command-service">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
