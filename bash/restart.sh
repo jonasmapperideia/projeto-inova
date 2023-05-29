@@ -25,4 +25,14 @@ cd ../frontend
 mapperidea generate angularCRUD angular9 navComponentHtml > src/app/components/template/nav/nav.component.html
 mapperidea generate angularCRUD angular9 appModuleTs > src/app/app.module.ts
 mapperidea generate angularCRUD angular9 appRoutingModuleTs > src/app/app-routing.module.ts
+
+cd ../bash
+rm ./angular9/*.sh
+rm -rf ../frontend/src/app/windows
+mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD > angular9/generateBashScreens.sh
+mapperidea generate angularCRUD bash executeBashScreens > angular9/executeBashScreens.sh
+
+cd ./angular9
+bash ./generateBashScreens.sh
+bash ./executeBashScreens.sh
 # ----------------------------------------------------------------------------
