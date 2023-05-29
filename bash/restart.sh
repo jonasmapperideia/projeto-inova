@@ -1,13 +1,7 @@
 #!/bin/bash
 echo " --- Processamento iniciado --- "
 
-# Iniciando projeto Mapperidea -----------------------------------------------
-echo " --- Acessando pasta 'mi' --- "
-cd ../mi
-
-echo " --- Iniciando projeto mapperidea angularCRUD --- "
-mapperidea init angularCRUD br.com.neoinix.angular.mm
-
+# Subindo mapas para o servidor ----------------------------------------------
 echo " --- Subindo mapas para o servidor poder processar --- "
 mapperidea push angularCRUD
 # ----------------------------------------------------------------------------
