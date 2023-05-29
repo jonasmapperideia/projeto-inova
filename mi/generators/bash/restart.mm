@@ -33,11 +33,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1685126815502" FOLDED="true" ID="ID_1121042032" MODIFIED="1685126816938" TEXT="Starting Mapperidea project">
+<node CREATED="1685126815502" ID="ID_1121042032" MODIFIED="1685126816938" TEXT="Starting Mapperidea project">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1685126913005" FOLDED="true" MODIFIED="1685126914407" TEXT="startingMapperideaProject">
+<node CREATED="1685126913005" ID="ID_1993342910" MODIFIED="1685126914407" TEXT="startingMapperideaProject">
 <icon BUILTIN="element"/>
-<node CREATED="1685126925550" MODIFIED="1685127842988" TEXT="# Iniciando projeto Mapperidea -----------------------------------------------&#xa;echo &quot; --- Acessando pasta &apos;mi&apos; --- &quot;&#xa;cd ../mi&#xa;&#xa;echo &quot; --- Iniciando projeto mapperidea {{ $projectName }} --- &quot;&#xa;mapperidea init {{ $projectName }} br.com.neoinix.angular.mm&#xa;&#xa;echo &quot; --- Subindo mapas para o servidor poder processar --- &quot;&#xa;mapperidea push {{ $projectName }}&#xa;# ----------------------------------------------------------------------------">
+<node CREATED="1685126925550" ID="ID_1661448197" MODIFIED="1685384932240" TEXT="# Subindo mapas para o servidor ----------------------------------------------&#xa;echo &quot; --- Subindo mapas para o servidor poder processar --- &quot;&#xa;mapperidea push angularCRUD&#xa;# ----------------------------------------------------------------------------">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1685126930630" MODIFIED="1685126932338" TEXT="">
