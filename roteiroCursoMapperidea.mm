@@ -12958,6 +12958,453 @@
 </node>
 </node>
 </node>
+<node CREATED="1685379268392" ID="ID_1732916276" MODIFIED="1685379476233" TEXT="Criar script bash para executar telas do sistema">
+<icon BUILTIN="full-3"/>
+<node CREATED="1683919963321" ID="ID_1847166174" MODIFIED="1684414385142" TEXT="Criar o arquivo:">
+<icon BUILTIN="bookmark"/>
+<node CREATED="1684014610706" ID="ID_246331419" MODIFIED="1685379626153" TEXT="bash/angular9/generateBashScreens.sh">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_140408717" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1685379647189" ID="ID_1092095997" MODIFIED="1685379657114" TEXT="#!/bin/bash&#xa;echo &quot; &quot;&#xa;&#xa;mapperidea generate angularCRUD bash windowEditor className=ProductForm packageName=br.com.neoinix.angular.window projectName=angularCRUD &gt; productForm.sh&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685380096664" ID="ID_1937936619" MODIFIED="1685380114835" TEXT="bash/angular9/executaBashScreens.sh">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" ID="ID_1012115239" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1685379647189" ID="ID_1531831312" MODIFIED="1685380148662" TEXT="#!/bin/bash&#xa;echo &quot; &quot;&#xa;&#xa;bash ./productForm.sh&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685384711478" ID="ID_1141865859" MODIFIED="1685384723762" TEXT="bash/restart.sh">
+<icon BUILTIN="list"/>
+<node CREATED="1683896144324" FOLDED="true" ID="ID_981942062" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1685384737422" ID="ID_1866603146" MODIFIED="1685384744490" TEXT="#!/bin/bash&#xa;echo &quot; --- Processamento iniciado --- &quot;&#xa;&#xa;# Subindo mapas para o servidor ----------------------------------------------&#xa;echo &quot; --- Subindo mapas para o servidor poder processar --- &quot;&#xa;mapperidea push angularCRUD&#xa;# ----------------------------------------------------------------------------&#xa;&#xa;# Gera arquivo backend -------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do backend do sistema na linguagem JsonServe --- &quot;&#xa;cd ../backend&#xa;mapperidea generate angularCRUD jsonServer dbJson &gt; db.json&#xa;# ----------------------------------------------------------------------------&#xa;&#xa;# Gera arquivo frontend ------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do frontend do sistema na linguagem angular9 --- &quot;&#xa;cd ../frontend&#xa;&#xa;mapperidea generate angularCRUD angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html&#xa;mapperidea generate angularCRUD angular9 appModuleTs &gt; src/app/app.module.ts&#xa;mapperidea generate angularCRUD angular9 appRoutingModuleTs &gt; src/app/app-routing.module.ts&#xa;&#xa;cd ../bash&#xa;rm ./angular9/*.sh&#xa;rm -rf ../frontend/src/app/windows&#xa;mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh&#xa;mapperidea generate angularCRUD bash executeBashScreens &gt; angular9/executeBashScreens.sh&#xa;&#xa;cd ./angular9&#xa;bash ./generateBashScreens.sh&#xa;bash ./executeBashScreens.sh&#xa;# ----------------------------------------------------------------------------&#xa;">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684087724816" ID="ID_178446065" MODIFIED="1684243055469" TEXT="No mapperidea">
+<icon BUILTIN="Mapping.variableOneToOne"/>
+<node CREATED="1685380305425" ID="ID_474407415" MODIFIED="1685380313246" TEXT="generateBashScreens">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" ID="ID_82820786" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_43782509" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_1726106459" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1685122503720" ID="ID_382269127" MODIFIED="1685380366391" TEXT="na parte do element &quot;bash&quot;">
+<node CREATED="1683923327388" ID="ID_49257383" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1677769149103" FOLDED="true" ID="ID_905022348" MODIFIED="1685380693813" TEXT="generateBashScreens">
+<icon BUILTIN="element"/>
+<node CREATED="1685109974694" ID="ID_1349553741" MODIFIED="1685130024948" TEXT="//">
+<node CREATED="1685120677040" MODIFIED="1685120696444" TEXT="Modelo de comandos mapperidea"/>
+<node CREATED="1685130052453" ID="ID_1390974372" MODIFIED="1685130137633" TEXT="mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD"/>
+<node CREATED="1685130038158" ID="ID_776359215" MODIFIED="1685130135577" TEXT="mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh"/>
+</node>
+<node CREATED="1684159426363" FOLDED="true" ID="ID_168703228" MODIFIED="1685129172779" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426364" FOLDED="true" ID="ID_1123648372" MODIFIED="1685109028034" TEXT="projectName">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426365" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1667959001790" FOLDED="true" ID="ID_1948274357" MODIFIED="1685129035283" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1564490943547" FOLDED="true" ID="ID_876184425" MODIFIED="1564490955306" TEXT="inicioBash">
+<icon BUILTIN="element"/>
+<node CREATED="1564490956501" MODIFIED="1564490963577" TEXT="#!/bin/bash">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1672344546405" MODIFIED="1672346995528" TEXT="echo &quot; &quot;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685130088194" MODIFIED="1685130089159" TEXT="">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1685129548595" FOLDED="true" ID="ID_884476779" MODIFIED="1685129549908" TEXT="mapperideaCommand">
+<icon BUILTIN="element"/>
+<node CREATED="1685129576129" MODIFIED="1685129779314" TEXT="mapperidea generate {{ $projectName }} bash windowEditor className={{ @name }} packageName={{ @package }} projectName={{ $projectName }} &gt; {{ mi:first-lower(@name) }}.sh">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1670552651617" FOLDED="true" ID="ID_1907362949" MODIFIED="1670552653342" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1670552657873" FOLDED="true" ID="ID_422020996" MODIFIED="1670552673197" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1670552674360" MODIFIED="1670552677946" TEXT="classes">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1670552679762" FOLDED="true" ID="ID_1111881406" MODIFIED="1670552682102" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1672232324803" FOLDED="true" ID="ID_592703137" MODIFIED="1672232330133" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1672232331292" MODIFIED="1672232453783" TEXT="inicioBash">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1667959200993" FOLDED="true" ID="ID_177482513" MODIFIED="1667959205380" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1667959206759" FOLDED="true" ID="ID_684173606" MODIFIED="1667959212363" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1667959215232" MODIFIED="1685129441193" TEXT="class[@mode=&quot;window.editor&quot;]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1667959240775" FOLDED="true" ID="ID_1928519453" MODIFIED="1667959243176" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1667959245648" MODIFIED="1685129509571" TEXT="mapperideaCommand">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1670552792276" FOLDED="true" ID="ID_1373632547" MODIFIED="1670552794456" TEXT="templates">
+<icon BUILTIN="element"/>
+<node CREATED="1685129514560" FOLDED="true" ID="ID_608312443" MODIFIED="1685129516174" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1685129516809" MODIFIED="1685129518505" TEXT="mapperideaCommand">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1670552802300" FOLDED="true" ID="ID_1452154065" MODIFIED="1670552819097" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1670552806707" FOLDED="true" ID="ID_663352096" MODIFIED="1670552819096" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1670552808796" MODIFIED="1685129536055" TEXT="class">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1670552820963" FOLDED="true" ID="ID_918614447" MODIFIED="1670552822894" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1670552825273" FOLDED="true" ID="ID_9077403" MODIFIED="1670552834298" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1670552835272" MODIFIED="1685129545207" TEXT="mapperideaCommand">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1362909465" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_776912305" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685380779825" ID="ID_145771831" MODIFIED="1685380783035" TEXT="mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1317417322" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_275411996" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1975719926" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1684261777637" ID="ID_1678461985" MODIFIED="1685381225916" TEXT="mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685380310822" ID="ID_649735074" MODIFIED="1685380313244" TEXT="executaBashScreens">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" ID="ID_913182493" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_307633381" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_576364676" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1685122503720" ID="ID_239956906" MODIFIED="1685380366391" TEXT="na parte do element &quot;bash&quot;">
+<node CREATED="1683923327388" ID="ID_254640605" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1685367587857" ID="ID_1001906045" MODIFIED="1685381318744" TEXT="executeBashScreens">
+<icon BUILTIN="element"/>
+<node CREATED="1685109974694" FOLDED="true" ID="ID_391163866" MODIFIED="1685369761488" TEXT="//">
+<node CREATED="1685120677040" MODIFIED="1685120696444" TEXT="Modelo de comandos mapperidea"/>
+<node CREATED="1685130052453" ID="ID_31281805" MODIFIED="1685370139998" TEXT="mapperidea generate angularCRUD bash executeBashScreens"/>
+<node CREATED="1685130038158" ID="ID_1800639983" MODIFIED="1685370296685" TEXT="mapperidea generate angularCRUD bash executeBashScreens &gt; angular9/executeBashScreens.sh"/>
+</node>
+<node CREATED="1667959001790" FOLDED="true" ID="ID_571578078" MODIFIED="1685368284369" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1564490943547" FOLDED="true" ID="ID_1862745050" MODIFIED="1564490955306" TEXT="inicioBash">
+<icon BUILTIN="element"/>
+<node CREATED="1564490956501" MODIFIED="1564490963577" TEXT="#!/bin/bash">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1672344546405" MODIFIED="1672346995528" TEXT="echo &quot; &quot;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685370098079" MODIFIED="1685370099170" TEXT="">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1685369867692" FOLDED="true" ID="ID_1006656392" MODIFIED="1685369870967" TEXT="executeBash">
+<icon BUILTIN="element"/>
+<node CREATED="1685369906868" MODIFIED="1685370001165" TEXT="bash ./{{ mi:first-lower(@name) }}.sh">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1670552651617" FOLDED="true" ID="ID_78269599" MODIFIED="1670552653342" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1670552657873" FOLDED="true" ID="ID_283150488" MODIFIED="1670552673197" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1670552674360" MODIFIED="1670552677946" TEXT="classes">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1670552679762" FOLDED="true" ID="ID_288429512" MODIFIED="1670552682102" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1672232324803" FOLDED="true" ID="ID_192541920" MODIFIED="1672232330133" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1672232331292" MODIFIED="1672232453783" TEXT="inicioBash">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1667959200993" FOLDED="true" ID="ID_1701516197" MODIFIED="1667959205380" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1667959206759" FOLDED="true" ID="ID_228437744" MODIFIED="1667959212363" TEXT="select">
+<icon BUILTIN="element"/>
+<node CREATED="1667959215232" MODIFIED="1685129441193" TEXT="class[@mode=&quot;window.editor&quot;]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1667959240775" FOLDED="true" ID="ID_1839628758" MODIFIED="1667959243176" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1667959245648" MODIFIED="1685369834467" TEXT="executeBash">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1670552792276" FOLDED="true" ID="ID_507651784" MODIFIED="1670552794456" TEXT="templates">
+<icon BUILTIN="element"/>
+<node CREATED="1685129514560" FOLDED="true" ID="ID_1293018407" MODIFIED="1685129516174" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1685369837134" MODIFIED="1685369840028" TEXT="executeBash">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1670552802300" FOLDED="true" ID="ID_1449672371" MODIFIED="1670552819097" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1670552806707" FOLDED="true" ID="ID_734122396" MODIFIED="1670552819096" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1670552808796" MODIFIED="1685129536055" TEXT="class">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1670552820963" FOLDED="true" ID="ID_1440677707" MODIFIED="1670552822894" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1670552825273" FOLDED="true" ID="ID_1637685656" MODIFIED="1670552834298" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1670552835272" MODIFIED="1685369865127" TEXT="executeBash">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_914630943" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_925091271" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685380779825" ID="ID_1504927027" MODIFIED="1685381341478" TEXT="mapperidea generate angularCRUD bash executeBashScreens">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_249706953" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_1499094830" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_445100078" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685381403570" ID="ID_1905202782" MODIFIED="1685381405477" TEXT="mapperidea generate angularCRUD bash executeBashScreens &gt; angular9/executeBashScreens.sh">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685384771197" ID="ID_102016430" MODIFIED="1685384774342" TEXT="restart">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684262056102" ID="ID_1501661376" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<icon BUILTIN="full-1"/>
+<node CREATED="1683918427809" ID="ID_136250186" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<icon BUILTIN="edit"/>
+<node CREATED="1684120561184" ID="ID_372720547" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<icon BUILTIN="freemind_butterfly"/>
+<node CREATED="1685122503720" ID="ID_1804198388" MODIFIED="1685380366391" TEXT="na parte do element &quot;bash&quot;">
+<node CREATED="1683923327388" ID="ID_1085316473" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1685126430357" ID="ID_395295182" MODIFIED="1685385163370" TEXT="restart">
+<icon BUILTIN="element"/>
+<node CREATED="1685109974694" FOLDED="true" MODIFIED="1685127512873" TEXT="//">
+<node CREATED="1685120677040" MODIFIED="1685120696444" TEXT="Modelo de comandos mapperidea"/>
+<node CREATED="1685109976879" MODIFIED="1685127541421" TEXT="mi g angularCRUD bash restart projectName=angularCRUD"/>
+<node CREATED="1685109978872" MODIFIED="1685127755305" TEXT="mi g angularCRUD bash restart projectName=angularCRUD &gt; restart.sh"/>
+</node>
+<node CREATED="1684159426363" FOLDED="true" ID="ID_838784220" MODIFIED="1685108986133" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426364" FOLDED="true" MODIFIED="1685109028034" TEXT="projectName">
+<icon BUILTIN="element"/>
+<node CREATED="1684159426365" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684161691515" FOLDED="true" ID="ID_117104731" MODIFIED="1685108855186" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1685109369407" FOLDED="true" MODIFIED="1685109501597" TEXT="init">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1685109096184" FOLDED="true" MODIFIED="1685109098045" TEXT="bash-init">
+<icon BUILTIN="element"/>
+<node CREATED="1685109104241" MODIFIED="1685109105682" TEXT="#!/bin/bash">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685126627566" MODIFIED="1685126629017" TEXT="echo &quot; --- Processamento iniciado --- &quot;">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685109148971" MODIFIED="1685109150239" TEXT="">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685126815502" ID="ID_1677138876" MODIFIED="1685126816938" TEXT="Starting Mapperidea project">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1685126913005" ID="ID_1241206515" MODIFIED="1685126914407" TEXT="startingMapperideaProject">
+<icon BUILTIN="element"/>
+<node CREATED="1685126925550" ID="ID_311102242" MODIFIED="1685384932240" TEXT="# Subindo mapas para o servidor ----------------------------------------------&#xa;echo &quot; --- Subindo mapas para o servidor poder processar --- &quot;&#xa;mapperidea push angularCRUD&#xa;# ----------------------------------------------------------------------------">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685126930630" MODIFIED="1685126932338" TEXT="">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685127000272" ID="ID_405221213" MODIFIED="1685127004566" TEXT="Generate backend file">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1685127006308" ID="ID_817910859" MODIFIED="1685127024933" TEXT="generateBackendFile">
+<icon BUILTIN="element"/>
+<node CREATED="1685127088782" MODIFIED="1685127861618" TEXT="# Gera arquivo backend -------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do backend do sistema na linguagem JsonServe --- &quot;&#xa;cd ../backend&#xa;mapperidea generate {{ $projectName }} jsonServer dbJson &gt; db.json&#xa;# ----------------------------------------------------------------------------">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685127093454" MODIFIED="1685127094395" TEXT="">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685127000272" ID="ID_428877320" MODIFIED="1685127157843" TEXT="Generate frontend file">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1685127274614" ID="ID_1852500971" MODIFIED="1685127276160" TEXT="generateFrontendFile">
+<icon BUILTIN="element"/>
+<node CREATED="1685127463158" ID="ID_482928190" MODIFIED="1685371083225" TEXT="# Gera arquivo frontend ------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do frontend do sistema na linguagem angular9 --- &quot;&#xa;cd ../frontend&#xa;&#xa;mapperidea generate {{ $projectName }} angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html&#xa;mapperidea generate {{ $projectName }} angular9 appModuleTs &gt; src/app/app.module.ts&#xa;mapperidea generate {{ $projectName }} angular9 appRoutingModuleTs &gt; src/app/app-routing.module.ts&#xa;&#xa;cd ../bash&#xa;rm ./angular9/*.sh&#xa;rm -rf ../frontend/src/app/windows&#xa;mapperidea generate {{ $projectName }} bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh&#xa;mapperidea generate {{ $projectName }} bash executeBashScreens &gt; angular9/executeBashScreens.sh&#xa;&#xa;cd ./angular9&#xa;bash ./generateBashScreens.sh&#xa;bash ./executeBashScreens.sh&#xa;# ----------------------------------------------------------------------------">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" FOLDED="true" ID="ID_1688996046" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" FOLDED="true" ID="ID_723304968" MODIFIED="1685107011059" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" MODIFIED="1685126545038" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" FOLDED="true" ID="ID_1336083455" MODIFIED="1685107011061" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1685109369407" FOLDED="true" MODIFIED="1685109372472" TEXT="init">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" FOLDED="true" MODIFIED="1685109084086" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684979297202" MODIFIED="1685109092627" TEXT="bash-init">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685126815502" FOLDED="true" ID="ID_1548498159" MODIFIED="1685126816938" TEXT="Starting Mapperidea project">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" FOLDED="true" MODIFIED="1685109084086" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684979297202" MODIFIED="1685126897621" TEXT="startingMapperideaProject">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685127000272" FOLDED="true" ID="ID_96139244" MODIFIED="1685127004566" TEXT="Generate backend file">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" FOLDED="true" MODIFIED="1685109084086" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1685127056946" MODIFIED="1685127061187" TEXT="generateBackendFile">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685127000272" ID="ID_704509496" MODIFIED="1685127157843" TEXT="Generate frontend file">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1671891592531" ID="ID_1078532554" MODIFIED="1685109084086" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1685127237841" MODIFIED="1685127248891" TEXT="generateFrontendFile">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1683896789625" ID="ID_1642063329" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_563285207" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685380779825" ID="ID_501494083" MODIFIED="1685384977732" TEXT="mi g angularCRUD bash restart projectName=angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1684262074371" ID="ID_1917382437" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<icon BUILTIN="full-2"/>
+<node CREATED="1683896789625" ID="ID_137316926" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<icon BUILTIN="Descriptor.window.dialog"/>
+<node CREATED="1684119594131" ID="ID_1421000280" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685381403570" ID="ID_793844963" MODIFIED="1685384988004" TEXT="mi g angularCRUD bash restart projectName=angularCRUD &gt; restart.sh">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1684096951974" ID="ID_435384710" MODIFIED="1684097011343" POSITION="right" TEXT="Atualizar Frontend, incluir tratamento de erros">
 <icon BUILTIN="Descriptor.window.iframe"/>
