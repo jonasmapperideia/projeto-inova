@@ -270,6 +270,12 @@
 <node CREATED="1685127951861" ID="ID_1410060957" LINK="generators/bash/restart.mm" MODIFIED="1685127962366" TEXT="restart">
 <icon BUILTIN="element"/>
 </node>
+<node CREATED="1685374347271" ID="ID_729304286" LINK="generators/bash/generateBashScreens.mm" MODIFIED="1685374362886" TEXT="generateBashScreens">
+<icon BUILTIN="element"/>
+</node>
+<node CREATED="1685374373536" ID="ID_308369829" LINK="generators/bash/executeBashScreens.mm" MODIFIED="1685374386186" TEXT="executeBashScreens">
+<icon BUILTIN="element"/>
+</node>
 <node CREATED="1685106945031" ID="ID_392747442" MODIFIED="1685106950463" TEXT="frontEnd">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685123241281" ID="ID_401941850" LINK="generators/bash/windowEditor.mm" MODIFIED="1685123247348" TEXT="windowEditor">
