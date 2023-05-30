@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1684244412771" ID="ID_49255981" LINK="../../mapperidea.mm" MODIFIED="1685023864234" TEXT="appRoutingModuleTs">
+<node CREATED="1684244412771" ID="ID_49255981" LINK="../../mapperidea.mm" MODIFIED="1685412841047" TEXT="appRoutingModuleTs">
 <icon BUILTIN="element"/>
 <node CREATED="1684161691515" FOLDED="true" ID="ID_1082484076" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
@@ -115,7 +115,7 @@
 <node CREATED="1684520869262" MODIFIED="1684520870436" TEXT="    component: HomeComponent">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684520880774" MODIFIED="1684520883070" TEXT="  }">
+<node CREATED="1684520880774" ID="ID_499351797" MODIFIED="1685412417835" TEXT="  },">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
@@ -132,7 +132,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684521246131" FOLDED="true" ID="ID_252028244" MODIFIED="1684521247418" TEXT="CrudComponent">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684521204456" MODIFIED="1684521206065" TEXT=", {">
+<node CREATED="1684521204456" ID="ID_1716571813" MODIFIED="1685411972656" TEXT=" {">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684521213359" ID="ID_1850351545" MODIFIED="1684862165691" TEXT="    path: &quot;{{ mi:first-lower(@name) }}&quot;,">
@@ -141,13 +141,13 @@
 <node CREATED="1684521220915" ID="ID_1326498112" MODIFIED="1684862253323" TEXT="    component: {{ mi:first-upper(@name) }}CrudComponent">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684521228084" ID="ID_1280227691" MODIFIED="1684522392399" TEXT="  },">
-<icon BUILTIN="tag_green"/>
+<node CREATED="1684521228084" ID="ID_1280227691" MODIFIED="1685412468476" TEXT="  },">
+<icon BUILTIN="tag_yellow"/>
 </node>
 </node>
 <node CREATED="1684521276511" FOLDED="true" ID="ID_1706499985" MODIFIED="1684521285352" TEXT="CreateComponent">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684521289539" ID="ID_151431655" MODIFIED="1684521291209" TEXT="  {">
+<node CREATED="1684521289539" ID="ID_151431655" MODIFIED="1685412505848" TEXT=" {">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684521297155" ID="ID_547124987" MODIFIED="1684862172083" TEXT="    path: &quot;{{ mi:first-lower(@name) }}/create&quot;,">
@@ -156,13 +156,13 @@
 <node CREATED="1684521303695" ID="ID_1127185447" MODIFIED="1684862262719" TEXT="    component: {{ mi:first-upper(@name) }}CreateComponent">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684521310439" ID="ID_1102081805" MODIFIED="1684521312666" TEXT="  },">
-<icon BUILTIN="tag_green"/>
+<node CREATED="1684521310439" ID="ID_1102081805" MODIFIED="1685412475426" TEXT="  },">
+<icon BUILTIN="tag_yellow"/>
 </node>
 </node>
 <node CREATED="1684521340627" FOLDED="true" ID="ID_1900942465" MODIFIED="1684521342314" TEXT="UpdateComponent">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684521352500" ID="ID_1899563195" MODIFIED="1684521353889" TEXT="  {">
+<node CREATED="1684521352500" ID="ID_1899563195" MODIFIED="1685412512983" TEXT=" {">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684521366191" ID="ID_1492688927" MODIFIED="1684862177675" TEXT="    path: &quot;{{ mi:first-lower(@name) }}/update/:id&quot;,">
@@ -171,13 +171,13 @@
 <node CREATED="1684521373055" ID="ID_1592625566" MODIFIED="1684862270223" TEXT="    component: {{ mi:first-upper(@name) }}UpdateComponent">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684521379928" ID="ID_1881544051" MODIFIED="1684521381100" TEXT="  },">
-<icon BUILTIN="tag_green"/>
+<node CREATED="1684521379928" ID="ID_1881544051" MODIFIED="1685412478054" TEXT="  },">
+<icon BUILTIN="tag_yellow"/>
 </node>
 </node>
 <node CREATED="1684521391464" FOLDED="true" ID="ID_548616605" MODIFIED="1684521392755" TEXT="DeleteComponent">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684521401119" ID="ID_1968233048" MODIFIED="1684521402362" TEXT="  {">
+<node CREATED="1684521401119" ID="ID_1968233048" MODIFIED="1685412518941" TEXT=" {">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684521431042" ID="ID_1716992143" MODIFIED="1684862183435" TEXT="    path: &quot;{{ mi:first-lower(@name) }}/delete/:id&quot;,">
@@ -223,8 +223,8 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684184654796" FOLDED="true" ID="ID_650898109" MODIFIED="1684184656504" TEXT="comma">
 <icon BUILTIN="element"/>
-<node CREATED="1684184657748" MODIFIED="1684184673508" TEXT=",">
-<icon BUILTIN="tag_green"/>
+<node CREATED="1684184657748" ID="ID_1475801980" MODIFIED="1685412425934" TEXT=",">
+<icon BUILTIN="tag_yellow"/>
 </node>
 </node>
 <node CREATED="1684184846095" FOLDED="true" ID="ID_994967832" MODIFIED="1684184850914" TEXT="breakLine">
