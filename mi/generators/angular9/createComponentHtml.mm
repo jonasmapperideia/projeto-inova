@@ -53,9 +53,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" FOLDED="true" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_43593690" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1684532424397" FOLDED="true" MODIFIED="1684532426507" TEXT="class">
+<node CREATED="1684532424397" ID="ID_1650039522" MODIFIED="1684532426507" TEXT="class">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684531885582" FOLDED="true" MODIFIED="1684531922354" TEXT="mat-card-init">
 <icon BUILTIN="element"/>
@@ -69,11 +69,11 @@
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
-<node CREATED="1684532430409" FOLDED="true" MODIFIED="1684532435248" TEXT="title">
+<node CREATED="1684532430409" ID="ID_1437523966" MODIFIED="1684532435248" TEXT="title">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684532174945" FOLDED="true" MODIFIED="1684532177086" TEXT="title">
+<node CREATED="1684532174945" ID="ID_241194250" MODIFIED="1684532177086" TEXT="title">
 <icon BUILTIN="element"/>
-<node CREATED="1684532184102" MODIFIED="1684595605353" TEXT="    &lt;mat-card-title&gt;Novo {{ $objetoClass/properties/description/value }}&lt;/mat-card-title&gt;">
+<node CREATED="1684532184102" ID="ID_794358288" MODIFIED="1685468914469" TEXT="    &lt;mat-card-title&gt;Incluir {{ $objetoClass/properties/description/value }}&lt;/mat-card-title&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
