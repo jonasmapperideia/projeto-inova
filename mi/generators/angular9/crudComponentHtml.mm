@@ -24,7 +24,7 @@
 <node CREATED="1684767062196" ID="ID_1220680815" MODIFIED="1684863237008" TEXT="&lt;button mat-raised-button (click)=&quot;navigateTo{{ mi:first-upper(@name) }}Create()&quot; color=&quot;primary&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684767070643" MODIFIED="1684767226524" TEXT="    Novo {{ $objetoClass/properties/description/value/text() }}">
+<node CREATED="1684767070643" ID="ID_778017725" MODIFIED="1685415184072" TEXT="    Incluir {{ $objetoClass/properties/description/value/text() }}">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684767073207" MODIFIED="1684767082679" TEXT="&lt;/button&gt;">
