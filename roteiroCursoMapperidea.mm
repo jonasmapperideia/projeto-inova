@@ -2247,7 +2247,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683990072487" FOLDED="true" ID="ID_103835920" MODIFIED="1684259325386" TEXT="Criar componente nav">
+<node CREATED="1683990072487" ID="ID_103835920" MODIFIED="1684259325386" TEXT="Criar componente nav">
 <icon BUILTIN="full-5"/>
 <node CREATED="1683896789625" ID="ID_1369978410" MODIFIED="1684174275139" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -2293,7 +2293,7 @@
 <node CREATED="1683995357949" FOLDED="true" ID="ID_960862967" MODIFIED="1683995361917" TEXT="frontend/src/app/components/template/nav/nav.component.css">
 <icon BUILTIN="list"/>
 <node CREATED="1683896144324" ID="ID_1564239302" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1683995415373" ID="ID_1540882504" MODIFIED="1683995422464" TEXT=".sidenav {&#xa;    background-color: #676a7d;&#xa;    width: 200px;&#xa;}&#xa;&#xa;.sidenav a {&#xa;    color: #FFF;&#xa;}&#xa;&#xa;.sidenav i {&#xa;    padding-right: 10px;&#xa;}&#xa;&#xa;.content {&#xa;    padding: 16px;&#xa;    background-color: #FFF;&#xa;}">
+<node CREATED="1683995415373" ID="ID_1540882504" MODIFIED="1685470182982" TEXT=".sidenav {&#xa;    background-color: #4B4B50;&#xa;    width: 200px;&#xa;}&#xa;&#xa;.sidenav a {&#xa;    color: #FFF;&#xa;}&#xa;&#xa;.sidenav i {&#xa;    padding-right: 10px;&#xa;}&#xa;&#xa;.content {&#xa;    padding: 16px;&#xa;    background-color: #FFF;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -4959,9 +4959,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684087724816" ID="ID_1017326036" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_1017326036" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684013950555" ID="ID_1018220017" MODIFIED="1684526705312" TEXT="crudComponentHtml">
+<node CREATED="1684013950555" FOLDED="true" ID="ID_1018220017" MODIFIED="1684526705312" TEXT="crudComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_810708791" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -4970,8 +4970,8 @@
 <node CREATED="1684120561184" ID="ID_1704304856" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1683923299557" ID="ID_1737613091" MODIFIED="1684261049473" TEXT="na parte do element &quot;angular9&quot;">
-<node CREATED="1683923327388" ID="ID_554221881" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
-<node CREATED="1684013950555" ID="ID_947853110" MODIFIED="1684863376520" TEXT="crudComponentHtml">
+<node CREATED="1683923327388" FOLDED="true" ID="ID_554221881" MODIFIED="1683923334072" TEXT="Incluir o conteudo:">
+<node CREATED="1684013950555" FOLDED="true" ID="ID_947853110" MODIFIED="1684863376520" TEXT="crudComponentHtml">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" ID="ID_1363440280" MODIFIED="1684430367572" TEXT="parameters">
 <icon BUILTIN="element"/>
@@ -4988,9 +4988,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" ID="ID_1981240853" MODIFIED="1684430367571" TEXT="patterns">
+<node CREATED="1684161691515" FOLDED="true" ID="ID_1981240853" MODIFIED="1684430367571" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1684767039203" ID="ID_1190230567" MODIFIED="1684767041879" TEXT="button">
+<node CREATED="1684767039203" FOLDED="true" ID="ID_1190230567" MODIFIED="1684767041879" TEXT="button">
 <icon BUILTIN="element"/>
 <node CREATED="1684767062196" ID="ID_495484098" MODIFIED="1684863237008" TEXT="&lt;button mat-raised-button (click)=&quot;navigateTo{{ mi:first-upper(@name) }}Create()&quot; color=&quot;primary&quot;&gt;">
 <icon BUILTIN="tag_green"/>
@@ -7132,7 +7132,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" ID="ID_1046988265" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1046988265" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
 <node CREATED="1684021859648" FOLDED="true" ID="ID_309022776" MODIFIED="1685025132359" TEXT="frontend/src/app/windows/productForm/product-form-create/product-form-create.component.html">
 <icon BUILTIN="list"/>
@@ -7162,9 +7162,9 @@
 </node>
 <node CREATED="1684087724816" ID="ID_1965271805" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684021859648" ID="ID_265876370" MODIFIED="1684526591872" TEXT="createComponentHtml">
+<node CREATED="1684021859648" FOLDED="true" ID="ID_265876370" MODIFIED="1684526591872" TEXT="createComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" ID="ID_256720142" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_256720142" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_1258891269" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -8013,7 +8013,7 @@
 </node>
 <node CREATED="1684262074371" FOLDED="true" ID="ID_945197665" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1488367152" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" ID="ID_1488367152" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_337036070" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -8024,7 +8024,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684023288286" ID="ID_24361201" MODIFIED="1684526591872" TEXT="createComponentTs">
+<node CREATED="1684023288286" FOLDED="true" ID="ID_24361201" MODIFIED="1684526591872" TEXT="createComponentTs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" FOLDED="true" ID="ID_184857530" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
