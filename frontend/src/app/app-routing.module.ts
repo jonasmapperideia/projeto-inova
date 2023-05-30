@@ -15,16 +15,13 @@ const routes: Routes = [
   }, {
     path: "productForm",
     component: ProductFormCrudComponent
-  },
-  {
+  }, {
     path: "productForm/create",
     component: ProductFormCreateComponent
-  },
-  {
+  }, {
     path: "productForm/update/:id",
     component: ProductFormUpdateComponent
-  },
-  {
+  }, {
     path: "productForm/delete/:id",
     component: ProductFormDeleteComponent
   }
