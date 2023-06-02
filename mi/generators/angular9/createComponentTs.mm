@@ -22,9 +22,9 @@
 <icon BUILTIN="element"/>
 <node CREATED="1666405824457" ID="ID_1397827618" MODIFIED="1684435583313" TEXT="angularTypes">
 <icon BUILTIN="element"/>
-<node CREATED="1666405828388" FOLDED="true" MODIFIED="1666405830676" TEXT="select">
+<node CREATED="1666405828388" FOLDED="true" ID="ID_7941356" MODIFIED="1666405830676" TEXT="select">
 <icon BUILTIN="element"/>
-<node CREATED="1562986755847" MODIFIED="1684435457495" TEXT="//maps/angularTypes">
+<node CREATED="1562986755847" ID="ID_72751573" MODIFIED="1684435457495" TEXT="//maps/angularTypes">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -548,7 +548,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684846260067" FOLDED="true" ID="ID_927075059" MODIFIED="1684846262918" TEXT="object">
+<node CREATED="1684846260067" ID="ID_927075059" MODIFIED="1684846262918" TEXT="object">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262412441" ID="ID_1536688700" MODIFIED="1684846264154" TEXT="mode">
 <icon BUILTIN="element"/>
@@ -592,7 +592,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684161945113" ID="ID_904180662" MODIFIED="1684162091243" TEXT="match">
 <icon BUILTIN="element"/>
-<node CREATED="1684433923604" MODIFIED="1684435696126" TEXT="attribute[@type = $angularTypes/*/value]">
+<node CREATED="1684433923604" ID="ID_1462964877" MODIFIED="1685733943584" TEXT="attribute[@type != $angularTypes/*/value]">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
