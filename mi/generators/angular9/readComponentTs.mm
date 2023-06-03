@@ -17,9 +17,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" FOLDED="true" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_1082095014" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1684262492584" FOLDED="true" MODIFIED="1684778601318" TEXT="import">
+<node CREATED="1684262492584" ID="ID_767909541" MODIFIED="1684778601318" TEXT="import">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262531968" FOLDED="true" MODIFIED="1684262533234" TEXT="import-default">
 <icon BUILTIN="element"/>
@@ -27,7 +27,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684263475388" FOLDED="true" MODIFIED="1684778870538" TEXT="import-objetoService">
+<node CREATED="1684263475388" FOLDED="true" ID="ID_110450490" MODIFIED="1684778870538" TEXT="import-objetoService">
 <icon BUILTIN="element"/>
 <node CREATED="1684263498777" MODIFIED="1684263501036" TEXT="import {">
 <icon BUILTIN="tag_yellow"/>
@@ -42,15 +42,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684263475388" FOLDED="true" MODIFIED="1684263477997" TEXT="import-objeto">
+<node CREATED="1684263475388" ID="ID_941985885" MODIFIED="1684263477997" TEXT="import-objeto">
 <icon BUILTIN="element"/>
-<node CREATED="1684263498777" MODIFIED="1684263501036" TEXT="import {">
+<node CREATED="1684263498777" ID="ID_877308050" MODIFIED="1684263501036" TEXT="import {">
 <icon BUILTIN="tag_yellow"/>
 </node>
 <node CREATED="1684263512996" MODIFIED="1684779777640" TEXT=" {{ mi:first-upper($objetoClass/@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684263487872" MODIFIED="1684779221289" TEXT=" } from &apos;../">
+<node CREATED="1684263487872" ID="ID_1602284243" MODIFIED="1685823182237" TEXT=" } from &apos;../../../models/">
 <icon BUILTIN="tag_yellow"/>
 </node>
 <node CREATED="1684263845607" MODIFIED="1684779776618" TEXT="{{ mi:first-lower($objetoClass/@name) }}.model&apos;;">
@@ -58,7 +58,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684779269901" FOLDED="true" MODIFIED="1684960152674" TEXT="Component">
+<node CREATED="1684779269901" FOLDED="true" ID="ID_553197844" MODIFIED="1684960152674" TEXT="Component">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684779321387" FOLDED="true" MODIFIED="1684779323101" TEXT="component">
 <icon BUILTIN="element"/>
@@ -79,7 +79,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684780378519" FOLDED="true" MODIFIED="1684960265320" TEXT="class">
+<node CREATED="1684780378519" FOLDED="true" ID="ID_1765783855" MODIFIED="1684960265320" TEXT="class">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684329951687" FOLDED="true" MODIFIED="1684780392130" TEXT="class-init">
 <icon BUILTIN="element"/>
