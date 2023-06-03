@@ -21,6 +21,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1685743600552" ID="ID_595738537" MODIFIED="1685743606495" TEXT="date">
+<icon BUILTIN="element"/>
+<node CREATED="1685743814305" ID="ID_1651605683" MODIFIED="1685743815985" TEXT="DataHora">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1666226145490" ID="ID_1965913975" MODIFIED="1666226148951" POSITION="right" TEXT="generators">
