@@ -146,12 +146,6 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1685371461472" ID="ID_1781797877" MODIFIED="1685371467533" TEXT="command-model">
-<icon BUILTIN="element"/>
-<node CREATED="1685371557264" ID="ID_926594664" MODIFIED="1685372688221" TEXT="mapperidea generate {{ $projectName }} angular9 modelTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:first-lower($nameClassAtribute) }}.model.ts">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
 <node CREATED="1685371468160" ID="ID_233446532" MODIFIED="1685371473843" TEXT="command-service">
 <icon BUILTIN="element"/>
 <node CREATED="1685371583485" ID="ID_1478547143" MODIFIED="1685372715917" TEXT="mapperidea generate {{ $projectName }} angular9 serviceTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:first-lower($nameClassAtribute) }}.service.ts">
@@ -305,15 +299,6 @@
 </node>
 <node CREATED="1685372523197" ID="ID_798355435" MODIFIED="1685372524423" TEXT="then">
 <icon BUILTIN="element"/>
-<node CREATED="1685371485268" ID="ID_1144801620" MODIFIED="1685371488791" TEXT="model">
-<icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1671891592531" ID="ID_1400160434" MODIFIED="1685109084086" TEXT="write-pattern">
-<icon BUILTIN="element"/>
-<node CREATED="1685371508659" ID="ID_1335802384" MODIFIED="1685371530162" TEXT="command-model">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
 <node CREATED="1685371489620" ID="ID_1259193455" MODIFIED="1685371491992" TEXT="service">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1671891592531" ID="ID_253495664" MODIFIED="1685109084086" TEXT="write-pattern">
