@@ -94,7 +94,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684780378519" FOLDED="true" MODIFIED="1684942105183" TEXT="class">
+<node CREATED="1684780378519" FOLDED="true" ID="ID_1865566570" MODIFIED="1684942105183" TEXT="class">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684329951687" FOLDED="true" MODIFIED="1684780392130" TEXT="class-init">
 <icon BUILTIN="element"/>
@@ -262,17 +262,29 @@
 </node>
 </node>
 </node>
-<node CREATED="1684329909851" FOLDED="true" MODIFIED="1684941876583" TEXT="generic">
+<node CREATED="1684329909851" FOLDED="true" ID="ID_85759157" MODIFIED="1684941876583" TEXT="generic">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684184846095" MODIFIED="1684184850914" TEXT="breakLine">
+<node CREATED="1684184846095" FOLDED="true" ID="ID_1294627203" MODIFIED="1684184850914" TEXT="breakLine">
 <icon BUILTIN="element"/>
 <node CREATED="1684184851927" MODIFIED="1684184853603" TEXT="">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684846805696" MODIFIED="1684846844703" TEXT="comma">
+<node CREATED="1684846805696" FOLDED="true" ID="ID_819633443" MODIFIED="1684846844703" TEXT="comma">
 <icon BUILTIN="element"/>
 <node CREATED="1684846845606" MODIFIED="1684846847159" TEXT=",">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657632240374" FOLDED="true" ID="ID_234067498" MODIFIED="1657632247196" TEXT="@TODO">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1657632296313" FOLDED="true" ID="ID_969331131" MODIFIED="1663012887513" TEXT="declaraTODO">
+<icon BUILTIN="element"/>
+<node CREATED="1649957423768" ID="ID_627123666" MODIFIED="1663012807361" TEXT="//@TODO _ tem que implementar: {{ $nomeTODO }}">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1624917949984" ID="ID_1911090876" MODIFIED="1663012869589" TEXT="//Caminho xpath: {{ functx:path-to-node-with-pos(current()) }}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -559,7 +571,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684846260067" ID="ID_475542452" MODIFIED="1684846262918" TEXT="object">
+<node CREATED="1684846260067" FOLDED="true" ID="ID_475542452" MODIFIED="1684846262918" TEXT="object">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262412441" ID="ID_622643667" MODIFIED="1684846264154" TEXT="mode">
 <icon BUILTIN="element"/>
@@ -810,6 +822,42 @@
 <node CREATED="1671891592531" MODIFIED="1684330032074" TEXT="write-pattern">
 <icon BUILTIN="element"/>
 <node CREATED="1684849485728" MODIFIED="1684849491494" TEXT="cancel">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1657631324517" FOLDED="true" ID="ID_613697141" MODIFIED="1658324682947" TEXT="@TODO">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1657631350726" FOLDED="true" MODIFIED="1657631353359" TEXT="mode">
+<icon BUILTIN="element"/>
+<node CREATED="1657631377703" MODIFIED="1657631384464" TEXT="assignTODO">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1657631386486" FOLDED="true" MODIFIED="1657631389625" TEXT="template">
+<icon BUILTIN="element"/>
+<node CREATED="1646830974673" FOLDED="true" MODIFIED="1657632151857" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1650397410502" MODIFIED="1657632158155" TEXT="*">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1560170966257" FOLDED="true" MODIFIED="1657632136114" TEXT="parameters">
+<icon BUILTIN="element"/>
+<node CREATED="1560170976556" FOLDED="true" MODIFIED="1657632061145" TEXT="nomeTODO">
+<icon BUILTIN="element"/>
+<node CREATED="1560170986876" MODIFIED="1649689041738" TEXT="NOT_DEFINED">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1657632167967" FOLDED="true" MODIFIED="1657632172368" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1605359383991" FOLDED="true" MODIFIED="1657804752743" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1657632472641" MODIFIED="1663012892169" TEXT="declaraTODO">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
