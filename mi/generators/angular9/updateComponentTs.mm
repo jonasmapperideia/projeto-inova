@@ -571,7 +571,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684846260067" FOLDED="true" ID="ID_475542452" MODIFIED="1684846262918" TEXT="object">
+<node CREATED="1684846260067" ID="ID_475542452" MODIFIED="1684846262918" TEXT="object">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262412441" ID="ID_622643667" MODIFIED="1684846264154" TEXT="mode">
 <icon BUILTIN="element"/>
@@ -611,17 +611,48 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161945112" MODIFIED="1684846578586" TEXT="template">
+<node CREATED="1684161945112" ID="ID_1050447416" MODIFIED="1686955816123" TEXT="template">
 <icon BUILTIN="element"/>
-<node CREATED="1684161945113" MODIFIED="1684162091243" TEXT="match">
+<node CREATED="1684161945113" ID="ID_1031916784" MODIFIED="1684162091243" TEXT="match">
 <icon BUILTIN="element"/>
-<node CREATED="1684433923604" ID="ID_1225060388" MODIFIED="1685734442681" TEXT="attribute[@type != $angularTypes/*/value]">
+<node CREATED="1686955826081" ID="ID_862804722" MODIFIED="1686955827350" TEXT="attribute">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684161945118" MODIFIED="1684162091242" TEXT="body">
+<node CREATED="1684161945118" ID="ID_941421922" MODIFIED="1684162091242" TEXT="body">
 <icon BUILTIN="element"/>
-<node CREATED="1604791845968" MODIFIED="1604791853160" TEXT="apply-templates">
+<node CREATED="1686955896738" ID="ID_1698474548" MODIFIED="1686955898189" TEXT="if">
+<icon BUILTIN="element"/>
+<node CREATED="1686955950736" ID="ID_1112486754" MODIFIED="1686955956656" TEXT=".[@type = $angularTypes/string/value]">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1686955958653" ID="ID_1494582381" MODIFIED="1686955960503" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" ID="ID_222617850" MODIFIED="1684846624463" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684435316045" MODIFIED="1684846665129" TEXT="objectAttribute-string">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1686955976971" ID="ID_570894320" MODIFIED="1686955979109" TEXT="else-if">
+<icon BUILTIN="element"/>
+<node CREATED="1686955989156" ID="ID_252296542" MODIFIED="1686955993912" TEXT=".[@type = $angularTypes/number/value] ">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1686955994588" ID="ID_9487182" MODIFIED="1686955996106" TEXT="then">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" ID="ID_1280419218" MODIFIED="1684846638581" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684435316045" MODIFIED="1684846669200" TEXT="objectAttribute-number">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1686955970156" ID="ID_1621421893" MODIFIED="1686955972184" TEXT="else">
+<icon BUILTIN="element"/>
+<node CREATED="1604791845968" ID="ID_426668889" MODIFIED="1604791853160" TEXT="apply-templates">
 <icon BUILTIN="element"/>
 <node CREATED="1604791854168" MODIFIED="1604791858025" TEXT="select">
 <icon BUILTIN="element"/>
@@ -647,65 +678,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161945112" MODIFIED="1684846585921" TEXT="template">
-<icon BUILTIN="element"/>
-<node CREATED="1684161945113" MODIFIED="1684162091243" TEXT="match">
-<icon BUILTIN="element"/>
-<node CREATED="1684433923604" MODIFIED="1684435238069" TEXT="attribute[@type = $angularTypes/string/value]">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684161945118" MODIFIED="1684162091242" TEXT="body">
-<icon BUILTIN="element"/>
-<node CREATED="1671891592531" MODIFIED="1684846624463" TEXT="write-pattern">
-<icon BUILTIN="element"/>
-<node CREATED="1684435316045" MODIFIED="1684846665129" TEXT="objectAttribute-string">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684846783876" MODIFIED="1684846786849" TEXT="if">
-<icon BUILTIN="element"/>
-<node CREATED="1684846788157" MODIFIED="1684846795473" TEXT="position() != last()">
-<icon BUILTIN="tag_green"/>
-</node>
-<node CREATED="1684846796061" MODIFIED="1684846797441" TEXT="then">
-<icon BUILTIN="element"/>
-<node CREATED="1671891592531" MODIFIED="1684846624463" TEXT="write-pattern">
-<icon BUILTIN="element"/>
-<node CREATED="1684846805696" MODIFIED="1684846808287" TEXT="comma">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-<node CREATED="1684846810553" MODIFIED="1684846812126" TEXT="else">
-<icon BUILTIN="element"/>
-<node CREATED="1671891592531" MODIFIED="1684846624463" TEXT="write-pattern">
-<icon BUILTIN="element"/>
-<node CREATED="1684846805696" MODIFIED="1684846820372" TEXT="breakLine">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node CREATED="1684161945112" MODIFIED="1684846628987" TEXT="template">
-<icon BUILTIN="element"/>
-<node CREATED="1684161945113" MODIFIED="1684162091243" TEXT="match">
-<icon BUILTIN="element"/>
-<node CREATED="1684433923604" MODIFIED="1684435887709" TEXT="attribute[@type = $angularTypes/number/value]">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684161945118" MODIFIED="1684162091242" TEXT="body">
-<icon BUILTIN="element"/>
-<node CREATED="1671891592531" MODIFIED="1684846638581" TEXT="write-pattern">
-<icon BUILTIN="element"/>
-<node CREATED="1684435316045" MODIFIED="1684846669200" TEXT="objectAttribute-number">
-<icon BUILTIN="tag_green"/>
-</node>
-</node>
-<node CREATED="1684846783876" MODIFIED="1684846786849" TEXT="if">
+<node CREATED="1684846783876" ID="ID_1594199894" MODIFIED="1684846786849" TEXT="if">
 <icon BUILTIN="element"/>
 <node CREATED="1684846788157" MODIFIED="1684846795473" TEXT="position() != last()">
 <icon BUILTIN="tag_green"/>
