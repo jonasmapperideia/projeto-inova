@@ -50,7 +50,7 @@
 <node CREATED="1684263512996" ID="ID_1363125382" MODIFIED="1684778831592" TEXT=" {{ mi:first-upper($objetoClass/@name) }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684263487872" MODIFIED="1684263845260" TEXT=" } from &apos;./">
+<node CREATED="1684263487872" ID="ID_982809900" MODIFIED="1686929645467" TEXT=" } from &apos;../../models/">
 <icon BUILTIN="tag_yellow"/>
 </node>
 <node CREATED="1684263845607" MODIFIED="1684595516029" TEXT="{{ mi:first-lower($objetoClass/@name) }}.model&apos;;">
