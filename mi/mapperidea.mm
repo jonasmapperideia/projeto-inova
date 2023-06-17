@@ -282,6 +282,9 @@
 <node CREATED="1685374373536" ID="ID_308369829" LINK="generators/bash/executeBashScreens.mm" MODIFIED="1685374386186" TEXT="executeBashScreens">
 <icon BUILTIN="element"/>
 </node>
+<node CREATED="1687028022555" ID="ID_296345824" LINK="generators/bash/bashModel.mm" MODIFIED="1687028048862" TEXT="bashModel">
+<icon BUILTIN="element"/>
+</node>
 <node CREATED="1685106945031" ID="ID_392747442" MODIFIED="1685106950463" TEXT="frontEnd">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685123241281" ID="ID_401941850" LINK="generators/bash/windowEditor.mm" MODIFIED="1685123247348" TEXT="windowEditor">

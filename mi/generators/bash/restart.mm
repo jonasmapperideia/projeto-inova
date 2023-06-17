@@ -7,11 +7,11 @@
 <node CREATED="1685109976879" MODIFIED="1685127541421" TEXT="mi g angularCRUD bash restart projectName=angularCRUD"/>
 <node CREATED="1685109978872" MODIFIED="1685127755305" TEXT="mi g angularCRUD bash restart projectName=angularCRUD &gt; restart.sh"/>
 </node>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_622174751" MODIFIED="1685108986133" POSITION="right" TEXT="parameters">
+<node CREATED="1684159426363" ID="ID_622174751" MODIFIED="1685108986133" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
-<node CREATED="1684159426364" FOLDED="true" MODIFIED="1685109028034" TEXT="projectName">
+<node CREATED="1684159426364" ID="ID_1439883029" MODIFIED="1685109028034" TEXT="projectName">
 <icon BUILTIN="element"/>
-<node CREATED="1684159426365" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
+<node CREATED="1684159426365" ID="ID_29241379" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -61,7 +61,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685127274614" ID="ID_1876386791" MODIFIED="1685127276160" TEXT="generateFrontendFile">
 <icon BUILTIN="element"/>
-<node CREATED="1685127463158" ID="ID_247821300" MODIFIED="1685371083225" TEXT="# Gera arquivo frontend ------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do frontend do sistema na linguagem angular9 --- &quot;&#xa;cd ../frontend&#xa;&#xa;mapperidea generate {{ $projectName }} angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html&#xa;mapperidea generate {{ $projectName }} angular9 appModuleTs &gt; src/app/app.module.ts&#xa;mapperidea generate {{ $projectName }} angular9 appRoutingModuleTs &gt; src/app/app-routing.module.ts&#xa;&#xa;cd ../bash&#xa;rm ./angular9/*.sh&#xa;rm -rf ../frontend/src/app/windows&#xa;mapperidea generate {{ $projectName }} bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh&#xa;mapperidea generate {{ $projectName }} bash executeBashScreens &gt; angular9/executeBashScreens.sh&#xa;&#xa;cd ./angular9&#xa;bash ./generateBashScreens.sh&#xa;bash ./executeBashScreens.sh&#xa;# ----------------------------------------------------------------------------">
+<node CREATED="1685127463158" ID="ID_247821300" MODIFIED="1687028900661" TEXT="# Gera arquivo frontend ------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do frontend do sistema na linguagem angular9 --- &quot;&#xa;cd ../frontend&#xa;&#xa;mapperidea generate {{ $projectName }} angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html&#xa;mapperidea generate {{ $projectName }} angular9 appModuleTs &gt; src/app/app.module.ts&#xa;mapperidea generate {{ $projectName }} angular9 appRoutingModuleTs &gt; src/app/app-routing.module.ts&#xa;&#xa;cd ../bash&#xa;rm ./angular9/*.sh&#xa;rm -rf ../frontend/src/app/windows&#xa;mapperidea generate {{ $projectName }} bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh&#xa;mapperidea generate {{ $projectName }} bash executeBashScreens &gt; angular9/executeBashScreens.sh&#xa;mapperidea generate {{ $projectName }} bash bashModel &gt; angular9/bashModel.sh&#xa;&#xa;cd ./angular9&#xa;bash ./generateBashScreens.sh&#xa;bash ./executeBashScreens.sh&#xa;bash ./bashModel.sh&#xa;# ----------------------------------------------------------------------------">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>

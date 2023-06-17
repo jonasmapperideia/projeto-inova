@@ -25,8 +25,10 @@ rm ./angular9/*.sh
 rm -rf ../frontend/src/app/windows
 mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD > angular9/generateBashScreens.sh
 mapperidea generate angularCRUD bash executeBashScreens > angular9/executeBashScreens.sh
+mapperidea generate angularCRUD bash bashModel > angular9/bashModel.sh
 
 cd ./angular9
 bash ./generateBashScreens.sh
 bash ./executeBashScreens.sh
+bash ./bashModel.sh
 # ----------------------------------------------------------------------------
