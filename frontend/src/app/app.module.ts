@@ -31,6 +31,24 @@ import { ProductFormReadComponent } from './windows/productForm/product-form-rea
 import { ProductFormUpdateComponent } from './windows/productForm/product-form-update/product-form-update.component';
 import { ProductFormDeleteComponent } from './windows/productForm/product-form-delete/product-form-delete.component';
 
+import { OrderFormCrudComponent } from './windows/orderForm/order-form-crud/order-form-crud.component';
+import { OrderFormCreateComponent } from './windows/orderForm/order-form-create/order-form-create.component';
+import { OrderFormReadComponent } from './windows/orderForm/order-form-read/order-form-read.component';
+import { OrderFormUpdateComponent } from './windows/orderForm/order-form-update/order-form-update.component';
+import { OrderFormDeleteComponent } from './windows/orderForm/order-form-delete/order-form-delete.component';
+
+import { OrderStatusFormCrudComponent } from './windows/orderStatusForm/order-status-form-crud/order-status-form-crud.component';
+import { OrderStatusFormCreateComponent } from './windows/orderStatusForm/order-status-form-create/order-status-form-create.component';
+import { OrderStatusFormReadComponent } from './windows/orderStatusForm/order-status-form-read/order-status-form-read.component';
+import { OrderStatusFormUpdateComponent } from './windows/orderStatusForm/order-status-form-update/order-status-form-update.component';
+import { OrderStatusFormDeleteComponent } from './windows/orderStatusForm/order-status-form-delete/order-status-form-delete.component';
+
+import { PersonFormCrudComponent } from './windows/personForm/person-form-crud/person-form-crud.component';
+import { PersonFormCreateComponent } from './windows/personForm/person-form-create/person-form-create.component';
+import { PersonFormReadComponent } from './windows/personForm/person-form-read/person-form-read.component';
+import { PersonFormUpdateComponent } from './windows/personForm/person-form-update/person-form-update.component';
+import { PersonFormDeleteComponent } from './windows/personForm/person-form-delete/person-form-delete.component';
+
 
 @NgModule({
   declarations: [
@@ -43,7 +61,22 @@ import { ProductFormDeleteComponent } from './windows/productForm/product-form-d
     ProductFormCreateComponent,
     ProductFormReadComponent,
     ProductFormUpdateComponent,
-    ProductFormDeleteComponent
+    ProductFormDeleteComponent,
+    OrderFormCrudComponent,
+    OrderFormCreateComponent,
+    OrderFormReadComponent,
+    OrderFormUpdateComponent,
+    OrderFormDeleteComponent,
+    OrderStatusFormCrudComponent,
+    OrderStatusFormCreateComponent,
+    OrderStatusFormReadComponent,
+    OrderStatusFormUpdateComponent,
+    OrderStatusFormDeleteComponent,
+    PersonFormCrudComponent,
+    PersonFormCreateComponent,
+    PersonFormReadComponent,
+    PersonFormUpdateComponent,
+    PersonFormDeleteComponent
   ],
   imports: [
     BrowserModule,

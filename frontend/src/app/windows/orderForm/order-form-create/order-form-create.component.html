@@ -1,0 +1,38 @@
+<mat-card>
+    <mat-card-title>Incluir Pedido</mat-card-title>
+    <form>
+        <mat-form-field>
+            <!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
+<!-- Caminho xpath: classes/class[2]/attributes/attribute[1] -->
+        </mat-form-field>
+        <mat-form-field>
+            <!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
+<!-- Caminho xpath: classes/class[2]/attributes/attribute[2] -->
+        </mat-form-field>
+        <mat-form-field>
+            <!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
+<!-- Caminho xpath: classes/class[2]/attributes/attribute[3] -->
+        </mat-form-field>
+        <mat-form-field>
+            <!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
+<!-- Caminho xpath: classes/class[2]/attributes/attribute[4] -->
+        </mat-form-field>
+        <mat-form-field>
+            <!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
+<!-- Caminho xpath: classes/class[2]/attributes/attribute[5] -->
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Desconto" [(ngModel)]="order.discount" name="discount">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Total do Pedido" [(ngModel)]="order.totalPrice" name="totalPrice">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createOrder()" color="primary">
+        Salvar
+    </button>
+
+    <button mat-raised-button (click)="cancel()" color="">
+        Cancelar
+    </button>
+</mat-card>

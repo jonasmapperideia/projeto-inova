@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-title>Excluir Pedido</mat-card-title>
+    <form>
+        <mat-form-field>
+        </mat-form-field>
+        <mat-form-field>
+        </mat-form-field>
+        <mat-form-field>
+        </mat-form-field>
+        <mat-form-field>
+        </mat-form-field>
+        <mat-form-field>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Desconto" [value]="order.discount" name="discount" disabled/>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Total do Pedido" [value]="order.totalPrice" name="totalPrice" disabled/>
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="deleteOrder()" color="warn">
+        Excluir
+    </button>
+
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

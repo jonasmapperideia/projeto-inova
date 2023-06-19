@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-card-title>Incluir Status do pedido</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Descrição" [(ngModel)]="orderStatus.description" name="description">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="createOrderStatus()" color="primary">
+        Salvar
+    </button>
+
+    <button mat-raised-button (click)="cancel()" color="">
+        Cancelar
+    </button>
+</mat-card>

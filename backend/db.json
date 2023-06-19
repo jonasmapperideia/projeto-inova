@@ -1,24 +1,109 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Camisa preta",
-      "price": 5.89
+      "name": "Teste celular azul..",
+      "price": "122",
+      "id": 1
+    }
+  ],
+  "order": [
+    {
+      "customer": {
+        "name": "Marcelo",
+        "lastName": "Rodrigo Neves",
+        "age": 33,
+        "emailAddress": "marcelo@gmail.com",
+        "height": 1.8
+      },
+      "status": {
+        "description": "Inicial"
+      },
+      "orderDate": "2023-06-16T18:26:40.429Z",
+      "approvedDate": null,
+      "items": null,
+      "discount": "100",
+      "totalPrice": "23",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Calça azul",
-      "price": 20.32
+      "customer": {
+        "name": "Marcelo",
+        "lastName": "Rodrigo Neves",
+        "age": 33,
+        "emailAddress": "marcelo@gmail.com",
+        "height": 1.8
+      },
+      "status": {
+        "description": "Inicial"
+      },
+      "orderDate": "2023-06-16T19:18:56.327Z",
+      "approvedDate": null,
+      "items": [
+        {
+          "product": {
+            "name": "Produto teste orçamento",
+            "price": 1.12
+          },
+          "quantity": 2,
+          "unitPrice": 1.1,
+          "discount": 0.05,
+          "totalPrice": 10
+        },
+        {
+          "product": {
+            "name": "Produto teste orçamento",
+            "price": 1.12
+          },
+          "quantity": 3,
+          "unitPrice": 5.1,
+          "discount": 0.27,
+          "totalPrice": 31
+        }
+      ],
+      "discount": "0.01",
+      "totalPrice": "30",
+      "id": 2
+    }
+  ],
+  "order_item": [],
+  "order_status": [
+    {
+      "description": "Aguardando pagamento",
+      "id": 1
     },
     {
-      "name": "Geladeira cinza clara",
-      "price": "1650.00",
+      "description": "Em preparação",
+      "id": 2
+    },
+    {
+      "description": "Rota de entrega",
       "id": 3
     },
     {
-      "name": "Celular Xiaomi A2 Lite",
-      "price": "750.00",
+      "description": "Finalizado",
       "id": 4
+    },
+    {
+      "description": "Cancelado",
+      "id": 5
+    }
+  ],
+  "person": [
+    {
+      "name": "Marcelo",
+      "lastName": "Rodrigo Neves",
+      "age": "33",
+      "emailAddress": "marcelo@gmail.com",
+      "height": "1.83",
+      "id": 1
+    },
+    {
+      "name": "Letícia",
+      "lastName": "Gomes de Jesus",
+      "age": "23",
+      "emailAddress": "leticia@gmail.com",
+      "height": "1.65",
+      "id": 2
     }
   ]
 }
