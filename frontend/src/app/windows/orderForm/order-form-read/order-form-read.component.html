@@ -6,10 +6,18 @@
             <td mat-cell *matCellDef="let row">{{row.id}}</td>
         </ng-container>
 
-<!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
-<!-- Caminho xpath: classes/class[2]/attributes/attribute[3] -->
-<!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE -->
-<!-- Caminho xpath: classes/class[2]/attributes/attribute[4] -->
+        <!-- OrderDate Column -->
+        <ng-container matColumnDef="orderDate">
+            <th mat-header-cell *matHeaderCellDef>Data do Pedido</th>
+            <td mat-cell *matCellDef="let row">{{row.orderDate | date}}</td>
+        </ng-container>
+
+        <!-- ApprovedDate Column -->
+        <ng-container matColumnDef="approvedDate">
+            <th mat-header-cell *matHeaderCellDef>Data Aprovado</th>
+            <td mat-cell *matCellDef="let row">{{row.approvedDate | date}}</td>
+        </ng-container>
+
         <!-- TotalPrice Column -->
         <ng-container matColumnDef="totalPrice">
             <th mat-header-cell *matHeaderCellDef>Total do Pedido</th>
