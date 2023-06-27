@@ -1,9 +1,18 @@
 form {
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 button {
     margin-right: 15px;
     margin-top: 20px;
+}
+
+.edit>i {
+    color: #6b94ca;
+}
+
+.delete>i {
+    color: #e35e6b;
 }

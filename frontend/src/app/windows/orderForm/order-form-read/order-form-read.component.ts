@@ -10,7 +10,7 @@ import { OrderService } from '../order.service';
 export class OrderFormReadComponent implements OnInit {
 
   order_list: Order[];
-  displayedColumns = ['id', 'orderDate', 'approvedDate', 'totalPrice', 'action'];
+  displayedColumns = ['id', 'orderDate', 'totalPrice', 'action'];
 
   constructor(private orderService: OrderService) { }
 

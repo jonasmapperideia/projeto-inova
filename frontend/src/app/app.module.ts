@@ -24,6 +24,8 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 registerLocaleData(localePt);
+import { MatSelectModule } from '@angular/material/select';
+import { MatTabsModule } from '@angular/material/tabs';
 
 import { ProductFormCrudComponent } from './windows/productForm/product-form-crud/product-form-crud.component';
 import { ProductFormCreateComponent } from './windows/productForm/product-form-create/product-form-create.component';
@@ -94,7 +96,9 @@ import { PersonFormDeleteComponent } from './windows/personForm/person-form-dele
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatSelectModule,
+    MatTabsModule
   ],
   providers: [{
     provide: LOCALE_ID,
