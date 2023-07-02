@@ -3,8 +3,9 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { HttpClient } from '@angular/common/http';
 import { Observable, EMPTY } from 'rxjs';
 import { Order } from '../../models/order.model';
-import { OrderStatus } from '../../models/orderStatus.model';
 import { Person } from '../../models/person.model';
+import { OrderStatus } from '../../models/orderStatus.model';
+import { OrderItem } from '../../models/orderItem.model';
 import { Product } from '../../models/product.model';
 
 @Injectable({
