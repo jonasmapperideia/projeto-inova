@@ -19,7 +19,6 @@ export class OrderFormUpdateComponent implements OnInit {
     customer: null,
     status: null,
     orderDate: null,
-    approvedDate: null,
     items: [],
     discount: null,
     totalPrice: null
