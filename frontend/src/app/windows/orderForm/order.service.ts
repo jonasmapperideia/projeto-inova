@@ -43,12 +43,12 @@ export class OrderService {
     return this.http.delete<Order>(url);
   }
 
-  read_orderStatus(): Observable<OrderStatus[]> {
-    return this.http.get<OrderStatus[]>(this.baseUrl_orderStatus);
-  }
-
   read_person(): Observable<Person[]> {
     return this.http.get<Person[]>(this.baseUrl_person);
+  }
+
+  read_orderStatus(): Observable<OrderStatus[]> {
+    return this.http.get<OrderStatus[]>(this.baseUrl_orderStatus);
   }
 
   read_product(): Observable<Product[]> {
