@@ -16,8 +16,8 @@ export class OrderService {
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
   baseUrl = "http://localhost:3001/order";
-  baseUrl_orderStatus = "http://localhost:3001/order_status";
   baseUrl_person = "http://localhost:3001/person";
+  baseUrl_orderStatus = "http://localhost:3001/order_status";
   baseUrl_product = "http://localhost:3001/products";
 
   create(order: Order): Observable<Order> {
