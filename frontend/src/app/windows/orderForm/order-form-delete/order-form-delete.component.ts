@@ -28,13 +28,6 @@ export class OrderFormDeleteComponent implements OnInit {
 
   displayedColumnsItems = ['Product', 'quantity', 'unitPrice', 'discount', 'totalPrice'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
-  orderItem: OrderItem = {
-    product: null,
-    quantity: null,
-    unitPrice: null,
-    discount: null,
-    totalPrice: null
-  };
 
   constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }
 
