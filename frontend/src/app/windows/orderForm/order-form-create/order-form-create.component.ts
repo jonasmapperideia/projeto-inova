@@ -31,8 +31,8 @@ export class OrderFormCreateComponent implements OnInit {
   displayedColumnsItems = ['Product', 'quantity', 'unitPrice', 'discount', 'totalPrice', 'action'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
   disableItems: boolean = true;
-  countId_orderItem: number = 0;
-  orderItem: OrderItem = {
+  countId_items: number = 0;
+  item_items: OrderItem = {
     product: null,
     quantity: null,
     unitPrice: null,
@@ -70,13 +70,13 @@ export class OrderFormCreateComponent implements OnInit {
 
   newItems(): void {
     this.disableItems = false;
-    this.orderItem = new OrderItem_class();
+    this.item_items = new OrderItem_class();
   }
 
   saveItems(): void {
-    if (typeof (this.orderItem.id) == "undefined") {
-      this.orderItem.id = ++this.countId_orderItem;
-      this.order.items.push(this.orderItem);
+    if (typeof (this.item_items.id) == "undefined") {
+      this.item_items.id = ++this.countId_items;
+      this.order.items.push(this.item_items);
       this.dataSourceItems.data = this.order.items;
     }
     this.cancelItems();
@@ -84,8 +84,8 @@ export class OrderFormCreateComponent implements OnInit {
 
   editItems(rowOrderItem: OrderItem): void {
     this.disableItems = false;
-    this.orderItem = rowOrderItem;
-    this.orderItem.product = this.list_product.find(function(product) {
+    this.item_items = rowOrderItem;
+    this.item_items.product = this.list_product.find(function(product) {
       return product.id == rowOrderItem.product.id;
     });
   }
@@ -101,7 +101,7 @@ export class OrderFormCreateComponent implements OnInit {
 
   cancelItems(): void {
     this.disableItems = true;
-    this.orderItem = {
+    this.item_items = {
       product: null,
       quantity: null,
       unitPrice: null,
