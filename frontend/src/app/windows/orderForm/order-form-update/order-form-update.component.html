@@ -36,25 +36,25 @@
             <form>
                 <div class="form-fields" *ngIf="!disableItems">
                     <mat-form-field>
-                        <mat-select placeholder="Produto" [(value)]="orderItem.product">
+                        <mat-select placeholder="Produto" [(value)]="item_items.product">
                             <mat-option *ngFor="let item_product of list_product" [value]="item_product">{{
                                 item_product.id }} - {{ item_product.name }}</mat-option>
                         </mat-select>
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Quantidade" [(ngModel)]="orderItem.quantity" name="quantity"
+                        <input matInput placeholder="Quantidade" [(ngModel)]="item_items.quantity" name="quantity"
                             type="number">
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Preço da unidade" [(ngModel)]="orderItem.unitPrice"
+                        <input matInput placeholder="Preço da unidade" [(ngModel)]="item_items.unitPrice"
                             name="unitPrice" type="number">
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Desconto" [(ngModel)]="orderItem.discount" name="discount"
+                        <input matInput placeholder="Desconto" [(ngModel)]="item_items.discount" name="discount"
                             type="number">
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Total do Item" [(ngModel)]="orderItem.totalPrice" name="totalPrice"
+                        <input matInput placeholder="Total do Item" [(ngModel)]="item_items.totalPrice" name="totalPrice"
                             type="number">
                     </mat-form-field>
                 </div>
