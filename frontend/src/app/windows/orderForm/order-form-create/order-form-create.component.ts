@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { MatTableDataSource } from '@angular/material/table';
 import { OrderService } from '../order.service';
 import { Order } from '../../../models/order.model';
-import { Person } from '../../../models/person.model';
-import { OrderStatus } from '../../../models/orderStatus.model';
-import { Product } from '../../../models/product.model';
 import { OrderItem, OrderItem_class } from '../../../models/orderItem.model';
-import { MatTableDataSource } from '@angular/material/table';
+import { Product } from '../../../models/product.model';
+import { OrderStatus } from '../../../models/orderStatus.model';
+import { Person } from '../../../models/person.model';
 
 @Component({
   selector: 'app-order-form-create',
@@ -28,7 +28,7 @@ export class OrderFormCreateComponent implements OnInit {
   list_status: OrderStatus[] = [];
   list_product: Product[] = [];
 
-  displayedColumnsItems = ['Product', 'Quantity', 'UnitPrice', 'Discount', 'TotalPrice', 'action'];
+  displayedColumnsItems = ['product', 'quantity', 'unitPrice', 'discount', 'totalPrice', 'action'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
   disableItems: boolean = true;
   countId_items: number = 0;
