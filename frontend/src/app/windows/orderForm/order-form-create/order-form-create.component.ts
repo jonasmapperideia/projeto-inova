@@ -26,8 +26,8 @@ export class OrderFormCreateComponent implements OnInit {
 
   list_customer: Person[] = [];
   list_status: OrderStatus[] = [];
-  list_product: Product[] = [];
 
+  list_product: Product[] = [];
   displayedColumnsItems = ['product', 'quantity', 'unitPrice', 'discount', 'totalPrice', 'action'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
   disableItems: boolean = true;
