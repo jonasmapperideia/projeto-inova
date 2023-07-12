@@ -28,7 +28,7 @@ export class OrderFormUpdateComponent implements OnInit {
   list_status: OrderStatus[] = [];
   list_product: Product[] = [];
 
-  displayedColumnsItems = ['Product', 'quantity', 'unitPrice', 'discount', 'totalPrice', 'action'];
+  displayedColumnsItems = ['product', 'quantity', 'unitPrice', 'discount', 'totalPrice', 'action'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
   disableItems: boolean = true;
   countId_orderItem: number = 0;
