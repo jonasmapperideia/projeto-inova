@@ -166,13 +166,13 @@
 <node CREATED="1684940370663" ID="ID_1632469140" LINK="generators/angular9/createComponentTs.mm" MODIFIED="1684940379281" TEXT="createComponentTs">
 <icon BUILTIN="element"/>
 </node>
-<node CREATED="1684021794247" FOLDED="true" ID="ID_751632942" MODIFIED="1684525333802" TEXT="createComponentCss">
+<node CREATED="1684021794247" FOLDED="true" ID="ID_751632942" MODIFIED="1689188361175" TEXT="createComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684161691515" ID="ID_163261148" MODIFIED="1684430367571" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1684978647558" ID="ID_133418876" MODIFIED="1684978650258" TEXT="createComponentCss">
+<node CREATED="1684978647558" FOLDED="true" ID="ID_133418876" MODIFIED="1684978650258" TEXT="createComponentCss">
 <icon BUILTIN="element"/>
-<node CREATED="1684978366221" ID="ID_528632151" MODIFIED="1684978682183" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}">
+<node CREATED="1684978366221" ID="ID_528632151" MODIFIED="1689188047797" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;&#xa;.form-fields {&#xa;    display: flex;&#xa;    align-items: flex-start;&#xa;}&#xa;&#xa;.form-fields mat-form-field {&#xa;    margin-left: 8px;&#xa;}">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
