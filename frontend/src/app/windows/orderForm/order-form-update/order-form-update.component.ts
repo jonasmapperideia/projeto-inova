@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { MatTableDataSource } from '@angular/material/table';
 import { OrderService } from '../order.service';
 import { Order } from '../../../models/order.model';
-import { Person } from '../../../models/person.model';
-import { OrderStatus } from '../../../models/orderStatus.model';
-import { Product } from '../../../models/product.model';
 import { OrderItem, OrderItem_class } from '../../../models/orderItem.model';
-import { MatTableDataSource } from '@angular/material/table';
+import { Product } from '../../../models/product.model';
+import { OrderStatus } from '../../../models/orderStatus.model';
+import { Person } from '../../../models/person.model';
 
 @Component({
   selector: 'app-order-form-update',
@@ -26,12 +26,12 @@ export class OrderFormUpdateComponent implements OnInit {
 
   list_customer: Person[] = [];
   list_status: OrderStatus[] = [];
-  list_product: Product[] = [];
 
+  list_product: Product[] = [];
   displayedColumnsItems = ['product', 'quantity', 'unitPrice', 'discount', 'totalPrice', 'action'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
   disableItems: boolean = true;
-  countId_orderItem: number = 0;
+  countId_items: number = 0;
   item_items: OrderItem = {
     product: null,
     quantity: null,
@@ -43,29 +43,29 @@ export class OrderFormUpdateComponent implements OnInit {
   constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.orderService.read_person().subscribe(list_person => {
-      this.list_customer = list_person;
-    });
-
-    this.orderService.read_orderStatus().subscribe(list_orderStatus => {
-      this.list_status = list_orderStatus;
-    });
-
-    this.orderService.read_product().subscribe(list_product => {
-      this.list_product = list_product;
-    });
-
     const id = this.route.snapshot.paramMap.get('id');
     this.orderService.readById(id).subscribe(order => {
       this.order = order;
-      this.order.status = this.list_status.find(function(status) {
-        return status.id == order.status.id;
-      });
-      this.order.customer = this.list_customer.find(function(customer) {
-        return customer.id == order.customer.id;
+
+      this.orderService.read_orderStatus().subscribe(list_orderStatus => {
+        this.list_status = list_orderStatus;
+        this.order.status = this.list_status.find(function(status) {
+          return status.id == order.status.id;
+        });
       });
 
-      this.countId_orderItem = this.largerId_items(this.order.items);
+      this.orderService.read_person().subscribe(list_person => {
+        this.list_customer = list_person;
+        this.order.customer = this.list_customer.find(function(customer) {
+          return customer.id == order.customer.id;
+        });
+      });
+
+      this.orderService.read_product().subscribe(list_product => {
+        this.list_product = list_product;
+      });
+      
+      this.countId_items = this.largerId_items(this.order.items);
       this.dataSourceItems.data = this.order.items;
     });
   }
@@ -98,7 +98,7 @@ export class OrderFormUpdateComponent implements OnInit {
 
   saveItems(): void {
     if (typeof (this.item_items.id) == "undefined") {
-      this.item_items.id = ++this.countId_orderItem;
+      this.item_items.id = ++this.countId_items;
       this.order.items.push(this.item_items);
       this.dataSourceItems.data = this.order.items;
     }
@@ -132,5 +132,4 @@ export class OrderFormUpdateComponent implements OnInit {
       totalPrice: null
     };
   }
-
 }
