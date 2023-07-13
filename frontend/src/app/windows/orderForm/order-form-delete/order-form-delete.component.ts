@@ -26,7 +26,7 @@ export class OrderFormDeleteComponent implements OnInit {
   list_customer: Person[] = [];
   list_status: OrderStatus[] = [];
 
-  displayedColumnsItems = ['Product', 'quantity', 'unitPrice', 'discount', 'totalPrice'];
+  displayedColumnsItems = ['product', 'quantity', 'unitPrice', 'discount', 'totalPrice'];
   dataSourceItems = new MatTableDataSource<OrderItem>([]);
 
   constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }
