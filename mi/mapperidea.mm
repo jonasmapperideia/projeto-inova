@@ -205,13 +205,13 @@
 <node CREATED="1684951434216" ID="ID_303297503" LINK="generators/angular9/updateComponentTs.mm" MODIFIED="1684951442499" TEXT="updateComponentTs">
 <icon BUILTIN="element"/>
 </node>
-<node CREATED="1684092354431" FOLDED="true" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
+<node CREATED="1684092354431" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
 <icon BUILTIN="element"/>
 <node CREATED="1684161691515" ID="ID_750304345" MODIFIED="1684430367571" TEXT="patterns">
 <icon BUILTIN="element"/>
 <node CREATED="1684978885427" ID="ID_334226644" MODIFIED="1684978887382" TEXT="updateComponentCss">
 <icon BUILTIN="element"/>
-<node CREATED="1684978366221" ID="ID_1322149831" MODIFIED="1684978682183" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}">
+<node CREATED="1684978366221" ID="ID_1322149831" MODIFIED="1689268798251" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;&#xa;.form-fields {&#xa;    display: flex;&#xa;    align-items: flex-start;&#xa;}&#xa;&#xa;.form-fields mat-form-field {&#xa;    margin-left: 8px;&#xa;}">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>

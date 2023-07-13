@@ -24098,7 +24098,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684087724816" ID="ID_1978449808" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1687868870958" ID="ID_1895660826" MODIFIED="1688586076959" TEXT="updateComponentHtml">
+<node CREATED="1687868870958" FOLDED="true" ID="ID_1895660826" MODIFIED="1688586076959" TEXT="updateComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1722187629" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -24112,7 +24112,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688583420651" ID="ID_468662273" MODIFIED="1688583425576" TEXT="deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684092232294" ID="ID_998336733" MODIFIED="1689191149491" TEXT="updateComponentHtml">
+<node CREATED="1684092232294" FOLDED="true" ID="ID_998336733" MODIFIED="1689191149491" TEXT="updateComponentHtml">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" MODIFIED="1684430367572" TEXT="parameters">
 <icon BUILTIN="element"/>
@@ -26777,7 +26777,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1687869107485" ID="ID_986144218" MODIFIED="1688586081887" TEXT="updateComponentTs">
+<node CREATED="1687869107485" FOLDED="true" ID="ID_986144218" MODIFIED="1688586081887" TEXT="updateComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1441664530" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -29733,20 +29733,50 @@
 </node>
 </node>
 </node>
-<node CREATED="1687868765105" FOLDED="true" ID="ID_1198720354" MODIFIED="1688586086851" TEXT="updateComponentCss">
+<node CREATED="1687868765105" ID="ID_1198720354" MODIFIED="1688586086851" TEXT="updateComponentCss">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1450997064" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
+<node CREATED="1684262056102" ID="ID_1450997064" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_288588037" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
+<node CREATED="1683918427809" ID="ID_288588037" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684120561184" FOLDED="true" ID="ID_1280980975" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<node CREATED="1684120561184" ID="ID_1280980975" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
-<node CREATED="1683923299557" FOLDED="true" ID="ID_976372085" MODIFIED="1687892418594" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923299557" ID="ID_976372085" MODIFIED="1687892418594" TEXT="na parte do element &quot;angular9&quot;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687892420343" FOLDED="true" ID="ID_1462990626" MODIFIED="1688587025214" TEXT="gerador &quot;updateComponentCss&quot;">
+<node CREATED="1687892420343" ID="ID_1462990626" MODIFIED="1688587025214" TEXT="gerador &quot;updateComponentCss&quot;">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688583420651" ID="ID_1847458351" MODIFIED="1688583425576" TEXT="deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1684092354431" FOLDED="true" ID="ID_625692023" MODIFIED="1684525434622" TEXT="updateComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684161691515" FOLDED="true" ID="ID_750304345" MODIFIED="1684430367571" TEXT="patterns">
+<icon BUILTIN="element"/>
+<node CREATED="1684978885427" FOLDED="true" ID="ID_334226644" MODIFIED="1684978887382" TEXT="updateComponentCss">
+<icon BUILTIN="element"/>
+<node CREATED="1684978366221" ID="ID_1322149831" MODIFIED="1689268798251" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;&#xa;.form-fields {&#xa;    display: flex;&#xa;    align-items: flex-start;&#xa;}&#xa;&#xa;.form-fields mat-form-field {&#xa;    margin-left: 8px;&#xa;}">
+<icon BUILTIN="tag_yellow"/>
+</node>
+</node>
+</node>
+<node CREATED="1684160926435" FOLDED="true" ID="ID_1404151261" MODIFIED="1684160965104" TEXT="start">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926436" FOLDED="true" ID="ID_1547324899" MODIFIED="1684160972183" TEXT="match">
+<icon BUILTIN="element"/>
+<node CREATED="1684160926437" ID="ID_1568939053" MODIFIED="1684978865827" TEXT="/classes/class[1]">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684160926438" FOLDED="true" ID="ID_1394504550" MODIFIED="1684160972182" TEXT="body">
+<icon BUILTIN="element"/>
+<node CREATED="1671891592531" FOLDED="true" ID="ID_789943329" MODIFIED="1671891598571" TEXT="write-pattern">
+<icon BUILTIN="element"/>
+<node CREATED="1684978874504" ID="ID_101167526" MODIFIED="1684978875961" TEXT="updateComponentCss">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -29762,7 +29792,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_671446625" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" ID="ID_671446625" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896789625" ID="ID_1669700844" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
