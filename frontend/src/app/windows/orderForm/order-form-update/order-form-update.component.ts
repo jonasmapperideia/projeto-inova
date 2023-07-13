@@ -46,6 +46,12 @@ export class OrderFormUpdateComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     this.orderService.readById(id).subscribe(order => {
       this.order = order;
+      this.orderService.read_person().subscribe(list_person => {
+        this.list_customer = list_person;
+        this.order.customer = this.list_customer.find(function(customer) {
+          return customer.id == order.customer.id;
+        });
+      });
 
       this.orderService.read_orderStatus().subscribe(list_orderStatus => {
         this.list_status = list_orderStatus;
@@ -54,19 +60,12 @@ export class OrderFormUpdateComponent implements OnInit {
         });
       });
 
-      this.orderService.read_person().subscribe(list_person => {
-        this.list_customer = list_person;
-        this.order.customer = this.list_customer.find(function(customer) {
-          return customer.id == order.customer.id;
-        });
-      });
-
+      this.countId_items = this.largerId_items(this.order.items);
+      this.dataSourceItems.data = this.order.items;
       this.orderService.read_product().subscribe(list_product => {
         this.list_product = list_product;
       });
-      
-      this.countId_items = this.largerId_items(this.order.items);
-      this.dataSourceItems.data = this.order.items;
+
     });
   }
 
