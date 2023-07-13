@@ -15302,7 +15302,7 @@
 <icon BUILTIN="full-3"/>
 <node CREATED="1687891346703" ID="ID_1335521145" MODIFIED="1687891782523" TEXT="C&#xf3;digo fonte">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684260728676" ID="ID_1531065006" MODIFIED="1687891802774" TEXT="arquivos de controle">
+<node CREATED="1684260728676" FOLDED="true" ID="ID_1531065006" MODIFIED="1687891802774" TEXT="arquivos de controle">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683918427809" ID="ID_919004120" MODIFIED="1687891784912" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -15328,7 +15328,7 @@
 <icon BUILTIN="list"/>
 <node CREATED="1687095496822" FOLDED="true" ID="ID_779723120" MODIFIED="1687868378063" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687887499810" ID="ID_1023922432" MODIFIED="1687887507086" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;import { Order } from &apos;../../models/order.model&apos;;&#xa;import { OrderStatus } from &apos;../../models/orderStatus.model&apos;;&#xa;import { Person } from &apos;../../models/person.model&apos;;&#xa;import { Product } from &apos;../../models/product.model&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class OrderService {&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/order&quot;;&#xa;  baseUrl_orderStatus = &quot;http://localhost:3001/order_status&quot;;&#xa;  baseUrl_person = &quot;http://localhost:3001/person&quot;;&#xa;  baseUrl_product = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  create(order: Order): Observable&lt;Order&gt; {&#xa;    return this.http.post&lt;Order&gt;(this.baseUrl, order);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Order[]&gt; {&#xa;    return this.http.get&lt;Order[]&gt;(this.baseUrl);&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Order&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Order&gt;(url);&#xa;  }&#xa;&#xa;  update(order: Order): Observable&lt;Order&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + order.id;&#xa;    return this.http.put&lt;Order&gt;(url, order);&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Order&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Order&gt;(url);&#xa;  }&#xa;&#xa;  read_orderStatus(): Observable&lt;OrderStatus[]&gt; {&#xa;    return this.http.get&lt;OrderStatus[]&gt;(this.baseUrl_orderStatus);&#xa;  }&#xa;&#xa;  read_person(): Observable&lt;Person[]&gt; {&#xa;    return this.http.get&lt;Person[]&gt;(this.baseUrl_person);&#xa;  }&#xa;&#xa;  read_product(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl_product);&#xa;  }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;}&#xa;">
+<node CREATED="1687887499810" ID="ID_1023922432" MODIFIED="1689283119181" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;import { Order } from &apos;../../models/order.model&apos;;&#xa;import { Person } from &apos;../../models/person.model&apos;;&#xa;import { OrderStatus } from &apos;../../models/orderStatus.model&apos;;&#xa;import { OrderItem } from &apos;../../models/orderItem.model&apos;;&#xa;import { Product } from &apos;../../models/product.model&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class OrderService {&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/order&quot;;&#xa;  baseUrl_person = &quot;http://localhost:3001/person&quot;;&#xa;  baseUrl_orderStatus = &quot;http://localhost:3001/order_status&quot;;&#xa;  baseUrl_product = &quot;http://localhost:3001/products&quot;;&#xa;&#xa;  create(order: Order): Observable&lt;Order&gt; {&#xa;    return this.http.post&lt;Order&gt;(this.baseUrl, order);&#xa;  }&#xa;&#xa;  read(): Observable&lt;Order[]&gt; {&#xa;    return this.http.get&lt;Order[]&gt;(this.baseUrl);&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Order&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Order&gt;(url);&#xa;  }&#xa;&#xa;  update(order: Order): Observable&lt;Order&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + order.id;&#xa;    return this.http.put&lt;Order&gt;(url, order);&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Order&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Order&gt;(url);&#xa;  }&#xa;&#xa;  read_person(): Observable&lt;Person[]&gt; {&#xa;    return this.http.get&lt;Person[]&gt;(this.baseUrl_person);&#xa;  }&#xa;&#xa;  read_orderStatus(): Observable&lt;OrderStatus[]&gt; {&#xa;    return this.http.get&lt;OrderStatus[]&gt;(this.baseUrl_orderStatus);&#xa;  }&#xa;&#xa;  read_product(): Observable&lt;Product[]&gt; {&#xa;    return this.http.get&lt;Product[]&gt;(this.baseUrl_product);&#xa;  }&#xa;&#xa;  showMessage(msg: string): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;&#xa;    })&#xa;  }&#xa;&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -15359,13 +15359,13 @@
 <icon BUILTIN="edit"/>
 <node CREATED="1687167577346" FOLDED="true" ID="ID_13001567" MODIFIED="1687167582012" TEXT="frontend/src/app/windows/orderForm/order-form-read/order-form-read.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_695523871" MODIFIED="1683896174766" TEXT="apagar o conteudo:">
-<node CREATED="1687167675758" ID="ID_1150826007" MODIFIED="1687167679289" TEXT="&lt;!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE --&gt;&#xa;&lt;!-- Caminho xpath: classes/class[2]/attributes/attribute[3] --&gt;&#xa;&lt;!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE --&gt;&#xa;&lt;!-- Caminho xpath: classes/class[2]/attributes/attribute[4] --&gt;">
+<node CREATED="1683896144324" ID="ID_695523871" MODIFIED="1683896174766" TEXT="apagar o conteudo:">
+<node CREATED="1687167675758" ID="ID_1150826007" MODIFIED="1689283222222" TEXT="&lt;!-- @TODO _ tem que implementar: OBJECT_ATTRIBUTE --&gt;&#xa;&lt;!-- Caminho xpath: classes/class[2]/attributes/attribute[3] --&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683896434586" FOLDED="true" ID="ID_1128933783" MODIFIED="1683896440597" TEXT="Incluir o conteudo:">
-<node CREATED="1687167658830" ID="ID_270340536" MODIFIED="1687167663714" TEXT="        &lt;!-- OrderDate Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;orderDate&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Data do Pedido&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.orderDate | date}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- ApprovedDate Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;approvedDate&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Data Aprovado&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.approvedDate | date}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;">
+<node CREATED="1683896434586" ID="ID_1128933783" MODIFIED="1683896440597" TEXT="Incluir o conteudo:">
+<node CREATED="1687167658830" ID="ID_270340536" MODIFIED="1689283211815" TEXT="        &lt;!-- OrderDate Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;orderDate&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Data do Pedido&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.orderDate | date}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -15374,7 +15374,7 @@
 </node>
 <node CREATED="1687869564735" ID="ID_1170898758" MODIFIED="1687892077317" TEXT="create">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683918427809" ID="ID_1481993900" MODIFIED="1687892114418" TEXT="Alterar o arquivo:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1481993900" MODIFIED="1687892114418" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
 <node CREATED="1687868870958" ID="ID_1359972523" MODIFIED="1687869081296" TEXT="frontend/src/app/windows/orderForm/order-form-create/order-form-create.component.html">
 <icon BUILTIN="list"/>
@@ -15385,20 +15385,20 @@
 </node>
 </node>
 </node>
-<node CREATED="1687869107485" ID="ID_1089463883" MODIFIED="1687869114082" TEXT="frontend/src/app/windows/orderForm/order-form-create/order-form-create.component.ts">
+<node CREATED="1687869107485" FOLDED="true" ID="ID_1089463883" MODIFIED="1687869114082" TEXT="frontend/src/app/windows/orderForm/order-form-create/order-form-create.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1687869506796" FOLDED="true" ID="ID_1888634191" MODIFIED="1687869512553" TEXT="Deixar o conteudo:">
+<node CREATED="1687869506796" ID="ID_1888634191" MODIFIED="1687869512553" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1687869513172" ID="ID_1445066971" MODIFIED="1689258342883" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Router } from &apos;@angular/router&apos;;&#xa;import { MatTableDataSource } from &apos;@angular/material/table&apos;;&#xa;import { OrderService } from &apos;../order.service&apos;;&#xa;import { Order } from &apos;../../../models/order.model&apos;;&#xa;import { OrderItem, OrderItem_class } from &apos;../../../models/orderItem.model&apos;;&#xa;import { Product } from &apos;../../../models/product.model&apos;;&#xa;import { OrderStatus } from &apos;../../../models/orderStatus.model&apos;;&#xa;import { Person } from &apos;../../../models/person.model&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-order-form-create&apos;,&#xa;  templateUrl: &apos;./order-form-create.component.html&apos;,&#xa;  styleUrls: [&apos;./order-form-create.component.css&apos;]&#xa;})&#xa;export class OrderFormCreateComponent implements OnInit {&#xa;&#xa;  order: Order = {&#xa;    customer: null,&#xa;    status: null,&#xa;    orderDate: null,&#xa;    items: [],&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  list_customer: Person[] = [];&#xa;  list_status: OrderStatus[] = [];&#xa;&#xa;  list_product: Product[] = [];&#xa;  displayedColumnsItems = [&apos;product&apos;, &apos;quantity&apos;, &apos;unitPrice&apos;, &apos;discount&apos;, &apos;totalPrice&apos;, &apos;action&apos;];&#xa;  dataSourceItems = new MatTableDataSource&lt;OrderItem&gt;([]);&#xa;  disableItems: boolean = true;&#xa;  countId_items: number = 0;&#xa;  item_items: OrderItem = {&#xa;    product: null,&#xa;    quantity: null,&#xa;    unitPrice: null,&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  constructor(private orderService: OrderService, private router: Router) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    this.orderService.read_person().subscribe(list_person =&gt; {&#xa;      this.list_customer = list_person;&#xa;    });&#xa;&#xa;    this.orderService.read_orderStatus().subscribe(list_orderStatus =&gt; {&#xa;      this.list_status = list_orderStatus;&#xa;    });&#xa;&#xa;    this.orderService.read_product().subscribe(list_product =&gt; {&#xa;      this.list_product = list_product;&#xa;    });&#xa;&#xa;  }&#xa;&#xa;  createOrder(): void {&#xa;    this.orderService.create(this.order).subscribe(() =&gt; {&#xa;      this.orderService.showMessage(&apos;Pedido criado!&apos;);&#xa;      this.router.navigate([&apos;/orderForm&apos;]);&#xa;    });&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/orderForm&apos;]);&#xa;  }&#xa;&#xa;  newItems(): void {&#xa;    this.disableItems = false;&#xa;    this.item_items = new OrderItem_class();&#xa;  }&#xa;&#xa;  saveItems(): void {&#xa;    if (typeof (this.item_items.id) == &quot;undefined&quot;) {&#xa;      this.item_items.id = ++this.countId_items;&#xa;      this.order.items.push(this.item_items);&#xa;      this.dataSourceItems.data = this.order.items;&#xa;    }&#xa;    this.cancelItems();&#xa;  }&#xa;&#xa;  editItems(rowOrderItem: OrderItem): void {&#xa;    this.disableItems = false;&#xa;    this.item_items = rowOrderItem;&#xa;    this.item_items.product = this.list_product.find(function(product) {&#xa;      return product.id == rowOrderItem.product.id;&#xa;    });&#xa;  }&#xa;&#xa;  deleteItems(rowOrderItem: OrderItem): void {&#xa;    this.cancelItems();&#xa;    let index = this.order.items.findIndex((i) =&gt; {&#xa;      return i.id == rowOrderItem.id;&#xa;    });&#xa;    this.order.items.splice(index, 1);&#xa;    this.dataSourceItems.data = this.order.items;&#xa;  }&#xa;&#xa;  cancelItems(): void {&#xa;    this.disableItems = true;&#xa;    this.item_items = {&#xa;      product: null,&#xa;      quantity: null,&#xa;      unitPrice: null,&#xa;      discount: null,&#xa;      totalPrice: null&#xa;    };&#xa;  }&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1687868765105" FOLDED="true" ID="ID_1384547245" MODIFIED="1688587264671" TEXT="frontend/src/app/windows/orderForm/order-form-create/order-form-create.component.css">
+<node CREATED="1687868765105" ID="ID_1384547245" MODIFIED="1688587264671" TEXT="frontend/src/app/windows/orderForm/order-form-create/order-form-create.component.css">
 <icon BUILTIN="list"/>
-<node CREATED="1687095496822" FOLDED="true" ID="ID_1634580314" MODIFIED="1687868378063" TEXT="Deixar o conteudo:">
+<node CREATED="1687095496822" ID="ID_1634580314" MODIFIED="1687868378063" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687868814343" ID="ID_546542733" MODIFIED="1687868818416" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;&#xa;.form-fields {&#xa;    display: flex;&#xa;    align-items: flex-start;&#xa;}&#xa;&#xa;.form-fields mat-form-field + mat-form-field {&#xa;    margin-left: 8px;&#xa;}">
+<node CREATED="1687868814343" ID="ID_546542733" MODIFIED="1689283312734" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;&#xa;.form-fields {&#xa;    display: flex;&#xa;    align-items: flex-start;&#xa;}&#xa;&#xa;.form-fields mat-form-field {&#xa;    margin-left: 8px;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -15407,7 +15407,7 @@
 </node>
 <node CREATED="1687870047159" ID="ID_1677209656" MODIFIED="1687892086786" TEXT="update">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683918427809" ID="ID_78970020" MODIFIED="1687892117136" TEXT="Alterar o arquivo:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_78970020" MODIFIED="1687892117136" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
 <node CREATED="1687870035596" ID="ID_449933738" MODIFIED="1688587267777" TEXT="frontend/src/app/windows/orderForm/order-form-update/order-form-update.component.html">
 <icon BUILTIN="list"/>
@@ -15422,16 +15422,16 @@
 <icon BUILTIN="list"/>
 <node CREATED="1687095496822" FOLDED="true" ID="ID_431053058" MODIFIED="1687868378063" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687887270187" ID="ID_1398381589" MODIFIED="1689258292973" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { ActivatedRoute, Router } from &apos;@angular/router&apos;;&#xa;import { MatTableDataSource } from &apos;@angular/material/table&apos;;&#xa;import { OrderService } from &apos;../order.service&apos;;&#xa;import { Order } from &apos;../../../models/order.model&apos;;&#xa;import { OrderItem, OrderItem_class } from &apos;../../../models/orderItem.model&apos;;&#xa;import { Product } from &apos;../../../models/product.model&apos;;&#xa;import { OrderStatus } from &apos;../../../models/orderStatus.model&apos;;&#xa;import { Person } from &apos;../../../models/person.model&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-order-form-update&apos;,&#xa;  templateUrl: &apos;./order-form-update.component.html&apos;,&#xa;  styleUrls: [&apos;./order-form-update.component.css&apos;]&#xa;})&#xa;export class OrderFormUpdateComponent implements OnInit {&#xa;&#xa;  order: Order = {&#xa;    customer: null,&#xa;    status: null,&#xa;    orderDate: null,&#xa;    items: [],&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  list_customer: Person[] = [];&#xa;  list_status: OrderStatus[] = [];&#xa;&#xa;  list_product: Product[] = [];&#xa;  displayedColumnsItems = [&apos;product&apos;, &apos;quantity&apos;, &apos;unitPrice&apos;, &apos;discount&apos;, &apos;totalPrice&apos;, &apos;action&apos;];&#xa;  dataSourceItems = new MatTableDataSource&lt;OrderItem&gt;([]);&#xa;  disableItems: boolean = true;&#xa;  countId_items: number = 0;&#xa;  item_items: OrderItem = {&#xa;    product: null,&#xa;    quantity: null,&#xa;    unitPrice: null,&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    const id = this.route.snapshot.paramMap.get(&apos;id&apos;);&#xa;    this.orderService.readById(id).subscribe(order =&gt; {&#xa;      this.order = order;&#xa;&#xa;      this.orderService.read_orderStatus().subscribe(list_orderStatus =&gt; {&#xa;        this.list_status = list_orderStatus;&#xa;        this.order.status = this.list_status.find(function(status) {&#xa;          return status.id == order.status.id;&#xa;        });&#xa;      });&#xa;&#xa;      this.orderService.read_person().subscribe(list_person =&gt; {&#xa;        this.list_customer = list_person;&#xa;        this.order.customer = this.list_customer.find(function(customer) {&#xa;          return customer.id == order.customer.id;&#xa;        });&#xa;      });&#xa;&#xa;      this.orderService.read_product().subscribe(list_product =&gt; {&#xa;        this.list_product = list_product;&#xa;      });&#xa;      &#xa;      this.countId_items = this.largerId_items(this.order.items);&#xa;      this.dataSourceItems.data = this.order.items;&#xa;    });&#xa;  }&#xa;&#xa;  updateOrder(): void {&#xa;    this.orderService.update(this.order).subscribe(() =&gt; {&#xa;      this.orderService.showMessage(&apos;Pedido editado!&apos;);&#xa;      this.router.navigate([&apos;/orderForm&apos;]);&#xa;    });&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/orderForm&apos;]);&#xa;  }&#xa;&#xa;  largerId_items(items: OrderItem[]): number {&#xa;    let numberReturn: number = 0;&#xa;    for (let item_items of items) {&#xa;      if (numberReturn &lt; item_items.id) {&#xa;        numberReturn = item_items.id;&#xa;      }&#xa;    }&#xa;    return numberReturn;&#xa;  }&#xa;&#xa;  newItems(): void {&#xa;    this.disableItems = false;&#xa;    this.item_items = new OrderItem_class();&#xa;  }&#xa;&#xa;  saveItems(): void {&#xa;    if (typeof (this.item_items.id) == &quot;undefined&quot;) {&#xa;      this.item_items.id = ++this.countId_items;&#xa;      this.order.items.push(this.item_items);&#xa;      this.dataSourceItems.data = this.order.items;&#xa;    }&#xa;    this.cancelItems();&#xa;  }&#xa;&#xa;  editItems(rowOrderItem: OrderItem): void {&#xa;    this.disableItems = false;&#xa;    this.item_items = rowOrderItem;&#xa;    this.item_items.product = this.list_product.find(function(product) {&#xa;      return product.id == rowOrderItem.product.id;&#xa;    });&#xa;  }&#xa;&#xa;  deleteItems(rowOrderItem: OrderItem): void {&#xa;    this.cancelItems();&#xa;    let index = this.order.items.findIndex((i) =&gt; {&#xa;      return i.id == rowOrderItem.id;&#xa;    });&#xa;    this.order.items.splice(index, 1);&#xa;    this.dataSourceItems.data = this.order.items;&#xa;  }&#xa;&#xa;  cancelItems(): void {&#xa;    this.disableItems = true;&#xa;    this.item_items = {&#xa;      product: null,&#xa;      quantity: null,&#xa;      unitPrice: null,&#xa;      discount: null,&#xa;      totalPrice: null&#xa;    };&#xa;  }&#xa;}&#xa;">
+<node CREATED="1687887270187" ID="ID_1398381589" MODIFIED="1689283498209" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { ActivatedRoute, Router } from &apos;@angular/router&apos;;&#xa;import { MatTableDataSource } from &apos;@angular/material/table&apos;;&#xa;import { OrderService } from &apos;../order.service&apos;;&#xa;import { Order } from &apos;../../../models/order.model&apos;;&#xa;import { OrderItem, OrderItem_class } from &apos;../../../models/orderItem.model&apos;;&#xa;import { Product } from &apos;../../../models/product.model&apos;;&#xa;import { OrderStatus } from &apos;../../../models/orderStatus.model&apos;;&#xa;import { Person } from &apos;../../../models/person.model&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-order-form-update&apos;,&#xa;  templateUrl: &apos;./order-form-update.component.html&apos;,&#xa;  styleUrls: [&apos;./order-form-update.component.css&apos;]&#xa;})&#xa;export class OrderFormUpdateComponent implements OnInit {&#xa;&#xa;  order: Order = {&#xa;    customer: null,&#xa;    status: null,&#xa;    orderDate: null,&#xa;    items: [],&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  list_customer: Person[] = [];&#xa;  list_status: OrderStatus[] = [];&#xa;&#xa;  list_product: Product[] = [];&#xa;  displayedColumnsItems = [&apos;product&apos;, &apos;quantity&apos;, &apos;unitPrice&apos;, &apos;discount&apos;, &apos;totalPrice&apos;, &apos;action&apos;];&#xa;  dataSourceItems = new MatTableDataSource&lt;OrderItem&gt;([]);&#xa;  disableItems: boolean = true;&#xa;  countId_items: number = 0;&#xa;  item_items: OrderItem = {&#xa;    product: null,&#xa;    quantity: null,&#xa;    unitPrice: null,&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    const id = this.route.snapshot.paramMap.get(&apos;id&apos;);&#xa;    this.orderService.readById(id).subscribe(order =&gt; {&#xa;      this.order = order;&#xa;      this.orderService.read_person().subscribe(list_person =&gt; {&#xa;        this.list_customer = list_person;&#xa;        this.order.customer = this.list_customer.find(function(customer) {&#xa;          return customer.id == order.customer.id;&#xa;        });&#xa;      });&#xa;&#xa;      this.orderService.read_orderStatus().subscribe(list_orderStatus =&gt; {&#xa;        this.list_status = list_orderStatus;&#xa;        this.order.status = this.list_status.find(function(status) {&#xa;          return status.id == order.status.id;&#xa;        });&#xa;      });&#xa;&#xa;      this.countId_items = this.largerId_items(this.order.items);&#xa;      this.dataSourceItems.data = this.order.items;&#xa;      this.orderService.read_product().subscribe(list_product =&gt; {&#xa;        this.list_product = list_product;&#xa;      });&#xa;&#xa;    });&#xa;  }&#xa;&#xa;  updateOrder(): void {&#xa;    this.orderService.update(this.order).subscribe(() =&gt; {&#xa;      this.orderService.showMessage(&apos;Pedido editado!&apos;);&#xa;      this.router.navigate([&apos;/orderForm&apos;]);&#xa;    });&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/orderForm&apos;]);&#xa;  }&#xa;&#xa;  largerId_items(items: OrderItem[]): number {&#xa;    let numberReturn: number = 0;&#xa;    for (let item_items of items) {&#xa;      if (numberReturn &lt; item_items.id) {&#xa;        numberReturn = item_items.id;&#xa;      }&#xa;    }&#xa;    return numberReturn;&#xa;  }&#xa;&#xa;  newItems(): void {&#xa;    this.disableItems = false;&#xa;    this.item_items = new OrderItem_class();&#xa;  }&#xa;&#xa;  saveItems(): void {&#xa;    if (typeof (this.item_items.id) == &quot;undefined&quot;) {&#xa;      this.item_items.id = ++this.countId_items;&#xa;      this.order.items.push(this.item_items);&#xa;      this.dataSourceItems.data = this.order.items;&#xa;    }&#xa;    this.cancelItems();&#xa;  }&#xa;&#xa;  editItems(rowOrderItem: OrderItem): void {&#xa;    this.disableItems = false;&#xa;    this.item_items = rowOrderItem;&#xa;    this.item_items.product = this.list_product.find(function(product) {&#xa;      return product.id == rowOrderItem.product.id;&#xa;    });&#xa;  }&#xa;&#xa;  deleteItems(rowOrderItem: OrderItem): void {&#xa;    this.cancelItems();&#xa;    let index = this.order.items.findIndex((i) =&gt; {&#xa;      return i.id == rowOrderItem.id;&#xa;    });&#xa;    this.order.items.splice(index, 1);&#xa;    this.dataSourceItems.data = this.order.items;&#xa;  }&#xa;&#xa;  cancelItems(): void {&#xa;    this.disableItems = true;&#xa;    this.item_items = {&#xa;      product: null,&#xa;      quantity: null,&#xa;      unitPrice: null,&#xa;      discount: null,&#xa;      totalPrice: null&#xa;    };&#xa;  }&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1687870035596" FOLDED="true" ID="ID_815998826" MODIFIED="1688587268697" TEXT="frontend/src/app/windows/orderForm/order-form-update/order-form-update.component.css">
+<node CREATED="1687870035596" ID="ID_815998826" MODIFIED="1688587268697" TEXT="frontend/src/app/windows/orderForm/order-form-update/order-form-update.component.css">
 <icon BUILTIN="list"/>
 <node CREATED="1687095496822" FOLDED="true" ID="ID_932496125" MODIFIED="1687868378063" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687870662630" ID="ID_1888821436" MODIFIED="1687870666124" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;">
+<node CREATED="1687870662630" ID="ID_1888821436" MODIFIED="1689283522642" TEXT="form {&#xa;    display: flex;&#xa;    flex-direction: column;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;button {&#xa;    margin-right: 15px;&#xa;    margin-top: 20px;&#xa;}&#xa;&#xa;.edit&gt;i {&#xa;    color: #6b94ca;&#xa;}&#xa;&#xa;.delete&gt;i {&#xa;    color: #e35e6b;&#xa;}&#xa;&#xa;.form-fields {&#xa;    display: flex;&#xa;    align-items: flex-start;&#xa;}&#xa;&#xa;.form-fields mat-form-field {&#xa;    margin-left: 8px;&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -15440,22 +15440,22 @@
 </node>
 <node CREATED="1687869570979" ID="ID_1834256471" MODIFIED="1687892077321" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_606782714" MODIFIED="1687892119442" TEXT="Alterar o arquivo:">
+<node CREATED="1683918427809" ID="ID_606782714" MODIFIED="1687892119442" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
 <node CREATED="1687869591244" FOLDED="true" ID="ID_439089976" MODIFIED="1687869596031" TEXT="frontend/src/app/windows/orderForm/order-form-delete/order-form-delete.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1687869600380" FOLDED="true" ID="ID_1549315344" MODIFIED="1687869606478" TEXT="Deixar o conteudo:">
+<node CREATED="1687869600380" ID="ID_1549315344" MODIFIED="1687869606478" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687869634735" ID="ID_102379773" MODIFIED="1687869642599" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Excluir Pedido&lt;/mat-card-title&gt;&#xa;    &lt;mat-tab-group&gt;&#xa;        &lt;!-- Dados Itens --&gt;&#xa;        &lt;mat-tab label=&quot;Dados&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Cliente&quot; [(value)]=&quot;order.customer&quot; disabled&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_customer of list_customer&quot; [value]=&quot;item_customer&quot;&gt;{{&#xa;                            item_customer.id }} - {{ item_customer.name }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Status&quot; [(value)]=&quot;order.status&quot; disabled&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_status of list_status&quot; [value]=&quot;item_status&quot;&gt;{{ item_status.id }} -&#xa;                            {{ item_status.description }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Data do Pedido&quot; [(ngModel)]=&quot;order.orderDate&quot; name=&quot;orderDate&quot;&#xa;                        type=&quot;datetime-local&quot; disabled&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Desconto&quot; [value]=&quot;order.discount&quot; name=&quot;discount&quot; disabled /&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Total do Pedido&quot; [value]=&quot;order.totalPrice&quot; name=&quot;totalPrice&quot;&#xa;                        disabled /&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;        &lt;!-- Aba Itens --&gt;&#xa;        &lt;mat-tab label=&quot;Itens&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;table mat-table [dataSource]=&quot;dataSourceItems&quot;&gt;&#xa;                    &lt;!-- Product Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;Product&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Produto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.product.id }} - {{ row.product.name }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Quantity Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;quantity&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Quantidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.quantity }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- TotalPrice Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;unitPrice&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o da unidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.unitPrice | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Discount Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;discount&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Desconto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.discount | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- TotalPrice Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;totalPrice&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Total do Item&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.totalPrice | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;                    &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumnsItems&quot;&gt;&lt;/tr&gt;&#xa;                    &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumnsItems;&quot;&gt;&lt;/tr&gt;&#xa;                &lt;/table&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;    &lt;/mat-tab-group&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;deleteOrder()&quot; color=&quot;warn&quot;&gt;&#xa;        Excluir&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
+<node CREATED="1687869634735" ID="ID_102379773" MODIFIED="1689283579247" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Excluir Pedido&lt;/mat-card-title&gt;&#xa;    &lt;mat-tab-group&gt;&#xa;        &lt;!-- Aba Dados --&gt;&#xa;        &lt;mat-tab label=&quot;Dados&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Cliente&quot; [(value)]=&quot;order.customer&quot; disabled&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_customer of list_customer&quot; [value]=&quot;item_customer&quot;&gt;{{ item_customer.id }} - {{ item_customer.name }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Status&quot; [(value)]=&quot;order.status&quot; disabled&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_status of list_status&quot; [value]=&quot;item_status&quot;&gt;{{ item_status.id }} - {{ item_status.description }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Data do Pedido&quot; [(ngModel)]=&quot;order.orderDate&quot; name=&quot;orderDate&quot; type=&quot;datetime-local&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Desconto&quot; [(ngModel)]=&quot;order.discount&quot; name=&quot;discount&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Total do Pedido&quot; [(ngModel)]=&quot;order.totalPrice&quot; name=&quot;totalPrice&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;        &lt;!-- Aba Itens --&gt;&#xa;        &lt;mat-tab label=&quot;Itens&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;table mat-table [dataSource]=&quot;dataSourceItems&quot;&gt;&#xa;                    &lt;!-- Product Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;product&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Produto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.product.id }} - {{ row.product.name }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Quantity Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;quantity&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Quantidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.quantity }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- UnitPrice Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;unitPrice&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o da unidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.unitPrice | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Discount Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;discount&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Desconto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.discount | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- TotalPrice Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;totalPrice&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Total do Item&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.totalPrice | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumnsItems&quot;&gt;&lt;/tr&gt;&#xa;                    &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumnsItems;&quot;&gt;&lt;/tr&gt;&#xa;                &lt;/table&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;    &lt;/mat-tab-group&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;deleteOrder()&quot; color=&quot;warn&quot;&gt;&#xa;        Excluir&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1687869717627" FOLDED="true" ID="ID_186146338" MODIFIED="1687869723239" TEXT="frontend/src/app/windows/orderForm/order-form-delete/order-form-delete.component.ts">
+<node CREATED="1687869717627" ID="ID_186146338" MODIFIED="1687869723239" TEXT="frontend/src/app/windows/orderForm/order-form-delete/order-form-delete.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1687869763876" FOLDED="true" ID="ID_180592449" MODIFIED="1687869770441" TEXT="Deixar o conteudo:">
+<node CREATED="1687869763876" ID="ID_180592449" MODIFIED="1687869770441" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687869771032" ID="ID_1522302555" MODIFIED="1688753131515" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { ActivatedRoute, Router } from &apos;@angular/router&apos;;&#xa;import { OrderService } from &apos;../order.service&apos;;&#xa;import { Order } from &apos;../../../models/order.model&apos;;&#xa;import { Person } from &apos;../../../models/person.model&apos;;&#xa;import { OrderStatus } from &apos;../../../models/orderStatus.model&apos;;&#xa;import { OrderItem } from &apos;../../../models/orderItem.model&apos;;&#xa;import { MatTableDataSource } from &apos;@angular/material/table&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-order-form-delete&apos;,&#xa;  templateUrl: &apos;./order-form-delete.component.html&apos;,&#xa;  styleUrls: [&apos;./order-form-delete.component.css&apos;]&#xa;})&#xa;export class OrderFormDeleteComponent implements OnInit {&#xa;&#xa;  order: Order = {&#xa;    customer: null,&#xa;    status: null,&#xa;    orderDate: null,&#xa;    items: [],&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  list_customer: Person[] = [];&#xa;  list_status: OrderStatus[] = [];&#xa;&#xa;  displayedColumnsItems = [&apos;Product&apos;, &apos;quantity&apos;, &apos;unitPrice&apos;, &apos;discount&apos;, &apos;totalPrice&apos;];&#xa;  dataSourceItems = new MatTableDataSource&lt;OrderItem&gt;([]);&#xa;&#xa;  constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    this.orderService.read_person().subscribe(list_person =&gt; {&#xa;      this.list_customer = list_person;&#xa;    });&#xa;&#xa;    this.orderService.read_orderStatus().subscribe(list_orderStatus =&gt; {&#xa;      this.list_status = list_orderStatus;&#xa;    });&#xa;&#xa;    const id = this.route.snapshot.paramMap.get(&apos;id&apos;);&#xa;    this.orderService.readById(id).subscribe(order =&gt; {&#xa;      this.order = order;&#xa;      this.order.status = this.list_status.find(function(status) {&#xa;        return status.id == order.status.id;&#xa;      });&#xa;      this.order.customer = this.list_customer.find(function(customer) {&#xa;        return customer.id == order.customer.id;&#xa;      });&#xa;      this.dataSourceItems.data = this.order.items;&#xa;    });&#xa;  }&#xa;&#xa;  deleteOrder(): void {&#xa;    this.orderService.delete(this.order.id.toString()).subscribe(&#xa;      () =&gt; {&#xa;        this.orderService.showMessage(&apos;Pedido excluido!&apos;);&#xa;        this.router.navigate([&apos;/orderForm&apos;]);&#xa;      }&#xa;    );&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/orderForm&apos;]);&#xa;  }&#xa;}">
+<node CREATED="1687869771032" ID="ID_1522302555" MODIFIED="1689283598610" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { ActivatedRoute, Router } from &apos;@angular/router&apos;;&#xa;import { MatTableDataSource } from &apos;@angular/material/table&apos;;&#xa;import { OrderService } from &apos;../order.service&apos;;&#xa;import { Order } from &apos;../../../models/order.model&apos;;&#xa;import { OrderItem } from &apos;../../../models/orderItem.model&apos;;&#xa;import { OrderStatus } from &apos;../../../models/orderStatus.model&apos;;&#xa;import { Person } from &apos;../../../models/person.model&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-order-form-delete&apos;,&#xa;  templateUrl: &apos;./order-form-delete.component.html&apos;,&#xa;  styleUrls: [&apos;./order-form-delete.component.css&apos;]&#xa;})&#xa;export class OrderFormDeleteComponent implements OnInit {&#xa;&#xa;  order: Order = {&#xa;    customer: null,&#xa;    status: null,&#xa;    orderDate: null,&#xa;    items: [],&#xa;    discount: null,&#xa;    totalPrice: null&#xa;  };&#xa;&#xa;  list_customer: Person[] = [];&#xa;  list_status: OrderStatus[] = [];&#xa;&#xa;  displayedColumnsItems = [&apos;product&apos;, &apos;quantity&apos;, &apos;unitPrice&apos;, &apos;discount&apos;, &apos;totalPrice&apos;];&#xa;  dataSourceItems = new MatTableDataSource&lt;OrderItem&gt;([]);&#xa;&#xa;  constructor(private orderService: OrderService, private router: Router, private route: ActivatedRoute) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    const id = this.route.snapshot.paramMap.get(&apos;id&apos;);&#xa;    this.orderService.readById(id).subscribe(order =&gt; {&#xa;      this.order = order;&#xa;      this.orderService.read_person().subscribe(list_person =&gt; {&#xa;        this.list_customer = list_person;&#xa;        this.order.customer = this.list_customer.find(function(customer) {&#xa;          return customer.id == order.customer.id;&#xa;        });&#xa;      });&#xa;&#xa;      this.orderService.read_orderStatus().subscribe(list_orderStatus =&gt; {&#xa;        this.list_status = list_orderStatus;&#xa;        this.order.status = this.list_status.find(function(status) {&#xa;          return status.id == order.status.id;&#xa;        });&#xa;      });&#xa;&#xa;      this.dataSourceItems.data = this.order.items;&#xa;    });&#xa;  }&#xa;&#xa;  deleteOrder(): void {&#xa;    this.orderService.delete(this.order.id.toString()).subscribe(&#xa;      () =&gt; {&#xa;        this.orderService.showMessage(&apos;Pedido excluido!&apos;);&#xa;        this.router.navigate([&apos;/orderForm&apos;]);&#xa;      }&#xa;    );&#xa;  }&#xa;&#xa;  cancel(): void {&#xa;    this.router.navigate([&apos;/orderForm&apos;]);&#xa;  }&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -15467,9 +15467,9 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684260728676" ID="ID_138448085" MODIFIED="1684260734746" TEXT="arquivos de controle">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684087724816" FOLDED="true" ID="ID_483452605" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" ID="ID_483452605" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684414402199" ID="ID_979388984" MODIFIED="1684414410628" TEXT="modelTs">
+<node CREATED="1684414402199" FOLDED="true" ID="ID_979388984" MODIFIED="1684414410628" TEXT="modelTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_119202550" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -15477,11 +15477,11 @@
 <icon BUILTIN="edit"/>
 <node CREATED="1684120561184" ID="ID_1980725641" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
-<node CREATED="1683923299557" ID="ID_640715055" MODIFIED="1687892418594" TEXT="na parte do element &quot;angular9&quot;">
+<node CREATED="1683923299557" FOLDED="true" ID="ID_640715055" MODIFIED="1687892418594" TEXT="na parte do element &quot;angular9&quot;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687892420343" ID="ID_501288154" MODIFIED="1687892432328" TEXT="gerador &apos;modelTs&apos;">
+<node CREATED="1687892420343" FOLDED="true" ID="ID_501288154" MODIFIED="1687892432328" TEXT="gerador &apos;modelTs&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687892519963" ID="ID_1248774123" MODIFIED="1687892526501" TEXT="deixar o conteudo:">
+<node CREATED="1687892519963" FOLDED="true" ID="ID_1248774123" MODIFIED="1687892526501" TEXT="deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684414449836" FOLDED="true" ID="ID_1128648347" MODIFIED="1688136056540" TEXT="modelTs">
 <icon BUILTIN="element"/>
@@ -15599,13 +15599,13 @@
 </node>
 <node CREATED="1684435348172" FOLDED="true" ID="ID_1303899686" MODIFIED="1684435355689" TEXT="attribute">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684436413976" FOLDED="true" MODIFIED="1684436416128" TEXT="attributeId-init">
+<node CREATED="1684436413976" FOLDED="true" ID="ID_1128419865" MODIFIED="1684436416128" TEXT="attributeId-init">
 <icon BUILTIN="element"/>
 <node CREATED="1684436424480" MODIFIED="1684509084430" TEXT="    id?:">
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
-<node CREATED="1684508598613" FOLDED="true" MODIFIED="1684508719183" TEXT="attributeTypeId-number">
+<node CREATED="1684508598613" FOLDED="true" ID="ID_1906326357" MODIFIED="1684508719183" TEXT="attributeTypeId-number">
 <icon BUILTIN="element"/>
 <node CREATED="1684508683290" MODIFIED="1684508691181" TEXT=" number;">
 <icon BUILTIN="tag_green"/>
@@ -16170,19 +16170,19 @@
 </node>
 </node>
 </node>
-<node CREATED="1684957353179" ID="ID_667383877" MODIFIED="1687892466954" TEXT="na parte do element &quot;maps&quot;">
+<node CREATED="1684957353179" FOLDED="true" ID="ID_667383877" MODIFIED="1687892466954" TEXT="na parte do element &quot;maps&quot;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687892468172" ID="ID_1794837144" MODIFIED="1687892490013" TEXT="&apos;angularTypes&apos;">
+<node CREATED="1687892468172" FOLDED="true" ID="ID_1794837144" MODIFIED="1687892490013" TEXT="&apos;angularTypes&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1687892535447" ID="ID_967927407" MODIFIED="1687892542460" TEXT="incluir o conteudo:">
+<node CREATED="1687892535447" FOLDED="true" ID="ID_967927407" MODIFIED="1687892542460" TEXT="incluir o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1685743600552" ID="ID_595738537" MODIFIED="1685743606495" TEXT="date">
+<node CREATED="1685743600552" FOLDED="true" ID="ID_595738537" MODIFIED="1685743606495" TEXT="date">
 <icon BUILTIN="element"/>
 <node CREATED="1685743814305" ID="ID_1651605683" MODIFIED="1687275920049" TEXT="Data">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1687286346672" ID="ID_1250198064" MODIFIED="1687286349880" TEXT="datetime">
+<node CREATED="1687286346672" FOLDED="true" ID="ID_1250198064" MODIFIED="1687286349880" TEXT="datetime">
 <icon BUILTIN="element"/>
 <node CREATED="1687286352514" ID="ID_896561812" MODIFIED="1687286355734" TEXT="DataHora">
 <icon BUILTIN="tag_green"/>
@@ -16193,7 +16193,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" ID="ID_777830911" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_777830911" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_853061286" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -16203,9 +16203,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" ID="ID_1655369697" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1655369697" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" ID="ID_181567629" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_181567629" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_834278934" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -16216,7 +16216,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684261060240" ID="ID_117730347" MODIFIED="1684261069777" TEXT="serviceTs">
+<node CREATED="1684261060240" FOLDED="true" ID="ID_117730347" MODIFIED="1684261069777" TEXT="serviceTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1052494641" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -17465,7 +17465,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" ID="ID_719267169" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_719267169" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1469988253" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -17475,9 +17475,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" ID="ID_1369862391" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1369862391" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" ID="ID_924723025" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_924723025" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1135461658" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -17502,7 +17502,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1687892519963" ID="ID_1900644542" MODIFIED="1688402777798" TEXT="no patterns &apos;import-default&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1688402777799" ID="ID_479604965" MODIFIED="1688402785563" TEXT="Incluir o conteudo:">
+<node CREATED="1688402777799" FOLDED="true" ID="ID_479604965" MODIFIED="1688402785563" TEXT="Incluir o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688402738190" ID="ID_1317704603" MODIFIED="1688402741527" TEXT="import { MatSelectModule } from &apos;@angular/material/select&apos;;">
 <icon BUILTIN="tag_green"/>
@@ -17512,7 +17512,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1687892519963" ID="ID_234886212" MODIFIED="1688402875933" TEXT="no patterns &apos;imports&apos;">
+<node CREATED="1687892519963" FOLDED="true" ID="ID_234886212" MODIFIED="1688402875933" TEXT="no patterns &apos;imports&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688402777799" ID="ID_555373735" MODIFIED="1688402785563" TEXT="Incluir o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -17532,9 +17532,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" ID="ID_1017368808" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1017368808" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" ID="ID_1791609273" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1791609273" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_75424040" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -29813,7 +29813,7 @@
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1687868870958" FOLDED="true" ID="ID_54934100" MODIFIED="1688586104283" TEXT="deleteComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1721143205" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
+<node CREATED="1684262056102" ID="ID_1721143205" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_1010074102" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -29825,7 +29825,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688583420651" ID="ID_800587922" MODIFIED="1688583425576" TEXT="deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684094462548" ID="ID_1174064069" MODIFIED="1689274918268" TEXT="deleteComponentHtml">
+<node CREATED="1684094462548" FOLDED="true" ID="ID_1174064069" MODIFIED="1689274918268" TEXT="deleteComponentHtml">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" MODIFIED="1684430367572" TEXT="parameters">
 <icon BUILTIN="element"/>
@@ -31878,7 +31878,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1687869107485" ID="ID_1912335322" MODIFIED="1688586107715" TEXT="deleteComponentTs">
+<node CREATED="1687869107485" FOLDED="true" ID="ID_1912335322" MODIFIED="1688586107715" TEXT="deleteComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_473185474" MODIFIED="1687892378231" TEXT="Alterar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -31892,7 +31892,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688583420651" ID="ID_1481852256" MODIFIED="1688583425576" TEXT="deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684094474151" ID="ID_84120671" MODIFIED="1689282484926" TEXT="deleteComponentTs">
+<node CREATED="1684094474151" FOLDED="true" ID="ID_84120671" MODIFIED="1689282484926" TEXT="deleteComponentTs">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" MODIFIED="1684430367572" TEXT="parameters">
 <icon BUILTIN="element"/>
