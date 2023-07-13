@@ -4,8 +4,8 @@ import { MatTableDataSource } from '@angular/material/table';
 import { OrderService } from '../order.service';
 import { Order } from '../../../models/order.model';
 import { OrderItem } from '../../../models/orderItem.model';
-import { Person } from '../../../models/person.model';
 import { OrderStatus } from '../../../models/orderStatus.model';
+import { Person } from '../../../models/person.model';
 
 @Component({
   selector: 'app-order-form-delete',
@@ -35,17 +35,17 @@ export class OrderFormDeleteComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id');
     this.orderService.readById(id).subscribe(order => {
       this.order = order;
-      this.orderService.read_orderStatus().subscribe(list_orderStatus => {
-        this.list_status = list_orderStatus;
-        this.order.status = this.list_status.find(function(status) {
-          return status.id == order.status.id;
-        });
-      });
-      
       this.orderService.read_person().subscribe(list_person => {
         this.list_customer = list_person;
         this.order.customer = this.list_customer.find(function(customer) {
           return customer.id == order.customer.id;
+        });
+      });
+
+      this.orderService.read_orderStatus().subscribe(list_orderStatus => {
+        this.list_status = list_orderStatus;
+        this.order.status = this.list_status.find(function(status) {
+          return status.id == order.status.id;
         });
       });
 
