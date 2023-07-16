@@ -114,7 +114,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684160926442" ID="ID_389004945" MODIFIED="1684161075329" TEXT="select">
 <icon BUILTIN="element"/>
-<node CREATED="1684161082942" MODIFIED="1684245153728" TEXT="class[starts-with(@mode, &quot;window&quot;)]">
+<node CREATED="1684161082942" ID="ID_1216182453" MODIFIED="1689530250238" TEXT="class[@mode = &quot;window.editor&quot;]">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>

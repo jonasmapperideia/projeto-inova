@@ -68,9 +68,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" FOLDED="true" ID="ID_43593690" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_43593690" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
-<node CREATED="1684532424397" FOLDED="true" ID="ID_1650039522" MODIFIED="1684532426507" TEXT="class">
+<node CREATED="1684532424397" ID="ID_1650039522" MODIFIED="1684532426507" TEXT="class">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684531885582" FOLDED="true" MODIFIED="1684531922354" TEXT="mat-card-init">
 <icon BUILTIN="element"/>
@@ -406,7 +406,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1688739629583" FOLDED="true" ID="ID_1469297985" MODIFIED="1688739633406" TEXT="iframe">
+<node CREATED="1688739629583" ID="ID_1469297985" MODIFIED="1688739633406" TEXT="iframe">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688742917816" FOLDED="true" ID="ID_231004912" MODIFIED="1688742919249" TEXT="layout">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -561,9 +561,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1688754178808" FOLDED="true" ID="ID_1220710132" MODIFIED="1688754183112" TEXT="buttons">
+<node CREATED="1688754178808" ID="ID_1220710132" MODIFIED="1688754183112" TEXT="buttons">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1688754183889" FOLDED="true" ID="ID_1451018157" MODIFIED="1688754185417" TEXT="buttonsIframe">
+<node CREATED="1688754183889" ID="ID_1451018157" MODIFIED="1688754185417" TEXT="buttonsIframe">
 <icon BUILTIN="element"/>
 <node CREATED="1685561082394" ID="ID_1920231156" MODIFIED="1688754213590" TEXT="{{ f#[identacao] }}">
 <icon BUILTIN="tag_yellow"/>
@@ -571,12 +571,12 @@
 <node CREATED="1688754206598" ID="ID_814722299" MODIFIED="1688754208208" TEXT="&lt;div class=&quot;group inline-flex items-center mt-2 -ml-4 py-2 px-4 rounded cursor-pointer&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1688754271298" FOLDED="true" ID="ID_1956361585" MODIFIED="1688754273953" TEXT="button">
+<node CREATED="1688754271298" ID="ID_1956361585" MODIFIED="1688754273953" TEXT="button">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685561082394" ID="ID_1313111185" MODIFIED="1688755679258" TEXT="{{ f#[identacao] }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1688754317761" ID="ID_319027274" MODIFIED="1688755757738" TEXT="    &lt;button mat-stroked-button color=&quot;secondary&quot; (click)=&quot;newItems()&quot; *ngIf=&quot;disable{{ mi:first-upper($attributeName) }}&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;add&lt;/i&gt;">
+<node CREATED="1688754317761" ID="ID_319027274" MODIFIED="1689346669722" TEXT="    &lt;button mat-stroked-button color=&quot;secondary&quot; (click)=&quot;new{{ mi:first-upper($attributeName) }}()&quot; *ngIf=&quot;disable{{ mi:first-upper($attributeName) }}&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;add&lt;/i&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1685561082394" ID="ID_1913035317" MODIFIED="1688755682086" TEXT="{{ f#[identacao] }}">
@@ -592,12 +592,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1688754271521" FOLDED="true" ID="ID_1008094843" MODIFIED="1688754273952" TEXT="button">
+<node CREATED="1688754271521" ID="ID_1008094843" MODIFIED="1688754273952" TEXT="button">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685561082394" ID="ID_1465261631" MODIFIED="1688755688952" TEXT="{{ f#[identacao] }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1688754344376" ID="ID_1345423082" MODIFIED="1688755773290" TEXT="    &lt;button mat-raised-button (click)=&quot;saveItems()&quot; color=&quot;primary&quot; *ngIf=&quot;!disable{{ mi:first-upper($attributeName) }}&quot;&gt;">
+<node CREATED="1688754344376" ID="ID_1345423082" MODIFIED="1689346721332" TEXT="    &lt;button mat-raised-button (click)=&quot;save{{ mi:first-upper($attributeName) }}()&quot; color=&quot;primary&quot; *ngIf=&quot;!disable{{ mi:first-upper($attributeName) }}&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1685561082394" ID="ID_1449884705" MODIFIED="1688755691697" TEXT="{{ f#[identacao] }}">
@@ -613,12 +613,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1688754271709" FOLDED="true" ID="ID_222322860" MODIFIED="1688754273950" TEXT="button">
+<node CREATED="1688754271709" ID="ID_222322860" MODIFIED="1688754273950" TEXT="button">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685561082394" ID="ID_1938240320" MODIFIED="1688755697384" TEXT="{{ f#[identacao] }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1688754433594" ID="ID_1702726247" MODIFIED="1688755783026" TEXT="    &lt;button mat-raised-button (click)=&quot;cancelItems()&quot; color=&quot;&quot; *ngIf=&quot;!disable{{ mi:first-upper($attributeName) }}&quot;&gt;">
+<node CREATED="1688754433594" ID="ID_1702726247" MODIFIED="1689346758293" TEXT="    &lt;button mat-raised-button (click)=&quot;cancel{{ mi:first-upper($attributeName) }}()&quot; color=&quot;&quot; *ngIf=&quot;!disable{{ mi:first-upper($attributeName) }}&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1685561082394" ID="ID_667472772" MODIFIED="1688755700575" TEXT="{{ f#[identacao] }}">
