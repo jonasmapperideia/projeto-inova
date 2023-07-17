@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1684023288286" ID="ID_146330789" LINK="../../mapperidea.mm" MODIFIED="1689185315887" TEXT="createComponentTs">
+<node CREATED="1684023288286" ID="ID_146330789" LINK="../../mapperidea.mm" MODIFIED="1689600669243" TEXT="createComponentTs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="element"/>
 <node CREATED="1684159426363" FOLDED="true" MODIFIED="1684430367572" POSITION="right" TEXT="parameters">
@@ -969,12 +969,24 @@
 <icon BUILTIN="element"/>
 <node CREATED="1685810279229" FOLDED="true" ID="ID_1769682627" MODIFIED="1685810280356" TEXT="var">
 <icon BUILTIN="element"/>
-<node CREATED="1685810289126" ID="ID_1650562965" MODIFIED="1685810392919" TEXT="objectsType">
+<node CREATED="1685810289126" ID="ID_1650562965" MODIFIED="1689598835973" TEXT="ancestorObjectsType">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1685810299261" FOLDED="true" ID="ID_1735257306" MODIFIED="1685810301644" TEXT="expr">
 <icon BUILTIN="element"/>
-<node CREATED="1685810311441" ID="ID_338647034" MODIFIED="1689015947678" TEXT="distinct-values(attributes/attribute[@mode = &quot;oneToOne&quot;]/@type)">
+<node CREATED="1685810311441" ID="ID_338647034" MODIFIED="1689599019242" TEXT="distinct-values($objetoClass/attributes/attribute[@mode = &quot;oneToOne&quot;]/@type)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+<node CREATED="1685810279229" FOLDED="true" ID="ID_1576097407" MODIFIED="1685810280356" TEXT="var">
+<icon BUILTIN="element"/>
+<node CREATED="1685810289126" ID="ID_1159240998" MODIFIED="1685810392919" TEXT="objectsType">
+<icon BUILTIN="tag_green"/>
+</node>
+<node CREATED="1685810299261" FOLDED="true" ID="ID_672355067" MODIFIED="1685810301644" TEXT="expr">
+<icon BUILTIN="element"/>
+<node CREATED="1685810311441" ID="ID_692000212" MODIFIED="1689015947678" TEXT="distinct-values(attributes/attribute[@mode = &quot;oneToOne&quot;]/@type)">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -990,7 +1002,7 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684160926442" FOLDED="true" ID="ID_1062019860" MODIFIED="1684436285682" TEXT="select">
 <icon BUILTIN="element"/>
-<node CREATED="1684436293922" ID="ID_1523909811" MODIFIED="1685810396645" TEXT="/classes/class[@name = $objectsType]">
+<node CREATED="1684436293922" ID="ID_1523909811" MODIFIED="1689599672000" TEXT="/classes/class[@name = $objectsType and not(@name = $ancestorObjectsType)]">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
