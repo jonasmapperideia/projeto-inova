@@ -1,10 +1,4 @@
-export interface Produto {
-    id?: number;
-    nome: string;
-    preco: number;
-}
-
-export class Produto_class {
+export class Produto {
     id?: number;
     nome: string;
     preco: number;
@@ -13,4 +7,5 @@ export class Produto_class {
         this.nome = null;
         this.preco = null;
     }
+
 }
