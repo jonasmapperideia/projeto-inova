@@ -33,6 +33,24 @@ import { ProdutoFormReadComponent } from './windows/produtoForm/produto-form-rea
 import { ProdutoFormUpdateComponent } from './windows/produtoForm/produto-form-update/produto-form-update.component';
 import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-delete/produto-form-delete.component';
 
+import { PedidoFormCrudComponent } from './windows/pedidoForm/pedido-form-crud/pedido-form-crud.component';
+import { PedidoFormCreateComponent } from './windows/pedidoForm/pedido-form-create/pedido-form-create.component';
+import { PedidoFormReadComponent } from './windows/pedidoForm/pedido-form-read/pedido-form-read.component';
+import { PedidoFormUpdateComponent } from './windows/pedidoForm/pedido-form-update/pedido-form-update.component';
+import { PedidoFormDeleteComponent } from './windows/pedidoForm/pedido-form-delete/pedido-form-delete.component';
+
+import { SituacaoPedidoFormCrudComponent } from './windows/situacaoPedidoForm/situacao-pedido-form-crud/situacao-pedido-form-crud.component';
+import { SituacaoPedidoFormCreateComponent } from './windows/situacaoPedidoForm/situacao-pedido-form-create/situacao-pedido-form-create.component';
+import { SituacaoPedidoFormReadComponent } from './windows/situacaoPedidoForm/situacao-pedido-form-read/situacao-pedido-form-read.component';
+import { SituacaoPedidoFormUpdateComponent } from './windows/situacaoPedidoForm/situacao-pedido-form-update/situacao-pedido-form-update.component';
+import { SituacaoPedidoFormDeleteComponent } from './windows/situacaoPedidoForm/situacao-pedido-form-delete/situacao-pedido-form-delete.component';
+
+import { PessoaFormCrudComponent } from './windows/pessoaForm/pessoa-form-crud/pessoa-form-crud.component';
+import { PessoaFormCreateComponent } from './windows/pessoaForm/pessoa-form-create/pessoa-form-create.component';
+import { PessoaFormReadComponent } from './windows/pessoaForm/pessoa-form-read/pessoa-form-read.component';
+import { PessoaFormUpdateComponent } from './windows/pessoaForm/pessoa-form-update/pessoa-form-update.component';
+import { PessoaFormDeleteComponent } from './windows/pessoaForm/pessoa-form-delete/pessoa-form-delete.component';
+
 
 @NgModule({
   declarations: [
@@ -45,7 +63,22 @@ import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-d
     ProdutoFormCreateComponent,
     ProdutoFormReadComponent,
     ProdutoFormUpdateComponent,
-    ProdutoFormDeleteComponent
+    ProdutoFormDeleteComponent,
+    PedidoFormCrudComponent,
+    PedidoFormCreateComponent,
+    PedidoFormReadComponent,
+    PedidoFormUpdateComponent,
+    PedidoFormDeleteComponent,
+    SituacaoPedidoFormCrudComponent,
+    SituacaoPedidoFormCreateComponent,
+    SituacaoPedidoFormReadComponent,
+    SituacaoPedidoFormUpdateComponent,
+    SituacaoPedidoFormDeleteComponent,
+    PessoaFormCrudComponent,
+    PessoaFormCreateComponent,
+    PessoaFormReadComponent,
+    PessoaFormUpdateComponent,
+    PessoaFormDeleteComponent
   ],
   imports: [
     BrowserModule,

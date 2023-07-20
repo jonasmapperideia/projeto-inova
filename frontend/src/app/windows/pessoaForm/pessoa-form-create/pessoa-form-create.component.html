@@ -1,0 +1,27 @@
+<mat-card>
+    <mat-card-title>Incluir Pessoa</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="pessoa.nome" name="nome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Sobrenome" [(ngModel)]="pessoa.sobrenome" name="sobrenome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Idade" [(ngModel)]="pessoa.idade" name="idade" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereço de email" [(ngModel)]="pessoa.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Altura" [(ngModel)]="pessoa.altura" name="altura" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="createPessoa()" color="primary">
+        Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()" color="">
+        Cancelar
+    </button>
+</mat-card>
