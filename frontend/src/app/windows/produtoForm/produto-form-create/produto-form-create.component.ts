@@ -10,11 +10,7 @@ import { Produto } from '../../../models/produto.model';
 })
 export class ProdutoFormCreateComponent implements OnInit {
 
-  produto: Produto = {
-    nome: '',
-    preco: null
-  };
-
+  produto: Produto = new Produto();
 
   constructor(private produtoService: ProdutoService, private router: Router) { }
 
