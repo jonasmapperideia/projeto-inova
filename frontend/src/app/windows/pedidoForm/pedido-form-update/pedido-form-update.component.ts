@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { MatTableDataSource } from '@angular/material/table';
 import { PedidoService } from '../pedido.service';
 import { Pedido } from '../../../models/pedido.model';
-import { ItemPedido, ItemPedido_class } from '../../../models/itemPedido.model';
+import { ItemPedido } from '../../../models/itemPedido.model';
 import { Produto } from '../../../models/produto.model';
 import { SituacaoPedido } from '../../../models/situacaoPedido.model';
 import { Pessoa } from '../../../models/pessoa.model';
@@ -25,15 +25,14 @@ export class PedidoFormUpdateComponent implements OnInit {
   dataSourceItens = new MatTableDataSource<ItemPedido>([]);
   disableItens: boolean = true;
   countId_itens: number = 0;
-  item_itens: ItemPedido = {
-  };
+  item_itens: ItemPedido = new ItemPedido();
 
   constructor(private pedidoService: PedidoService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
     this.pedidoService.readById(id).subscribe(pedido => {
-      this.pedido = pedido;
+      this.pedido = new Pedido(pedido);
       this.pedidoService.read_pessoa().subscribe(list_pessoa => {
         this.list_cliente = list_pessoa;
         this.pedido.cliente = this.list_cliente.find(function(cliente) {
@@ -80,7 +79,7 @@ export class PedidoFormUpdateComponent implements OnInit {
 
   newItens(): void {
     this.disableItens = false;
-    this.item_itens = new ItemPedido_class();
+    this.item_itens = new ItemPedido();
   }
 
   saveItens(): void {
@@ -90,6 +89,11 @@ export class PedidoFormUpdateComponent implements OnInit {
       this.dataSourceItens.data = this.pedido.itens;
     }
     this.cancelItens();
+    this.onChangeItens();
+  }
+
+  onChangeItens(): void {
+    this.pedido.calculaTotal();
   }
 
   editItens(rowItemPedido: ItemPedido): void {
@@ -107,11 +111,11 @@ export class PedidoFormUpdateComponent implements OnInit {
     });
     this.pedido.itens.splice(index, 1);
     this.dataSourceItens.data = this.pedido.itens;
+    this.onChangeItens();
   }
 
   cancelItens(): void {
     this.disableItens = true;
-    this.item_itens = {
-    };
+    this.item_itens = null;
   }
 }

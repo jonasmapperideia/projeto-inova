@@ -18,10 +18,10 @@
                     <input matInput placeholder="Data do Pedido" [(ngModel)]="pedido.dataPedido" name="dataPedido" type="datetime-local">
                 </mat-form-field>
                 <mat-form-field>
-                    <input matInput placeholder="Desconto" [(ngModel)]="pedido.desconto" name="desconto" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+                    <input matInput placeholder="Desconto" [(ngModel)]="pedido.desconto" name="desconto" type="number" (change)="pedido.calculaTotal()" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
                 </mat-form-field>
                 <mat-form-field>
-                    <input matInput placeholder="Total do Pedido" [(ngModel)]="pedido.precoTotal" name="precoTotal" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+                    <input matInput placeholder="Total do Pedido" [(ngModel)]="pedido.precoTotal" name="precoTotal" type="number" disabled ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
                 </mat-form-field>
             </form>
         </mat-tab>
@@ -31,21 +31,21 @@
             <form>
                 <div class="form-fields" *ngIf="!disableItens">
                     <mat-form-field>
-                        <mat-select placeholder="Produto" [(value)]="item_itens.produto">
+                        <mat-select placeholder="Produto" [(value)]="item_itens.produto" (selectionChange)="item_itens.carregaPrecoProduto()">
                             <mat-option *ngFor="let item_produto of list_produto" [value]="item_produto">{{ item_produto.id }} - {{ item_produto.nome }}</mat-option>
                         </mat-select>
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Quantidade" [(ngModel)]="item_itens.quantidade" name="quantidade" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+                        <input matInput placeholder="Quantidade" [(ngModel)]="item_itens.quantidade" name="quantidade" (change)="item_itens.calculaTotal()" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Preço da unidade" [(ngModel)]="item_itens.precoUnitario" name="precoUnitario" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+                        <input matInput placeholder="Preço da unidade" [(ngModel)]="item_itens.precoUnitario" name="precoUnitario" type="number" (change)="item_itens.calculaTotal()" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Desconto" [(ngModel)]="item_itens.desconto" name="desconto" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+                        <input matInput placeholder="Desconto" [(ngModel)]="item_itens.desconto" name="desconto" type="number" (change)="item_itens.calculaTotal()" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
                     </mat-form-field>
                     <mat-form-field>
-                        <input matInput placeholder="Total do Item" [(ngModel)]="item_itens.precoTotal" name="precoTotal" type="number" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
+                        <input matInput placeholder="Total do Item" [(ngModel)]="item_itens.precoTotal" name="precoTotal" type="number" disable ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/">
                     </mat-form-field>
                 </div>
 
