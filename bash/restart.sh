@@ -23,6 +23,7 @@ mapperidea generate angularCRUD angular9 appRoutingModuleTs > src/app/app-routin
 cd ../bash
 rm ./angular9/*.sh
 rm -rf ../frontend/src/app/windows
+rm -rf ../frontend/src/app/models
 mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD > angular9/generateBashScreens.sh
 mapperidea generate angularCRUD bash executeBashScreens > angular9/executeBashScreens.sh
 mapperidea generate angularCRUD bash bashModel > angular9/bashModel.sh

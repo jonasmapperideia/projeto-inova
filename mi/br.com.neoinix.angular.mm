@@ -12,12 +12,12 @@
 </node>
 <node CREATED="1689610359622" ID="ID_319388962" MODIFIED="1689610360554" POSITION="right" TEXT="//">
 <node CREATED="1689610361870" FOLDED="true" ID="ID_633221647" MODIFIED="1689610370626" TEXT="Dados base jsonServer">
-<node CREATED="1689610376678" ID="ID_1840203252" MODIFIED="1689610380854" TEXT="{&#xa;  &quot;produtos&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Lapis&quot;,&#xa;      &quot;preco&quot;: 85,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Caneta&quot;,&#xa;      &quot;preco&quot;: 4,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Apontador&quot;,&#xa;      &quot;preco&quot;: 2.3,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Lapizeira&quot;,&#xa;      &quot;preco&quot;: 7,&#xa;      &quot;id&quot;: 4&#xa;    }&#xa;  ],&#xa;  &quot;pedido&quot;: [],&#xa;  &quot;item_pedido&quot;: [],&#xa;  &quot;situacao_pedido&quot;: [&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Em prepara&#xe7;&#xe3;o&quot;,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;A caminho&quot;,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Cancelado&quot;,&#xa;      &quot;id&quot;: 4&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Entrege&quot;,&#xa;      &quot;id&quot;: 5&#xa;    }&#xa;  ],&#xa;  &quot;pessoa&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;      &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;      &quot;idade&quot;: 34,&#xa;      &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;      &quot;altura&quot;: 1.83,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;      &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;      &quot;idade&quot;: 23,&#xa;      &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;      &quot;altura&quot;: 1.69,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Leon&quot;,&#xa;      &quot;sobrenome&quot;: &quot;de Jesus Neves&quot;,&#xa;      &quot;idade&quot;: 0.3,&#xa;      &quot;email&quot;: &quot;leon@gmail.com&quot;,&#xa;      &quot;altura&quot;: 0.2,&#xa;      &quot;id&quot;: 3&#xa;    }&#xa;  ],&#xa;  &quot;ordem_servico&quot;: [&#xa;    {&#xa;      &quot;cliente&quot;: {&#xa;        &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;        &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;        &quot;idade&quot;: 34,&#xa;        &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.83,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;situacao&quot;: {&#xa;        &quot;descricao&quot;: &quot;Solicitado&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;itens&quot;: [&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;            &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;            &quot;idade&quot;: 34,&#xa;            &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.83,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;            &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;            &quot;preco&quot;: 250,&#xa;            &quot;duracao&quot;: 180,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;            &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;            &quot;idade&quot;: 23,&#xa;            &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.69,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;            &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;            &quot;preco&quot;: 50,&#xa;            &quot;duracao&quot;: 20,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Leon&quot;,&#xa;            &quot;sobrenome&quot;: &quot;de Jesus Neves&quot;,&#xa;            &quot;idade&quot;: 0.3,&#xa;            &quot;email&quot;: &quot;leon@gmail.com&quot;,&#xa;            &quot;altura&quot;: 0.2,&#xa;            &quot;id&quot;: 3&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Higieniza&#xe7;&#xe3;o completa&quot;,&#xa;            &quot;descricao&quot;: &quot;Higieniza&#xe7;&#xe3;o completa interna e externa.&quot;,&#xa;            &quot;preco&quot;: 100,&#xa;            &quot;duracao&quot;: 3,&#xa;            &quot;id&quot;: 3&#xa;          },&#xa;          &quot;id&quot;: 3&#xa;        }&#xa;      ],&#xa;      &quot;dataInicio&quot;: &quot;2023-07-17T12:38&quot;,&#xa;      &quot;dataPrevisao&quot;: &quot;2023-07-18T15:00&quot;,&#xa;      &quot;dataConcluido&quot;: null,&#xa;      &quot;desconto&quot;: 0,&#xa;      &quot;precoTotal&quot;: 300,&#xa;      &quot;id&quot;: 1&#xa;    }&#xa;  ],&#xa;  &quot;situacao_servico&quot;: [&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Solicitado&quot;,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Aprovado&quot;,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Em execu&#xe7;&#xe3;o&quot;,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Concluido&quot;,&#xa;      &quot;id&quot;: 4&#xa;    }&#xa;  ],&#xa;  &quot;servico&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;      &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;      &quot;preco&quot;: 50,&#xa;      &quot;duracao&quot;: 20,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;      &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;      &quot;preco&quot;: 250,&#xa;      &quot;duracao&quot;: 180,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Higieniza&#xe7;&#xe3;o completa&quot;,&#xa;      &quot;descricao&quot;: &quot;Higieniza&#xe7;&#xe3;o completa interna e externa.&quot;,&#xa;      &quot;preco&quot;: 100,&#xa;      &quot;duracao&quot;: 3,&#xa;      &quot;id&quot;: 3&#xa;    }&#xa;  ],&#xa;  &quot;projeto&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Sistema capivara&quot;,&#xa;      &quot;descricao&quot;: &quot;Projeto para o desenvolvimento do projeto Capivara, sistema utilizado para o controle de capivaras do lago de Cascavel&quot;,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Diversos&quot;,&#xa;      &quot;descricao&quot;: &quot;Sistema de controle diversos do servi&#xe7;o&quot;,&#xa;      &quot;id&quot;: 2&#xa;    }&#xa;  ],&#xa;  &quot;tarefa&quot;: [&#xa;    {&#xa;      &quot;titulo&quot;: &quot;Menu&quot;,&#xa;      &quot;descricao&quot;: &quot;Implementar o c&#xf3;digo fonte do menu do sistema&quot;,&#xa;      &quot;projeto&quot;: {&#xa;        &quot;nome&quot;: &quot;Sistema capivara&quot;,&#xa;        &quot;descricao&quot;: &quot;Projeto para o desenvolvimento do projeto Capivara, sistema utilizado para o controle de capivaras do lago de Cascavel&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;titulo&quot;: &quot;Implementar servi&#xe7;os &quot;,&#xa;      &quot;descricao&quot;: &quot;Implementar tela de cadastro de produtos&quot;,&#xa;      &quot;projeto&quot;: {&#xa;        &quot;nome&quot;: &quot;Sistema capivara&quot;,&#xa;        &quot;descricao&quot;: &quot;Projeto para o desenvolvimento do projeto Capivara, sistema utilizado para o controle de capivaras do lago de Cascavel&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;titulo&quot;: &quot;teste&quot;,&#xa;      &quot;descricao&quot;: &quot;teste&quot;,&#xa;      &quot;projeto&quot;: {&#xa;        &quot;nome&quot;: &quot;Diversos&quot;,&#xa;        &quot;descricao&quot;: &quot;Sistema de controle diversos do servi&#xe7;o&quot;,&#xa;        &quot;id&quot;: 2&#xa;      },&#xa;      &quot;id&quot;: 3&#xa;    }&#xa;  ],&#xa;  &quot;planta&quot;: [],&#xa;  &quot;suco&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Mam&#xe3;o&quot;,&#xa;      &quot;preco&quot;: 2,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Lim&#xe3;o&quot;,&#xa;      &quot;preco&quot;: 4,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Abacate&quot;,&#xa;      &quot;preco&quot;: 23,&#xa;      &quot;id&quot;: 3&#xa;    }&#xa;  ],&#xa;  &quot;curso&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Javascript&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico de JavaScript&quot;,&#xa;      &quot;duracao&quot;: 20,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;HTML&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico de HTML&quot;,&#xa;      &quot;duracao&quot;: 27,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Java&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico ao avan&#xe7;ado de Java&quot;,&#xa;      &quot;duracao&quot;: 165,&#xa;      &quot;id&quot;: 3&#xa;    }&#xa;  ]&#xa;}"/>
+<node CREATED="1689610376678" ID="ID_1840203252" MODIFIED="1690203955054" TEXT="{&#xa;  &quot;produtos&quot;: [&#xa;    {&#xa;      &quot;iProduto&quot;: {&#xa;        &quot;iProduto&quot;: {&#xa;          &quot;nome&quot;: &quot;Lapis&quot;,&#xa;          &quot;preco&quot;: 85,&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        &quot;id&quot;: 1,&#xa;        &quot;nome&quot;: &quot;Lapis&quot;,&#xa;        &quot;preco&quot;: 1.25&#xa;      },&#xa;      &quot;id&quot;: 1,&#xa;      &quot;nome&quot;: &quot;Lapis&quot;,&#xa;      &quot;preco&quot;: 1.3&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Caneta&quot;,&#xa;      &quot;preco&quot;: 4,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Apontador&quot;,&#xa;      &quot;preco&quot;: 2.3,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Lapizeira&quot;,&#xa;      &quot;preco&quot;: 7,&#xa;      &quot;id&quot;: 4&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Copo&quot;,&#xa;      &quot;preco&quot;: 3,&#xa;      &quot;id&quot;: 5&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Prato&quot;,&#xa;      &quot;preco&quot;: 2,&#xa;      &quot;id&quot;: 6&#xa;    },&#xa;    {&#xa;      &quot;iProduto&quot;: {&#xa;        &quot;nome&quot;: &quot;Panela de ferro 1L&quot;,&#xa;        &quot;preco&quot;: 78,&#xa;        &quot;id&quot;: 7&#xa;      },&#xa;      &quot;id&quot;: 7,&#xa;      &quot;nome&quot;: &quot;Panela de ferro 1L&quot;,&#xa;      &quot;preco&quot;: 75&#xa;    }&#xa;  ],&#xa;  &quot;pedido&quot;: [&#xa;    {&#xa;      &quot;cliente&quot;: {&#xa;        &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;        &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;        &quot;idade&quot;: 34,&#xa;        &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.83,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;situacao&quot;: {&#xa;        &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;dataPedido&quot;: &quot;2023-07-23T15:36&quot;,&#xa;      &quot;itens&quot;: [&#xa;        {&#xa;          &quot;produto&quot;: {&#xa;            &quot;iProduto&quot;: {&#xa;              &quot;nome&quot;: &quot;Lapis&quot;,&#xa;              &quot;preco&quot;: 85,&#xa;              &quot;id&quot;: 1&#xa;            },&#xa;            &quot;id&quot;: 1,&#xa;            &quot;nome&quot;: &quot;Lapis&quot;,&#xa;            &quot;preco&quot;: 1.25&#xa;          },&#xa;          &quot;quantidade&quot;: 10,&#xa;          &quot;precoUnitario&quot;: 1.25,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 12.5,&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;produto&quot;: {&#xa;            &quot;nome&quot;: &quot;Caneta&quot;,&#xa;            &quot;preco&quot;: 4,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;quantidade&quot;: 5,&#xa;          &quot;precoUnitario&quot;: 4,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 20,&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        {&#xa;          &quot;produto&quot;: {&#xa;            &quot;nome&quot;: &quot;Prato&quot;,&#xa;            &quot;preco&quot;: 2,&#xa;            &quot;id&quot;: 6&#xa;          },&#xa;          &quot;quantidade&quot;: 4,&#xa;          &quot;precoUnitario&quot;: 2,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 8,&#xa;          &quot;id&quot;: 3&#xa;        }&#xa;      ],&#xa;      &quot;desconto&quot;: 0,&#xa;      &quot;precoTotal&quot;: 40.5,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;iPedido&quot;: {&#xa;        &quot;cliente&quot;: {&#xa;          &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;          &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;          &quot;idade&quot;: 23,&#xa;          &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;          &quot;altura&quot;: 1.69,&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        &quot;situacao&quot;: {&#xa;          &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        &quot;dataPedido&quot;: &quot;2023-07-23T15:39&quot;,&#xa;        &quot;itens&quot;: [&#xa;          {&#xa;            &quot;produto&quot;: {&#xa;              &quot;nome&quot;: &quot;Prato&quot;,&#xa;              &quot;preco&quot;: 2,&#xa;              &quot;id&quot;: 6&#xa;            },&#xa;            &quot;quantidade&quot;: 10,&#xa;            &quot;precoUnitario&quot;: 2,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 20,&#xa;            &quot;id&quot;: 1&#xa;          }&#xa;        ],&#xa;        &quot;desconto&quot;: 0,&#xa;        &quot;precoTotal&quot;: 20,&#xa;        &quot;id&quot;: 2&#xa;      },&#xa;      &quot;id&quot;: 2,&#xa;      &quot;cliente&quot;: {&#xa;        &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;        &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;        &quot;idade&quot;: 23,&#xa;        &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.69,&#xa;        &quot;id&quot;: 2&#xa;      },&#xa;      &quot;situacao&quot;: {&#xa;        &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;dataPedido&quot;: &quot;2023-07-23T15:39&quot;,&#xa;      &quot;itens&quot;: [&#xa;        {&#xa;          &quot;iItemPedido&quot;: {&#xa;            &quot;produto&quot;: {&#xa;              &quot;nome&quot;: &quot;Prato&quot;,&#xa;              &quot;preco&quot;: 2,&#xa;              &quot;id&quot;: 6&#xa;            },&#xa;            &quot;quantidade&quot;: 10,&#xa;            &quot;precoUnitario&quot;: 2,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 20,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;id&quot;: 1,&#xa;          &quot;produto&quot;: {&#xa;            &quot;nome&quot;: &quot;Prato&quot;,&#xa;            &quot;preco&quot;: 2,&#xa;            &quot;id&quot;: 6&#xa;          },&#xa;          &quot;quantidade&quot;: 10,&#xa;          &quot;precoUnitario&quot;: 2,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 20&#xa;        },&#xa;        {&#xa;          &quot;produto&quot;: {&#xa;            &quot;nome&quot;: &quot;Caneta&quot;,&#xa;            &quot;preco&quot;: 4,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;quantidade&quot;: 5,&#xa;          &quot;precoUnitario&quot;: 4,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 20,&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        {&#xa;          &quot;produto&quot;: {&#xa;            &quot;nome&quot;: &quot;Copo&quot;,&#xa;            &quot;preco&quot;: 3,&#xa;            &quot;id&quot;: 5&#xa;          },&#xa;          &quot;quantidade&quot;: 9,&#xa;          &quot;precoUnitario&quot;: 3,&#xa;          &quot;desconto&quot;: 1,&#xa;          &quot;precoTotal&quot;: 26,&#xa;          &quot;id&quot;: 3&#xa;        }&#xa;      ],&#xa;      &quot;desconto&quot;: 2,&#xa;      &quot;precoTotal&quot;: 64&#xa;    },&#xa;    {&#xa;      &quot;iPedido&quot;: {&#xa;        &quot;cliente&quot;: {&#xa;          &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;          &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;          &quot;idade&quot;: 23,&#xa;          &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;          &quot;altura&quot;: 1.69,&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        &quot;situacao&quot;: {&#xa;          &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        &quot;dataPedido&quot;: &quot;2023-07-24T09:33&quot;,&#xa;        &quot;itens&quot;: [&#xa;          {&#xa;            &quot;produto&quot;: {&#xa;              &quot;iProduto&quot;: {&#xa;                &quot;iProduto&quot;: {&#xa;                  &quot;nome&quot;: &quot;Lapis&quot;,&#xa;                  &quot;preco&quot;: 85,&#xa;                  &quot;id&quot;: 1&#xa;                },&#xa;                &quot;id&quot;: 1,&#xa;                &quot;nome&quot;: &quot;Lapis&quot;,&#xa;                &quot;preco&quot;: 1.25&#xa;              },&#xa;              &quot;id&quot;: 1,&#xa;              &quot;nome&quot;: &quot;Lapis&quot;,&#xa;              &quot;preco&quot;: 1.3&#xa;            },&#xa;            &quot;quantidade&quot;: 4,&#xa;            &quot;precoUnitario&quot;: 1.3,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 5.2,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          {&#xa;            &quot;produto&quot;: {&#xa;              &quot;nome&quot;: &quot;Caneta&quot;,&#xa;              &quot;preco&quot;: 4,&#xa;              &quot;id&quot;: 2&#xa;            },&#xa;            &quot;quantidade&quot;: 3,&#xa;            &quot;precoUnitario&quot;: 4,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 12,&#xa;            &quot;id&quot;: 2&#xa;          }&#xa;        ],&#xa;        &quot;desconto&quot;: 0,&#xa;        &quot;precoTotal&quot;: 17.2,&#xa;        &quot;id&quot;: 3&#xa;      },&#xa;      &quot;id&quot;: 3,&#xa;      &quot;cliente&quot;: {&#xa;        &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;        &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;        &quot;idade&quot;: 23,&#xa;        &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.69,&#xa;        &quot;id&quot;: 2&#xa;      },&#xa;      &quot;situacao&quot;: {&#xa;        &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;dataPedido&quot;: &quot;2023-07-24T09:33&quot;,&#xa;      &quot;itens&quot;: [&#xa;        {&#xa;          &quot;iItemPedido&quot;: {&#xa;            &quot;produto&quot;: {&#xa;              &quot;iProduto&quot;: {&#xa;                &quot;iProduto&quot;: {&#xa;                  &quot;nome&quot;: &quot;Lapis&quot;,&#xa;                  &quot;preco&quot;: 85,&#xa;                  &quot;id&quot;: 1&#xa;                },&#xa;                &quot;id&quot;: 1,&#xa;                &quot;nome&quot;: &quot;Lapis&quot;,&#xa;                &quot;preco&quot;: 1.25&#xa;              },&#xa;              &quot;id&quot;: 1,&#xa;              &quot;nome&quot;: &quot;Lapis&quot;,&#xa;              &quot;preco&quot;: 1.3&#xa;            },&#xa;            &quot;quantidade&quot;: 4,&#xa;            &quot;precoUnitario&quot;: 1.3,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 5.2,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;id&quot;: 1,&#xa;          &quot;produto&quot;: {&#xa;            &quot;iProduto&quot;: {&#xa;              &quot;iProduto&quot;: {&#xa;                &quot;nome&quot;: &quot;Lapis&quot;,&#xa;                &quot;preco&quot;: 85,&#xa;                &quot;id&quot;: 1&#xa;              },&#xa;              &quot;id&quot;: 1,&#xa;              &quot;nome&quot;: &quot;Lapis&quot;,&#xa;              &quot;preco&quot;: 1.25&#xa;            },&#xa;            &quot;id&quot;: 1,&#xa;            &quot;nome&quot;: &quot;Lapis&quot;,&#xa;            &quot;preco&quot;: 1.3&#xa;          },&#xa;          &quot;quantidade&quot;: 4,&#xa;          &quot;precoUnitario&quot;: 1.3,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 5.2&#xa;        },&#xa;        {&#xa;          &quot;iItemPedido&quot;: {&#xa;            &quot;produto&quot;: {&#xa;              &quot;nome&quot;: &quot;Caneta&quot;,&#xa;              &quot;preco&quot;: 4,&#xa;              &quot;id&quot;: 2&#xa;            },&#xa;            &quot;quantidade&quot;: 3,&#xa;            &quot;precoUnitario&quot;: 4,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 12,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;id&quot;: 2,&#xa;          &quot;produto&quot;: {&#xa;            &quot;nome&quot;: &quot;Caneta&quot;,&#xa;            &quot;preco&quot;: 4,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;quantidade&quot;: 3,&#xa;          &quot;precoUnitario&quot;: 4,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 12&#xa;        }&#xa;      ],&#xa;      &quot;desconto&quot;: 0.2,&#xa;      &quot;precoTotal&quot;: 17&#xa;    }&#xa;  ],&#xa;  &quot;item_pedido&quot;: [],&#xa;  &quot;situacao_pedido&quot;: [&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Aguardando pagamento&quot;,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Em prepara&#xe7;&#xe3;o&quot;,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;A caminho&quot;,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Cancelado&quot;,&#xa;      &quot;id&quot;: 4&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Entrege&quot;,&#xa;      &quot;id&quot;: 5&#xa;    }&#xa;  ],&#xa;  &quot;pessoa&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;      &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;      &quot;idade&quot;: 34,&#xa;      &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;      &quot;altura&quot;: 1.83,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;      &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;      &quot;idade&quot;: 23,&#xa;      &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;      &quot;altura&quot;: 1.69,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Leon&quot;,&#xa;      &quot;sobrenome&quot;: &quot;de Jesus Neves&quot;,&#xa;      &quot;idade&quot;: 0.3,&#xa;      &quot;email&quot;: &quot;leon@gmail.com&quot;,&#xa;      &quot;altura&quot;: 0.2,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;iPessoa&quot;: {&#xa;        &quot;nome&quot;: &quot;Fulano&quot;,&#xa;        &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;        &quot;idade&quot;: 120,&#xa;        &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.98,&#xa;        &quot;id&quot;: 4&#xa;      },&#xa;      &quot;id&quot;: 4,&#xa;      &quot;nome&quot;: &quot;Fulano&quot;,&#xa;      &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;      &quot;idade&quot;: 120,&#xa;      &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;      &quot;altura&quot;: 1.95&#xa;    }&#xa;  ],&#xa;  &quot;ordem_servico&quot;: [&#xa;    {&#xa;      &quot;cliente&quot;: {&#xa;        &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;        &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;        &quot;idade&quot;: 34,&#xa;        &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.83,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;situacao&quot;: {&#xa;        &quot;descricao&quot;: &quot;Solicitado&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;itens&quot;: [&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Marcelo&quot;,&#xa;            &quot;sobrenome&quot;: &quot;Rodrigo Neves&quot;,&#xa;            &quot;idade&quot;: 34,&#xa;            &quot;email&quot;: &quot;marcelo@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.83,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;            &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;            &quot;preco&quot;: 250,&#xa;            &quot;duracao&quot;: 180,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;            &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;            &quot;idade&quot;: 23,&#xa;            &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.69,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;            &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;            &quot;preco&quot;: 50,&#xa;            &quot;duracao&quot;: 20,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Leon&quot;,&#xa;            &quot;sobrenome&quot;: &quot;de Jesus Neves&quot;,&#xa;            &quot;idade&quot;: 0.3,&#xa;            &quot;email&quot;: &quot;leon@gmail.com&quot;,&#xa;            &quot;altura&quot;: 0.2,&#xa;            &quot;id&quot;: 3&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Higieniza&#xe7;&#xe3;o completa&quot;,&#xa;            &quot;descricao&quot;: &quot;Higieniza&#xe7;&#xe3;o completa interna e externa.&quot;,&#xa;            &quot;preco&quot;: 100,&#xa;            &quot;duracao&quot;: 3,&#xa;            &quot;id&quot;: 3&#xa;          },&#xa;          &quot;id&quot;: 3&#xa;        }&#xa;      ],&#xa;      &quot;dataInicio&quot;: &quot;2023-07-17T12:38&quot;,&#xa;      &quot;dataPrevisao&quot;: &quot;2023-07-18T15:00&quot;,&#xa;      &quot;dataConcluido&quot;: null,&#xa;      &quot;desconto&quot;: 0,&#xa;      &quot;precoTotal&quot;: 300,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;iOrdemServico&quot;: {&#xa;        &quot;cliente&quot;: {&#xa;          &quot;iPessoa&quot;: {&#xa;            &quot;nome&quot;: &quot;Fulano&quot;,&#xa;            &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;            &quot;idade&quot;: 120,&#xa;            &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.98,&#xa;            &quot;id&quot;: 4&#xa;          },&#xa;          &quot;id&quot;: 4,&#xa;          &quot;nome&quot;: &quot;Fulano&quot;,&#xa;          &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;          &quot;idade&quot;: 120,&#xa;          &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;          &quot;altura&quot;: 1.95&#xa;        },&#xa;        &quot;situacao&quot;: {&#xa;          &quot;descricao&quot;: &quot;Solicitado&quot;,&#xa;          &quot;id&quot;: 1&#xa;        },&#xa;        &quot;itens&quot;: [&#xa;          {&#xa;            &quot;executor&quot;: {&#xa;              &quot;iPessoa&quot;: {&#xa;                &quot;nome&quot;: &quot;Fulano&quot;,&#xa;                &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;                &quot;idade&quot;: 120,&#xa;                &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;                &quot;altura&quot;: 1.98,&#xa;                &quot;id&quot;: 4&#xa;              },&#xa;              &quot;id&quot;: 4,&#xa;              &quot;nome&quot;: &quot;Fulano&quot;,&#xa;              &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;              &quot;idade&quot;: 120,&#xa;              &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;              &quot;altura&quot;: 1.95&#xa;            },&#xa;            &quot;servico&quot;: {&#xa;              &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;              &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;              &quot;preco&quot;: 50,&#xa;              &quot;duracao&quot;: 20,&#xa;              &quot;id&quot;: 1&#xa;            },&#xa;            &quot;preco&quot;: 50,&#xa;            &quot;desconto&quot;: 1,&#xa;            &quot;precoTotal&quot;: 49,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          {&#xa;            &quot;executor&quot;: {&#xa;              &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;              &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;              &quot;idade&quot;: 23,&#xa;              &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;              &quot;altura&quot;: 1.69,&#xa;              &quot;id&quot;: 2&#xa;            },&#xa;            &quot;servico&quot;: {&#xa;              &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;              &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;              &quot;preco&quot;: 250,&#xa;              &quot;duracao&quot;: 180,&#xa;              &quot;id&quot;: 2&#xa;            },&#xa;            &quot;preco&quot;: 250,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 250,&#xa;            &quot;id&quot;: 2&#xa;          }&#xa;        ],&#xa;        &quot;dataInicio&quot;: &quot;2023-07-24T09:39&quot;,&#xa;        &quot;dataPrevisao&quot;: &quot;2023-07-25T09:42&quot;,&#xa;        &quot;dataConcluido&quot;: null,&#xa;        &quot;desconto&quot;: 0,&#xa;        &quot;precoTotal&quot;: 299,&#xa;        &quot;id&quot;: 2&#xa;      },&#xa;      &quot;id&quot;: 2,&#xa;      &quot;cliente&quot;: {&#xa;        &quot;iPessoa&quot;: {&#xa;          &quot;nome&quot;: &quot;Fulano&quot;,&#xa;          &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;          &quot;idade&quot;: 120,&#xa;          &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;          &quot;altura&quot;: 1.98,&#xa;          &quot;id&quot;: 4&#xa;        },&#xa;        &quot;id&quot;: 4,&#xa;        &quot;nome&quot;: &quot;Fulano&quot;,&#xa;        &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;        &quot;idade&quot;: 120,&#xa;        &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;        &quot;altura&quot;: 1.95&#xa;      },&#xa;      &quot;situacao&quot;: {&#xa;        &quot;descricao&quot;: &quot;Solicitado&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;itens&quot;: [&#xa;        {&#xa;          &quot;iItemOrdemServico&quot;: {&#xa;            &quot;executor&quot;: {&#xa;              &quot;iPessoa&quot;: {&#xa;                &quot;nome&quot;: &quot;Fulano&quot;,&#xa;                &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;                &quot;idade&quot;: 120,&#xa;                &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;                &quot;altura&quot;: 1.98,&#xa;                &quot;id&quot;: 4&#xa;              },&#xa;              &quot;id&quot;: 4,&#xa;              &quot;nome&quot;: &quot;Fulano&quot;,&#xa;              &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;              &quot;idade&quot;: 120,&#xa;              &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;              &quot;altura&quot;: 1.95&#xa;            },&#xa;            &quot;servico&quot;: {&#xa;              &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;              &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;              &quot;preco&quot;: 50,&#xa;              &quot;duracao&quot;: 20,&#xa;              &quot;id&quot;: 1&#xa;            },&#xa;            &quot;preco&quot;: 50,&#xa;            &quot;desconto&quot;: 1,&#xa;            &quot;precoTotal&quot;: 49,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;id&quot;: 1,&#xa;          &quot;executor&quot;: {&#xa;            &quot;iPessoa&quot;: {&#xa;              &quot;nome&quot;: &quot;Fulano&quot;,&#xa;              &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;              &quot;idade&quot;: 120,&#xa;              &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;              &quot;altura&quot;: 1.98,&#xa;              &quot;id&quot;: 4&#xa;            },&#xa;            &quot;id&quot;: 4,&#xa;            &quot;nome&quot;: &quot;Fulano&quot;,&#xa;            &quot;sobrenome&quot;: &quot;de Tal&quot;,&#xa;            &quot;idade&quot;: 120,&#xa;            &quot;email&quot;: &quot;fulano@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.95&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;            &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;            &quot;preco&quot;: 50,&#xa;            &quot;duracao&quot;: 20,&#xa;            &quot;id&quot;: 1&#xa;          },&#xa;          &quot;preco&quot;: 50,&#xa;          &quot;desconto&quot;: 1,&#xa;          &quot;precoTotal&quot;: 49&#xa;        },&#xa;        {&#xa;          &quot;iItemOrdemServico&quot;: {&#xa;            &quot;executor&quot;: {&#xa;              &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;              &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;              &quot;idade&quot;: 23,&#xa;              &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;              &quot;altura&quot;: 1.69,&#xa;              &quot;id&quot;: 2&#xa;            },&#xa;            &quot;servico&quot;: {&#xa;              &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;              &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;              &quot;preco&quot;: 250,&#xa;              &quot;duracao&quot;: 180,&#xa;              &quot;id&quot;: 2&#xa;            },&#xa;            &quot;preco&quot;: 250,&#xa;            &quot;desconto&quot;: 0,&#xa;            &quot;precoTotal&quot;: 250,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;id&quot;: 2,&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;            &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;            &quot;idade&quot;: 23,&#xa;            &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.69,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;            &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;            &quot;preco&quot;: 250,&#xa;            &quot;duracao&quot;: 180,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;preco&quot;: 250,&#xa;          &quot;desconto&quot;: 0,&#xa;          &quot;precoTotal&quot;: 250&#xa;        },&#xa;        {&#xa;          &quot;executor&quot;: {&#xa;            &quot;nome&quot;: &quot;Let&#xed;cia&quot;,&#xa;            &quot;sobrenome&quot;: &quot;Gomes de Jesus&quot;,&#xa;            &quot;idade&quot;: 23,&#xa;            &quot;email&quot;: &quot;leticia@gmail.com&quot;,&#xa;            &quot;altura&quot;: 1.69,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;servico&quot;: {&#xa;            &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;            &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;            &quot;preco&quot;: 250,&#xa;            &quot;duracao&quot;: 180,&#xa;            &quot;id&quot;: 2&#xa;          },&#xa;          &quot;preco&quot;: 250,&#xa;          &quot;desconto&quot;: 55,&#xa;          &quot;precoTotal&quot;: 195,&#xa;          &quot;id&quot;: 3&#xa;        }&#xa;      ],&#xa;      &quot;dataInicio&quot;: &quot;2023-07-24T09:39&quot;,&#xa;      &quot;dataPrevisao&quot;: &quot;2023-07-25T09:42&quot;,&#xa;      &quot;dataConcluido&quot;: null,&#xa;      &quot;desconto&quot;: 4,&#xa;      &quot;precoTotal&quot;: 490&#xa;    }&#xa;  ],&#xa;  &quot;situacao_servico&quot;: [&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Solicitado&quot;,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Aprovado&quot;,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Em execu&#xe7;&#xe3;o&quot;,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;descricao&quot;: &quot;Concluido&quot;,&#xa;      &quot;id&quot;: 4&#xa;    }&#xa;  ],&#xa;  &quot;servico&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Troca pneu&quot;,&#xa;      &quot;descricao&quot;: &quot;Trocar os 4 pneus do carro&quot;,&#xa;      &quot;preco&quot;: 50,&#xa;      &quot;duracao&quot;: 20,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Trocar oleo carro&quot;,&#xa;      &quot;descricao&quot;: &quot;Troca completa do oleo de veiculos popular&quot;,&#xa;      &quot;preco&quot;: 250,&#xa;      &quot;duracao&quot;: 180,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Higieniza&#xe7;&#xe3;o completa&quot;,&#xa;      &quot;descricao&quot;: &quot;Higieniza&#xe7;&#xe3;o completa interna e externa.&quot;,&#xa;      &quot;preco&quot;: 100,&#xa;      &quot;duracao&quot;: 3,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;iServico&quot;: {&#xa;        &quot;nome&quot;: &quot;Troca pastilhas freio&quot;,&#xa;        &quot;descricao&quot;: &quot;Troca pastilhas freio&quot;,&#xa;        &quot;preco&quot;: 50,&#xa;        &quot;duracao&quot;: 1,&#xa;        &quot;id&quot;: 4&#xa;      },&#xa;      &quot;id&quot;: 4,&#xa;      &quot;nome&quot;: &quot;Troca pastilhas freio&quot;,&#xa;      &quot;descricao&quot;: &quot;Troca pastilhas freio&quot;,&#xa;      &quot;preco&quot;: 60,&#xa;      &quot;duracao&quot;: 1&#xa;    }&#xa;  ],&#xa;  &quot;projeto&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Sistema capivara&quot;,&#xa;      &quot;descricao&quot;: &quot;Projeto para o desenvolvimento do projeto Capivara, sistema utilizado para o controle de capivaras do lago de Cascavel&quot;,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Diversos&quot;,&#xa;      &quot;descricao&quot;: &quot;Sistema de controle diversos do servi&#xe7;o&quot;,&#xa;      &quot;id&quot;: 2&#xa;    }&#xa;  ],&#xa;  &quot;tarefa&quot;: [&#xa;    {&#xa;      &quot;titulo&quot;: &quot;Menu&quot;,&#xa;      &quot;descricao&quot;: &quot;Implementar o c&#xf3;digo fonte do menu do sistema&quot;,&#xa;      &quot;projeto&quot;: {&#xa;        &quot;nome&quot;: &quot;Sistema capivara&quot;,&#xa;        &quot;descricao&quot;: &quot;Projeto para o desenvolvimento do projeto Capivara, sistema utilizado para o controle de capivaras do lago de Cascavel&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;titulo&quot;: &quot;Implementar servi&#xe7;os &quot;,&#xa;      &quot;descricao&quot;: &quot;Implementar tela de cadastro de produtos&quot;,&#xa;      &quot;projeto&quot;: {&#xa;        &quot;nome&quot;: &quot;Sistema capivara&quot;,&#xa;        &quot;descricao&quot;: &quot;Projeto para o desenvolvimento do projeto Capivara, sistema utilizado para o controle de capivaras do lago de Cascavel&quot;,&#xa;        &quot;id&quot;: 1&#xa;      },&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;iTarefa&quot;: {&#xa;        &quot;titulo&quot;: &quot;teste&quot;,&#xa;        &quot;descricao&quot;: &quot;teste&quot;,&#xa;        &quot;projeto&quot;: {&#xa;          &quot;nome&quot;: &quot;Diversos&quot;,&#xa;          &quot;descricao&quot;: &quot;Sistema de controle diversos do servi&#xe7;o&quot;,&#xa;          &quot;id&quot;: 2&#xa;        },&#xa;        &quot;id&quot;: 3&#xa;      },&#xa;      &quot;id&quot;: 3,&#xa;      &quot;titulo&quot;: &quot;teste..&quot;,&#xa;      &quot;descricao&quot;: &quot;teste&quot;,&#xa;      &quot;projeto&quot;: {&#xa;        &quot;nome&quot;: &quot;Diversos&quot;,&#xa;        &quot;descricao&quot;: &quot;Sistema de controle diversos do servi&#xe7;o&quot;,&#xa;        &quot;id&quot;: 2&#xa;      }&#xa;    }&#xa;  ],&#xa;  &quot;planta&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Orquidea&quot;,&#xa;      &quot;cor&quot;: &quot;Violeta&quot;,&#xa;      &quot;preco&quot;: 55,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Rosa do deserto&quot;,&#xa;      &quot;cor&quot;: &quot;branca&quot;,&#xa;      &quot;preco&quot;: 75,&#xa;      &quot;id&quot;: 2&#xa;    }&#xa;  ],&#xa;  &quot;suco&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Mam&#xe3;o&quot;,&#xa;      &quot;preco&quot;: 2,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Lim&#xe3;o&quot;,&#xa;      &quot;preco&quot;: 4,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Abacate&quot;,&#xa;      &quot;preco&quot;: 23,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Uva&quot;,&#xa;      &quot;preco&quot;: 6,&#xa;      &quot;id&quot;: 4&#xa;    }&#xa;  ],&#xa;  &quot;curso&quot;: [&#xa;    {&#xa;      &quot;nome&quot;: &quot;Javascript&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico de JavaScript&quot;,&#xa;      &quot;duracao&quot;: 20,&#xa;      &quot;id&quot;: 1&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;HTML&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico de HTML&quot;,&#xa;      &quot;duracao&quot;: 27,&#xa;      &quot;id&quot;: 2&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;Java&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico ao avan&#xe7;ado de Java&quot;,&#xa;      &quot;duracao&quot;: 165,&#xa;      &quot;id&quot;: 3&#xa;    },&#xa;    {&#xa;      &quot;nome&quot;: &quot;SQL&quot;,&#xa;      &quot;descricao&quot;: &quot;Curso basico de SQL&quot;,&#xa;      &quot;duracao&quot;: 5,&#xa;      &quot;id&quot;: 4&#xa;    }&#xa;  ]&#xa;}"/>
 </node>
 </node>
 <node CREATED="1678129247032" ID="ID_1837987976" MODIFIED="1684116077160" POSITION="right" TEXT="domain">
 <icon BUILTIN="Package"/>
-<node CREATED="1684116029198" FOLDED="true" ID="ID_52025309" MODIFIED="1689338912109" TEXT="Produto">
+<node CREATED="1684116029198" ID="ID_52025309" MODIFIED="1689338912109" TEXT="Produto">
 <icon BUILTIN="Descriptor.bean"/>
 <node CREATED="1684116029198" FOLDED="true" ID="ID_957259669" MODIFIED="1684116029198" TEXT="@">
 <node CREATED="1684116029198" FOLDED="true" ID="ID_209553517" MODIFIED="1684116029198" TEXT="table">
@@ -48,7 +48,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684116029198" FOLDED="true" ID="ID_256025603" MODIFIED="1684116029198" TEXT="atributos">
+<node CREATED="1684116029198" ID="ID_256025603" MODIFIED="1684116029198" TEXT="atributos">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684116029198" FOLDED="true" ID="ID_146504677" MODIFIED="1689338920647" TEXT="nome: Texto()">
 <icon BUILTIN="Mapping.directToField"/>
@@ -86,7 +86,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1689609850392" ID="ID_1967989447" MODIFIED="1689609851072" TEXT="//">
+<node CREATED="1690203928650" ID="ID_914624356" MODIFIED="1690203929921" TEXT="//">
 <node CREATED="1685544948605" FOLDED="true" ID="ID_891145423" MODIFIED="1689338978254" TEXT="Pedido">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685471388055" FOLDED="true" ID="ID_555872263" MODIFIED="1689338982605" TEXT="Pedido">
@@ -182,6 +182,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_1953733594" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_81386617" MODIFIED="1690049530360" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_1041041688" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1685543073919" FOLDED="true" ID="ID_1292369552" MODIFIED="1689339288874" TEXT="desconto: Decimal()">
@@ -199,6 +208,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_236644731" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_713906808" MODIFIED="1690049531364" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_77291303" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1685542625021" FOLDED="true" ID="ID_828151093" MODIFIED="1689339302711" TEXT="precoTotal: Decimal()">
@@ -214,6 +232,63 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_306014862" MODIFIED="1685542741312" TEXT="Total do Pedido">
 <icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1689883962217" ID="ID_1457927057" MODIFIED="1689883965423" TEXT="disabled">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689793360670" FOLDED="true" ID="ID_732610690" MODIFIED="1689793363568" TEXT="metodos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1689793366189" FOLDED="true" ID="ID_760115676" MODIFIED="1689796204300" TEXT="calculaTotal: void()">
+<icon BUILTIN="Method.public"/>
+<node CREATED="1689793469213" FOLDED="true" ID="ID_113840892" MODIFIED="1689793471921" TEXT="body">
+<node CREATED="1689887781666" FOLDED="true" ID="ID_1103391216" MODIFIED="1689887783430" TEXT="var">
+<node CREATED="1689888265685" FOLDED="true" ID="ID_1089107011" MODIFIED="1689965633945" TEXT="somaTotalItens: any()">
+<node CREATED="1689888267933" FOLDED="true" ID="ID_1325461201" MODIFIED="1689888271412" TEXT="=">
+<node CREATED="1689888271413" ID="ID_1864701724" MODIFIED="1689888274111" TEXT="0"/>
+</node>
+</node>
+</node>
+<node CREATED="1689888443116" FOLDED="true" ID="ID_1463722739" MODIFIED="1689888443116" TEXT="for-each">
+<node CREATED="1689888380108" FOLDED="true" ID="ID_188108428" MODIFIED="1689888380108" TEXT="item">
+<node CREATED="1689890348088" ID="ID_661996275" MODIFIED="1689942904749" TEXT="item_itens: ItemPedido()"/>
+</node>
+<node CREATED="1689890353819" FOLDED="true" ID="ID_1210035236" MODIFIED="1689890356295" TEXT="in">
+<node CREATED="1689890361142" FOLDED="true" ID="ID_1769607859" MODIFIED="1689890363964" TEXT="this">
+<node CREATED="1689890363965" FOLDED="true" ID="ID_1540845577" MODIFIED="1689890366909" TEXT=".">
+<node CREATED="1689890366910" ID="ID_208252078" MODIFIED="1689890370935" TEXT="itens"/>
+</node>
+</node>
+</node>
+<node CREATED="1689888380108" FOLDED="true" ID="ID_1915831512" MODIFIED="1689888380108" TEXT="do">
+<node CREATED="1689890407224" FOLDED="true" ID="ID_1954815635" MODIFIED="1689890409547" TEXT="somaTotalItens">
+<node CREATED="1689890410135" FOLDED="true" ID="ID_694659072" MODIFIED="1689972320005" TEXT="+=">
+<node CREATED="1689890417024" FOLDED="true" ID="ID_1047305202" MODIFIED="1689890428511" TEXT="item_itens">
+<node CREATED="1689890434227" FOLDED="true" ID="ID_1462379382" MODIFIED="1689890435973" TEXT=".">
+<node CREATED="1689890435973" ID="ID_1965252471" MODIFIED="1689890441304" TEXT="precoTotal"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689890491931" FOLDED="true" ID="ID_135498462" MODIFIED="1689890494556" TEXT="this">
+<node CREATED="1689890494557" FOLDED="true" ID="ID_1603784239" MODIFIED="1689890497411" TEXT=".">
+<node CREATED="1689890497412" FOLDED="true" ID="ID_1544873989" MODIFIED="1689890501491" TEXT="precoTotal">
+<node CREATED="1689890502658" FOLDED="true" ID="ID_1319615801" MODIFIED="1689890503956" TEXT="=">
+<node CREATED="1689890521375" FOLDED="true" ID="ID_1073907837" MODIFIED="1689890523619" TEXT="-">
+<node CREATED="1689890503956" ID="ID_1205395214" MODIFIED="1689890530946" TEXT="somaTotalItens"/>
+<node CREATED="1689890532975" FOLDED="true" ID="ID_1721662820" MODIFIED="1689890535448" TEXT="this">
+<node CREATED="1689890535449" FOLDED="true" ID="ID_1039296050" MODIFIED="1689890536295" TEXT=".">
+<node CREATED="1689890536296" ID="ID_472552724" MODIFIED="1689890541327" TEXT="desconto"/>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -268,6 +343,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_1699071830" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_1741987233" MODIFIED="1690049544327" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_200892519" MODIFIED="1689794255355" TEXT="carregaPrecoProduto()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1685541124941" FOLDED="true" ID="ID_1400464103" MODIFIED="1689340599468" TEXT="quantidade: Inteiro()">
@@ -283,6 +367,15 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_606232809" MODIFIED="1685541417430" TEXT="Quantidade">
 <icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_523609704" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_952732795" MODIFIED="1690049543224" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_1242341614" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 </node>
 </node>
@@ -302,6 +395,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_1256497870" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_179758836" MODIFIED="1690049542144" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_1370750288" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1685543073919" FOLDED="true" ID="ID_713239698" MODIFIED="1689340630958" TEXT="desconto: Decimal()">
@@ -319,6 +421,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_1160472541" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_1541363137" MODIFIED="1690049534745" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_1822345447" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1685542625021" FOLDED="true" ID="ID_860844957" MODIFIED="1689340639799" TEXT="precoTotal: Decimal()">
@@ -334,6 +445,68 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_658152890" MODIFIED="1685542713876" TEXT="Total do Item">
 <icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1689794168692" ID="ID_915457934" MODIFIED="1689794319126" TEXT="disabled">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689793360670" FOLDED="true" ID="ID_1821322723" MODIFIED="1689793363568" TEXT="metodos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1689793366189" FOLDED="true" ID="ID_1195421967" MODIFIED="1689796204300" TEXT="calculaTotal: void()">
+<icon BUILTIN="Method.public"/>
+<node CREATED="1689793469213" FOLDED="true" ID="ID_1448218233" MODIFIED="1689793471921" TEXT="body">
+<node CREATED="1689794036224" FOLDED="true" ID="ID_361011857" MODIFIED="1689794039133" TEXT="this">
+<node CREATED="1689794040081" FOLDED="true" ID="ID_474455979" MODIFIED="1689794041161" TEXT=".">
+<node CREATED="1689794041162" FOLDED="true" ID="ID_103339672" MODIFIED="1689794049769" TEXT="precoTotal">
+<node CREATED="1689794050184" FOLDED="true" ID="ID_351355914" MODIFIED="1689794052054" TEXT="=">
+<node CREATED="1689793564274" FOLDED="true" ID="ID_1151230927" MODIFIED="1689793565583" TEXT="-">
+<node CREATED="1689793519547" FOLDED="true" ID="ID_721939595" MODIFIED="1689793566713" TEXT="()">
+<node CREATED="1689793540923" FOLDED="true" ID="ID_293335817" MODIFIED="1689793543168" TEXT="*">
+<node CREATED="1689794059509" FOLDED="true" ID="ID_441583839" MODIFIED="1689794061169" TEXT="this">
+<node CREATED="1689794061656" FOLDED="true" ID="ID_669219021" MODIFIED="1689794062329" TEXT=".">
+<node CREATED="1689793525482" ID="ID_1249871511" MODIFIED="1689794076074" TEXT="precoUnitario"/>
+</node>
+</node>
+<node CREATED="1689794059509" FOLDED="true" ID="ID_372097661" MODIFIED="1689794061169" TEXT="this">
+<node CREATED="1689794061656" FOLDED="true" ID="ID_643717586" MODIFIED="1689794062329" TEXT=".">
+<node CREATED="1689793545562" ID="ID_1279427184" MODIFIED="1689794079002" TEXT="quantidade"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689794059509" FOLDED="true" ID="ID_46807207" MODIFIED="1689794061169" TEXT="this">
+<node CREATED="1689794061656" FOLDED="true" ID="ID_498652336" MODIFIED="1689794062329" TEXT=".">
+<node CREATED="1689793567979" ID="ID_266366332" MODIFIED="1689793678639" TEXT="desconto"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689794011149" FOLDED="true" ID="ID_316446251" MODIFIED="1689796206603" TEXT="carregaPrecoProduto: void()">
+<icon BUILTIN="Method.public"/>
+<node CREATED="1689793469213" FOLDED="true" ID="ID_144939595" MODIFIED="1689793471921" TEXT="body">
+<node CREATED="1689794092833" FOLDED="true" ID="ID_535536865" MODIFIED="1689794095497" TEXT="this">
+<node CREATED="1689794095498" FOLDED="true" ID="ID_104975735" MODIFIED="1689794096377" TEXT=".">
+<node CREATED="1689794096378" FOLDED="true" ID="ID_1849075193" MODIFIED="1689794110665" TEXT="precoUnitario">
+<node CREATED="1689794112701" FOLDED="true" ID="ID_1164197319" MODIFIED="1689794114809" TEXT="=">
+<node CREATED="1689794126656" FOLDED="true" ID="ID_205663984" MODIFIED="1689794128501" TEXT="this">
+<node CREATED="1689794128953" FOLDED="true" ID="ID_1636919059" MODIFIED="1689794129549" TEXT=".">
+<node CREATED="1689794130324" FOLDED="true" ID="ID_1843127720" MODIFIED="1689794139629" TEXT="produto">
+<node CREATED="1689794140546" FOLDED="true" ID="ID_1860887321" MODIFIED="1689794141437" TEXT=".">
+<node CREATED="1689794149849" ID="ID_1699322998" MODIFIED="1689794150709" TEXT="preco"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -519,47 +692,47 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1689534165619" FOLDED="true" ID="ID_135150869" MODIFIED="1689534196150" TEXT="OrdemServico">
 <icon BUILTIN="Descriptor.bean"/>
-<node CREATED="1684116029198" ID="ID_545231278" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_36645168" MODIFIED="1684116029198" TEXT="table">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_545231278" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_36645168" MODIFIED="1684116029198" TEXT="table">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1546006756" MODIFIED="1689534228424" TEXT="ordem_servico">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_1841613461" MODIFIED="1684116029198" TEXT="id">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1841613461" MODIFIED="1684116029198" TEXT="id">
 <icon BUILTIN="element"/>
-<node CREATED="1684116029198" ID="ID_1703040046" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1703040046" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" MODIFIED="1684116029198" TEXT="id">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_921858721" MODIFIED="1684116029198" TEXT="type">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_921858721" MODIFIED="1684116029198" TEXT="type">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1329840800" MODIFIED="1684116029198" TEXT="Inteiro()">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_355747855" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_355747855" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1782487039" MODIFIED="1689608257852" TEXT="Ordem de Servi&#xe7;o">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_432246601" MODIFIED="1684116029198" TEXT="atributos">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_432246601" MODIFIED="1684116029198" TEXT="atributos">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1685471768173" ID="ID_991010378" MODIFIED="1689535185588" TEXT="cliente: Pessoa()">
+<node CREATED="1685471768173" FOLDED="true" ID="ID_991010378" MODIFIED="1689535185588" TEXT="cliente: Pessoa()">
 <icon BUILTIN="Mapping.oneToOne"/>
-<node CREATED="1684116029198" ID="ID_680417364" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_493414136" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_680417364" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_493414136" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_135297403" MODIFIED="1689339201238" TEXT="id_cliente">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_1796646454" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1796646454" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_984585431" MODIFIED="1685471813578" TEXT="Cliente">
 <icon BUILTIN="tag_green"/>
@@ -567,16 +740,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1685541977878" ID="ID_1925253737" MODIFIED="1689535350915" TEXT="situacao: SituacaoServico()">
+<node CREATED="1685541977878" FOLDED="true" ID="ID_1925253737" MODIFIED="1689535350915" TEXT="situacao: SituacaoServico()">
 <icon BUILTIN="Mapping.oneToOne"/>
-<node CREATED="1684116029198" ID="ID_949851829" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_477382384" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_949851829" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_477382384" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_751004801" MODIFIED="1689339231015" TEXT="id_situacao_pedido">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_334192727" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_334192727" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1437775401" MODIFIED="1689339235686" TEXT="Situacao">
 <icon BUILTIN="tag_green"/>
@@ -584,27 +757,36 @@
 </node>
 </node>
 </node>
-<node CREATED="1685473132066" ID="ID_696689744" MODIFIED="1689535807206" TEXT="itens: ItemOrdemServico()">
+<node CREATED="1685473132066" FOLDED="true" ID="ID_696689744" MODIFIED="1689535807206" TEXT="itens: ItemOrdemServico()">
 <icon BUILTIN="Mapping.oneToMany"/>
-<node CREATED="1684116029198" ID="ID_1508099125" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_918092327" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1508099125" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_918092327" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_247511897" MODIFIED="1689535819493" TEXT="Servi&#xe7;os">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_147685739" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_1306758107" MODIFIED="1690049530360" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_345253131" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1685473232365" ID="ID_1826767148" MODIFIED="1689534308116" TEXT="dataInicio: DataHora()">
+</node>
+</node>
+</node>
+<node CREATED="1685473232365" FOLDED="true" ID="ID_1826767148" MODIFIED="1689534308116" TEXT="dataInicio: DataHora()">
 <icon BUILTIN="Mapping.directToField"/>
-<node CREATED="1684116029198" ID="ID_1178852400" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_225250003" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1178852400" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_225250003" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_907573137" MODIFIED="1689534339816" TEXT="data_inicio">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_1185078740" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1185078740" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1350959949" MODIFIED="1689535663974" TEXT="Data do in&#xed;cio">
 <icon BUILTIN="tag_green"/>
@@ -612,16 +794,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1685473232365" ID="ID_1875068125" MODIFIED="1689534321036" TEXT="dataPrevisao: DataHora()">
+<node CREATED="1685473232365" FOLDED="true" ID="ID_1875068125" MODIFIED="1689534321036" TEXT="dataPrevisao: DataHora()">
 <icon BUILTIN="Mapping.directToField"/>
-<node CREATED="1684116029198" ID="ID_563861991" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_568003615" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_563861991" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_568003615" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_415917866" MODIFIED="1689339260702" TEXT="data_pedido">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_800698638" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_800698638" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1225313863" MODIFIED="1689535675654" TEXT="Previs&#xe3;o de entrega">
 <icon BUILTIN="tag_green"/>
@@ -629,16 +811,16 @@
 </node>
 </node>
 </node>
-<node CREATED="1685473232365" ID="ID_1165944651" MODIFIED="1689534330508" TEXT="dataConcluido: DataHora()">
+<node CREATED="1685473232365" FOLDED="true" ID="ID_1165944651" MODIFIED="1689534330508" TEXT="dataConcluido: DataHora()">
 <icon BUILTIN="Mapping.directToField"/>
-<node CREATED="1684116029198" ID="ID_1181117038" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_994553876" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1181117038" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_994553876" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1001455627" MODIFIED="1689339260702" TEXT="data_pedido">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_505293759" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_505293759" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1562982200" MODIFIED="1689535685722" TEXT="Data de conclus&#xe3;o do servi&#xe7;o">
 <icon BUILTIN="tag_green"/>
@@ -646,36 +828,102 @@
 </node>
 </node>
 </node>
-<node CREATED="1685543073919" ID="ID_776989446" MODIFIED="1689340630958" TEXT="desconto: Decimal()">
+<node CREATED="1685543073919" FOLDED="true" ID="ID_776989446" MODIFIED="1689340630958" TEXT="desconto: Decimal()">
 <icon BUILTIN="Mapping.directToField"/>
-<node CREATED="1684116029198" ID="ID_622909047" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_385752490" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_622909047" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_385752490" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_98878409" MODIFIED="1689340633925" TEXT="desconto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_720896543" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_720896543" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_533774555" MODIFIED="1685543125263" TEXT="Desconto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_238935879" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_1394223729" MODIFIED="1690049530360" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_43326316" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1685542625021" ID="ID_341953649" MODIFIED="1689340639799" TEXT="precoTotal: Decimal()">
+</node>
+</node>
+</node>
+<node CREATED="1685542625021" FOLDED="true" ID="ID_341953649" MODIFIED="1689340639799" TEXT="precoTotal: Decimal()">
 <icon BUILTIN="Mapping.directToField"/>
-<node CREATED="1684116029198" ID="ID_1321142293" MODIFIED="1684116029198" TEXT="@">
-<node CREATED="1684116029198" ID="ID_651442814" MODIFIED="1684116029198" TEXT="column">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1321142293" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_651442814" MODIFIED="1684116029198" TEXT="column">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_1012325522" MODIFIED="1689340645774" TEXT="preco_total">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684116029198" ID="ID_1830674734" MODIFIED="1684116029198" TEXT="description">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1830674734" MODIFIED="1684116029198" TEXT="description">
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_468225962" MODIFIED="1685542713876" TEXT="Total do Item">
 <icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1689883962217" ID="ID_702736916" MODIFIED="1689883965423" TEXT="disabled">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689793360670" FOLDED="true" ID="ID_1089448353" MODIFIED="1689793363568" TEXT="metodos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1689793366189" FOLDED="true" ID="ID_1204691943" MODIFIED="1689796204300" TEXT="calculaTotal: void()">
+<icon BUILTIN="Method.public"/>
+<node CREATED="1689793469213" FOLDED="true" ID="ID_898656031" MODIFIED="1689793471921" TEXT="body">
+<node CREATED="1689887781666" FOLDED="true" ID="ID_1022248" MODIFIED="1689887783430" TEXT="var">
+<node CREATED="1689888265685" FOLDED="true" ID="ID_1873114761" MODIFIED="1689965633945" TEXT="somaTotalItens: any()">
+<node CREATED="1689888267933" FOLDED="true" ID="ID_837621243" MODIFIED="1689888271412" TEXT="=">
+<node CREATED="1689888271413" ID="ID_294825102" MODIFIED="1689888274111" TEXT="0"/>
+</node>
+</node>
+</node>
+<node CREATED="1689888443116" FOLDED="true" ID="ID_1473905662" MODIFIED="1689888443116" TEXT="for-each">
+<node CREATED="1689888380108" FOLDED="true" ID="ID_1416990540" MODIFIED="1689888380108" TEXT="item">
+<node CREATED="1689890348088" ID="ID_1068836936" MODIFIED="1690139607645" TEXT="item_itens: ItemOrdemServico()"/>
+</node>
+<node CREATED="1689890353819" FOLDED="true" ID="ID_1055232116" MODIFIED="1689890356295" TEXT="in">
+<node CREATED="1689890361142" FOLDED="true" ID="ID_947057071" MODIFIED="1689890363964" TEXT="this">
+<node CREATED="1689890363965" FOLDED="true" ID="ID_1952134243" MODIFIED="1689890366909" TEXT=".">
+<node CREATED="1689890366910" ID="ID_1073717803" MODIFIED="1689890370935" TEXT="itens"/>
+</node>
+</node>
+</node>
+<node CREATED="1689888380108" FOLDED="true" ID="ID_969008113" MODIFIED="1689888380108" TEXT="do">
+<node CREATED="1689890407224" FOLDED="true" ID="ID_1207187001" MODIFIED="1689890409547" TEXT="somaTotalItens">
+<node CREATED="1689890410135" FOLDED="true" ID="ID_177526890" MODIFIED="1689972320005" TEXT="+=">
+<node CREATED="1689890417024" FOLDED="true" ID="ID_1848418594" MODIFIED="1689890428511" TEXT="item_itens">
+<node CREATED="1689890434227" FOLDED="true" ID="ID_470581962" MODIFIED="1689890435973" TEXT=".">
+<node CREATED="1689890435973" ID="ID_899472771" MODIFIED="1689890441304" TEXT="precoTotal"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689890491931" FOLDED="true" ID="ID_1621260490" MODIFIED="1689890494556" TEXT="this">
+<node CREATED="1689890494557" FOLDED="true" ID="ID_1241598292" MODIFIED="1689890497411" TEXT=".">
+<node CREATED="1689890497412" FOLDED="true" ID="ID_1543925442" MODIFIED="1689890501491" TEXT="precoTotal">
+<node CREATED="1689890502658" FOLDED="true" ID="ID_225227606" MODIFIED="1689890503956" TEXT="=">
+<node CREATED="1689890521375" FOLDED="true" ID="ID_855570418" MODIFIED="1689890523619" TEXT="-">
+<node CREATED="1689890503956" ID="ID_611327381" MODIFIED="1689890530946" TEXT="somaTotalItens"/>
+<node CREATED="1689890532975" FOLDED="true" ID="ID_1698628012" MODIFIED="1689890535448" TEXT="this">
+<node CREATED="1689890535449" FOLDED="true" ID="ID_1293302796" MODIFIED="1689890536295" TEXT=".">
+<node CREATED="1689890536296" ID="ID_852199530" MODIFIED="1689890541327" TEXT="desconto"/>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -687,7 +935,7 @@
 <node CREATED="1684116029198" FOLDED="true" ID="ID_666328985" MODIFIED="1684116029198" TEXT="@">
 <node CREATED="1684116029198" FOLDED="true" ID="ID_465213094" MODIFIED="1684116029198" TEXT="table">
 <icon BUILTIN="element"/>
-<node CREATED="1684116029198" ID="ID_324311508" MODIFIED="1689534228424" TEXT="ordem_servico">
+<node CREATED="1684116029198" ID="ID_324311508" MODIFIED="1690140640965" TEXT="item_ordem_servico">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -745,6 +993,128 @@
 <icon BUILTIN="element"/>
 <node CREATED="1684116029198" ID="ID_390529575" MODIFIED="1689535331898" TEXT="Servi&#xe7;o">
 <icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_745194024" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_1412758006" MODIFIED="1690049544327" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_1194187282" MODIFIED="1690138942276" TEXT="carregaPrecoServico()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685542625021" FOLDED="true" ID="ID_1260402949" MODIFIED="1690138845967" TEXT="preco: Decimal()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1226144933" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1458887185" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_969603124" MODIFIED="1690138854311" TEXT="preco">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" FOLDED="true" ID="ID_448673975" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1112751412" MODIFIED="1690138867363" TEXT="Pre&#xe7;o (R$)">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685543073919" FOLDED="true" ID="ID_250190898" MODIFIED="1689340630958" TEXT="desconto: Decimal()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1371273602" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_1640956753" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1818480562" MODIFIED="1689340633925" TEXT="desconto">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" FOLDED="true" ID="ID_31867977" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1764877358" MODIFIED="1685543125263" TEXT="Desconto">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1690041139010" FOLDED="true" ID="ID_1839238243" MODIFIED="1690041142676" TEXT="events">
+<icon BUILTIN="element"/>
+<node CREATED="1689794201524" FOLDED="true" ID="ID_1644702365" MODIFIED="1690049534745" TEXT="onChange">
+<icon BUILTIN="element"/>
+<node CREATED="1689794208955" ID="ID_1379309674" MODIFIED="1689794215497" TEXT="calculaTotal()">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1685542625021" FOLDED="true" ID="ID_318117245" MODIFIED="1689340639799" TEXT="precoTotal: Decimal()">
+<icon BUILTIN="Mapping.directToField"/>
+<node CREATED="1684116029198" FOLDED="true" ID="ID_607415349" MODIFIED="1684116029198" TEXT="@">
+<node CREATED="1684116029198" FOLDED="true" ID="ID_237281373" MODIFIED="1684116029198" TEXT="column">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_130059807" MODIFIED="1689340645774" TEXT="preco_total">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1684116029198" FOLDED="true" ID="ID_697175593" MODIFIED="1684116029198" TEXT="description">
+<icon BUILTIN="element"/>
+<node CREATED="1684116029198" ID="ID_1471177467" MODIFIED="1685542713876" TEXT="Total do Item">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1689794168692" ID="ID_1218496542" MODIFIED="1689794319126" TEXT="disabled">
+<icon BUILTIN="element"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689793360670" FOLDED="true" ID="ID_50037276" MODIFIED="1689793363568" TEXT="metodos">
+<icon BUILTIN="Descriptor.grouping"/>
+<node CREATED="1689794011149" FOLDED="true" ID="ID_1083212746" MODIFIED="1690138890675" TEXT="carregaPrecoServico: void()">
+<icon BUILTIN="Method.public"/>
+<node CREATED="1689793469213" FOLDED="true" ID="ID_1353495227" MODIFIED="1689793471921" TEXT="body">
+<node CREATED="1689794092833" FOLDED="true" ID="ID_345419033" MODIFIED="1689794095497" TEXT="this">
+<node CREATED="1689794095498" FOLDED="true" ID="ID_1982974097" MODIFIED="1689794096377" TEXT=".">
+<node CREATED="1689794096378" FOLDED="true" ID="ID_428587094" MODIFIED="1690138897119" TEXT="preco">
+<node CREATED="1689794112701" FOLDED="true" ID="ID_1184058509" MODIFIED="1689794114809" TEXT="=">
+<node CREATED="1689794126656" FOLDED="true" ID="ID_636371525" MODIFIED="1689794128501" TEXT="this">
+<node CREATED="1689794128953" FOLDED="true" ID="ID_1927743741" MODIFIED="1689794129549" TEXT=".">
+<node CREATED="1689794130324" FOLDED="true" ID="ID_1807410080" MODIFIED="1690138900967" TEXT="servico">
+<node CREATED="1689794140546" FOLDED="true" ID="ID_1256365329" MODIFIED="1689794141437" TEXT=".">
+<node CREATED="1689794149849" ID="ID_1611610991" MODIFIED="1689794150709" TEXT="preco"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1689793366189" FOLDED="true" ID="ID_522850336" MODIFIED="1689796204300" TEXT="calculaTotal: void()">
+<icon BUILTIN="Method.public"/>
+<node CREATED="1689793469213" FOLDED="true" ID="ID_37970013" MODIFIED="1689793471921" TEXT="body">
+<node CREATED="1689794036224" FOLDED="true" ID="ID_1443701465" MODIFIED="1689794039133" TEXT="this">
+<node CREATED="1689794040081" FOLDED="true" ID="ID_1339844093" MODIFIED="1689794041161" TEXT=".">
+<node CREATED="1689794041162" FOLDED="true" ID="ID_1117182474" MODIFIED="1689794049769" TEXT="precoTotal">
+<node CREATED="1689794050184" FOLDED="true" ID="ID_1639957524" MODIFIED="1689794052054" TEXT="=">
+<node CREATED="1689793564274" FOLDED="true" ID="ID_1009619445" MODIFIED="1689793565583" TEXT="-">
+<node CREATED="1689794059509" FOLDED="true" ID="ID_1599855594" MODIFIED="1689794061169" TEXT="this">
+<node CREATED="1689794061656" FOLDED="true" ID="ID_1484325914" MODIFIED="1689794062329" TEXT=".">
+<node CREATED="1689793525482" ID="ID_858347512" MODIFIED="1690139543617" TEXT="preco"/>
+</node>
+</node>
+<node CREATED="1689794059509" FOLDED="true" ID="ID_71257998" MODIFIED="1689794061169" TEXT="this">
+<node CREATED="1689794061656" FOLDED="true" ID="ID_463850793" MODIFIED="1689794062329" TEXT=".">
+<node CREATED="1689793567979" ID="ID_1097831061" MODIFIED="1689793678639" TEXT="desconto"/>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
@@ -1360,7 +1730,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1663789017807" FOLDED="true" ID="ID_349985287" MODIFIED="1689536215562" TEXT="ProdutoForm">
+<node CREATED="1663789017807" ID="ID_349985287" MODIFIED="1689536215562" TEXT="ProdutoForm">
 <icon BUILTIN="Descriptor.window.editor"/>
 <node CREATED="1663850656991" ID="ID_1305299686" MODIFIED="1663850658748" TEXT="@">
 <node CREATED="1671151394793" ID="ID_71811838" MODIFIED="1671151394793" TEXT="title">
@@ -1419,111 +1789,111 @@
 </node>
 </node>
 </node>
-<node CREATED="1689609805379" ID="ID_254962963" MODIFIED="1689609806547" TEXT="//">
-<node CREATED="1685544948605" FOLDED="true" ID="ID_1304612969" MODIFIED="1689341262789" TEXT="Pedido">
+<node CREATED="1689609809472" ID="ID_1705966715" MODIFIED="1689609810643" TEXT="//">
+<node CREATED="1685544948605" FOLDED="true" ID="ID_1304612969" MODIFIED="1690203969770" TEXT="Pedido">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1688484514422" FOLDED="true" ID="ID_141227061" MODIFIED="1689341082570" TEXT="PedidoForm">
+<node CREATED="1688484514422" ID="ID_141227061" MODIFIED="1689341082570" TEXT="PedidoForm">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1663789017807" ID="ID_209547907" MODIFIED="1689340080993" TEXT="PedidoForm">
+<node CREATED="1663789017807" FOLDED="true" ID="ID_209547907" MODIFIED="1689340080993" TEXT="PedidoForm">
 <icon BUILTIN="Descriptor.window.editor"/>
-<node CREATED="1663850656991" ID="ID_1728833532" MODIFIED="1663850658748" TEXT="@">
-<node CREATED="1671151394793" ID="ID_1915797377" MODIFIED="1671151394793" TEXT="title">
+<node CREATED="1663850656991" FOLDED="true" ID="ID_1728833532" MODIFIED="1663850658748" TEXT="@">
+<node CREATED="1671151394793" FOLDED="true" ID="ID_1915797377" MODIFIED="1671151394793" TEXT="title">
 <icon BUILTIN="element"/>
 <node CREATED="1675732431485" ID="ID_35929480" MODIFIED="1689606173364" TEXT="Cad. de Pedido">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684244142858" ID="ID_430029289" MODIFIED="1684244152122" TEXT="icon">
+<node CREATED="1684244142858" FOLDED="true" ID="ID_430029289" MODIFIED="1684244152122" TEXT="icon">
 <icon BUILTIN="element"/>
 <node CREATED="1684244170382" ID="ID_1165601354" MODIFIED="1689606049845" TEXT="shopping_cart">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1663789073407" ID="ID_1950874917" MODIFIED="1663789080681" TEXT="atributos">
+<node CREATED="1663789073407" FOLDED="true" ID="ID_1950874917" MODIFIED="1663789080681" TEXT="atributos">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1663851233971" ID="ID_1875121684" MODIFIED="1689340933280" TEXT="objeto: Pedido()">
 <icon BUILTIN="Mapping.oneToOne"/>
 </node>
 </node>
-<node CREATED="1684241549468" ID="ID_1545000809" MODIFIED="1684241920046" TEXT="viewList">
+<node CREATED="1684241549468" FOLDED="true" ID="ID_1545000809" MODIFIED="1684241920046" TEXT="viewList">
 <icon BUILTIN="element"/>
-<node CREATED="1665407937766" ID="ID_170691383" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_170691383" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1684241634610" ID="ID_53519891" MODIFIED="1684241637638" TEXT=".id">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_195097401" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_195097401" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727231483" ID="ID_556046796" MODIFIED="1689340091577" TEXT=".dataPedido">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_22297432" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_22297432" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727283337" ID="ID_658107397" MODIFIED="1689340102047" TEXT=".precoTotal">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1663851547113" ID="ID_1343419090" MODIFIED="1663851549982" TEXT="layout">
+<node CREATED="1663851547113" FOLDED="true" ID="ID_1343419090" MODIFIED="1663851549982" TEXT="layout">
 <icon BUILTIN="element"/>
-<node CREATED="1688484835887" ID="ID_951177170" MODIFIED="1688484843740" TEXT="aba">
+<node CREATED="1688484835887" FOLDED="true" ID="ID_951177170" MODIFIED="1688484843740" TEXT="aba">
 <icon BUILTIN="element"/>
-<node CREATED="1663850656991" ID="ID_499061698" MODIFIED="1688566303248" TEXT="@">
-<node CREATED="1671151394793" ID="ID_747381706" MODIFIED="1671151394793" TEXT="title">
+<node CREATED="1663850656991" FOLDED="true" ID="ID_499061698" MODIFIED="1688566303248" TEXT="@">
+<node CREATED="1671151394793" FOLDED="true" ID="ID_747381706" MODIFIED="1671151394793" TEXT="title">
 <icon BUILTIN="element"/>
 <node CREATED="1675732431485" ID="ID_37414759" MODIFIED="1688566320550" TEXT="Dados">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_1401626290" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_1401626290" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727283337" ID="ID_759167290" MODIFIED="1689340140545" TEXT=".cliente">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_192250961" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_192250961" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727283337" ID="ID_985878688" MODIFIED="1689340145556" TEXT=".situacao">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_1196224428" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_1196224428" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727283337" ID="ID_160913032" MODIFIED="1689340150575" TEXT=".dataPedido">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_911614780" MODIFIED="1688484850694" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_911614780" MODIFIED="1688484850694" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727283337" ID="ID_512234690" MODIFIED="1689340155470" TEXT=".desconto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_722713528" MODIFIED="1688484850696" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_722713528" MODIFIED="1688484850696" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685727283337" ID="ID_428602755" MODIFIED="1689340246426" TEXT=".precoTotal">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1688484835887" ID="ID_54185271" MODIFIED="1688484838281" TEXT="aba">
+<node CREATED="1688484835887" FOLDED="true" ID="ID_54185271" MODIFIED="1688484838281" TEXT="aba">
 <icon BUILTIN="element"/>
-<node CREATED="1663850656991" ID="ID_1879135680" MODIFIED="1688566305931" TEXT="@">
-<node CREATED="1671151394793" ID="ID_1522514352" MODIFIED="1671151394793" TEXT="title">
+<node CREATED="1663850656991" FOLDED="true" ID="ID_1879135680" MODIFIED="1688566305931" TEXT="@">
+<node CREATED="1671151394793" FOLDED="true" ID="ID_1522514352" MODIFIED="1671151394793" TEXT="title">
 <icon BUILTIN="element"/>
 <node CREATED="1675732431485" ID="ID_871108032" MODIFIED="1688566340161" TEXT="Itens">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_492315507" MODIFIED="1688565331286" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_492315507" MODIFIED="1688565331286" TEXT="field">
 <icon BUILTIN="element"/>
-<node CREATED="1688486580982" ID="ID_306877245" MODIFIED="1688486588283" TEXT="@">
-<node CREATED="1688486666742" ID="ID_494050550" MODIFIED="1688565808511" TEXT="inputType">
+<node CREATED="1688486580982" FOLDED="true" ID="ID_306877245" MODIFIED="1688486588283" TEXT="@">
+<node CREATED="1688486666742" FOLDED="true" ID="ID_494050550" MODIFIED="1688565808511" TEXT="inputType">
 <icon BUILTIN="element"/>
 <node CREATED="1688486687759" ID="ID_1537655367" MODIFIED="1689340501534" TEXT="ItemPedidoFormGrid">
 <icon BUILTIN="tag_green"/>
@@ -1537,74 +1907,74 @@
 </node>
 </node>
 </node>
-<node CREATED="1688484528171" ID="ID_1074941429" MODIFIED="1689340507233" TEXT="ItemPedidoFormGrid">
+<node CREATED="1688484528171" FOLDED="true" ID="ID_1074941429" MODIFIED="1689340507233" TEXT="ItemPedidoFormGrid">
 <icon BUILTIN="Descriptor.window.iframe"/>
-<node CREATED="1663789073407" ID="ID_585133819" MODIFIED="1663789080681" TEXT="atributos">
+<node CREATED="1663789073407" FOLDED="true" ID="ID_585133819" MODIFIED="1663789080681" TEXT="atributos">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688484978143" ID="ID_759151883" MODIFIED="1689340952256" TEXT="itemPedido: ItemPedido()">
 <icon BUILTIN="Mapping.oneToOne"/>
 </node>
 </node>
-<node CREATED="1663851547113" ID="ID_1872312632" MODIFIED="1688485826378" TEXT="layout">
+<node CREATED="1663851547113" FOLDED="true" ID="ID_1872312632" MODIFIED="1688485826378" TEXT="layout">
 <icon BUILTIN="element"/>
-<node CREATED="1665407937766" ID="ID_175973366" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_175973366" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1688485860432" ID="ID_273493985" MODIFIED="1689600089966" TEXT=".produto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_1933883468" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_1933883468" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685541124941" ID="ID_601362022" MODIFIED="1689600444956" TEXT=".quantidade">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_688084913" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_688084913" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685541387631" ID="ID_1658245501" MODIFIED="1689600456486" TEXT=".precoUnitario">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_951096149" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_951096149" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685543073919" ID="ID_1620916300" MODIFIED="1689600458367" TEXT=".desconto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_577457998" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_577457998" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685542625021" ID="ID_1938335817" MODIFIED="1689600460295" TEXT=".precoTotal">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684241549468" ID="ID_1317614943" MODIFIED="1684241920046" TEXT="viewList">
+<node CREATED="1684241549468" FOLDED="true" ID="ID_1317614943" MODIFIED="1684241920046" TEXT="viewList">
 <icon BUILTIN="element"/>
-<node CREATED="1665407937766" ID="ID_1083496796" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_1083496796" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1688485860432" ID="ID_17975270" MODIFIED="1689600089966" TEXT=".produto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_1223256278" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_1223256278" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685541124941" ID="ID_1018663783" MODIFIED="1689600444956" TEXT=".quantidade">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_166050730" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_166050730" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685541387631" ID="ID_1717169789" MODIFIED="1689600456486" TEXT=".precoUnitario">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_1547339614" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_1547339614" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685543073919" ID="ID_1059790025" MODIFIED="1689600458367" TEXT=".desconto">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1665407937766" ID="ID_140928012" MODIFIED="1676481387121" TEXT="field">
+<node CREATED="1665407937766" FOLDED="true" ID="ID_140928012" MODIFIED="1676481387121" TEXT="field">
 <icon BUILTIN="element"/>
 <node CREATED="1685542625021" ID="ID_132690937" MODIFIED="1689600460295" TEXT=".precoTotal">
 <icon BUILTIN="tag_green"/>
@@ -1613,7 +1983,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1663789017807" ID="ID_1391314980" MODIFIED="1689340906317" TEXT="SituacaoPedidoForm">
+<node CREATED="1663789017807" FOLDED="true" ID="ID_1391314980" MODIFIED="1689340906317" TEXT="SituacaoPedidoForm">
 <icon BUILTIN="Descriptor.window.editor"/>
 <node CREATED="1684116029198" ID="ID_673122774" MODIFIED="1684116029198" TEXT="@">
 <node CREATED="1671151394793" ID="ID_706252312" MODIFIED="1671151394793" TEXT="title">
@@ -1660,7 +2030,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1663789017807" ID="ID_883250163" MODIFIED="1689341073389" TEXT="PessoaForm">
+<node CREATED="1663789017807" FOLDED="true" ID="ID_883250163" MODIFIED="1689341073389" TEXT="PessoaForm">
 <icon BUILTIN="Descriptor.window.editor"/>
 <node CREATED="1663850656991" ID="ID_73617842" MODIFIED="1663850658748" TEXT="@">
 <node CREATED="1671151394793" ID="ID_90520642" MODIFIED="1671151394793" TEXT="title">
@@ -1745,8 +2115,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1689609809472" ID="ID_1705966715" MODIFIED="1689609810643" TEXT="//">
-<node CREATED="1689534120035" FOLDED="true" ID="ID_601574775" MODIFIED="1689534149435" TEXT="Ordem de servi&#xe7;o">
+<node CREATED="1689609812168" ID="ID_1807349403" MODIFIED="1689609813219" TEXT="//">
+<node CREATED="1689534120035" ID="ID_601574775" MODIFIED="1690203980659" TEXT="Ordem de servi&#xe7;o">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1689535951726" FOLDED="true" ID="ID_1062407085" MODIFIED="1689535958250" TEXT="OrdemServicoForm">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -1915,6 +2285,24 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1665407937766" ID="ID_510733914" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1685542625021" ID="ID_1560629257" MODIFIED="1690139780707" TEXT=".preco">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1665407937766" ID="ID_180157946" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1685543073919" ID="ID_1979035847" MODIFIED="1690139782675" TEXT=".desconto">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1665407937766" ID="ID_97060957" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1685542625021" ID="ID_1016027264" MODIFIED="1690139788190" TEXT=".precoTotal">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
 </node>
 <node CREATED="1684241549468" ID="ID_581658599" MODIFIED="1684241920046" TEXT="viewList">
 <icon BUILTIN="element"/>
@@ -1930,10 +2318,28 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
+<node CREATED="1665407937766" ID="ID_1913739674" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1685542625021" ID="ID_240607856" MODIFIED="1690139780707" TEXT=".preco">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1665407937766" ID="ID_1761751153" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1685543073919" ID="ID_6704714" MODIFIED="1690139782675" TEXT=".desconto">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1665407937766" ID="ID_506459249" MODIFIED="1676481387121" TEXT="field">
+<icon BUILTIN="element"/>
+<node CREATED="1685542625021" ID="ID_468344824" MODIFIED="1690139788190" TEXT=".precoTotal">
+<icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1689535454962" ID="ID_500650055" MODIFIED="1689535983158" TEXT="SituacaoServicoForm">
+</node>
+</node>
+<node CREATED="1689535454962" FOLDED="true" ID="ID_500650055" MODIFIED="1689535983158" TEXT="SituacaoServicoForm">
 <icon BUILTIN="Descriptor.window.editor"/>
 <node CREATED="1663850656991" ID="ID_314191001" MODIFIED="1663850658748" TEXT="@">
 <node CREATED="1671151394793" ID="ID_1501435903" MODIFIED="1671151394793" TEXT="title">
@@ -1980,7 +2386,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1689535454962" ID="ID_1821662346" MODIFIED="1689536001310" TEXT="ServicoForm">
+<node CREATED="1689535454962" FOLDED="true" ID="ID_1821662346" MODIFIED="1689536001310" TEXT="ServicoForm">
 <icon BUILTIN="Descriptor.window.editor"/>
 <node CREATED="1663850656991" ID="ID_930145933" MODIFIED="1663850658748" TEXT="@">
 <node CREATED="1671151394793" ID="ID_205335326" MODIFIED="1671151394793" TEXT="title">
@@ -2065,8 +2471,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1689609812168" ID="ID_1807349403" MODIFIED="1689609813219" TEXT="//">
-<node CREATED="1689343774891" FOLDED="true" ID="ID_1597543975" MODIFIED="1689343778431" TEXT="Gerais">
+<node CREATED="1689609814775" ID="ID_1876624271" MODIFIED="1689609815443" TEXT="//">
+<node CREATED="1689343774891" FOLDED="true" ID="ID_1597543975" MODIFIED="1690203984492" TEXT="Gerais">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1663789017807" FOLDED="true" ID="ID_520112294" MODIFIED="1689341134929" TEXT="PlantaForm">
 <icon BUILTIN="Descriptor.window.editor"/>
@@ -2271,7 +2677,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1689609814775" ID="ID_1876624271" MODIFIED="1689609815443" TEXT="//">
+<node CREATED="1690203986588" ID="ID_1353225551" MODIFIED="1690203987273" TEXT="//">
 <node CREATED="1689338869296" FOLDED="true" ID="ID_734036727" MODIFIED="1689338878904" TEXT="Projeto">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1689341688978" FOLDED="true" ID="ID_979153853" MODIFIED="1689341696449" TEXT="ProjetoForm">

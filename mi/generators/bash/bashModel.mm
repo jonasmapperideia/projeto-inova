@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1687024026135" ID="ID_1677559428" LINK="../../mapperidea.mm" MODIFIED="1687028022535" TEXT="bashModel">
 <icon BUILTIN="element"/>
-<node CREATED="1684161691515" MODIFIED="1687024130448" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_1797835712" MODIFIED="1687024130448" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
 <node CREATED="1685109369407" MODIFIED="1687024976838" TEXT="init">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -16,9 +16,15 @@
 </node>
 </node>
 </node>
-<node CREATED="1687024321821" MODIFIED="1687024323754" TEXT="mapperideaPush">
+<node CREATED="1687024321821" ID="ID_1446315688" MODIFIED="1687024323754" TEXT="mapperideaPush">
 <icon BUILTIN="element"/>
 <node CREATED="1687024330712" MODIFIED="1687024333503" TEXT="mapperidea push angularCRUD">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1689801352999" ID="ID_361628455" MODIFIED="1689801357558" TEXT="criaPasta">
+<icon BUILTIN="element"/>
+<node CREATED="1689801358174" ID="ID_863221010" MODIFIED="1689801359802" TEXT="mkdir -p ../../frontend/src/app/models">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -46,7 +52,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684160926438" MODIFIED="1685107011061" TEXT="body">
+<node CREATED="1684160926438" ID="ID_1613257196" MODIFIED="1685107011061" TEXT="body">
 <icon BUILTIN="element"/>
 <node CREATED="1671891592531" MODIFIED="1687024983272" TEXT="write-pattern">
 <icon BUILTIN="element"/>
@@ -54,15 +60,21 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1671891592531" MODIFIED="1687024299779" TEXT="write-pattern">
+<node CREATED="1671891592531" ID="ID_48701708" MODIFIED="1687024299779" TEXT="write-pattern">
 <icon BUILTIN="element"/>
-<node CREATED="1684329951687" MODIFIED="1687024320215" TEXT="mapperideaPush">
+<node CREATED="1684329951687" ID="ID_943991697" MODIFIED="1687024320215" TEXT="mapperideaPush">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1604791845968" MODIFIED="1604791853160" TEXT="apply-templates">
+<node CREATED="1671891592531" ID="ID_1176460038" MODIFIED="1687024299779" TEXT="write-pattern">
 <icon BUILTIN="element"/>
-<node CREATED="1604791854168" MODIFIED="1604791858025" TEXT="select">
+<node CREATED="1684329951687" ID="ID_1580383187" MODIFIED="1689801376350" TEXT="criaPasta">
+<icon BUILTIN="tag_green"/>
+</node>
+</node>
+<node CREATED="1604791845968" ID="ID_540327502" MODIFIED="1604791853160" TEXT="apply-templates">
+<icon BUILTIN="element"/>
+<node CREATED="1604791854168" ID="ID_449030499" MODIFIED="1604791858025" TEXT="select">
 <icon BUILTIN="element"/>
 <node CREATED="1604791861745" MODIFIED="1687024728766" TEXT="class[@mode=&quot;bean&quot;]">
 <icon BUILTIN="tag_green"/>
