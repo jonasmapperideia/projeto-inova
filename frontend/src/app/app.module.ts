@@ -27,11 +27,23 @@ registerLocaleData(localePt);
 import { MatSelectModule } from '@angular/material/select';
 import { MatTabsModule } from '@angular/material/tabs';
 
-import { ProdutoFormCrudComponent } from './windows/produtoForm/produto-form-crud/produto-form-crud.component';
-import { ProdutoFormCreateComponent } from './windows/produtoForm/produto-form-create/produto-form-create.component';
-import { ProdutoFormReadComponent } from './windows/produtoForm/produto-form-read/produto-form-read.component';
-import { ProdutoFormUpdateComponent } from './windows/produtoForm/produto-form-update/produto-form-update.component';
-import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-delete/produto-form-delete.component';
+import { PedidoFormCrudComponent } from './windows/pedidoForm/pedido-form-crud/pedido-form-crud.component';
+import { PedidoFormCreateComponent } from './windows/pedidoForm/pedido-form-create/pedido-form-create.component';
+import { PedidoFormReadComponent } from './windows/pedidoForm/pedido-form-read/pedido-form-read.component';
+import { PedidoFormUpdateComponent } from './windows/pedidoForm/pedido-form-update/pedido-form-update.component';
+import { PedidoFormDeleteComponent } from './windows/pedidoForm/pedido-form-delete/pedido-form-delete.component';
+
+import { InformacaoFormCrudComponent } from './windows/informacaoForm/informacao-form-crud/informacao-form-crud.component';
+import { InformacaoFormCreateComponent } from './windows/informacaoForm/informacao-form-create/informacao-form-create.component';
+import { InformacaoFormReadComponent } from './windows/informacaoForm/informacao-form-read/informacao-form-read.component';
+import { InformacaoFormUpdateComponent } from './windows/informacaoForm/informacao-form-update/informacao-form-update.component';
+import { InformacaoFormDeleteComponent } from './windows/informacaoForm/informacao-form-delete/informacao-form-delete.component';
+
+import { SetorFormCrudComponent } from './windows/setorForm/setor-form-crud/setor-form-crud.component';
+import { SetorFormCreateComponent } from './windows/setorForm/setor-form-create/setor-form-create.component';
+import { SetorFormReadComponent } from './windows/setorForm/setor-form-read/setor-form-read.component';
+import { SetorFormUpdateComponent } from './windows/setorForm/setor-form-update/setor-form-update.component';
+import { SetorFormDeleteComponent } from './windows/setorForm/setor-form-delete/setor-form-delete.component';
 
 
 @NgModule({
@@ -41,11 +53,21 @@ import { ProdutoFormDeleteComponent } from './windows/produtoForm/produto-form-d
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProdutoFormCrudComponent,
-    ProdutoFormCreateComponent,
-    ProdutoFormReadComponent,
-    ProdutoFormUpdateComponent,
-    ProdutoFormDeleteComponent
+    PedidoFormCrudComponent,
+    PedidoFormCreateComponent,
+    PedidoFormReadComponent,
+    PedidoFormUpdateComponent,
+    PedidoFormDeleteComponent,
+    InformacaoFormCrudComponent,
+    InformacaoFormCreateComponent,
+    InformacaoFormReadComponent,
+    InformacaoFormUpdateComponent,
+    InformacaoFormDeleteComponent,
+    SetorFormCrudComponent,
+    SetorFormCreateComponent,
+    SetorFormReadComponent,
+    SetorFormUpdateComponent,
+    SetorFormDeleteComponent
   ],
   imports: [
     BrowserModule,

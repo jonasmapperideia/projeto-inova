@@ -2,22 +2,22 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1684021859648" ID="ID_286169263" LINK="../../mapperidea.mm" MODIFIED="1689080913578" TEXT="createComponentHtml">
 <icon BUILTIN="element"/>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_1812698421" MODIFIED="1684430367572" POSITION="right" TEXT="parameters">
+<node CREATED="1684159426363" ID="ID_1812698421" MODIFIED="1684430367572" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
-<node CREATED="1684159426364" FOLDED="true" MODIFIED="1684159436046" TEXT="className">
+<node CREATED="1684159426364" ID="ID_314164698" MODIFIED="1684159436046" TEXT="className">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426365" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1684159426366" FOLDED="true" MODIFIED="1684159436045" TEXT="packageName">
+<node CREATED="1684159426366" ID="ID_1638219970" MODIFIED="1684159436045" TEXT="packageName">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426367" MODIFIED="1684164760538" TEXT="NOT_DEFINED">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1533601526261" FOLDED="true" ID="ID_599668262" MODIFIED="1592524043912" POSITION="right" TEXT="vars">
+<node CREATED="1533601526261" ID="ID_599668262" MODIFIED="1592524043912" POSITION="right" TEXT="vars">
 <icon BUILTIN="element"/>
 <node CREATED="1666405824457" FOLDED="true" ID="ID_1491522413" MODIFIED="1684435583313" TEXT="angularTypes">
 <icon BUILTIN="element"/>
@@ -68,11 +68,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" ID="ID_43593690" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" FOLDED="true" ID="ID_43593690" MODIFIED="1684430367571" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
 <node CREATED="1684532424397" ID="ID_1650039522" MODIFIED="1684532426507" TEXT="class">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684531885582" FOLDED="true" MODIFIED="1684531922354" TEXT="mat-card-init">
+<node CREATED="1684531885582" ID="ID_1594211875" MODIFIED="1684531922354" TEXT="mat-card-init">
 <icon BUILTIN="element"/>
 <node CREATED="1684531959163" MODIFIED="1684531960690" TEXT="&lt;mat-card&gt;">
 <icon BUILTIN="tag_green"/>
@@ -84,9 +84,9 @@
 <icon BUILTIN="tag_yellow"/>
 </node>
 </node>
-<node CREATED="1684532430409" FOLDED="true" ID="ID_1437523966" MODIFIED="1684532435248" TEXT="title">
+<node CREATED="1684532430409" ID="ID_1437523966" MODIFIED="1684532435248" TEXT="title">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684532174945" FOLDED="true" ID="ID_241194250" MODIFIED="1684532177086" TEXT="title">
+<node CREATED="1684532174945" ID="ID_241194250" MODIFIED="1684532177086" TEXT="title">
 <icon BUILTIN="element"/>
 <node CREATED="1684532184102" ID="ID_794358288" MODIFIED="1685468914469" TEXT="    &lt;mat-card-title&gt;Incluir {{ $objetoClass/properties/description/value }}&lt;/mat-card-title&gt;">
 <icon BUILTIN="tag_green"/>
@@ -430,7 +430,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1688739629583" FOLDED="true" ID="ID_1469297985" MODIFIED="1688739633406" TEXT="iframe">
+<node CREATED="1688739629583" ID="ID_1469297985" MODIFIED="1688739633406" TEXT="iframe">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1688742917816" FOLDED="true" ID="ID_231004912" MODIFIED="1688742919249" TEXT="layout">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -456,9 +456,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1688742929642" FOLDED="true" ID="ID_1913267261" MODIFIED="1688742932016" TEXT="viewList">
+<node CREATED="1688742929642" ID="ID_1913267261" MODIFIED="1688742932016" TEXT="viewList">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1688739649871" FOLDED="true" ID="ID_648048833" MODIFIED="1688742911201" TEXT="viewListIframe-init">
+<node CREATED="1688739649871" ID="ID_648048833" MODIFIED="1688742911201" TEXT="viewListIframe-init">
 <icon BUILTIN="element"/>
 <node CREATED="1685561082394" ID="ID_1629536838" MODIFIED="1688743046821" TEXT="{{ f#[identacao] }}">
 <icon BUILTIN="tag_yellow"/>
@@ -467,7 +467,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1688739649871" FOLDED="true" ID="ID_1109140481" MODIFIED="1688742911200" TEXT="viewListIframe-end">
+<node CREATED="1688739649871" ID="ID_1109140481" MODIFIED="1688742911200" TEXT="viewListIframe-end">
 <icon BUILTIN="element"/>
 <node CREATED="1688743697926" FOLDED="true" ID="ID_1675549122" MODIFIED="1688743703958" TEXT="ng-container">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -562,7 +562,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1688743683527" FOLDED="true" ID="ID_685284851" MODIFIED="1688743687158" TEXT="tr">
+<node CREATED="1688743683527" ID="ID_685284851" MODIFIED="1688743687158" TEXT="tr">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685561082394" ID="ID_405646337" MODIFIED="1688743689378" TEXT="{{ f#[identacao] }}">
 <icon BUILTIN="tag_yellow"/>
@@ -812,9 +812,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684160926435" ID="ID_1699880555" MODIFIED="1684160965104" POSITION="right" TEXT="start">
+<node CREATED="1684160926435" FOLDED="true" ID="ID_1699880555" MODIFIED="1684160965104" POSITION="right" TEXT="start">
 <icon BUILTIN="element"/>
-<node CREATED="1684160926436" FOLDED="true" ID="ID_277618951" MODIFIED="1684160972183" TEXT="match">
+<node CREATED="1684160926436" ID="ID_277618951" MODIFIED="1684160972183" TEXT="match">
 <icon BUILTIN="element"/>
 <node CREATED="1684160926437" MODIFIED="1684261640840" TEXT="/classes/class[@name = $className and @package = $packageName]">
 <icon BUILTIN="tag_green"/>

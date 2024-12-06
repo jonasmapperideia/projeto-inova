@@ -1,0 +1,15 @@
+<mat-card>
+    <mat-card-title>Incluir Setor Econômico</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="setorEconomico.nome" name="nome"/>
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="createSetorEconomico()" color="primary">
+        Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()" color="">
+        Cancelar
+    </button>
+</mat-card>

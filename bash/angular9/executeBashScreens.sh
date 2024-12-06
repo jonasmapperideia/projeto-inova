@@ -1,4 +1,6 @@
 #!/bin/bash
 echo " "
 
-bash ./produtoForm.sh
+bash ./pedidoForm.sh
+bash ./informacaoForm.sh
+bash ./setorForm.sh

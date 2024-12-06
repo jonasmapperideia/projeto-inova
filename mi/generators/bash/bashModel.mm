@@ -18,7 +18,7 @@
 </node>
 <node CREATED="1687024321821" ID="ID_1446315688" MODIFIED="1687024323754" TEXT="mapperideaPush">
 <icon BUILTIN="element"/>
-<node CREATED="1687024330712" MODIFIED="1687024333503" TEXT="mapperidea push angularCRUD">
+<node CREATED="1687024330712" ID="ID_400123999" MODIFIED="1733270252877" TEXT="mapperidea push teste-inova">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -30,7 +30,7 @@
 </node>
 <node CREATED="1687024270355" MODIFIED="1687024271889" TEXT="classModel">
 <icon BUILTIN="element"/>
-<node CREATED="1687025041226" MODIFIED="1687025043171" TEXT="mapperidea generate angularCRUD angular9 modelTs">
+<node CREATED="1687025041226" ID="ID_1321068260" MODIFIED="1733270244757" TEXT="mapperidea generate teste-inova angular9 modelTs">
 <icon BUILTIN="tag_yellow"/>
 </node>
 <node CREATED="1687025079230" MODIFIED="1687025089900" TEXT=" className={{ @name }}">

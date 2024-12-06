@@ -7,7 +7,7 @@
 <node CREATED="1685109976879" MODIFIED="1685110487858" TEXT="mi g angularCRUD bash windowEditor className=ProductForm packageName=br.com.neoinix.angular.window projectName=angularCRUD"/>
 <node CREATED="1685109978872" MODIFIED="1685110506959" TEXT="mi g angularCRUD bash windowEditor className=ProductForm packageName=br.com.neoinix.angular.window projectName=angularCRUD &gt; productForm.sh"/>
 </node>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_909881987" MODIFIED="1685108986133" POSITION="right" TEXT="parameters">
+<node CREATED="1684159426363" ID="ID_909881987" MODIFIED="1685108986133" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426364" FOLDED="true" ID="ID_1904052358" MODIFIED="1684159436046" TEXT="className">
 <icon BUILTIN="element"/>
@@ -28,11 +28,11 @@
 </node>
 </node>
 </node>
-<node CREATED="1684161691515" FOLDED="true" ID="ID_1458430421" MODIFIED="1685108855186" POSITION="right" TEXT="patterns">
+<node CREATED="1684161691515" ID="ID_1458430421" MODIFIED="1685108855186" POSITION="right" TEXT="patterns">
 <icon BUILTIN="element"/>
 <node CREATED="1685109369407" FOLDED="true" ID="ID_1597362647" MODIFIED="1685109501597" TEXT="init">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1685109096184" FOLDED="true" ID="ID_897677077" MODIFIED="1685109098045" TEXT="bash-init">
+<node CREATED="1685109096184" ID="ID_897677077" MODIFIED="1685109098045" TEXT="bash-init">
 <icon BUILTIN="element"/>
 <node CREATED="1685109104241" MODIFIED="1685109105682" TEXT="#!/bin/bash">
 <icon BUILTIN="tag_green"/>
@@ -44,7 +44,7 @@
 </node>
 <node CREATED="1685109374296" FOLDED="true" ID="ID_1448008619" MODIFIED="1685109376919" TEXT="message">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1685109139326" FOLDED="true" ID="ID_979454284" MODIFIED="1685109511047" TEXT="message">
+<node CREATED="1685109139326" ID="ID_979454284" MODIFIED="1685109511047" TEXT="message">
 <icon BUILTIN="element"/>
 <node CREATED="1685109151875" MODIFIED="1685109254270" TEXT="echo &quot; --- Gerando arquivos da tela &apos;{{ properties/title/value }}&apos; --- &quot;">
 <icon BUILTIN="tag_green"/>
@@ -54,7 +54,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1685109381023" FOLDED="true" ID="ID_188798375" MODIFIED="1685109414224" TEXT="commands">
+<node CREATED="1685109381023" ID="ID_188798375" MODIFIED="1685109414224" TEXT="commands">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1685109451153" FOLDED="true" ID="ID_1575550566" MODIFIED="1685109531745" TEXT="commands-crud">
 <icon BUILTIN="element"/>
@@ -74,15 +74,15 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1685109451153" FOLDED="true" ID="ID_534538735" MODIFIED="1685109531744" TEXT="commands-read">
+<node CREATED="1685109451153" ID="ID_534538735" MODIFIED="1685109531744" TEXT="commands-read">
 <icon BUILTIN="element"/>
 <node CREATED="1685111211755" MODIFIED="1685120133462" TEXT="mkdir -p ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1685111217864" MODIFIED="1685119710239" TEXT="mapperidea generate {{ $projectName }} angular9 readComponentHtml className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read.component.html">
+<node CREATED="1685111217864" ID="ID_265988316" MODIFIED="1733272395685" TEXT="mapperidea generate {{ $projectName }} angular9 readComponentHtml className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read.component.html">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1685111231706" MODIFIED="1685119723306" TEXT="mapperidea generate {{ $projectName }} angular9 readComponentTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read.component.ts">
+<node CREATED="1685111231706" ID="ID_390792814" MODIFIED="1733272397115" TEXT="mapperidea generate {{ $projectName }} angular9 readComponentTs className={{ @name }} packageName={{ @package }} &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1685111246095" MODIFIED="1685119758596" TEXT="mapperidea generate {{ $projectName }} angular9 readComponentCss &gt; ../../frontend/src/app/windows/{{ mi:first-lower(@name) }}/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read/{{ mi:lower-case-add-hifen(@name, &apos;&apos;) }}-read.component.css">

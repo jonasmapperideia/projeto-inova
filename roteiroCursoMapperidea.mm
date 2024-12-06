@@ -29,7 +29,7 @@
 <icon BUILTIN="folder"/>
 </node>
 </node>
-<node CREATED="1684117511739" ID="ID_1750394199" MODIFIED="1684173294166" TEXT="Dentro da pasta mi criar e startar o arquivo principal do projeto mapperideia">
+<node CREATED="1684117511739" FOLDED="true" ID="ID_1750394199" MODIFIED="1701785191562" TEXT="Dentro da pasta mi criar e startar o arquivo principal do projeto mapperideia">
 <icon BUILTIN="full-3"/>
 <node CREATED="1683919963321" ID="ID_1045629323" MODIFIED="1684014833476" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -877,7 +877,7 @@
 </node>
 <node CREATED="1684118574943" ID="ID_1408011608" MODIFIED="1684173312687" TEXT="Dentro da pasta temp">
 <icon BUILTIN="full-4"/>
-<node CREATED="1683896789625" ID="ID_1425580369" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" ID="ID_1425580369" MODIFIED="1701785251277" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119165180" ID="ID_1436783612" MODIFIED="1684174008664" TEXT="Para enviar os arquivos do Mapperidea para o servidor">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -905,6 +905,9 @@
 <node CREATED="1684119693996" ID="ID_1016848223" MODIFIED="1701780280147" TEXT="mi g angularCRUD struct xml className=Produto &gt; Produto.xml">
 <icon BUILTIN="tag_green"/>
 </node>
+<node CREATED="1684119693996" ID="ID_1536047072" MODIFIED="1701790002792" TEXT="mi g angularCRUD struct xml className=Pedido &gt; Pedido.xml">
+<icon BUILTIN="tag_green"/>
+</node>
 </node>
 </node>
 </node>
@@ -920,7 +923,7 @@
 <icon BUILTIN="folder"/>
 </node>
 </node>
-<node CREATED="1683893224937" ID="ID_693155182" MODIFIED="1684171993409" TEXT="Entra na pasta backend">
+<node CREATED="1683893224937" ID="ID_693155182" MODIFIED="1701785255018" TEXT="Entra na pasta backend">
 <icon BUILTIN="full-3"/>
 <node CREATED="1683896789625" ID="ID_94401802" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -936,7 +939,7 @@
 <node CREATED="1683895692021" ID="ID_865440129" MODIFIED="1683896094872" TEXT="db.json">
 <icon BUILTIN="list"/>
 <node CREATED="1683896054093" ID="ID_848099261" MODIFIED="1683896059868" TEXT="conteudo:">
-<node CREATED="1683896059868" ID="ID_742268473" MODIFIED="1701780331774" TEXT="{&#xa;  &quot;produtos&quot;: [&#xa;    {&#xa;      &quot;id&quot;: 1,&#xa;      &quot;nome&quot;: &quot;Camisa preta&quot;,&#xa;      &quot;preco&quot;: 5.89&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 2,&#xa;      &quot;nome&quot;: &quot;Cal&#xe7;a azul&quot;,&#xa;      &quot;preco&quot;: 20.32&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 3,&#xa;      &quot;nome&quot;: &quot;Geladeira branca&quot;,&#xa;      &quot;preco&quot;: 1500&#xa;    }&#xa;  ]&#xa;}">
+<node CREATED="1683896059868" ID="ID_742268473" MODIFIED="1701785369053" TEXT="{&#xa;  &quot;produto&quot;: [&#xa;    {&#xa;      &quot;id&quot;: 1,&#xa;      &quot;nome&quot;: &quot;Camisa preta&quot;,&#xa;      &quot;preco&quot;: 5.89&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 2,&#xa;      &quot;nome&quot;: &quot;Cal&#xe7;a azul&quot;,&#xa;      &quot;preco&quot;: 20.32&#xa;    },&#xa;    {&#xa;      &quot;id&quot;: 3,&#xa;      &quot;nome&quot;: &quot;Geladeira branca&quot;,&#xa;      &quot;preco&quot;: 1500&#xa;    }&#xa;  ]&#xa;}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -978,7 +981,7 @@
 </node>
 <node CREATED="1683897497393" ID="ID_321503316" MODIFIED="1684203406600" TEXT="Abrir o programa postman">
 <icon BUILTIN="full-5"/>
-<node CREATED="1683899449671" ID="ID_157335987" MODIFIED="1701780568781" TEXT="Cria requisi&#xe7;&#xf5;es">
+<node CREATED="1683899449671" FOLDED="true" ID="ID_157335987" MODIFIED="1701785185281" TEXT="Cria requisi&#xe7;&#xf5;es">
 <node CREATED="1683899455487" ID="ID_316336714" MODIFIED="1701781578728" TEXT="Listar produto">
 <node CREATED="1683897595934" ID="ID_569960746" MODIFIED="1701780603203" TEXT="Tipo:">
 <node CREATED="1683897598757" MODIFIED="1683897601709" TEXT="GET"/>
@@ -1107,7 +1110,7 @@
 </node>
 <node CREATED="1684255488545" ID="ID_1033185810" MODIFIED="1684255493060" TEXT="implementar mapa de arquitetura para gerar o backend">
 <icon BUILTIN="full-6"/>
-<node CREATED="1684087724816" ID="ID_1116095978" MODIFIED="1684255502445" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_1116095978" MODIFIED="1701785187457" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1684180489064" ID="ID_70568137" MODIFIED="1684183740311" TEXT="Implementar gerador dbJson">
 <icon BUILTIN="full-1"/>
@@ -1934,9 +1937,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1683892256832" FOLDED="true" ID="ID_637378880" MODIFIED="1701781546618" POSITION="right" TEXT="Frontend">
+<node CREATED="1683892256832" ID="ID_637378880" MODIFIED="1701786085967" POSITION="right" TEXT="Frontend">
 <icon BUILTIN="Descriptor.window.iframe"/>
-<node CREATED="1683915658067" FOLDED="true" ID="ID_1573966263" MODIFIED="1683915670851" TEXT="Criar o projeto angular">
+<node CREATED="1683915658067" ID="ID_1573966263" MODIFIED="1701786090554" TEXT="Criar o projeto angular">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683896789625" ID="ID_1957370732" MODIFIED="1684174119624" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -1995,7 +1998,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683917020418" FOLDED="true" ID="ID_671833175" MODIFIED="1683927430568" TEXT="Iniciar parte frontend">
+<node CREATED="1683917020418" ID="ID_671833175" MODIFIED="1701786168249" TEXT="Iniciar parte frontend">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683896789625" ID="ID_1819069848" MODIFIED="1684174140087" TEXT="No prompt de comando, executa o comando:">
 <icon BUILTIN="Descriptor.window.dialog"/>
@@ -2306,7 +2309,7 @@
 </node>
 <node CREATED="1684087724816" ID="ID_1913252189" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684243066282" FOLDED="true" ID="ID_1970273564" MODIFIED="1684243084100" TEXT="Incluir mapa de tela">
+<node CREATED="1684243066282" FOLDED="true" ID="ID_1970273564" MODIFIED="1701784841554" TEXT="Incluir mapa de tela">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1481643037" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -2380,9 +2383,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_847257183" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_847257183" MODIFIED="1701784841554" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
-<node CREATED="1684119635253" FOLDED="true" ID="ID_907772604" MODIFIED="1684243515191" TEXT="Para gerar um arquivo xml do struct do mapa de tela &apos;ProdutoForm&apos;">
+<node CREATED="1684119635253" FOLDED="true" ID="ID_907772604" MODIFIED="1701784841553" TEXT="Para gerar um arquivo xml do struct do mapa de tela &apos;ProdutoForm&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684119594131" ID="ID_330186586" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -2720,21 +2723,21 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_1763066360" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1763066360" MODIFIED="1701784903905" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684086544994" FOLDED="true" ID="ID_730049378" MODIFIED="1685024633818" TEXT="frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.html">
+<node CREATED="1684086544994" FOLDED="true" ID="ID_730049378" MODIFIED="1701784881796" TEXT="frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.html">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_79666726" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1684086577626" ID="ID_1255511694" MODIFIED="1684864838042" TEXT="&lt;div class=&quot;mat-elevation-z4&quot;&gt;&#xa;    &lt;table mat-table [dataSource]=&quot;produto_list&quot;&gt;&#xa;        &lt;!-- Id Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;id&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Id&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.id}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Name Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;name&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Nome&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.name}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Price Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;preco&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o (R$)&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.preco | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Action Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;action&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;&#xa;                &lt;a routerLink=&quot;/produtoForm/update/{{ row.id }}&quot; class=&quot;edit&quot;&gt;&#xa;                    &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;&#xa;                &lt;/a&gt;&#xa;                &lt;a routerLink=&quot;/produtoForm/delete/{{ row.id }}&quot; class=&quot;delete&quot;&gt;&#xa;                    &lt;i class=&quot;material-icons&quot;&gt;delete&lt;/i&gt;&#xa;                &lt;/a&gt;&#xa;            &lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;        &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumns&quot;&gt;&lt;/tr&gt;&#xa;        &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumns;&quot;&gt;&lt;/tr&gt;&#xa;    &lt;/table&gt;&#xa;&#xa;&lt;/div&gt;">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_79666726" MODIFIED="1701784881795" TEXT="deixar o conteudo:">
+<node CREATED="1684086577626" ID="ID_1255511694" MODIFIED="1701784879690" TEXT="&lt;div class=&quot;mat-elevation-z4&quot;&gt;&#xa;    &lt;table mat-table [dataSource]=&quot;produto_list&quot;&gt;&#xa;        &lt;!-- Id Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;id&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Id&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.id}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Name Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;name&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Nome&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.nome}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Price Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;preco&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o (R$)&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{row.preco | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;&#xa;        &lt;!-- Action Column --&gt;&#xa;        &lt;ng-container matColumnDef=&quot;action&quot;&gt;&#xa;            &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;&#xa;            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;&#xa;                &lt;a routerLink=&quot;/produtoForm/update/{{ row.id }}&quot; class=&quot;edit&quot;&gt;&#xa;                    &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;&#xa;                &lt;/a&gt;&#xa;                &lt;a routerLink=&quot;/produtoForm/delete/{{ row.id }}&quot; class=&quot;delete&quot;&gt;&#xa;                    &lt;i class=&quot;material-icons&quot;&gt;delete&lt;/i&gt;&#xa;                &lt;/a&gt;&#xa;            &lt;/td&gt;&#xa;        &lt;/ng-container&gt;&#xa;        &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumns&quot;&gt;&lt;/tr&gt;&#xa;        &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumns;&quot;&gt;&lt;/tr&gt;&#xa;    &lt;/table&gt;&#xa;&#xa;&lt;/div&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 </node>
-<node CREATED="1684086607594" FOLDED="true" ID="ID_1887158137" MODIFIED="1685024639974" TEXT="frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.ts">
+<node CREATED="1684086607594" FOLDED="true" ID="ID_1887158137" MODIFIED="1701784903905" TEXT="frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.ts">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_828212193" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1684086640375" ID="ID_791696251" MODIFIED="1685024690878" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Produto } from &apos;../produto.model&apos;;&#xa;import { ProdutoService } from &apos;../produto.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-produto-form-read&apos;,&#xa;  templateUrl: &apos;./produto-form-read.component.html&apos;,&#xa;  styleUrls: [&apos;./produto-form-read.component.css&apos;]&#xa;})&#xa;export class ProdutoFormReadComponent implements OnInit {&#xa;&#xa;  produto_list: Produto[];&#xa;  displayedColumns = [&apos;id&apos;, &apos;name&apos;, &apos;preco&apos;, &apos;action&apos;];&#xa;  &#xa;  constructor(private produtoService: ProdutoService) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    this.produtoService.read().subscribe(produto_list =&gt; {&#xa;      this.produto_list = produto_list;&#xa;    });&#xa;  }&#xa;&#xa;}&#xa;">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_828212193" MODIFIED="1701784903904" TEXT="deixar o conteudo:">
+<node CREATED="1684086640375" ID="ID_791696251" MODIFIED="1701784901050" TEXT="import { Component, OnInit } from &apos;@angular/core&apos;;&#xa;import { Produto } from &apos;../produto.model&apos;;&#xa;import { ProdutoService } from &apos;../produto.service&apos;;&#xa;&#xa;@Component({&#xa;  selector: &apos;app-produto-form-read&apos;,&#xa;  templateUrl: &apos;./produto-form-read.component.html&apos;,&#xa;  styleUrls: [&apos;./produto-form-read.component.css&apos;]&#xa;})&#xa;export class ProdutoFormReadComponent implements OnInit {&#xa;&#xa;  produto_list: Produto[];&#xa;  displayedColumns = [&apos;id&apos;, &apos;nome&apos;, &apos;preco&apos;, &apos;action&apos;];&#xa;  &#xa;  constructor(private produtoService: ProdutoService) { }&#xa;&#xa;  ngOnInit(): void {&#xa;    this.produtoService.read().subscribe(produto_list =&gt; {&#xa;      this.produto_list = produto_list;&#xa;    });&#xa;  }&#xa;&#xa;}&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2757,12 +2760,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_1046988265" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1046988265" MODIFIED="1701784976522" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684021859648" FOLDED="true" ID="ID_309022776" MODIFIED="1685025132359" TEXT="frontend/src/app/windows/produtoForm/produto-form-create/produto-form-create.component.html">
+<node CREATED="1684021859648" FOLDED="true" ID="ID_309022776" MODIFIED="1701784976521" TEXT="frontend/src/app/windows/produtoForm/produto-form-create/produto-form-create.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1715655719" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1684022033284" ID="ID_1535341406" MODIFIED="1687289783157" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Incluir Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;produto.name&quot; name=&quot;name&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;produto.preco&quot; name=&quot;preco&quot; type=&quot;number&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;createProduto()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1715655719" MODIFIED="1701784976520" TEXT="deixar o conteudo:">
+<node CREATED="1684022033284" ID="ID_1535341406" MODIFIED="1701784922905" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Incluir Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;produto.nome&quot; name=&quot;nome&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;produto.preco&quot; name=&quot;preco&quot; type=&quot;number&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;createProduto()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2794,12 +2797,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_1352950363" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1352950363" MODIFIED="1701784993974" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684092232294" FOLDED="true" ID="ID_383311836" MODIFIED="1685025660449" TEXT="frontend/src/app/windows/produtoForm/produto-form-update/produto-form-update.component.html">
+<node CREATED="1684092232294" FOLDED="true" ID="ID_383311836" MODIFIED="1701784993974" TEXT="frontend/src/app/windows/produtoForm/produto-form-update/produto-form-update.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1902079026" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1684092261634" ID="ID_1627415363" MODIFIED="1687289811931" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Editar Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;produto.nome&quot; name=&quot;name&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;produto.preco&quot; name=&quot;preco&quot; type=&quot;number&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;updateProduto()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1902079026" MODIFIED="1701784993973" TEXT="deixar o conteudo:">
+<node CREATED="1684092261634" ID="ID_1627415363" MODIFIED="1701784991292" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Editar Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [(ngModel)]=&quot;produto.nome&quot; name=&quot;nome&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [(ngModel)]=&quot;produto.preco&quot; name=&quot;preco&quot; type=&quot;number&quot;&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;updateProduto()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2830,12 +2833,12 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1683918427809" FOLDED="true" ID="ID_1342210888" MODIFIED="1683925064365" TEXT="Alterar os arquivos:">
+<node CREATED="1683918427809" FOLDED="true" ID="ID_1342210888" MODIFIED="1701785046704" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684094462548" FOLDED="true" ID="ID_1174163559" MODIFIED="1685025871038" TEXT="frontend/src/app/windows/produtoForm/produto-form-delete/produto-form-delete.component.html">
+<node CREATED="1684094462548" FOLDED="true" ID="ID_1174163559" MODIFIED="1701785046704" TEXT="frontend/src/app/windows/produtoForm/produto-form-delete/produto-form-delete.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_1820123999" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
-<node CREATED="1684094507923" ID="ID_1126603572" MODIFIED="1687289828194" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Excluir Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [value]=&quot;produto.nome&quot; name=&quot;name&quot; disabled/&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [value]=&quot;produto.preco&quot; name=&quot;preco&quot; type=&quot;number&quot; disabled/&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;deleteProduto()&quot; color=&quot;warn&quot;&gt;&#xa;        Excluir&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_1820123999" MODIFIED="1701785046704" TEXT="deixar o conteudo:">
+<node CREATED="1684094507923" ID="ID_1126603572" MODIFIED="1701785025822" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Excluir Produto&lt;/mat-card-title&gt;&#xa;    &lt;form&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Nome&quot; [value]=&quot;produto.nome&quot; name=&quot;nome&quot; disabled/&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;        &lt;mat-form-field&gt;&#xa;            &lt;input matInput placeholder=&quot;Pre&#xe7;o (R$)&quot; [value]=&quot;produto.preco&quot; name=&quot;preco&quot; type=&quot;number&quot; disabled/&gt;&#xa;        &lt;/mat-form-field&gt;&#xa;    &lt;/form&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;deleteProduto()&quot; color=&quot;warn&quot;&gt;&#xa;        Excluir&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -2865,9 +2868,9 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684087724816" ID="ID_674483026" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684414402199" FOLDED="true" ID="ID_1070949231" MODIFIED="1684414410628" TEXT="modelTs">
+<node CREATED="1684414402199" FOLDED="true" ID="ID_1070949231" MODIFIED="1701785096931" TEXT="modelTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1290489312" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1290489312" MODIFIED="1701785093611" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1401860086" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -3354,7 +3357,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_955008024" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_955008024" MODIFIED="1701785093611" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1645674905" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -3364,9 +3367,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_1137029002" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1137029002" MODIFIED="1701785096931" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_11014166" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_11014166" MODIFIED="1701785096930" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_776848699" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -3377,9 +3380,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684261060240" FOLDED="true" ID="ID_1764931670" MODIFIED="1684261069777" TEXT="serviceTs">
+<node CREATED="1684261060240" FOLDED="true" ID="ID_1764931670" MODIFIED="1701785100340" TEXT="serviceTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_790747444" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_790747444" MODIFIED="1701785098488" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_125559756" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -4040,7 +4043,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_523019139" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_523019139" MODIFIED="1701785098487" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1715586835" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -4050,9 +4053,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_778474395" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_778474395" MODIFIED="1701785100339" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_743331675" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_743331675" MODIFIED="1701785100339" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_243952843" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -5104,11 +5107,11 @@
 </node>
 <node CREATED="1684024474236" ID="ID_1038561980" MODIFIED="1685469126112" TEXT="crud">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684087724816" FOLDED="true" ID="ID_1017326036" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_1017326036" MODIFIED="1701785117437" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684013950555" FOLDED="true" ID="ID_1018220017" MODIFIED="1684526705312" TEXT="crudComponentHtml">
+<node CREATED="1684013950555" FOLDED="true" ID="ID_1018220017" MODIFIED="1701785107972" TEXT="crudComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_810708791" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_810708791" MODIFIED="1701785103379" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_108697239" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -5264,7 +5267,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_898408590" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_898408590" MODIFIED="1701785103379" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_696065615" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -5274,9 +5277,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_728680844" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_728680844" MODIFIED="1701785107972" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1619439561" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1619439561" MODIFIED="1701785107971" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_349573646" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -5287,9 +5290,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684014011591" FOLDED="true" ID="ID_1163684073" MODIFIED="1684775900939" TEXT="crudComponentTs">
+<node CREATED="1684014011591" FOLDED="true" ID="ID_1163684073" MODIFIED="1701785117436" TEXT="crudComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_466145032" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_466145032" MODIFIED="1701785112497" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_485399183" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -5514,7 +5517,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_401711459" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_401711459" MODIFIED="1701785112496" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_9113668" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -5524,9 +5527,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_661591608" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_661591608" MODIFIED="1701785117436" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1652030537" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1652030537" MODIFIED="1701785117435" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1247822875" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -5614,12 +5617,12 @@
 </node>
 <node CREATED="1684023496799" ID="ID_448949115" MODIFIED="1684857537427" TEXT="read">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684087724816" FOLDED="true" ID="ID_1919319719" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_1919319719" MODIFIED="1701785134710" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684086544994" FOLDED="true" ID="ID_40781770" MODIFIED="1684526667419" TEXT="readComponentHtml">
+<node CREATED="1684086544994" FOLDED="true" ID="ID_40781770" MODIFIED="1701785129241" TEXT="readComponentHtml">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1142353648" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1142353648" MODIFIED="1701785127345" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1951869865" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -6393,7 +6396,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1909786977" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1909786977" MODIFIED="1701785127344" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1141622558" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -6403,9 +6406,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_480776290" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_480776290" MODIFIED="1701785129241" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1268280166" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1268280166" MODIFIED="1701785129241" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1787892364" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -6416,9 +6419,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684086607594" FOLDED="true" ID="ID_1275423716" MODIFIED="1684526667419" TEXT="readComponentTs">
+<node CREATED="1684086607594" FOLDED="true" ID="ID_1275423716" MODIFIED="1701785134709" TEXT="readComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_544254094" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_544254094" MODIFIED="1701785132277" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1130229841" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -7123,7 +7126,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1221047156" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1221047156" MODIFIED="1701785132276" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_489181052" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -7133,9 +7136,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_1904269241" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1904269241" MODIFIED="1701785134709" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_491509398" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_491509398" MODIFIED="1701785134708" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_695828527" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -7217,11 +7220,11 @@
 </node>
 <node CREATED="1684023433646" ID="ID_1036137755" MODIFIED="1684023508321" TEXT="create">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684087724816" FOLDED="true" ID="ID_1965271805" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_1965271805" MODIFIED="1701785141362" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684021859648" FOLDED="true" ID="ID_265876370" MODIFIED="1684526591872" TEXT="createComponentHtml">
+<node CREATED="1684021859648" FOLDED="true" ID="ID_265876370" MODIFIED="1701785138402" TEXT="createComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_256720142" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_256720142" MODIFIED="1701785137761" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1258891269" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -7966,7 +7969,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_886212548" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_886212548" MODIFIED="1701785137760" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1335036939" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -7976,9 +7979,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_945197665" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_945197665" MODIFIED="1701785138402" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1488367152" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1488367152" MODIFIED="1701785138401" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_337036070" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -7989,10 +7992,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1684023288286" FOLDED="true" ID="ID_24361201" MODIFIED="1684526591872" TEXT="createComponentTs">
+<node CREATED="1684023288286" FOLDED="true" ID="ID_24361201" MODIFIED="1701785141361" TEXT="createComponentTs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_184857530" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_184857530" MODIFIED="1701785140165" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1488066789" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -8833,7 +8836,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1448563964" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1448563964" MODIFIED="1701785140164" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_499006385" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -8843,9 +8846,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_1879444567" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1879444567" MODIFIED="1701785141361" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1249697714" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1249697714" MODIFIED="1701785141360" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1557347794" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -8927,11 +8930,11 @@
 </node>
 <node CREATED="1684090358248" ID="ID_1142284234" MODIFIED="1684090517809" TEXT="update">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684087724816" FOLDED="true" ID="ID_307656191" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_307656191" MODIFIED="1701785144350" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684092232294" FOLDED="true" ID="ID_1123086528" MODIFIED="1684526612834" TEXT="updateComponentHtml">
+<node CREATED="1684092232294" FOLDED="true" ID="ID_1123086528" MODIFIED="1701785142923" TEXT="updateComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_148870066" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_148870066" MODIFIED="1701785142121" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_774007497" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -9681,7 +9684,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1411370678" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1411370678" MODIFIED="1701785142121" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1289818620" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -9691,9 +9694,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_520060215" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_520060215" MODIFIED="1701785142923" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1381005237" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1381005237" MODIFIED="1701785142922" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_614214870" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -9704,9 +9707,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684092285823" FOLDED="true" ID="ID_1336856976" MODIFIED="1684526612834" TEXT="updateComponentTs">
+<node CREATED="1684092285823" FOLDED="true" ID="ID_1336856976" MODIFIED="1701785144350" TEXT="updateComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_804260082" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_804260082" MODIFIED="1701785143722" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1067862373" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -10558,7 +10561,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_943318967" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_943318967" MODIFIED="1701785143722" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_368216771" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -10568,9 +10571,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_710643963" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_710643963" MODIFIED="1701785144350" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_11972569" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_11972569" MODIFIED="1701785144349" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_662467956" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -10652,7 +10655,7 @@
 </node>
 <node CREATED="1684093038448" ID="ID_488663073" MODIFIED="1684093048187" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684087724816" FOLDED="true" ID="ID_1986837458" MODIFIED="1684243055469" TEXT="No mapperidea">
+<node CREATED="1684087724816" FOLDED="true" ID="ID_1986837458" MODIFIED="1701785147191" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
 <node CREATED="1684094462548" ID="ID_1576058586" MODIFIED="1684526630127" TEXT="deleteComponentHtml">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -11404,7 +11407,7 @@
 </node>
 <node CREATED="1684094474151" ID="ID_1874121282" MODIFIED="1684526630127" TEXT="deleteComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_962248827" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_962248827" MODIFIED="1701785146517" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" ID="ID_390328006" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -12266,9 +12269,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_540172861" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_540172861" MODIFIED="1701785147191" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1444527923" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1444527923" MODIFIED="1701785147190" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_547730551" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -12372,7 +12375,7 @@
 <icon BUILTIN="bookmark"/>
 <node CREATED="1684014610706" ID="ID_337983153" MODIFIED="1701781610119" TEXT="bash/angular9/produtoForm.sh">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_915542081" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_915542081" MODIFIED="1701784750873" TEXT="deixar o conteudo:">
 <node CREATED="1684014033971" ID="ID_729090067" MODIFIED="1687380038240" TEXT="#!/bin/bash&#xa;&#xa;echo &quot; --- Gerando arquivos da tela &apos;Cadastro de Produtos&apos; --- &quot;&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/produtoForm/produto-form-crud&#xa;mapperidea generate angularCRUD angular9 crudComponentHtml className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-crud/produto-form-crud.component.html&#xa;mapperidea generate angularCRUD angular9 crudComponentTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-crud/produto-form-crud.component.ts&#xa;mapperidea generate angularCRUD angular9 crudComponentCss &gt; ../../frontend/src/app/windows/produtoForm/produto-form-crud/produto-form-crud.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/produtoForm/produto-form-read&#xa;mapperidea generate angularCRUD angular9 readComponentHtml className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.html&#xa;mapperidea generate angularCRUD angular9 readComponentTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.ts&#xa;mapperidea generate angularCRUD angular9 readComponentCss &gt; ../../frontend/src/app/windows/produtoForm/produto-form-read/produto-form-read.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/produtoForm/produto-form-create&#xa;mapperidea generate angularCRUD angular9 createComponentHtml className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-create/produto-form-create.component.html&#xa;mapperidea generate angularCRUD angular9 createComponentTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-create/produto-form-create.component.ts&#xa;mapperidea generate angularCRUD angular9 createComponentCss &gt; ../../frontend/src/app/windows/produtoForm/produto-form-create/produto-form-create.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/produtoForm/produto-form-update&#xa;mapperidea generate angularCRUD angular9 updateComponentHtml className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-update/produto-form-update.component.html&#xa;mapperidea generate angularCRUD angular9 updateComponentTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-update/produto-form-update.component.ts&#xa;mapperidea generate angularCRUD angular9 updateComponentCss &gt; ../../frontend/src/app/windows/produtoForm/produto-form-update/produto-form-update.component.css&#xa;&#xa;mkdir -p ../../frontend/src/app/windows/produtoForm/produto-form-delete&#xa;mapperidea generate angularCRUD angular9 deleteComponentHtml className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-delete/produto-form-delete.component.html&#xa;mapperidea generate angularCRUD angular9 deleteComponentTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto-form-delete/produto-form-delete.component.ts&#xa;mapperidea generate angularCRUD angular9 deleteComponentCss &gt; ../../frontend/src/app/windows/produtoForm/produto-form-delete/produto-form-delete.component.css&#xa;&#xa;mapperidea generate angularCRUD angular9 modelTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto.model.ts&#xa;mapperidea generate angularCRUD angular9 serviceTs className=ProdutoForm packageName=br.com.neoinix.angular.window &gt; ../../frontend/src/app/windows/produtoForm/produto.service.ts">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -12755,7 +12758,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1685379268392" FOLDED="true" ID="ID_1732916276" MODIFIED="1685379476233" TEXT="Criar script bash para executar telas do sistema">
+<node CREATED="1685379268392" FOLDED="true" ID="ID_1732916276" MODIFIED="1701784775358" TEXT="Criar script bash para executar telas do sistema">
 <icon BUILTIN="full-3"/>
 <node CREATED="1683919963321" ID="ID_1847166174" MODIFIED="1684414385142" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -12786,7 +12789,7 @@
 </node>
 <node CREATED="1684087724816" ID="ID_178446065" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1685380305425" FOLDED="true" ID="ID_474407415" MODIFIED="1685380313246" TEXT="generateBashScreens">
+<node CREATED="1685380305425" FOLDED="true" ID="ID_474407415" MODIFIED="1701784771078" TEXT="generateBashScreens">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_82820786" MODIFIED="1684262066699" TEXT="Criar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -13217,7 +13220,7 @@
 <icon BUILTIN="folder"/>
 </node>
 </node>
-<node CREATED="1685816054808" ID="ID_1109581874" MODIFIED="1685816121916" TEXT="Corrigir os imports do model do arquivo &apos;.model.ts&apos;">
+<node CREATED="1685816054808" FOLDED="true" ID="ID_1109581874" MODIFIED="1701785164624" TEXT="Corrigir os imports do model do arquivo &apos;.model.ts&apos;">
 <icon BUILTIN="full-3"/>
 <node CREATED="1683918427809" ID="ID_188504254" MODIFIED="1701781752490" TEXT="Alterar os arquivos:">
 <icon BUILTIN="edit"/>
@@ -13292,7 +13295,7 @@
 <icon BUILTIN="full-4"/>
 <node CREATED="1684087724816" ID="ID_1378154416" MODIFIED="1684243055469" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
-<node CREATED="1684023288286" FOLDED="true" ID="ID_1223187542" MODIFIED="1685822753080" TEXT="createComponentTs">
+<node CREATED="1684023288286" FOLDED="true" ID="ID_1223187542" MODIFIED="1701784779791" TEXT="createComponentTs">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1730942436" MODIFIED="1687021272699" TEXT="Atualizar mapa de arquitetura">
@@ -13355,7 +13358,7 @@
 </node>
 <node CREATED="1684262074371" ID="ID_93883706" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1993228565" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1993228565" MODIFIED="1701784779790" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1976325022" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13366,9 +13369,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684094474151" FOLDED="true" ID="ID_700458012" MODIFIED="1685822787487" TEXT="deleteComponentTs">
+<node CREATED="1684094474151" FOLDED="true" ID="ID_700458012" MODIFIED="1701784784139" TEXT="deleteComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_965308291" MODIFIED="1687021280673" TEXT="Atualizar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_965308291" MODIFIED="1701784782491" TEXT="Atualizar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_232533726" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -13412,7 +13415,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_309145492" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_309145492" MODIFIED="1701784782490" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_468672331" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13422,9 +13425,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_1652772179" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1652772179" MODIFIED="1701784784139" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1097600589" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1097600589" MODIFIED="1701784784138" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_363200005" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13435,7 +13438,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684086607594" FOLDED="true" ID="ID_229636087" MODIFIED="1684526667419" TEXT="readComponentTs">
+<node CREATED="1684086607594" FOLDED="true" ID="ID_229636087" MODIFIED="1701784787163" TEXT="readComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1382703626" MODIFIED="1687021288162" TEXT="Atualizar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -13481,7 +13484,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1477719073" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1477719073" MODIFIED="1701784785655" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1091837469" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13504,9 +13507,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684092285823" FOLDED="true" ID="ID_1745886293" MODIFIED="1684526612834" TEXT="updateComponentTs">
+<node CREATED="1684092285823" FOLDED="true" ID="ID_1745886293" MODIFIED="1701784791088" TEXT="updateComponentTs">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684262056102" FOLDED="true" ID="ID_1632181526" MODIFIED="1687021299126" TEXT="Atualizar mapa de arquitetura">
+<node CREATED="1684262056102" FOLDED="true" ID="ID_1632181526" MODIFIED="1701784789707" TEXT="Atualizar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
 <node CREATED="1683918427809" FOLDED="true" ID="ID_1444721688" MODIFIED="1684346431384" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
@@ -13550,7 +13553,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1794059560" MODIFIED="1684346458657" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1794059560" MODIFIED="1701784789707" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_501221784" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13560,9 +13563,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1684262074371" FOLDED="true" ID="ID_1912858524" MODIFIED="1684262090413" TEXT="Gerar arquivo dentro do projeto">
+<node CREATED="1684262074371" FOLDED="true" ID="ID_1912858524" MODIFIED="1701784791087" TEXT="Gerar arquivo dentro do projeto">
 <icon BUILTIN="full-2"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1129384221" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1129384221" MODIFIED="1701784791087" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1129247260" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13573,7 +13576,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1686929588201" FOLDED="true" ID="ID_1485563498" MODIFIED="1686929591649" TEXT="serviceTs">
+<node CREATED="1686929588201" FOLDED="true" ID="ID_1485563498" MODIFIED="1701784794407" TEXT="serviceTs">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_104187307" MODIFIED="1687021316565" TEXT="Atualizar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -13642,7 +13645,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1687021409576" FOLDED="true" ID="ID_1225805203" MODIFIED="1687021412020" TEXT="windowEditor">
+<node CREATED="1687021409576" FOLDED="true" ID="ID_1225805203" MODIFIED="1701784842542" TEXT="windowEditor">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684262056102" ID="ID_1120609499" MODIFIED="1685827842357" TEXT="Atualizar mapa de arquitetura">
 <icon BUILTIN="full-1"/>
@@ -13676,7 +13679,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_856946308" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_856946308" MODIFIED="1701784797555" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_145536580" MODIFIED="1684243483674" TEXT="mi p angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13704,9 +13707,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1687026208044" ID="ID_1334321857" MODIFIED="1687026243019" TEXT="Preparar gerador para nova estrutura model">
+<node CREATED="1687026208044" FOLDED="true" ID="ID_1334321857" MODIFIED="1701785159992" TEXT="Preparar gerador para nova estrutura model">
 <icon BUILTIN="full-5"/>
-<node CREATED="1687027365906" FOLDED="true" ID="ID_701288447" MODIFIED="1688482067908" TEXT="Implementar gerador do bash  para nova estrutura de model">
+<node CREATED="1687027365906" FOLDED="true" ID="ID_701288447" MODIFIED="1701784799347" TEXT="Implementar gerador do bash  para nova estrutura de model">
 <icon BUILTIN="full-1"/>
 <node CREATED="1687026566826" ID="ID_1849105592" MODIFIED="1688482039418" TEXT="Criar o arquivo:">
 <icon BUILTIN="bookmark"/>
@@ -13857,9 +13860,9 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1687027643509" FOLDED="true" ID="ID_1163568736" MODIFIED="1687027659874" TEXT="Acessar a pasta &apos;bash/angular9&apos;">
+<node CREATED="1687027643509" FOLDED="true" ID="ID_1163568736" MODIFIED="1701784760602" TEXT="Acessar a pasta &apos;bash/angular9&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_778729240" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_778729240" MODIFIED="1701784760601" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1749930872" MODIFIED="1687027674417" TEXT="mapperidea push angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -13870,13 +13873,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1688479498372" FOLDED="true" ID="ID_1219902268" MODIFIED="1688482309504" TEXT="Atualizar o restart.sh">
+<node CREATED="1688479498372" ID="ID_1219902268" MODIFIED="1701785147200" TEXT="Atualizar o restart.sh">
 <icon BUILTIN="full-2"/>
 <node CREATED="1683918427809" ID="ID_298487378" MODIFIED="1688477750558" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
 <node CREATED="1687028435361" ID="ID_1728529269" MODIFIED="1687028439264" TEXT="bash/restart.sh">
 <icon BUILTIN="list"/>
-<node CREATED="1683896144324" FOLDED="true" ID="ID_481378963" MODIFIED="1683925105968" TEXT="deixar o conteudo:">
+<node CREATED="1683896144324" FOLDED="true" ID="ID_481378963" MODIFIED="1701784839969" TEXT="deixar o conteudo:">
 <node CREATED="1687028451322" ID="ID_1327443396" MODIFIED="1690205770009" TEXT="#!/bin/bash&#xa;echo &quot; --- Processamento iniciado --- &quot;&#xa;&#xa;# Subindo mapas para o servidor ----------------------------------------------&#xa;echo &quot; --- Subindo mapas para o servidor poder processar --- &quot;&#xa;mapperidea push angularCRUD&#xa;# ----------------------------------------------------------------------------&#xa;&#xa;# Gera arquivo backend -------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do backend do sistema na linguagem JsonServe --- &quot;&#xa;cd ../backend&#xa;mapperidea generate angularCRUD jsonServer dbJson &gt; db.json&#xa;# ----------------------------------------------------------------------------&#xa;&#xa;# Gera arquivo frontend ------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do frontend do sistema na linguagem angular9 --- &quot;&#xa;cd ../frontend&#xa;&#xa;mapperidea generate angularCRUD angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html&#xa;mapperidea generate angularCRUD angular9 appModuleTs &gt; src/app/app.module.ts&#xa;mapperidea generate angularCRUD angular9 appRoutingModuleTs &gt; src/app/app-routing.module.ts&#xa;&#xa;cd ../bash&#xa;rm ./angular9/*.sh&#xa;rm -rf ../frontend/src/app/windows&#xa;rm -rf ../frontend/src/app/models&#xa;mapperidea generate angularCRUD bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh&#xa;mapperidea generate angularCRUD bash executeBashScreens &gt; angular9/executeBashScreens.sh&#xa;mapperidea generate angularCRUD bash bashModel &gt; angular9/bashModel.sh&#xa;&#xa;cd ./angular9&#xa;bash ./generateBashScreens.sh&#xa;bash ./executeBashScreens.sh&#xa;bash ./bashModel.sh&#xa;# ----------------------------------------------------------------------------&#xa;">
 <icon BUILTIN="tag_green"/>
 </node>
@@ -13885,7 +13888,7 @@
 </node>
 <node CREATED="1683918427809" ID="ID_1604067498" MODIFIED="1684180709132" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1684120561184" FOLDED="true" ID="ID_1440437474" MODIFIED="1684120566465" TEXT="mi/mapperidea.mm">
+<node CREATED="1684120561184" ID="ID_1440437474" MODIFIED="1701785147207" TEXT="mi/mapperidea.mm">
 <icon BUILTIN="freemind_butterfly"/>
 <node CREATED="1688482230070" ID="ID_1051443501" MODIFIED="1688482231911" TEXT="grupo do &apos;bash&apos;">
 <icon BUILTIN="Descriptor.grouping"/>
@@ -13893,7 +13896,7 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1687028837284" ID="ID_637818503" MODIFIED="1688482243326" TEXT="apagar o trexo:">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1685127274614" FOLDED="true" ID="ID_1786846725" MODIFIED="1685127276160" TEXT="generateFrontendFile">
+<node CREATED="1685127274614" ID="ID_1786846725" MODIFIED="1701785147209" TEXT="generateFrontendFile">
 <icon BUILTIN="element"/>
 <node CREATED="1685127463158" ID="ID_1017111066" MODIFIED="1685371083225" TEXT="# Gera arquivo frontend ------------------------------------------------------&#xa;echo &quot; --- Gerando arquivos do frontend do sistema na linguagem angular9 --- &quot;&#xa;cd ../frontend&#xa;&#xa;mapperidea generate {{ $projectName }} angular9 navComponentHtml &gt; src/app/components/template/nav/nav.component.html&#xa;mapperidea generate {{ $projectName }} angular9 appModuleTs &gt; src/app/app.module.ts&#xa;mapperidea generate {{ $projectName }} angular9 appRoutingModuleTs &gt; src/app/app-routing.module.ts&#xa;&#xa;cd ../bash&#xa;rm ./angular9/*.sh&#xa;rm -rf ../frontend/src/app/windows&#xa;mapperidea generate {{ $projectName }} bash generateBashScreens projectName=angularCRUD &gt; angular9/generateBashScreens.sh&#xa;mapperidea generate {{ $projectName }} bash executeBashScreens &gt; angular9/executeBashScreens.sh&#xa;&#xa;cd ./angular9&#xa;bash ./generateBashScreens.sh&#xa;bash ./executeBashScreens.sh&#xa;# ----------------------------------------------------------------------------">
 <icon BUILTIN="tag_green"/>
@@ -13913,7 +13916,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1683896789625" FOLDED="true" ID="ID_1306643978" MODIFIED="1684173974445" TEXT="No prompt de comando, executa os comandos:">
+<node CREATED="1683896789625" FOLDED="true" ID="ID_1306643978" MODIFIED="1701784730592" TEXT="No prompt de comando, executa os comandos:">
 <icon BUILTIN="Descriptor.window.dialog"/>
 <node CREATED="1684119594131" ID="ID_1919351223" MODIFIED="1687027602615" TEXT="mapperidea push angularCRUD">
 <icon BUILTIN="tag_green"/>
@@ -14293,7 +14296,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1688481429257" ID="ID_1713186528" MODIFIED="1689529024902" TEXT="Incluir mapas para cadastro de Pedido">
+<node CREATED="1688481429257" FOLDED="true" ID="ID_1713186528" MODIFIED="1701785161640" TEXT="Incluir mapas para cadastro de Pedido">
 <icon BUILTIN="full-7"/>
 <node CREATED="1684087724816" ID="ID_861716662" MODIFIED="1687027000228" TEXT="No mapperidea">
 <icon BUILTIN="Mapping.variableOneToOne"/>
@@ -15447,13 +15450,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1687869564735" FOLDED="true" ID="ID_1961697876" MODIFIED="1687892077317" TEXT="create">
+<node CREATED="1687869564735" FOLDED="true" ID="ID_1961697876" MODIFIED="1701785080882" TEXT="create">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683918427809" ID="ID_1069270395" MODIFIED="1687892114418" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
 <node CREATED="1687868870958" ID="ID_1959571992" MODIFIED="1690209526050" TEXT="frontend/src/app/windows/pedidoForm/pedido-form-create/pedido-form-create.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1687868948493" FOLDED="true" ID="ID_629452251" MODIFIED="1687868962844" TEXT="Deixar o conteudo:">
+<node CREATED="1687868948493" FOLDED="true" ID="ID_629452251" MODIFIED="1701785078740" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1690210052501" ID="ID_161422440" MODIFIED="1690210060553" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Incluir Pedido&lt;/mat-card-title&gt;&#xa;    &lt;mat-tab-group&gt;&#xa;        &lt;!-- Aba Dados --&gt;&#xa;        &lt;mat-tab label=&quot;Dados&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Cliente&quot; [(value)]=&quot;pedido.cliente&quot;&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_cliente of list_cliente&quot; [value]=&quot;item_cliente&quot;&gt;{{ item_cliente.id }} - {{ item_cliente.nome }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Situacao&quot; [(value)]=&quot;pedido.situacao&quot;&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_situacao of list_situacao&quot; [value]=&quot;item_situacao&quot;&gt;{{ item_situacao.id }} - {{ item_situacao.descricao }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Data do Pedido&quot; [(ngModel)]=&quot;pedido.dataPedido&quot; name=&quot;dataPedido&quot; type=&quot;datetime-local&quot;/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Desconto&quot; [(ngModel)]=&quot;pedido.desconto&quot; name=&quot;desconto&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;pedido.calculaTotal()&quot;/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Total do Pedido&quot; [(ngModel)]=&quot;pedido.precoTotal&quot; name=&quot;precoTotal&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;        &lt;!-- Aba Itens --&gt;&#xa;        &lt;mat-tab label=&quot;Itens&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;div class=&quot;form-fields&quot; *ngIf=&quot;!disableItens&quot;&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;mat-select placeholder=&quot;Produto&quot; [(value)]=&quot;item_itens.produto&quot; (selectionChange)=&quot;item_itens.carregaPrecoProduto()&quot;&gt;&#xa;                            &lt;mat-option *ngFor=&quot;let item_produto of list_produto&quot; [value]=&quot;item_produto&quot;&gt;{{ item_produto.id }} - {{ item_produto.nome }}&lt;/mat-option&gt;&#xa;                        &lt;/mat-select&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Quantidade&quot; [(ngModel)]=&quot;item_itens.quantidade&quot; name=&quot;quantidade&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;item_itens.calculaTotal()&quot;/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Pre&#xe7;o da unidade&quot; [(ngModel)]=&quot;item_itens.precoUnitario&quot; name=&quot;precoUnitario&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;item_itens.calculaTotal()&quot;/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Desconto&quot; [(ngModel)]=&quot;item_itens.desconto&quot; name=&quot;desconto&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;item_itens.calculaTotal()&quot;/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Total do Item&quot; [(ngModel)]=&quot;item_itens.precoTotal&quot; name=&quot;precoTotal&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                &lt;/div&gt;&#xa;&#xa;                &lt;div class=&quot;group inline-flex items-center mt-2 -ml-4 py-2 px-4 rounded cursor-pointer&quot;&gt;&#xa;                    &lt;button mat-stroked-button color=&quot;secondary&quot; (click)=&quot;newItens()&quot; *ngIf=&quot;disableItens&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;add&lt;/i&gt;&#xa;                        Novo&#xa;                    &lt;/button&gt;&#xa;                    &lt;button mat-raised-button (click)=&quot;saveItens()&quot; color=&quot;primary&quot; *ngIf=&quot;!disableItens&quot;&gt;&#xa;                        Salvar&#xa;                    &lt;/button&gt;&#xa;                    &lt;button mat-raised-button (click)=&quot;cancelItens()&quot; color=&quot;&quot; *ngIf=&quot;!disableItens&quot;&gt;&#xa;                        Cancelar&#xa;                    &lt;/button&gt;&#xa;                &lt;/div&gt;&#xa;&#xa;                &lt;table mat-table [dataSource]=&quot;dataSourceItens&quot;&gt;&#xa;                    &lt;!-- Produto Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;produto&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Produto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.produto.id }} - {{ row.produto.nome }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Quantidade Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;quantidade&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Quantidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.quantidade }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- PrecoUnitario Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;precoUnitario&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o da unidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.precoUnitario | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Desconto Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;desconto&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Desconto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.desconto | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- PrecoTotal Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;precoTotal&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Total do Item&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.precoTotal | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Action Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;action&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;&#xa;                            &lt;a (click)=&quot;editItens(row)&quot; [routerLink]=&quot;&quot; class=&quot;edit&quot;&gt;&#xa;                                &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;&#xa;                            &lt;/a&gt;&#xa;                            &lt;a (click)=&quot;deleteItens(row)&quot; [routerLink]=&quot;&quot; class=&quot;delete&quot;&gt;&#xa;                                &lt;i class=&quot;material-icons&quot;&gt;delete&lt;/i&gt;&#xa;                            &lt;/a&gt;&#xa;                        &lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;                    &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumnsItens&quot;&gt;&lt;/tr&gt;&#xa;                    &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumnsItens;&quot;&gt;&lt;/tr&gt;&#xa;                &lt;/table&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;    &lt;/mat-tab-group&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;createPedido()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
@@ -15480,13 +15483,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1687870047159" FOLDED="true" ID="ID_25733844" MODIFIED="1687892086786" TEXT="update">
+<node CREATED="1687870047159" FOLDED="true" ID="ID_25733844" MODIFIED="1701785085942" TEXT="update">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683918427809" ID="ID_1544322465" MODIFIED="1687892117136" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1687870035596" FOLDED="true" ID="ID_1609750883" MODIFIED="1690209596762" TEXT="frontend/src/app/windows/pedidoForm/pedido-form-update/pedido-form-update.component.html">
+<node CREATED="1687870035596" FOLDED="true" ID="ID_1609750883" MODIFIED="1701785085942" TEXT="frontend/src/app/windows/pedidoForm/pedido-form-update/pedido-form-update.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1687095496822" FOLDED="true" ID="ID_514859696" MODIFIED="1687868378063" TEXT="Deixar o conteudo:">
+<node CREATED="1687095496822" FOLDED="true" ID="ID_514859696" MODIFIED="1701785085942" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1690210133837" ID="ID_393391180" MODIFIED="1690210140907" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Editar Pedido&lt;/mat-card-title&gt;&#xa;    &lt;mat-tab-group&gt;&#xa;        &lt;!-- Aba Dados --&gt;&#xa;        &lt;mat-tab label=&quot;Dados&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Cliente&quot; [(value)]=&quot;pedido.cliente&quot;&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_cliente of list_cliente&quot; [value]=&quot;item_cliente&quot;&gt;{{ item_cliente.id }} - {{ item_cliente.nome }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Situacao&quot; [(value)]=&quot;pedido.situacao&quot;&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_situacao of list_situacao&quot; [value]=&quot;item_situacao&quot;&gt;{{ item_situacao.id }} - {{ item_situacao.descricao }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Data do Pedido&quot; [(ngModel)]=&quot;pedido.dataPedido&quot; name=&quot;dataPedido&quot; type=&quot;datetime-local&quot;/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Desconto&quot; [(ngModel)]=&quot;pedido.desconto&quot; name=&quot;desconto&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;pedido.calculaTotal()&quot;/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Total do Pedido&quot; [(ngModel)]=&quot;pedido.precoTotal&quot; name=&quot;precoTotal&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;        &lt;!-- Aba Itens --&gt;&#xa;        &lt;mat-tab label=&quot;Itens&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;div class=&quot;form-fields&quot; *ngIf=&quot;!disableItens&quot;&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;mat-select placeholder=&quot;Produto&quot; [(value)]=&quot;item_itens.produto&quot; (selectionChange)=&quot;item_itens.carregaPrecoProduto()&quot;&gt;&#xa;                            &lt;mat-option *ngFor=&quot;let item_produto of list_produto&quot; [value]=&quot;item_produto&quot;&gt;{{ item_produto.id }} - {{ item_produto.nome }}&lt;/mat-option&gt;&#xa;                        &lt;/mat-select&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Quantidade&quot; [(ngModel)]=&quot;item_itens.quantidade&quot; name=&quot;quantidade&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;item_itens.calculaTotal()&quot;/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Pre&#xe7;o da unidade&quot; [(ngModel)]=&quot;item_itens.precoUnitario&quot; name=&quot;precoUnitario&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;item_itens.calculaTotal()&quot;/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Desconto&quot; [(ngModel)]=&quot;item_itens.desconto&quot; name=&quot;desconto&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; (change)=&quot;item_itens.calculaTotal()&quot;/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                    &lt;mat-form-field&gt;&#xa;                        &lt;input matInput placeholder=&quot;Total do Item&quot; [(ngModel)]=&quot;item_itens.precoTotal&quot; name=&quot;precoTotal&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                    &lt;/mat-form-field&gt;&#xa;                &lt;/div&gt;&#xa;&#xa;                &lt;div class=&quot;group inline-flex items-center mt-2 -ml-4 py-2 px-4 rounded cursor-pointer&quot;&gt;&#xa;                    &lt;button mat-stroked-button color=&quot;secondary&quot; (click)=&quot;newItens()&quot; *ngIf=&quot;disableItens&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;add&lt;/i&gt;&#xa;                        Novo&#xa;                    &lt;/button&gt;&#xa;                    &lt;button mat-raised-button (click)=&quot;saveItens()&quot; color=&quot;primary&quot; *ngIf=&quot;!disableItens&quot;&gt;&#xa;                        Salvar&#xa;                    &lt;/button&gt;&#xa;                    &lt;button mat-raised-button (click)=&quot;cancelItens()&quot; color=&quot;&quot; *ngIf=&quot;!disableItens&quot;&gt;&#xa;                        Cancelar&#xa;                    &lt;/button&gt;&#xa;                &lt;/div&gt;&#xa;&#xa;                &lt;table mat-table [dataSource]=&quot;dataSourceItens&quot;&gt;&#xa;                    &lt;!-- Produto Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;produto&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Produto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.produto.id }} - {{ row.produto.nome }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Quantidade Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;quantidade&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Quantidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.quantidade }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- PrecoUnitario Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;precoUnitario&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o da unidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.precoUnitario | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Desconto Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;desconto&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Desconto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.desconto | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- PrecoTotal Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;precoTotal&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Total do Item&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.precoTotal | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Action Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;action&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;&#xa;                            &lt;a (click)=&quot;editItens(row)&quot; [routerLink]=&quot;&quot; class=&quot;edit&quot;&gt;&#xa;                                &lt;i class=&quot;material-icons&quot;&gt;edit&lt;/i&gt;&#xa;                            &lt;/a&gt;&#xa;                            &lt;a (click)=&quot;deleteItens(row)&quot; [routerLink]=&quot;&quot; class=&quot;delete&quot;&gt;&#xa;                                &lt;i class=&quot;material-icons&quot;&gt;delete&lt;/i&gt;&#xa;                            &lt;/a&gt;&#xa;                        &lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;                    &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumnsItens&quot;&gt;&lt;/tr&gt;&#xa;                    &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumnsItens;&quot;&gt;&lt;/tr&gt;&#xa;                &lt;/table&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;    &lt;/mat-tab-group&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;updatePedido()&quot; color=&quot;primary&quot;&gt;&#xa;        Salvar&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot; color=&quot;&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
@@ -15513,13 +15516,13 @@
 </node>
 </node>
 </node>
-<node CREATED="1687869570979" FOLDED="true" ID="ID_906267617" MODIFIED="1687892077321" TEXT="delete">
+<node CREATED="1687869570979" FOLDED="true" ID="ID_906267617" MODIFIED="1701785089155" TEXT="delete">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1683918427809" ID="ID_1053699674" MODIFIED="1687892119442" TEXT="Alterar o arquivo:">
 <icon BUILTIN="edit"/>
-<node CREATED="1687869591244" FOLDED="true" ID="ID_677782354" MODIFIED="1690209670227" TEXT="frontend/src/app/windows/pedidoForm/pedido-form-delete/pedido-form-delete.component.html">
+<node CREATED="1687869591244" FOLDED="true" ID="ID_677782354" MODIFIED="1701785089155" TEXT="frontend/src/app/windows/pedidoForm/pedido-form-delete/pedido-form-delete.component.html">
 <icon BUILTIN="list"/>
-<node CREATED="1687869600380" FOLDED="true" ID="ID_807500755" MODIFIED="1687869606478" TEXT="Deixar o conteudo:">
+<node CREATED="1687869600380" FOLDED="true" ID="ID_807500755" MODIFIED="1701785089155" TEXT="Deixar o conteudo:">
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1690210211070" ID="ID_1603884955" MODIFIED="1690210217758" TEXT="&lt;mat-card&gt;&#xa;    &lt;mat-card-title&gt;Excluir Pedido&lt;/mat-card-title&gt;&#xa;    &lt;mat-tab-group&gt;&#xa;        &lt;!-- Aba Dados --&gt;&#xa;        &lt;mat-tab label=&quot;Dados&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Cliente&quot; [(value)]=&quot;pedido.cliente&quot; disabled&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_cliente of list_cliente&quot; [value]=&quot;item_cliente&quot;&gt;{{ item_cliente.id }} - {{ item_cliente.nome }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;mat-select placeholder=&quot;Situacao&quot; [(value)]=&quot;pedido.situacao&quot; disabled&gt;&#xa;                        &lt;mat-option *ngFor=&quot;let item_situacao of list_situacao&quot; [value]=&quot;item_situacao&quot;&gt;{{ item_situacao.id }} - {{ item_situacao.descricao }}&lt;/mat-option&gt;&#xa;                    &lt;/mat-select&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Data do Pedido&quot; [(ngModel)]=&quot;pedido.dataPedido&quot; name=&quot;dataPedido&quot; type=&quot;datetime-local&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Desconto&quot; [(ngModel)]=&quot;pedido.desconto&quot; name=&quot;desconto&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;                &lt;mat-form-field&gt;&#xa;                    &lt;input matInput placeholder=&quot;Total do Pedido&quot; [(ngModel)]=&quot;pedido.precoTotal&quot; name=&quot;precoTotal&quot; type=&quot;number&quot; ng-pattern=&quot;/^[0-9]+(\.[0-9]{1,2})?$/&quot; disabled/&gt;&#xa;                &lt;/mat-form-field&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;        &lt;!-- Aba Itens --&gt;&#xa;        &lt;mat-tab label=&quot;Itens&quot;&gt;&#xa;            &lt;form&gt;&#xa;                &lt;table mat-table [dataSource]=&quot;dataSourceItens&quot;&gt;&#xa;                    &lt;!-- Produto Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;produto&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Produto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.produto.id }} - {{ row.produto.nome }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Quantidade Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;quantidade&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Quantidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.quantidade }}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- PrecoUnitario Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;precoUnitario&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Pre&#xe7;o da unidade&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.precoUnitario | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- Desconto Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;desconto&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Desconto&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.desconto | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;!-- PrecoTotal Column --&gt;&#xa;                    &lt;ng-container matColumnDef=&quot;precoTotal&quot;&gt;&#xa;                        &lt;th mat-header-cell *matHeaderCellDef&gt;Total do Item&lt;/th&gt;&#xa;                        &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{ row.precoTotal | currency: &apos;BRL&apos;}}&lt;/td&gt;&#xa;                    &lt;/ng-container&gt;&#xa;&#xa;                    &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumnsItens&quot;&gt;&lt;/tr&gt;&#xa;                    &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumnsItens;&quot;&gt;&lt;/tr&gt;&#xa;                &lt;/table&gt;&#xa;            &lt;/form&gt;&#xa;        &lt;/mat-tab&gt;&#xa;&#xa;    &lt;/mat-tab-group&gt;&#xa;    &lt;button mat-raised-button (click)=&quot;deletePedido()&quot; color=&quot;warn&quot;&gt;&#xa;        Excluir&#xa;    &lt;/button&gt;&#xa;&#xa;    &lt;button mat-raised-button (click)=&quot;cancel()&quot;&gt;&#xa;        Cancelar&#xa;    &lt;/button&gt;&#xa;&lt;/mat-card&gt;">
 <icon BUILTIN="tag_green"/>
@@ -37959,7 +37962,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1684024206483" FOLDED="true" ID="ID_465146969" MODIFIED="1701781568872" TEXT="frontend/src/app/windows/produtoForm/produto.service.ts">
+<node CREATED="1684024206483" FOLDED="true" ID="ID_465146969" MODIFIED="1701785168120" TEXT="frontend/src/app/windows/produtoForm/produto.service.ts">
 <icon BUILTIN="list"/>
 <node CREATED="1684023910340" ID="ID_1285777797" MODIFIED="1684023916324" TEXT="deixar o conteudo:">
 <node CREATED="1684024236779" ID="ID_281492147" MODIFIED="1685026783741" TEXT="import { Injectable } from &apos;@angular/core&apos;;&#xa;import { MatSnackBar } from &apos;@angular/material/snack-bar&apos;;&#xa;import { HttpClient } from &apos;@angular/common/http&apos;;&#xa;import { Produto } from &apos;./produto.model&apos;;&#xa;import { Observable, EMPTY } from &apos;rxjs&apos;;&#xa;import { map, catchError } from &apos;rxjs/operators&apos;;&#xa;&#xa;@Injectable({&#xa;  providedIn: &apos;root&apos;&#xa;})&#xa;export class ProdutoService {&#xa;&#xa;  baseUrl = &quot;http://localhost:3001/produto&quot;;&#xa;&#xa;  constructor(private snackBar: MatSnackBar, private http: HttpClient) { }&#xa;&#xa;  create(produto: Produto): Observable&lt;Produto&gt; {&#xa;    return this.http.post&lt;Produto&gt;(this.baseUrl, produto).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );&#xa;  }&#xa;&#xa;  read(): Observable&lt;Produto[]&gt; {&#xa;    return this.http.get&lt;Produto[]&gt;(this.baseUrl).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );&#xa;  }&#xa;&#xa;  readById(id: string): Observable&lt;Produto&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.get&lt;Produto&gt;(url).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );&#xa;  }&#xa;&#xa;  update(produto: Produto): Observable&lt;Produto&gt; {&#xa;    const url = this.baseUrl + &quot;/&quot; + produto.id;&#xa;    return this.http.put&lt;Produto&gt;(url, produto).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );&#xa;  }&#xa;&#xa;  delete(id: string): Observable&lt;Produto&gt;{&#xa;    const url = this.baseUrl + &quot;/&quot; + id;&#xa;    return this.http.delete&lt;Produto&gt;(url).pipe(&#xa;      map(obj =&gt; obj),&#xa;      catchError(e =&gt; this.errorHandler(e))&#xa;    );&#xa;  }&#xa;&#xa;  showMessage(msg: string, isError: boolean = false): void {&#xa;    this.snackBar.open(msg, &apos;x&apos;, {&#xa;      duration: 3000,&#xa;      horizontalPosition: &quot;right&quot;,&#xa;      verticalPosition: &quot;top&quot;,&#xa;      panelClass: isError ? [&apos;msg-error&apos;] : [&apos;msg-success&apos;]&#xa;    });&#xa;  }&#xa;&#xa;  errorHandler(e: any): Observable&lt;any&gt; {&#xa;    this.showMessage(&apos;Ocorreu um erro!&apos;, true);&#xa;    console.log(e);&#xa;    return EMPTY;&#xa;  }&#xa;}&#xa;">
