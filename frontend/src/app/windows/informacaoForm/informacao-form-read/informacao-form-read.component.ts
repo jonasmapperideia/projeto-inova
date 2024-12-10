@@ -10,7 +10,7 @@ import { InformacaoInvencaoService } from '../informacaoInvencao.service';
 export class InformacaoFormReadComponent implements OnInit {
 
   informacaoInvencao_list: InformacaoInvencao[];
-  displayedColumns = ['id', 'action'];
+  displayedColumns = ['id', 'descricao', 'action'];
 
   constructor(private informacaoInvencaoService: InformacaoInvencaoService) { }
 

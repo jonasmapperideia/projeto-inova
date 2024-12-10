@@ -10,7 +10,7 @@ import { SetorEconomicoService } from '../setorEconomico.service';
 export class SetorFormReadComponent implements OnInit {
 
   setorEconomico_list: SetorEconomico[];
-  displayedColumns = ['id', 'action'];
+  displayedColumns = ['id', 'nome', 'action'];
 
   constructor(private setorEconomicoService: SetorEconomicoService) { }
 

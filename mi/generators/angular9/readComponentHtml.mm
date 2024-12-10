@@ -3,7 +3,7 @@
 <node CREATED="1684086544994" ID="ID_1026313447" LINK="../../mapperidea.mm" MODIFIED="1685467690999" TEXT="readComponentHtml">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="element"/>
-<node CREATED="1684159426363" FOLDED="true" ID="ID_210712971" MODIFIED="1733320246900" POSITION="right" TEXT="parameters">
+<node CREATED="1684159426363" ID="ID_210712971" MODIFIED="1733320246900" POSITION="right" TEXT="parameters">
 <icon BUILTIN="element"/>
 <node CREATED="1684159426364" ID="ID_30648353" MODIFIED="1684159436046" TEXT="className">
 <icon BUILTIN="element"/>
@@ -36,29 +36,26 @@
 <icon BUILTIN="Descriptor.grouping"/>
 <node CREATED="1684632278001" ID="ID_1268741083" MODIFIED="1684636592591" TEXT="readComponentHtml-init">
 <icon BUILTIN="element"/>
-<node CREATED="1684632819871" MODIFIED="1684632822930" TEXT="&lt;div class=&quot;mat-elevation-z4&quot;&gt;">
+<node CREATED="1684632819871" ID="ID_1222026753" MODIFIED="1733513087796" TEXT="&lt;div class=&quot;mat-elevation-z4&quot;&gt;&lt;/div&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684636644883" MODIFIED="1684636795191" TEXT="    &lt;table mat-table [dataSource]=&quot;{{ mi:first-lower($nameClassAtribute) }}_list&quot;&gt;">
+<node CREATED="1684636644883" ID="ID_231602284" MODIFIED="1684636795191" TEXT="    &lt;table mat-table [dataSource]=&quot;{{ mi:first-lower($nameClassAtribute) }}_list&quot;&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 <node CREATED="1684632278001" ID="ID_573640493" MODIFIED="1684636608939" TEXT="readComponentHtml-end">
 <icon BUILTIN="element"/>
-<node CREATED="1684637145843" MODIFIED="1684637147256" TEXT="        &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumns&quot;&gt;&lt;/tr&gt;">
+<node CREATED="1684637145843" ID="ID_736590232" MODIFIED="1684637147256" TEXT="        &lt;tr mat-header-row *matHeaderRowDef=&quot;displayedColumns&quot;&gt;&lt;/tr&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684637136733" MODIFIED="1684637138400" TEXT="        &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumns;&quot;&gt;&lt;/tr&gt;">
+<node CREATED="1684637136733" ID="ID_644433171" MODIFIED="1684637138400" TEXT="        &lt;tr mat-row *matRowDef=&quot;let row; columns: displayedColumns;&quot;&gt;&lt;/tr&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684636835243" MODIFIED="1684636837272" TEXT="    &lt;/table&gt;">
+<node CREATED="1684636835243" ID="ID_1315008374" MODIFIED="1684636837272" TEXT="    &lt;/table&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1684636837951" MODIFIED="1684636838890" TEXT="">
+<node CREATED="1684636837951" ID="ID_406958282" MODIFIED="1684636838890" TEXT="">
 <icon BUILTIN="tag_green"/>
-</node>
-<node CREATED="1684632833167" MODIFIED="1684632835233" TEXT="&lt;/div&gt;">
-<icon BUILTIN="tag_yellow"/>
 </node>
 </node>
 <node CREATED="1684636959549" ID="ID_1622415300" MODIFIED="1684636962241" TEXT="body">
@@ -81,14 +78,14 @@
 </node>
 <node CREATED="1684723691721" ID="ID_1676638549" MODIFIED="1684723694839" TEXT="td">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684723701177" MODIFIED="1723057235949" TEXT="            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{">
+<node CREATED="1684723701177" ID="ID_410445660" MODIFIED="1723057235949" TEXT="            &lt;td mat-cell *matCellDef=&quot;let row&quot;&gt;{{">
 <icon BUILTIN="tag_yellow"/>
 <icon BUILTIN="textNode"/>
 </node>
-<node CREATED="1684723722637" MODIFIED="1684723750141" TEXT="row.{{ column/value }}">
+<node CREATED="1684723722637" ID="ID_1157638750" MODIFIED="1684723750141" TEXT="row.{{ column/value }}">
 <icon BUILTIN="tag_yellow"/>
 </node>
-<node CREATED="1684723727013" MODIFIED="1723057239183" TEXT="}}&lt;/td&gt;">
+<node CREATED="1684723727013" ID="ID_1585274410" MODIFIED="1723057239183" TEXT="}}&lt;/td&gt;">
 <icon BUILTIN="tag_green"/>
 <icon BUILTIN="textNode"/>
 </node>
@@ -113,7 +110,7 @@
 </node>
 <node CREATED="1684637175392" ID="ID_1691534842" MODIFIED="1684637213423" TEXT="th">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684636983881" MODIFIED="1684636984996" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;">
+<node CREATED="1684636983881" ID="ID_1270668714" MODIFIED="1684636984996" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;A&#xe7;&#xf5;es&lt;/th&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -195,7 +192,7 @@
 </node>
 <node CREATED="1684762693104" ID="ID_1171138201" MODIFIED="1684762695662" TEXT="th">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1684725215045" ID="ID_884792075" MODIFIED="1733510866494" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;{{ mi:first-upper(column/value) }}&lt;/th&gt;">
+<node CREATED="1684725215045" ID="ID_884792075" MODIFIED="1733512295720" TEXT="            &lt;th mat-header-cell *matHeaderCellDef&gt;{{ mi:first-upper(@name)  }}&lt;/th&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -223,7 +220,7 @@
 </node>
 <node CREATED="1684435316045" ID="ID_155275296" MODIFIED="1684725158644" TEXT="attribute-number">
 <icon BUILTIN="element"/>
-<node CREATED="1684725247706" MODIFIED="1684762578592" TEXT="        &lt;!-- {{ mi:first-upper(@name) }} Column --&gt;">
+<node CREATED="1684725247706" ID="ID_335921081" MODIFIED="1684762578592" TEXT="        &lt;!-- {{ mi:first-upper(@name) }} Column --&gt;">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1684762645644" ID="ID_352083984" MODIFIED="1684762647463" TEXT="ng-container">
